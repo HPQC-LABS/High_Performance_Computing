@@ -1,0 +1,101 @@
+-rw-r--r-- 1 dattani al 953M 18. Okt 21:51 popsfile.h5.bk
+==================================================================
+dattani@allogin1:/algpfs/dattani/Li2/54/pt2/as/rdm_nadd20bloom10_pchb> /usr/bin/time gzip -1 -v popsfile.h5.bk 
+popsfile.h5.bk:	 60.8% -- replaced with popsfile.h5.bk.gz
+23.01user 0.55system 0:23.91elapsed 98%CPU (0avgtext+0avgdata 1988maxresident)k
+0inputs+0outputs (0major+152minor)pagefaults 0swaps
+
+-rw-r--r-- 1 dattani al 374M 18. Okt 21:51 popsfile.h5.bk.gz
+==================================================================
+popsfile.h5.bk_gzip2:	 62.1% -- replaced with popsfile.h5.bk_gzip2.gz
+24.53user 0.66system 0:25.74elapsed 97%CPU (0avgtext+0avgdata 1920maxresident)k
+0inputs+0outputs (0major+242minor)pagefaults 0swaps
+
+-rw-r--r-- 1 dattani al 362M 30. Dez 20:58 popsfile.h5.bk_gzip2.gz
+==================================================================
+popsfile.h5.bk_gzip9:	 65.9% -- replaced with popsfile.h5.bk_gzip9.gz
+656.20user 5.14system 11:06.82elapsed 99%CPU (0avgtext+0avgdata 1980maxresident)k
+0inputs+0outputs (0major+1068minor)pagefaults 0swaps
+
+-rw-r--r-- 1 dattani al 325M 30. Dez 21:01 popsfile.h5.bk_gzip9.gz
+==================================================================
+timing not printed because I tried to run in background and pipe it to an output file
+
+-rw-r--r-- 1 dattani al 299M 30. Dez 21:02 popsfile.h5.bk_bzip1.bz2
+==================================================================
+dattani@allogin1:/algpfs/dattani/Li2/54/pt2/as/rdm_nadd20bloom10_pchb> /usr/bin/time bzip2 -9 -v popsfile.h5.bk_bzip9
+  popsfile.h5.bk_bzip9: ^[[A 3.279:1,  2.439 bits/byte, 69.51% saved, 999019328 in, 304634913 out.
+100.89user 0.63system 1:41.88elapsed 99%CPU (0avgtext+0avgdata 12868maxresident)k
+0inputs+0outputs (0major+7503minor)pagefaults 0swaps
+
+-rw-r--r-- 1 dattani al 291M 30. Dez 21:02 popsfile.h5.bk_bzip9.bz2
+==================================================================
+dattani@allogin1:/algpfs/dattani/Li2/54/pt2/as/rdm_nadd20bloom10_pchb> /usr/bin/time xz -1 -v popsfile.h5.bk_xz1 
+popsfile.h5.bk_xz1 (1/1)
+  100 %       303,0 MiB / 952,7 MiB = 0,318   8,5 MiB/s       1:51             
+108.52user 2.07system 1:51.78elapsed 98%CPU (0avgtext+0avgdata 10844maxresident)k
+128inputs+0outputs (1major+2010minor)pagefaults 0swaps
+
+-rw-r--r-- 1 dattani al 304M 30. Dez 21:03 popsfile.h5.bk_xz1.xz
+==================================================================
+dattani@allogin1:/algpfs/dattani/Li2/54/pt2/as/rdm_nadd20bloom10_pchb> /usr/bin/time xz -9 -v popsfile.h5.bk_xz9 
+popsfile.h5.bk_xz9 (1/1)
+  100 %       274,5 MiB / 952,7 MiB = 0,288   833 KiB/s      19:30             
+1150.27user 12.24system 19:30.80elapsed 99%CPU (0avgtext+0avgdata 691544maxresident)k
+0inputs+0outputs (0major+985174minor)pagefaults 0swaps
+
+-rw-r--r-- 1 dattani al 275M 30. Dez 21:04 popsfile.h5.bk_xz9.xz
+==================================================================
+dattani@allogin1:/algpfs/dattani/Li2/54/pt2/as/rdm_nadd20bloom10_pchb> /usr/bin/time xz -e -1 -v popsfile.h5.bk_xz_e1
+popsfile.h5.bk_xz_e1 (1/1)
+  100 %       276,5 MiB / 952,7 MiB = 0,290   1,2 MiB/s      13:26             
+795.94user 5.27system 13:26.85elapsed 99%CPU (0avgtext+0avgdata 15196maxresident)k
+0inputs+0outputs (0major+3574minor)pagefaults 0swaps
+
+-rw-r--r-- 1 dattani al 277M 30. Dez 21:04 popsfile.h5.bk_xz_e1.xz
+==================================================================
+dattani@allogin1:/algpfs/dattani/Li2/54/pt2/as/rdm_nadd20bloom10_pchb> /usr/bin/time xz -e -9 -v popsfile.h5.bk_xz_e9
+popsfile.h5.bk_xz_e9 (1/1)
+  100 %       274,0 MiB / 952,7 MiB = 0,288   819 KiB/s      19:50             
+1183.23user 3.50system 19:50.98elapsed 99%CPU (0avgtext+0avgdata 691416maxresident)k
+0inputs+0outputs (0major+334773minor)pagefaults 0swaps
+
+-rw-r--r-- 1 dattani al 275M 30. Dez 21:04 popsfile.h5.bk_xz_e9.xz
+==================================================================
+Best is: xz -e -1 
+6 minutes faster than xz -9, but only 2M more. 
+11.5 minutes slower than xz -1, but 27M less.
+11.5 minutes slower than bzip2 - 9, but 14M less (this may be recommended for larger files).
+==================================================================
+
+
+
+
+
+
+
+
+
+
+==================================================================
+-rw-r--r-- 1 dattani al 128733057584 26. Dez 04:45 popsfile.h5
+
+dattani@allogin1:/algpfs/dattani/Li2/54/pt2/as/rdm_nadd20bloom10_pchb/c/c/c/c/50m/c/100/c/200/c/400/c/400/c/c/c/c/1b/c/c/c/c/c/c/c/c/c/c/c/2/c/c/c/c/c/c/c/c/c> du -hsx * | sort -rh | head -10
+120G	popsfile.h5
+
+dattani@allogin1:/algpfs/dattani/Li2/54/pt2/as/rdm_nadd20bloom10_pchb/c/c/c/c/50m/c/100/c/200/c/400/c/400/c/c/c/c/1b/c/c/c/c/c/c/c/c/c/c/c/2/c/c/c/c/c/c/c/c/c> /usr/bin/time gzip -1 -v popsfile.h5 
+popsfile.h5:	^[[A^[[A^[[A^[[A 53.9% -- replaced with popsfile.h5.gz
+3350.91user 94.32system 58:23.81elapsed 98%CPU (0avgtext+0avgdata 1824maxresident)k
+0inputs+0outputs (0major+2322minor)pagefaults 0swaps
+
+-rw-r--r-- 1 dattani al  56G 26. Dez 04:45 popsfile.h5.gz
+==================================================================
+
+
+
+
+
+
+
+
+
