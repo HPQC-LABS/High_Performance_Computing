@@ -123,4 +123,20 @@ popsfile.h5_xz1 (1/1)
 dattani@allogin1:/pool/dattani/Kr/aug-cc-pCV5Z-unc/spd/1e5/5e5/1/2/ta/4/8/16/c/32/c/c/64/c/c/c/ta/c/c/128/c/c/c/c/c/c/c/safety> /usr/bin/time xz -1 -v popsfile.h5*
 popsfile.h5 (1/3)
   100 %         158,7 MiB / 9,9 GiB = 0,016    41 MiB/s       4:03 
+popsfile.h5.bk (2/3)
+  100 %       1.258,6 MiB / 9,9 GiB = 0,125    12 MiB/s      13:29             
+popsfile.h5.bk2 (3/3)
+  100 %         158,7 MiB / 9,9 GiB = 0,016    41 MiB/s       4:08    
+1155.48user 58.56system 21:44.46elapsed 93%CPU (0avgtext+0avgdata 10960maxresident)k
+60818888inputs+3227456outputs (0major+105274minor)pagefaults 0swaps
+
+1,3G	popsfile.h5.bk.xz
+248M	popsfile.h5.bk2.xz
+159M	popsfile.h5.xz
+
+-rw-r--r-- 1 dattani al 159M 26. Apr 2017  popsfile.h5.bk2.xz
+-rw-r--r-- 1 dattani al 1,3G 26. Apr 2017  popsfile.h5.bk.xz
+-rw-r--r-- 1 dattani al 159M 26. Apr 2017  popsfile.h5.xz
 =================================================================
+
+
