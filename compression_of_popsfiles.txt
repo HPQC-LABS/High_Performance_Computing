@@ -72,6 +72,20 @@ Best is: xz -e -1
 
 
 
+==================================================================
+-rw-r--r-- 1 dattani al  62G  9. Dez 11:40 popsfile.h5
+
+dattani@allogin1:/algpfs/dattani/Li2/54/pt2/as/rdm_nadd20bloom10_pchb/c/c/c/c/50m/c/100/c/200/c/400/c/400/c/c/c/c/1b/c/c/c/c/c/c/c/c/c/c/c> /usr/bin/time xz -1 -v popsfile.h5_xz1
+popsfile.h5_xz1 (1/1)
+  100 %         23,4 GiB / 61,2 GiB = 0,383   6,6 MiB/s    2:39:18             
+8963.41user 233.79system 2:39:18elapsed 96%CPU (0avgtext+0avgdata 10892maxresident)k
+0inputs+0outputs (0major+44242minor)pagefaults 0swaps
+
+-rw-r--r-- 1 dattani al  24G 30. Dez 22:23 popsfile.h5_xz1.xz
+==================================================================
+
+
+
 
 
 
@@ -90,10 +104,14 @@ popsfile.h5:	^[[A^[[A^[[A^[[A 53.9% -- replaced with popsfile.h5.gz
 
 -rw-r--r-- 1 dattani al  56G 26. Dez 04:45 popsfile.h5.gz
 ==================================================================
+dattani@allogin1:/algpfs/dattani/Li2/54/pt2/as/rdm_nadd20bloom10_pchb/c/c/c/c/50m/c/100/c/200/c/400/c/400/c/c/c/c/1b/c/c/c/c/c/c/c/c/c/c/c/2/c/c/c/c/c/c/c/c/c> /usr/bin/time xz -1 -v popsfile.h5_xz1 
+popsfile.h5_xz1 (1/1)
+  100 %        46,2 GiB / 119,9 GiB = 0,385   7,4 MiB/s    4:36:08             
+16091.63user 234.95system 4:36:08elapsed 98%CPU (0avgtext+0avgdata 10904maxresident)k
+0inputs+0outputs (0major+24388minor)pagefaults 0swaps
 
-
-
-
+-rw-r--r-- 1 dattani al  47G 30. Dez 22:59 popsfile.h5_xz1.xz
+=================================================================
 
 
 
