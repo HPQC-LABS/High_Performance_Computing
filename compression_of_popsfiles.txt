@@ -139,4 +139,20 @@ popsfile.h5.bk2 (3/3)
 -rw-r--r-- 1 dattani al 159M 26. Apr 2017  popsfile.h5.xz
 =================================================================
 
-
+dattani@allogin1:/algpfs/dattani/Li2/aug-cc-pCV6Z-koput/10> xz -1 -v popsfile.h5* c/popsfile.h5* c/c/popsfile.h5* c/c/c/popsfile.h5* c/c/c/c/popsfile.h5*
+popsfile.h5 (1/8)
+  100 %        12,8 MiB / 210,3 MiB = 0,061    20 MiB/s       0:10             
+c/popsfile.h5 (2/8)
+  100 %        32,2 MiB / 508,4 MiB = 0,063    22 MiB/s       0:23             
+c/popsfile.h5.bk (3/8)
+  100 %        27,6 MiB / 440,0 MiB = 0,063    22 MiB/s       0:19             
+c/c/popsfile.h5 (4/8)
+  100 %      77,2 MiB / 1.160,5 MiB = 0,067    20 MiB/s       0:57             
+c/c/c/popsfile.h5 (5/8)
+  100 %      81,0 MiB / 1.216,6 MiB = 0,067    20 MiB/s       0:59             
+c/c/c/popsfile.h5.bk (6/8)
+  100 %      81,0 MiB / 1.216,5 MiB = 0,067    20 MiB/s       1:01             
+c/c/c/c/popsfile.h5 (7/8)
+  100 %      80,6 MiB / 1.216,5 MiB = 0,066    18 MiB/s       1:06             
+c/c/c/c/popsfile.h5.bk (8/8)
+  100 %      80,5 MiB / 1.216,3 MiB = 0,066    19 MiB/s       1:03             
