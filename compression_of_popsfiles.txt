@@ -276,3 +276,108 @@ c/100/c/200/c/popsfile.h5.bk (12/13)
 c/100/c/200/c/c/popsfile.h5 (13/13)
   100 %      4.895,7 MiB / 12,8 GiB = 0,374   3,1 MiB/s    1:11:29             
 
+dattani@allogin1:/algpfs/dattani/Li2/aug-cc-pCV6Z-koput/10/c/c/c/20> xz -1 -v popsfile.h5* c/popsfile.h5* c/40/popsfile.h5* c/40/c/popsfile.h5* c/40/c/c/popsfile.h5* c/40/c/80/popsfile.h5* c/40/c/80/c/popsfile.h5* c/40/c/80/c/c/popsfile.h5* c/40/c/80/c/c/c/popsfile.h5* c/40/c/80/c/c/c/c/popsfile.h5* c/40/c/80/c/c/c/c/c/popsfile.h5 c/40/c/80/c/c/c/c/c/c/popsfile.h5* c/40/c/80/c/c/c/c/c/c/320/popsfile.h5 c/40/c/80/c/c/c/c/c/c/320/c/popsfile.h5 c/40/c/80/c/c/c/c/c/c/320/c/c/popsfile.h5* c/40/c/80/c/c/c/c/c/c/320/c/c/c/popsfile.h5* c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/popsfile.h5* c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/popsfile.h5* c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/popsfile.h5* c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/popsfile.h5* c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/c/popsfile.h5* c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/c/c/popsfile.h5 c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/c/c/c/popsfile.h5*  c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* 
+popsfile.h5 (1/52)
+  100 %     159,6 MiB / 2.347,9 MiB = 0,068    20 MiB/s       1:57             
+popsfile.h5.bk (2/52)
+  100 %      95,8 MiB / 1.425,5 MiB = 0,067    19 MiB/s       1:16             
+popsfile.h5.bk2 (3/52)
+  100 %     134,6 MiB / 1.980,5 MiB = 0,068    18 MiB/s       1:48             
+c/popsfile.h5 (4/52)
+  100 %     160,3 MiB / 2.361,0 MiB = 0,068    19 MiB/s       2:02             
+c/popsfile.h5.bk (5/52)
+  100 %     160,3 MiB / 2.360,5 MiB = 0,068    20 MiB/s       1:59             
+c/popsfile.h5.bk2 (6/52)
+  100 %     160,3 MiB / 2.360,9 MiB = 0,068    20 MiB/s       1:57             
+c/40/popsfile.h5 (7/52)
+  100 %     269,2 MiB / 3.893,5 MiB = 0,069    21 MiB/s       3:09             
+c/40/popsfile.h5.bk (8/52)
+  100 %     224,3 MiB / 3.259,4 MiB = 0,069    21 MiB/s       2:37             
+c/40/c/popsfile.h5 (9/52)
+  100 %     319,6 MiB / 4.603,9 MiB = 0,069    20 MiB/s       3:47             
+c/40/c/popsfile.h5.bk (10/52)
+  100 %     319,3 MiB / 4.597,1 MiB = 0,069    20 MiB/s       3:49             
+c/40/c/popsfile.h5.bk2 (11/52)
+  100 %     319,7 MiB / 4.603,7 MiB = 0,069    20 MiB/s       3:47             
+c/40/c/c/popsfile.h5 (12/52)
+  100 %     317,9 MiB / 4.619,4 MiB = 0,069    20 MiB/s       3:49             
+c/40/c/80/popsfile.h5 (13/52)
+  100 %     461,1 MiB / 6.567,8 MiB = 0,070    20 MiB/s       5:31             
+c/40/c/80/c/popsfile.h5 (14/52)
+  100 %     600,8 MiB / 8.505,1 MiB = 0,071    20 MiB/s       7:00             
+c/40/c/80/c/popsfile.h5.bk (15/52)
+  100 %     520,0 MiB / 7.386,6 MiB = 0,070    20 MiB/s       6:09             
+c/40/c/80/c/c/popsfile.h5 (16/52)
+  100 %     637,5 MiB / 8.986,6 MiB = 0,071    21 MiB/s       7:17             
+c/40/c/80/c/c/popsfile.h5.bk (17/52)
+  100 %     636,9 MiB / 8.964,9 MiB = 0,071    20 MiB/s       7:28             
+c/40/c/80/c/c/popsfile.h5.bk2 (18/52)
+  100 %     637,4 MiB / 8.981,7 MiB = 0,071    20 MiB/s       7:28             
+c/40/c/80/c/c/c/popsfile.h5 (19/52)
+  100 %        836,9 MiB / 11,4 GiB = 0,071    20 MiB/s       9:45             
+c/40/c/80/c/c/c/popsfile.h5.bk (20/52)
+  100 %        771,2 MiB / 10,6 GiB = 0,071    20 MiB/s       9:03             
+c/40/c/80/c/c/c/c/popsfile.h5 (21/52)
+  100 %      1.043,5 MiB / 14,2 GiB = 0,072    18 MiB/s      13:07             
+c/40/c/80/c/c/c/c/popsfile.h5.bk (22/52)
+  100 %        888,8 MiB / 12,1 GiB = 0,072    19 MiB/s      10:42             
+c/40/c/80/c/c/c/c/c/popsfile.h5 (23/52)
+  100 %      1.239,0 MiB / 16,8 GiB = 0,072    18 MiB/s      15:49             
+c/40/c/80/c/c/c/c/c/c/popsfile.h5 (24/52)
+  100 %      1.243,1 MiB / 16,9 GiB = 0,072    18 MiB/s      15:44             
+c/40/c/80/c/c/c/c/c/c/popsfile.h5.bk (25/52)
+  100 %      1.243,0 MiB / 16,9 GiB = 0,072    18 MiB/s      16:10             
+c/40/c/80/c/c/c/c/c/c/320/popsfile.h5 (26/52)
+  100 %      1.441,9 MiB / 19,5 GiB = 0,072    17 MiB/s      19:27             
+c/40/c/80/c/c/c/c/c/c/320/c/popsfile.h5 (27/52)
+  100 %      1.642,4 MiB / 22,1 GiB = 0,073    16 MiB/s      23:17             
+c/40/c/80/c/c/c/c/c/c/320/c/c/popsfile.h5 (28/52)
+  100 %      1.845,4 MiB / 24,8 GiB = 0,073    16 MiB/s      26:14             
+c/40/c/80/c/c/c/c/c/c/320/c/c/popsfile.h5.bk (29/52)
+  100 %      1.778,6 MiB / 23,9 GiB = 0,073    16 MiB/s      24:55             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/popsfile.h5 (30/52)
+  100 %      2.043,8 MiB / 27,4 GiB = 0,073    16 MiB/s      28:31             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/popsfile.h5.bk (31/52)
+  100 %      1.979,1 MiB / 26,6 GiB = 0,073    16 MiB/s      27:44             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/popsfile.h5.bk2 (32/52)
+  100 %      2.037,2 MiB / 27,3 GiB = 0,073    18 MiB/s      25:34             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/popsfile.h5 (33/52)
+  100 %      2.243,8 MiB / 30,0 GiB = 0,073    16 MiB/s      31:09             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/popsfile.h5.bk (34/52)
+  100 %      2.178,2 MiB / 29,2 GiB = 0,073    15 MiB/s      34:15             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/popsfile.h5 (35/52)
+  100 %      2.444,5 MiB / 32,7 GiB = 0,073    14 MiB/s      39:25             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/popsfile.h5.bk (36/52)
+  100 %      2.429,1 MiB / 32,5 GiB = 0,073    12 MiB/s      45:17             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/popsfile.h5 (37/52)
+  100 %      2.449,7 MiB / 32,8 GiB = 0,073    13 MiB/s      43:36             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/popsfile.h5.bk (38/52)
+  100 %      2.451,2 MiB / 32,8 GiB = 0,073    13 MiB/s      41:41             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/popsfile.h5.bk2 (39/52)
+  100 %      2.449,8 MiB / 32,8 GiB = 0,073    13 MiB/s      41:39             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/popsfile.h5 (40/52)
+  100 %      2.449,4 MiB / 32,8 GiB = 0,073    13 MiB/s      41:45             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/popsfile.h5.bk (41/52)
+  100 %      2.449,8 MiB / 32,8 GiB = 0,073    13 MiB/s      44:18             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/c/popsfile.h5 (42/52)
+  100 %      2.449,5 MiB / 32,8 GiB = 0,073    12 MiB/s      47:25             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/c/popsfile.h5.bk (43/52)
+  100 %      2.449,6 MiB / 32,8 GiB = 0,073    12 MiB/s      46:31             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/c/c/popsfile.h5 (44/52)
+  100 %      2.449,6 MiB / 32,8 GiB = 0,073    12 MiB/s      48:11             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (45/52)
+  100 %      2.449,7 MiB / 32,8 GiB = 0,073    12 MiB/s      48:01             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (46/52)
+  100 %      2.449,7 MiB / 32,8 GiB = 0,073    11 MiB/s      48:49             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (47/52)
+  100 %      2.451,1 MiB / 32,8 GiB = 0,073    12 MiB/s      46:29             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (48/52)
+  100 %      2.450,1 MiB / 32,8 GiB = 0,073    13 MiB/s      44:31             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (49/52)
+  100 %      2.450,2 MiB / 32,8 GiB = 0,073    12 MiB/s      46:37             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (50/52)
+  100 %      2.449,7 MiB / 32,8 GiB = 0,073    11 MiB/s      49:31             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (51/52)
+  100 %      2.448,7 MiB / 32,8 GiB = 0,073    11 MiB/s      49:29             
+c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (52/52)
+  100 %      2.448,5 MiB / 32,8 GiB = 0,073    11 MiB/s      48:45             
