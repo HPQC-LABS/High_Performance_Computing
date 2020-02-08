@@ -156,3 +156,94 @@ c/c/c/c/popsfile.h5 (7/8)
   100 %      80,6 MiB / 1.216,5 MiB = 0,066    18 MiB/s       1:06             
 c/c/c/c/popsfile.h5.bk (8/8)
   100 %      80,5 MiB / 1.216,3 MiB = 0,066    19 MiB/s       1:03             
+
+
+dattani@allogin1:/algpfs/dattani/Li2/54/pt2/as/rdm_nadd20bloom10_pchb> xz -2 -v popsfile.h5* c/popsfile.h5* c/c/popsfile.h5* c/c/c/popsfile.h5* c/c/c/c/popsfile.h5* c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/popsfile.h5* 
+popsfile.h5.bk1 (1/44)
+  100 %       299,0 MiB / 952,7 MiB = 0,314   3,4 MiB/s       4:38             
+popsfile.h5.bk_bzip1.bz2 (2/44)
+  100 %       298,7 MiB / 298,7 MiB = 1,000   1,4 MiB/s       3:32             
+popsfile.h5.bk_bzip2 (3/44)
+  100 %       299,0 MiB / 952,7 MiB = 0,314   3,5 MiB/s       4:34             
+popsfile.h5.bk_bzip3 (4/44)
+  100 %       299,0 MiB / 952,7 MiB = 0,314   3,4 MiB/s       4:40             
+popsfile.h5.bk_bzip4 (5/44)
+  100 %       299,0 MiB / 952,7 MiB = 0,314   3,6 MiB/s       4:22             
+popsfile.h5.bk_bzip5 (6/44)
+  100 %       299,0 MiB / 952,7 MiB = 0,314   3,4 MiB/s       4:39             
+popsfile.h5.bk_bzip6 (7/44)
+  100 %       299,0 MiB / 952,7 MiB = 0,314   3,3 MiB/s       4:45             
+popsfile.h5.bk_bzip7 (8/44)
+  100 %       299,0 MiB / 952,7 MiB = 0,314   3,3 MiB/s       4:49             
+popsfile.h5.bk_bzip8 (9/44)
+  100 %       299,0 MiB / 952,7 MiB = 0,314   3,4 MiB/s       4:43             
+popsfile.h5.bk_bzip9.bz2 (10/44)
+  100 %       290,5 MiB / 290,5 MiB = 1,000   1,4 MiB/s       3:30             
+popsfile.h5.bk.gz (11/44)
+  100 %       372,6 MiB / 373,2 MiB = 0,998   1,4 MiB/s       4:22             
+popsfile.h5.bk_gzip2.gz (12/44)
+  100 %       360,5 MiB / 361,1 MiB = 0,998   1,4 MiB/s       4:15             
+popsfile.h5.bk_gzip3 (13/44)
+  100 %       299,0 MiB / 952,7 MiB = 0,314   3,3 MiB/s       4:47             
+popsfile.h5.bk_gzip4 (14/44)
+  100 %       299,0 MiB / 952,7 MiB = 0,314   3,5 MiB/s       4:32             
+popsfile.h5.bk_gzip5 (15/44)
+  100 %       299,0 MiB / 952,7 MiB = 0,314   3,4 MiB/s       4:39             
+popsfile.h5.bk_gzip6 (16/44)
+  100 %       299,0 MiB / 952,7 MiB = 0,314   3,4 MiB/s       4:42             
+popsfile.h5.bk_gzip7 (17/44)
+  100 %       299,0 MiB / 952,7 MiB = 0,314   3,4 MiB/s       4:42             
+popsfile.h5.bk_gzip8 (18/44)
+  100 %       299,0 MiB / 952,7 MiB = 0,314   3,2 MiB/s       5:00             
+popsfile.h5.bk_gzip9.gz (19/44)
+  100 %       323,6 MiB / 324,8 MiB = 0,996   1,3 MiB/s       4:11             
+popsfile.h5.bk_xz1.xz (20/44)
+xz: popsfile.h5.bk_xz1.xz: File already has `.xz' suffix, skipping
+popsfile.h5.bk_xz9.xz (21/44)
+xz: popsfile.h5.bk_xz9.xz: File already has `.xz' suffix, skipping
+popsfile.h5.bk_xz_e1.xz (22/44)
+xz: popsfile.h5.bk_xz_e1.xz: File already has `.xz' suffix, skipping
+popsfile.h5.bk_xz_e9.xz (23/44)
+xz: popsfile.h5.bk_xz_e9.xz: File already has `.xz' suffix, skipping
+c/popsfile.h5 (24/44)
+  100 %       307,4 MiB / 943,3 MiB = 0,326   3,1 MiB/s       5:00             
+c/popsfile.h5.bk (25/44)
+  100 %       299,1 MiB / 952,7 MiB = 0,314   2,9 MiB/s       5:29             
+c/c/popsfile.h5 (26/44)
+  100 %       255,4 MiB / 721,7 MiB = 0,354   2,5 MiB/s       4:44             
+c/c/popsfile.h5.bk (27/44)
+  100 %       255,4 MiB / 721,7 MiB = 0,354   2,5 MiB/s       4:45             
+c/c/c/popsfile.h5 (28/44)
+  100 %       254,7 MiB / 718,6 MiB = 0,355   2,5 MiB/s       4:45             
+c/c/c/popsfile.h5.bk (29/44)
+  100 %       254,7 MiB / 718,5 MiB = 0,354   2,4 MiB/s       4:53             
+c/c/c/c/popsfile.h5 (30/44)
+  100 %       253,8 MiB / 715,7 MiB = 0,355   2,4 MiB/s       5:00             
+c/c/c/c/popsfile.h5.bk (31/44)
+  100 %       253,7 MiB / 715,0 MiB = 0,355   2,6 MiB/s       4:39             
+c/c/c/c/c/popsfile.h5 (32/44)
+  100 %       250,2 MiB / 711,9 MiB = 0,352   2,6 MiB/s       4:35             
+c/c/c/c/c/popsfile.h5.bk (33/44)
+  100 %       250,4 MiB / 711,8 MiB = 0,352   2,4 MiB/s       4:51             
+c/c/c/c/c/c/popsfile.h5 (34/44)
+  100 %       255,1 MiB / 720,5 MiB = 0,354   2,5 MiB/s       4:47             
+c/c/c/c/c/c/popsfile.h5.bk (35/44)
+  100 %       255,2 MiB / 720,5 MiB = 0,354   2,4 MiB/s       4:57             
+c/c/c/c/c/c/c/popsfile.h5 (36/44)
+  100 %       253,8 MiB / 717,2 MiB = 0,354   2,4 MiB/s       4:54             
+c/c/c/c/c/c/c/popsfile.h5.bk (37/44)
+  100 %       253,8 MiB / 717,2 MiB = 0,354   2,4 MiB/s       4:56             
+c/c/c/c/c/c/c/c/popsfile.h5* (38/44)
+xz: c/c/c/c/c/c/c/c/popsfile.h5*: No such file or directory
+c/c/c/c/c/c/c/c/c/popsfile.h5* (39/44)
+xz: c/c/c/c/c/c/c/c/c/popsfile.h5*: No such file or directory
+c/c/c/c/c/c/c/c/c/c/popsfile.h5* (40/44)
+xz: c/c/c/c/c/c/c/c/c/c/popsfile.h5*: No such file or directory
+c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* (41/44)
+xz: c/c/c/c/c/c/c/c/c/c/c/popsfile.h5*: No such file or directory
+c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* (42/44)
+xz: c/c/c/c/c/c/c/c/c/c/c/popsfile.h5*: No such file or directory
+c/c/c/c/c/c/c/popsfile.h5 (43/44)
+xz: c/c/c/c/c/c/c/popsfile.h5: No such file or directory
+c/c/c/c/c/c/c/popsfile.h5.bk (44/44) 
+xz: c/c/c/c/c/c/c/popsfile.h5.bk: No such file or directory ---- why would it even be trying popsfile.h5.bk if it doesn't exist? I asked for popsfile.h5* !!!
