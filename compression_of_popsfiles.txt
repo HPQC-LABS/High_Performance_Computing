@@ -247,3 +247,32 @@ c/c/c/c/c/c/c/popsfile.h5 (43/44)
 xz: c/c/c/c/c/c/c/popsfile.h5: No such file or directory
 c/c/c/c/c/c/c/popsfile.h5.bk (44/44) 
 xz: c/c/c/c/c/c/c/popsfile.h5.bk: No such file or directory ---- why would it even be trying popsfile.h5.bk if it doesn't exist? I asked for popsfile.h5* !!!
+
+dattani@allogin1:/algpfs/dattani/Li2/54/pt2/as/rdm_nadd20bloom10_pchb/c/c/c/c/50m> xz -2 -v popsfile.h5* c/popsfile.h5* c/100/popsfile.h5* c/100/c/popsfile.h5* c/100/c/200/popsfile.h5* c/100/c/200/c/popsfile.h5* c/100/c/200/c/c/popsfile.h5
+popsfile.h5 (1/13)
+  100 %   1.295,7 MiB / 3.583,1 MiB = 0,362   2,7 MiB/s      22:31             
+popsfile.h5.bk (2/13)
+  100 %   1.295,6 MiB / 3.583,1 MiB = 0,362   2,6 MiB/s      22:52             
+c/popsfile.h5 (3/13)
+  100 %   1.256,6 MiB / 3.440,0 MiB = 0,365   2,6 MiB/s      22:04             
+c/popsfile.h5.bk (4/13)
+  100 %   1.256,6 MiB / 3.439,8 MiB = 0,365   2,6 MiB/s      21:41             
+c/100/popsfile.h5 (5/13)
+  100 %   2.542,2 MiB / 6.930,3 MiB = 0,367   2,5 MiB/s      45:22             
+c/100/popsfile.h5.bk (6/13)
+  100 %   2.542,4 MiB / 6.930,3 MiB = 0,367   2,6 MiB/s      44:58             
+c/100/c/popsfile.h5 (7/13)
+  100 %   2.476,8 MiB / 6.707,1 MiB = 0,369   2,4 MiB/s      45:40             
+c/100/c/popsfile.h5.bk (8/13)
+  100 %   2.476,6 MiB / 6.707,0 MiB = 0,369   2,5 MiB/s      44:52             
+c/100/c/200/popsfile.h5 (9/13)
+  100 %      5.015,9 MiB / 13,2 GiB = 0,371   2,6 MiB/s    1:27:59             
+c/100/c/200/popsfile.h5.bk (10/13)
+  100 %      5.015,9 MiB / 13,2 GiB = 0,371   2,5 MiB/s    1:31:43             
+c/100/c/200/c/popsfile.h5 (11/13)
+  100 %      4.895,7 MiB / 12,8 GiB = 0,374   2,4 MiB/s    1:31:36             
+c/100/c/200/c/popsfile.h5.bk (12/13)
+  100 %      4.895,7 MiB / 12,8 GiB = 0,374   2,7 MiB/s    1:19:29             
+c/100/c/200/c/c/popsfile.h5 (13/13)
+  100 %      4.895,7 MiB / 12,8 GiB = 0,374   3,1 MiB/s    1:11:29             
+
