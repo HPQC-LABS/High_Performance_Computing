@@ -1,0 +1,30 @@
+1.5T differential between source and destination:
+=====================================================================================================
+dattani@allogin1:/pool/dattani> du -hsx C | sort -rh | head -10
+2,5T	C
+dattani@allogin1:/pool/dattani> nohup rsync -r C /algpfs/dattani/C/from_pool/ > rsync_of_C.txt &
+[1] 14342
+dattani@allogin1:/pool/dattani> nohup: ignoring input and redirecting stderr to stdout
+^C
+dattani@allogin1:/pool/dattani> vi rsync_of_C.txt 
+dattani@allogin1:/pool/dattani> tail -f rsync_of_C.txt 
+skipping non-regular file "C/aug-cc-pCV5Z/2nd_run_freeze_above_111/FCIDUMP"
+skipping non-regular file "C/aug-cc-pCV5Z/2nd_run_freeze_above_111/2.1_unfreeze_upto_292_notEnoughWalkers/FCIDUMP"
+skipping non-regular file "C/aug-cc-pCV5Z/2nd_run_freeze_above_111/2.2_unfreeze_upto_292/FCIDUMP"
+skipping non-regular file "C/aug-cc-pCV5Z/3rd_run_freeze_above_292/FCIDUMP"
+skipping non-regular file "C/aug-cc-pCV5Z/3rd_run_freeze_above_292/3.1_unfreezeAll_Nw=4e6/3.1.1_Nw=8e6/3.1.1.1_Nw=4e7/FCIDUMP"
+skipping non-regular file "C/aug-cc-pCV6Z/1D/2/FCIDUMP"
+skipping non-regular file "C/aug-cc-pCV6Z/1D/2/64/FCIDUMP"
+skipping non-regular file "C/aug-cc-pCV6Z/1D/2/64/c/FCIDUMP"
+skipping non-regular file "C/aug-cc-pCV6Z/1D/2/64/c/128/FCIDUMP"
+skipping non-regular file "C/aug-cc-pCV6Z/1D/2/64/c/128/c/FCIDUMP"
+^C
+dattani@allogin1:/pool/dattani> watch tail -n 95  rsync_of_C.txt 
+[1]+  Done                    nohup rsync -r C /algpfs/dattani/C/from_pool/ > rsync_of_C.txt
+You have new mail in /var/mail/dattani
+dattani@allogin1:/pool/dattani> du -hsx C | sort -rh | head -10
+2,5T	C
+
+dattani@allogin1:/algpfs/dattani/C> du -hsx from_pool | sort -rh | head -100
+3,4T	from_pool
+=====================================================================================================
