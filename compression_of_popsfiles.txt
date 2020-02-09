@@ -139,6 +139,19 @@ popsfile.h5.bk2 (3/3)
 -rw-r--r-- 1 dattani al 159M 26. Apr 2017  popsfile.h5.xz
 =================================================================
 
+Some time on 7 Feb 2020:
+dattani@allogin1:/algpfs/dattani/Li2/aug-cc-pCV6Z-koput> du -hsx * | sort -rh | head -10
+6,3T	continued3
+5,9T	continued2
+5,0T	continued6_backToOldDump
+3,8T	continued
+1,9T	10
+1,8T	continued4_betterDump
+1,1T	1.28b
+681G	MRCC
+92G	continued5_betterDumpProperly
+59G	FCIDUMP_00028309
+
 dattani@allogin1:/algpfs/dattani/Li2/aug-cc-pCV6Z-koput/10> xz -1 -v popsfile.h5* c/popsfile.h5* c/c/popsfile.h5* c/c/c/popsfile.h5* c/c/c/c/popsfile.h5*
 popsfile.h5 (1/8)
   100 %        12,8 MiB / 210,3 MiB = 0,061    20 MiB/s       0:10             
@@ -451,3 +464,95 @@ c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (33/34)
   100 %      7.003,0 MiB / 91,8 GiB = 0,075    14 MiB/s    1:48:44             
 c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (34/34)
 xz: c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.xz: File exists
+
+Sa 8. Feb 22:00:43 CET 2020
+dattani@allogin1:/algpfs/dattani/Li2/aug-cc-pCV6Z-koput> du -hsx * | sort -rh | head -10
+4,7T	continued2
+3,8T	continued3
+3,7T	continued6_backToOldDump
+2,5T	continued
+1,1T	1.28b
+778G	MRCC
+766G	10
+579G	continued4_betterDump
+92G	continued5_betterDumpProperly
+59G	FCIDUMP_00028309
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dattani@allogin1:/algpfs/dattani/Li2/aug-cc-pCV6Z-koput/10/c/c/c/20/c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/nc> du -hsx * | sort -rh | head -10
+846G	c
+33G	popsfile.h5
+124M	CORESPACE
+704K	spawns_tofrom_excit
+576K	FCIMCStats
+512K	output.Spawn
+448K	TRIALSPACE
+192K	INITIATORStats
+128K	NodeFile99
+128K	NodeFile98
+
+dattani@allogin1:/algpfs/dattani/Li2/aug-cc-pCV6Z-koput/10/c/c/c/20/c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/nc> xz -1 -v popsfile.h5* c/popsfile.h5* c/c/popsfile.h5 c/c/c/popsfile.h5 c/c/c/c/popsfile.h5 c/c/c/c/backspawnAndUnbound/popsfile.h5* c/c/c/c/backspawnAndUnbound/normal/popsfile.h5* c/c/c/c/backspawnAndUnbound/normal/c/popsfile.h5* c/c/c/c/backspawnAndUnbound/normal/c/c/popsfile.h5*
+popsfile.h5 (1/13)
+  100 %      2.448,3 MiB / 32,8 GiB = 0,073    11 MiB/s      49:38             
+
+c/popsfile.h5 (2/13)
+  100 %      2.448,5 MiB / 32,8 GiB = 0,073    12 MiB/s      47:14             
+
+c/c/popsfile.h5 (3/13)
+  100 %      2.448,5 MiB / 32,8 GiB = 0,073    12 MiB/s      45:33             
+
+c/c/c/popsfile.h5 (4/13)
+  100 %      2.610,5 MiB / 34,9 GiB = 0,073    14 MiB/s      42:59             
+
+c/c/c/c/popsfile.h5 (5/13)
+  100 %      2.739,2 MiB / 36,6 GiB = 0,073    16 MiB/s      39:41             
+
+c/c/c/c/backspawnAndUnbound/popsfile.h5 (6/13)
+  100 %      2.737,8 MiB / 36,7 GiB = 0,073    14 MiB/s      45:57             
+
+c/c/c/c/backspawnAndUnbound/popsfile.h5.bk (7/13)
+  100 %      2.731,2 MiB / 36,6 GiB = 0,073    14 MiB/s      46:11             
+
+c/c/c/c/backspawnAndUnbound/normal/popsfile.h5 (8/13)
+  100 %      2.919,2 MiB / 39,0 GiB = 0,073    14 MiB/s      47:17             
+
+c/c/c/c/backspawnAndUnbound/normal/popsfile.h5.bk (9/13)
+  100 %      2.906,9 MiB / 38,8 GiB = 0,073    15 MiB/s      45:37             
+
+c/c/c/c/backspawnAndUnbound/normal/c/popsfile.h5 (10/13)
+  100 %      3.079,1 MiB / 41,1 GiB = 0,073    15 MiB/s      47:25             
+
+c/c/c/c/backspawnAndUnbound/normal/c/popsfile.h5.bk (11/13)
+  100 %      3.066,6 MiB / 40,9 GiB = 0,073    15 MiB/s      46:07             
+
+c/c/c/c/backspawnAndUnbound/normal/c/c/popsfile.h5 (12/13)
+  100 %      3.237,8 MiB / 43,1 GiB = 0,073    15 MiB/s      48:49             
+
+c/c/c/c/backspawnAndUnbound/normal/c/c/popsfile.h5.bk (13/13)
+  100 %      3.225,8 MiB / 43,0 GiB = 0,073    15 MiB/s      48:07             
+dattani@allogin1:/algpfs/dattani/Li2/aug-cc-pCV6Z-koput/10/c/c/c/20/c/40/c/80/c/c/c/c/c/c/320/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/nc> du -hsx * | sort -rh | head -10
+423G	c
+2,4G	popsfile.h5.xz
+124M	CORESPACE
+704K	spawns_tofrom_excit
+576K	FCIMCStats
+512K	output.Spawn
+448K	TRIALSPACE
+192K	INITIATORStats
+128K	NodeFile99
+128K	NodeFile98
