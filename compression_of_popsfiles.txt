@@ -804,4 +804,17 @@ c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (32/32)
 
   
   
-  
+dattani@allogin1:/algpfs/dattani/COH2> date
+So 9. Feb 20:49:52 CET 2020  
+dattani@allogin1:/algpfs/dattani> du -hsx * | sort -rh | head -10
+40T	Li2
+5,2T	C
+4,9T	Li2_old
+1,6T	COH2
+1,4T	N
+1,4T	femoco
+1,3T	C+++
+693G	CH4
+632G	O
+563G	C+
+
