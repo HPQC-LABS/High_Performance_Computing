@@ -729,3 +729,79 @@ dattani@allogin1:/algpfs/dattani/Li2/Li2/aug-cc-pCV5Z/a/4.1700/1e7> du -hsx * | 
 6,9M	FCIMCStats
 dattani@allogin1:/algpfs/dattani/Li2/Li2/aug-cc-pCV5Z/a/4.1700/1e7> date
 So 9. Feb 18:48:46 CET 2020
+
+
+FCIDUMP:
+dattani@allogin1:/algpfs/dattani/Li2/aug-cc-pCV6Z-koput/MRCC> xz -1 -v fort.55 
+fort.55 (1/1)
+  100 %       189,2 GiB / 665,8 GiB = 0,284   4,4 MiB/s   43:09:53         
+
+dattani@allogin1:/algpfs/dattani/Li2/aug-cc-pCV6Z-koput/continued2> xz -1 -v popsfile.h5* c/popsfile.h5* c/c/popsfile.h5* c/c/c/popsfile.h5* c/c/c/c/popsfile.h5* c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk 
+popsfile.h5 (1/32)
+  100 %      6.127,1 MiB / 80,4 GiB = 0,074    20 MiB/s    1:08:22             
+popsfile.h5.bk (2/32)
+  100 %      6.106,8 MiB / 80,1 GiB = 0,074    19 MiB/s    1:13:06             
+c/popsfile.h5 (3/32)
+  100 %      6.326,9 MiB / 82,9 GiB = 0,074    17 MiB/s    1:24:30             
+c/popsfile.h5.bk (4/32)
+  100 %      6.307,4 MiB / 82,7 GiB = 0,075    16 MiB/s    1:27:38             
+c/c/popsfile.h5 (5/32)
+  100 %      6.520,9 MiB / 85,4 GiB = 0,075    16 MiB/s    1:30:13             
+c/c/popsfile.h5.bk (6/32)
+  100 %      6.501,8 MiB / 85,2 GiB = 0,075    14 MiB/s    1:44:53             
+c/c/c/popsfile.h5 (7/32)
+  100 %      6.718,3 MiB / 88,0 GiB = 0,075    13 MiB/s    2:00:02             
+c/c/c/popsfile.h5.bk (8/32)
+  100 %      6.699,3 MiB / 87,7 GiB = 0,075    13 MiB/s    1:54:17             
+c/c/c/c/popsfile.h5 (9/32)
+  100 %      6.874,5 MiB / 89,9 GiB = 0,075    12 MiB/s    2:05:03             
+c/c/c/c/popsfile.h5.bk (10/32)
+  100 %      6.861,0 MiB / 89,7 GiB = 0,075    12 MiB/s    2:07:04             
+c/c/c/c/c/popsfile.h5 (11/32)
+  100 %      6.874,5 MiB / 89,9 GiB = 0,075    12 MiB/s    2:06:08             
+c/c/c/c/c/c/popsfile.h5.bk (12/32)
+  100 %      7.038,8 MiB / 92,0 GiB = 0,075    12 MiB/s    2:14:06             
+c/c/c/c/c/c/c/popsfile.h5.bk (13/32)
+  100 %      6.594,0 MiB / 85,6 GiB = 0,075    13 MiB/s    1:49:01             
+c/c/c/c/c/c/c/c/popsfile.h5 (14/32)
+  100 %      7.037,5 MiB / 92,2 GiB = 0,075    13 MiB/s    1:59:06             
+c/c/c/c/c/c/c/c/popsfile.h5.bk (15/32)
+  100 %      7.042,3 MiB / 92,2 GiB = 0,075    12 MiB/s    2:07:27             
+c/c/c/c/c/c/c/c/c/popsfile.h5 (16/32)
+  100 %      7.030,6 MiB / 92,2 GiB = 0,074    15 MiB/s    1:47:43             
+c/c/c/c/c/c/c/c/c/popsfile.h5.bk (17/32)
+  100 %      7.033,0 MiB / 92,2 GiB = 0,075    14 MiB/s    1:52:06             
+c/c/c/c/c/c/c/c/c/c/popsfile.h5 (18/32)
+  100 %      7.046,0 MiB / 92,2 GiB = 0,075    15 MiB/s    1:46:43             
+c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (19/32)
+  100 %      7.051,5 MiB / 92,1 GiB = 0,075    15 MiB/s    1:43:18             
+c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (20/32)
+  100 %      7.032,3 MiB / 92,2 GiB = 0,075    16 MiB/s    1:39:19             
+c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (21/32)
+  100 %      7.035,5 MiB / 92,2 GiB = 0,075    15 MiB/s    1:41:45             
+c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (22/32)
+xz: c/c/c/c/c/c/c/c/c/c/c/popsfile.h5: No such file or directory
+c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (23/32)
+xz: c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk: No such file or directory
+c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (24/32)
+  100 %      7.028,9 MiB / 92,2 GiB = 0,074    15 MiB/s    1:43:25             
+c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (25/32)
+  100 %      7.032,0 MiB / 92,2 GiB = 0,075    15 MiB/s    1:43:15             
+c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (26/32)
+  100 %      7.029,5 MiB / 92,2 GiB = 0,074    19 MiB/s    1:24:53             
+c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (27/32)
+  100 %      7.032,7 MiB / 92,2 GiB = 0,075    19 MiB/s    1:24:46             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (28/32)
+  100 %      7.028,4 MiB / 92,2 GiB = 0,074    19 MiB/s    1:23:59             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (29/32)
+  100 %      7.031,4 MiB / 92,2 GiB = 0,075    19 MiB/s    1:23:46             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (30/32)
+  100 %      7.029,0 MiB / 92,2 GiB = 0,074    19 MiB/s    1:24:22             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (31/32)
+  100 %      7.031,9 MiB / 92,2 GiB = 0,075    13 MiB/s    2:01:51             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (32/32)
+  100 %      7.041,6 MiB / 92,2 GiB = 0,075    19 MiB/s    1:21:37             
+
+  
+  
+  
