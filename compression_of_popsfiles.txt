@@ -556,3 +556,55 @@ dattani@allogin1:/algpfs/dattani/Li2/aug-cc-pCV6Z-koput/10/c/c/c/20/c/40/c/80/c/
 192K	INITIATORStats
 128K	NodeFile99
 128K	NodeFile98
+
+dattani@allogin1:/algpfs/dattani/Li2/aug-cc-pCV6Z-koput/continued4_betterDump> xz -1 -v popsfile.h5* c/popsfile.h5* c/c/popsfile.h5* c/c/c/popsfile.h5* c/c/c/c/popsfile.h5* c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/popsfile.h5* 
+popsfile.h5 (1/19)
+  100 %      7.024,1 MiB / 95,1 GiB = 0,072    19 MiB/s    1:24:48             
+popsfile.h5.bk (2/19)
+  100 %      7.036,7 MiB / 95,1 GiB = 0,072    18 MiB/s    1:31:15             
+c/popsfile.h5 (3/19)
+  100 %      6.969,8 MiB / 94,4 GiB = 0,072    16 MiB/s    1:38:00             
+c/popsfile.h5.bk (4/19)
+  100 %      6.968,1 MiB / 94,4 GiB = 0,072    16 MiB/s    1:37:40             
+c/c/popsfile.h5 (5/19)
+  100 %      6.888,6 MiB / 92,8 GiB = 0,072    14 MiB/s    1:53:41             
+c/c/popsfile.h5.bk (6/19)
+  100 %      6.884,9 MiB / 92,8 GiB = 0,072    13 MiB/s    2:04:30             
+c/c/c/popsfile.h5 (7/19)
+  100 %      6.875,0 MiB / 92,3 GiB = 0,073    13 MiB/s    2:02:34             
+c/c/c/popsfile.h5.bk (8/19)
+  100 %      6.871,0 MiB / 92,3 GiB = 0,073    12 MiB/s    2:07:54             
+c/c/c/c/popsfile.h5 (9/19)
+  100 %      6.892,9 MiB / 92,4 GiB = 0,073    12 MiB/s    2:07:19             
+c/c/c/c/popsfile.h5.bk (10/19)
+  100 %      6.888,2 MiB / 92,3 GiB = 0,073    12 MiB/s    2:10:20             
+c/c/c/c/c/popsfile.h5 (11/19)
+  100 %      6.911,2 MiB / 92,5 GiB = 0,073    12 MiB/s    2:06:49             
+c/c/c/c/c/popsfile.h5.bk (12/19)
+  100 %      6.907,4 MiB / 92,5 GiB = 0,073    14 MiB/s    1:54:04             
+c/c/c/c/c/c/popsfile.h5.beforeNewDump (13/19)
+  100 %      6.903,2 MiB / 92,4 GiB = 0,073    13 MiB/s    2:00:07             
+c/c/c/c/c/c/c/popsfile.h5 (14/19)
+  100 %      6.934,1 MiB / 95,1 GiB = 0,071    13 MiB/s    2:04:50             
+c/c/c/c/c/c/c/popsfile.h5.bk (15/19)
+  100 %      6.918,9 MiB / 95,1 GiB = 0,071    14 MiB/s    1:53:58             
+c/c/c/c/c/c/c/c/popsfile.h5 (16/19)
+  100 %      6.974,8 MiB / 95,5 GiB = 0,071    14 MiB/s    1:52:59             
+c/c/c/c/c/c/c/c/popsfile.h5.bk (17/19)
+  100 %      6.934,1 MiB / 95,1 GiB = 0,071    15 MiB/s    1:47:38             
+c/c/c/c/c/c/c/c/c/popsfile.h5 (18/19)
+  100 %      7.023,8 MiB / 95,1 GiB = 0,072    15 MiB/s    1:47:01             
+c/c/c/c/c/c/c/c/c/popsfile.h5.bk (19/19)
+  100 %      7.036,3 MiB / 95,1 GiB = 0,072    15 MiB/s    1:45:40  
+  
+  Before was:
+  1,8T	continued4_betterDump
+  
+  Now:
+  131G	continued4_betterDump
+
+dattani@allogin1:/algpfs/dattani/Li2/Li2/aug-cc-pCV5Z/a/4.1700/1e7> du -hsx * | sort -rh | head -10
+181G	continue
+618M	POPSFILEBIN
+6,9M	FCIMCStats
+
