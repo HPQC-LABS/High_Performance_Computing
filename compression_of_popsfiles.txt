@@ -603,8 +603,129 @@ c/c/c/c/c/c/c/c/c/popsfile.h5.bk (19/19)
   Now:
   131G	continued4_betterDump
 
-dattani@allogin1:/algpfs/dattani/Li2/Li2/aug-cc-pCV5Z/a/4.1700/1e7> du -hsx * | sort -rh | head -10
+===================================
+dattani@allogin1:/algpfs/dattani/Li2/Li2/aug-cc-pCV5Z/a/4.1700/1e7> du -hsx * |sort -rh | head -10
 181G	continue
 618M	POPSFILEBIN
 6,9M	FCIMCStats
 
+dattani@allogin1:/algpfs/dattani/Li2/Li2/aug-cc-pCV5Z/a/4.1700/1e7> xz -1 -v POPSFILEBIN continue/POPSFILE* continue/semistoch/POPSFILE* continue/semistoch/thouMill/POPSFILE* continue/semistoch/thouMill/rc/POPSFILE* continue/semistoch/2e7/POPSFILE* continue/semistoch/2e7/c/POPSFILE* continue/semistoch/2e7/c/c/POPSFILE* continue/semistoch/2e7/c/c/thouMill/POPSFILE* continue/semistoch/2e7/c/c/thouMill/rc/POPSFILE* continue/semistoch/2e7/c/c/thouMill/rc/rc2/POPSFILE* continue/semistoch/2e7/c/c/thouMill/rc/rc2/rc3/POPSFILE* continue/semistoch/2e7/c/c/thouMill/rc/rc2/rc3/POPSFILE* continue/semistoch/2e7/c/c/thouMill/rc/rc2/rc3/nc/POPSFILE* continue/semistoch/2e7/c/c/4e7/POPSFILE* continue/semistoch/2e7/c/c/4e7/c/POPSFILE* continue/semistoch/2e7/c/c/4e7/c/thouMill/POPSFILE* continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/POPSFILE* continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/rc2/POPSFILE* continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/rc2/c/POPSFILE* continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/rc2/c/8e7/POPSFILE* continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/POPSFILE* continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/popsfile.h5 continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/c/popsfile.h5 continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/c/160/popsfile.h5 continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/c/160/c/popsfile.h5 continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/c/160/c/c/popsfile.h5 continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/c/160/c/c/c/popsfile.h5 continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/c/160/c/c/c/320/popsfile.h5 continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/c/160/c/c/c/320/c/popsfile.h5* continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/c/160/c/c/c/320/c/ta/popsfile.h5* continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/c/160/c/c/c/320/c/ta/allDoubsInits/popsfile.h5* 
+POPSFILEBIN (1/56)
+  100 %        53,3 MiB / 617,1 MiB = 0,086    12 MiB/s       0:50             
+continue/POPSFILEBIN (2/56)
+  100 %        75,1 MiB / 846,4 MiB = 0,089    12 MiB/s       1:07             
+continue/POPSFILEHEAD (3/56)
+  100 %          3.532 B / 10,2 KiB = 0,338                                    
+continue/semistoch/POPSFILEBIN (4/56)
+  100 %        75,0 MiB / 846,2 MiB = 0,089    13 MiB/s       1:07             
+continue/semistoch/POPSFILEHEAD (5/56)
+  100 %          3.532 B / 10,2 KiB = 0,338                                    
+continue/semistoch/thouMill/POPSFILEBIN (6/56)
+  100 %        80,5 MiB / 886,9 MiB = 0,091    12 MiB/s       1:13             
+continue/semistoch/thouMill/POPSFILEHEAD (7/56)
+  100 %          3.592 B / 10,5 KiB = 0,333                                    
+continue/semistoch/thouMill/rc/POPSFILEBIN (8/56)
+  100 %        79,4 MiB / 887,6 MiB = 0,089    12 MiB/s       1:12             
+continue/semistoch/thouMill/rc/POPSFILEHEAD (9/56)
+  100 %          3.524 B / 10,2 KiB = 0,337                                    
+continue/semistoch/2e7/POPSFILEBIN (10/56)
+  100 %     143,8 MiB / 1.579,5 MiB = 0,091    13 MiB/s       1:58             
+continue/semistoch/2e7/POPSFILEHEAD (11/56)
+  100 %          3.604 B / 10,5 KiB = 0,334                                    
+continue/semistoch/2e7/c/POPSFILEBIN (12/56)
+  100 %     142,5 MiB / 1.579,9 MiB = 0,090    13 MiB/s       1:59             
+continue/semistoch/2e7/c/POPSFILEHEAD (13/56)
+  100 %          3.528 B / 10,2 KiB = 0,338                                    
+continue/semistoch/2e7/c/c/POPSFILEBIN (14/56)
+  100 %     143,7 MiB / 1.579,0 MiB = 0,091    13 MiB/s       1:59             
+continue/semistoch/2e7/c/c/POPSFILEHEAD (15/56)
+  100 %          3.600 B / 10,5 KiB = 0,333                                    
+continue/semistoch/2e7/c/c/thouMill/POPSFILEBIN (16/56)
+  100 %     147,0 MiB / 1.612,7 MiB = 0,091    13 MiB/s       2:07             
+continue/semistoch/2e7/c/c/thouMill/POPSFILEHEAD (17/56)
+  100 %          3.608 B / 10,5 KiB = 0,334                                    
+continue/semistoch/2e7/c/c/thouMill/rc/POPSFILEBIN (18/56)
+  100 %     147,0 MiB / 1.612,6 MiB = 0,091    13 MiB/s       2:07             
+continue/semistoch/2e7/c/c/thouMill/rc/POPSFILEHEAD (19/56)
+  100 %          3.608 B / 10,5 KiB = 0,334                                    
+continue/semistoch/2e7/c/c/thouMill/rc/rc2/POPSFILEBIN (20/56)
+  100 %     147,0 MiB / 1.612,8 MiB = 0,091    13 MiB/s       2:04             
+continue/semistoch/2e7/c/c/thouMill/rc/rc2/POPSFILEHEAD (21/56)
+  100 %          3.588 B / 10,5 KiB = 0,332                                    
+continue/semistoch/2e7/c/c/thouMill/rc/rc2/rc3/POPSFILEBIN (22/56)
+  100 %     147,0 MiB / 1.613,0 MiB = 0,091    13 MiB/s       2:06             
+continue/semistoch/2e7/c/c/thouMill/rc/rc2/rc3/POPSFILEHEAD (23/56)
+  100 %          3.596 B / 10,5 KiB = 0,333                                    
+continue/semistoch/2e7/c/c/thouMill/rc/rc2/rc3/POPSFILEBIN (24/56)
+xz: continue/semistoch/2e7/c/c/thouMill/rc/rc2/rc3/POPSFILEBIN: No such file or directory
+continue/semistoch/2e7/c/c/thouMill/rc/rc2/rc3/POPSFILEHEAD (25/56)
+xz: continue/semistoch/2e7/c/c/thouMill/rc/rc2/rc3/POPSFILEHEAD: No such file or directory
+continue/semistoch/2e7/c/c/thouMill/rc/rc2/rc3/nc/POPSFILEBIN (26/56)
+  100 %     147,1 MiB / 1.613,2 MiB = 0,091    13 MiB/s       2:07             
+continue/semistoch/2e7/c/c/thouMill/rc/rc2/rc3/nc/POPSFILEHEAD (27/56)
+  100 %          3.604 B / 10,5 KiB = 0,334                                    
+continue/semistoch/2e7/c/c/4e7/POPSFILEBIN (28/56)
+  100 %     229,9 MiB / 2.533,4 MiB = 0,091    13 MiB/s       3:22             
+continue/semistoch/2e7/c/c/4e7/POPSFILEHEAD (29/56)
+  100 %          3.532 B / 10,2 KiB = 0,338                                    
+continue/semistoch/2e7/c/c/4e7/c/POPSFILEBIN (30/56)
+  100 %     274,0 MiB / 3.002,7 MiB = 0,091    13 MiB/s       3:58             
+continue/semistoch/2e7/c/c/4e7/c/POPSFILEHEAD (31/56)
+  100 %          3.516 B / 10,2 KiB = 0,336                                    
+continue/semistoch/2e7/c/c/4e7/c/thouMill/POPSFILEBIN (32/56)
+  100 %     284,0 MiB / 3.028,8 MiB = 0,094    13 MiB/s       4:01             
+continue/semistoch/2e7/c/c/4e7/c/thouMill/POPSFILEHEAD (33/56)
+  100 %          3.716 B / 11,2 KiB = 0,324                                    
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/POPSFILEBIN (34/56)
+  100 %     284,1 MiB / 3.029,5 MiB = 0,094    12 MiB/s       4:06             
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/POPSFILEHEAD (35/56)
+  100 %          3.720 B / 11,2 KiB = 0,324                                    
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/rc2/POPSFILEBIN (36/56)
+  100 %     284,0 MiB / 3.028,6 MiB = 0,094    12 MiB/s       4:05             
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/rc2/POPSFILEHEAD (37/56)
+  100 %        38,7 MiB / 413,0 MiB = 0,094    12 MiB/s       0:34             
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/rc2/c/POPSFILEBIN (38/56)
+  100 %     284,0 MiB / 3.028,6 MiB = 0,094    12 MiB/s       4:11             
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/rc2/c/POPSFILEHEAD (39/56)
+  100 %        38,7 MiB / 413,0 MiB = 0,094    12 MiB/s       0:34             
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/rc2/c/8e7/POPSFILEBIN (40/56)
+  100 %     284,0 MiB / 3.028,6 MiB = 0,094    12 MiB/s       4:07             
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/rc2/c/8e7/POPSFILEHEAD (41/56)
+  100 %        38,7 MiB / 413,0 MiB = 0,094    12 MiB/s       0:33             
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/POPSFILEBIN (42/56)
+  100 %     284,1 MiB / 3.029,5 MiB = 0,094    12 MiB/s       4:05             
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/POPSFILEHEAD (43/56)
+  100 %          3.720 B / 11,2 KiB = 0,324                                    
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/popsfile.h5 (44/56)
+  100 %     505,9 MiB / 5.026,9 MiB = 0,101    12 MiB/s       7:13             
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/c/popsfile.h5 (45/56)
+  100 %     507,4 MiB / 5.069,3 MiB = 0,100    12 MiB/s       7:15             
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/c/160/popsfile.h5 (46/56)
+  100 %     589,2 MiB / 6.003,3 MiB = 0,098    12 MiB/s       8:31             
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/c/160/c/popsfile.h5 (47/56)
+  100 %     823,2 MiB / 8.053,7 MiB = 0,102    12 MiB/s      11:34             
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/c/160/c/c/popsfile.h5 (48/56)
+  100 %     977,4 MiB / 9.573,8 MiB = 0,102    12 MiB/s      13:33             
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/c/160/c/c/c/popsfile.h5 (49/56)
+  100 %     978,8 MiB / 9.621,7 MiB = 0,102    12 MiB/s      13:36             
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/c/160/c/c/c/320/popsfile.h5 (50/56)
+  100 %      1.159,9 MiB / 11,1 GiB = 0,102    12 MiB/s      16:25             
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/c/160/c/c/c/320/c/popsfile.h5 (51/56)
+  100 %      1.071,2 MiB / 12,0 GiB = 0,087    13 MiB/s      15:51             
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/c/160/c/c/c/320/c/popsfile.h5.bk (52/56)
+  100 %      1.373,5 MiB / 12,9 GiB = 0,104    12 MiB/s      19:09             
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/c/160/c/c/c/320/c/ta/popsfile.h5 (53/56)
+  100 %      1.382,6 MiB / 13,0 GiB = 0,104    12 MiB/s      19:14             
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/c/160/c/c/c/320/c/ta/popsfile.h5.bk (54/56)
+  100 %      1.270,8 MiB / 12,0 GiB = 0,104    11 MiB/s      17:56             
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/c/160/c/c/c/320/c/ta/allDoubsInits/popsfile.h5 (55/56)
+  100 %        370,2 MiB / 14,0 GiB = 0,026    23 MiB/s      10:25             
+continue/semistoch/2e7/c/c/4e7/c/thouMill/rc/80_ta/c/c/160/c/c/c/320/c/ta/allDoubsInits/popsfile.h5.bk (56/56)
+  100 %      1.465,4 MiB / 14,0 GiB = 0,102    14 MiB/s      17:16             
+
+dattani@allogin1:/algpfs/dattani/Li2/Li2/aug-cc-pCV5Z/a/4.1700/1e7> du -hsx * | sort -rh | head -10
+36G	continue
+54M	POPSFILEBIN.xz
+6,9M	FCIMCStats
+dattani@allogin1:/algpfs/dattani/Li2/Li2/aug-cc-pCV5Z/a/4.1700/1e7> date
+So 9. Feb 18:48:46 CET 2020
