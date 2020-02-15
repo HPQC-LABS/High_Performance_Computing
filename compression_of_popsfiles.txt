@@ -2229,3 +2229,82 @@ c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (28/28)
 (wd now: /algpfs/dattani/Li2/aug-cc-pCV6Z-koput/continued3/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c)
 You have new mail in /var/mail/dattani
 dattani@allogin1:/algpfs/dattani/Li2/aug-cc-pCV6Z-koput/continued3/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c> packet_write_wait: Connection to 134.105.156.4 port 22: Broken pipe
+
+dattani@allogin1:/algpfs/dattani/Li2/aug-cc-pCV6Z-koput/continued2/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c> xz -1 -v popsfile.h5* c/popsfile.h5* c/c/popsfile.h5* c/c/c/popsfile.h5* c/c/c/c/popsfile.h5* c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5*
+popsfile.h5 (1/38)
+  100 %      7.037,4 MiB / 92,2 GiB = 0,075    15 MiB/s    1:43:55             
+popsfile.h5.bk (2/38)
+  100 %      7.032,9 MiB / 92,2 GiB = 0,075    14 MiB/s    1:55:54             
+c/popsfile.h5 (3/38)
+  100 %      7.029,3 MiB / 92,2 GiB = 0,074    15 MiB/s    1:44:24             
+c/popsfile.h5.bk (4/38)
+  100 %      7.032,2 MiB / 92,2 GiB = 0,075    15 MiB/s    1:44:41             
+c/c/popsfile.h5 (5/38)
+  100 %      7.030,1 MiB / 92,2 GiB = 0,074    14 MiB/s    1:48:41             
+c/c/popsfile.h5.bk (6/38)
+  100 %      7.033,5 MiB / 92,2 GiB = 0,075    14 MiB/s    1:51:05             
+c/c/c/popsfile.h5 (7/38)
+  100 %      7.028,2 MiB / 92,2 GiB = 0,074    14 MiB/s    1:51:03             
+c/c/c/popsfile.h5.bk (8/38)
+  100 %      7.031,0 MiB / 92,2 GiB = 0,075    12 MiB/s    2:15:10             
+c/c/c/c/popsfile.h5 (9/38)
+  100 %      7.028,2 MiB / 92,2 GiB = 0,074    15 MiB/s    1:46:35             
+c/c/c/c/popsfile.h5.bk (10/38)
+  100 %      7.031,8 MiB / 92,2 GiB = 0,075    15 MiB/s    1:45:33             
+c/c/c/c/c/popsfile.h5 (11/38)
+  100 %      7.028,5 MiB / 92,2 GiB = 0,074    16 MiB/s    1:36:19             
+c/c/c/c/c/popsfile.h5.bk (12/38)
+  100 %      7.031,5 MiB / 92,2 GiB = 0,075    17 MiB/s    1:32:20             
+c/c/c/c/c/c/popsfile.h5 (13/38)
+  100 %      7.029,4 MiB / 92,2 GiB = 0,074    18 MiB/s    1:26:34             
+c/c/c/c/c/c/popsfile.h5.bk (14/38)
+  100 %      7.032,4 MiB / 92,2 GiB = 0,075    20 MiB/s    1:18:53             
+c/c/c/c/c/c/c/popsfile.h5 (15/38)
+  100 %      7.029,0 MiB / 92,2 GiB = 0,074    20 MiB/s    1:19:03             
+c/c/c/c/c/c/c/popsfile.h5.bk (16/38)
+  100 %      7.032,1 MiB / 92,2 GiB = 0,075    23 MiB/s    1:09:47             
+c/c/c/c/c/c/c/c/popsfile.h5 (17/38)
+  100 %      7.029,8 MiB / 92,2 GiB = 0,074    23 MiB/s    1:09:27             
+c/c/c/c/c/c/c/c/popsfile.h5.bk (18/38)
+  100 %      7.033,0 MiB / 92,2 GiB = 0,075    23 MiB/s    1:09:34             
+c/c/c/c/c/c/c/c/c/popsfile.h5 (19/38)
+  100 %      7.029,7 MiB / 92,2 GiB = 0,074    23 MiB/s    1:09:19             
+c/c/c/c/c/c/c/c/c/popsfile.h5.bk (20/38)
+  100 %      7.032,7 MiB / 92,2 GiB = 0,075    23 MiB/s    1:09:41             
+c/c/c/c/c/c/c/c/c/c/popsfile.h5 (21/38)
+  100 %      7.029,3 MiB / 92,2 GiB = 0,074    23 MiB/s    1:09:27             
+c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (22/38)
+  100 %      7.032,4 MiB / 92,2 GiB = 0,075    22 MiB/s    1:10:25             
+c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (23/38)
+  100 %      7.028,1 MiB / 92,2 GiB = 0,074    23 MiB/s    1:09:37             
+c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (24/38)
+  100 %      7.031,0 MiB / 92,2 GiB = 0,075    23 MiB/s    1:09:31             
+c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (25/38)
+xz: c/c/c/c/c/c/c/c/c/c/c/popsfile.h5: No such file or directory
+c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (26/38)
+xz: c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk: No such file or directory
+c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (27/38)
+  100 %      7.028,7 MiB / 92,2 GiB = 0,074    23 MiB/s    1:09:37             
+c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (28/38)
+  100 %      7.031,3 MiB / 92,2 GiB = 0,075    22 MiB/s    1:10:00             
+c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (29/38)
+  100 %      7.040,8 MiB / 92,2 GiB = 0,075    23 MiB/s    1:09:42             
+c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (30/38)
+  100 %      7.045,2 MiB / 92,1 GiB = 0,075    23 MiB/s    1:08:32             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (31/38)
+  100 %      7.026,1 MiB / 91,8 GiB = 0,075    23 MiB/s    1:07:48             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (32/38)
+  100 %      7.031,0 MiB / 91,8 GiB = 0,075    23 MiB/s    1:07:46             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (33/38)
+  100 %      7.004,1 MiB / 91,8 GiB = 0,075    23 MiB/s    1:07:37             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (34/38)
+  100 %      7.005,7 MiB / 91,8 GiB = 0,075    23 MiB/s    1:07:42             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (35/38)
+  100 %      6.997,3 MiB / 91,8 GiB = 0,074    24 MiB/s    1:05:59             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (36/38)
+  100 %      6.997,8 MiB / 91,8 GiB = 0,074    24 MiB/s    1:05:44             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (37/38)
+  100 %      6.995,9 MiB / 91,8 GiB = 0,074    24 MiB/s    1:05:49             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (38/38)
+  100 %      6.996,6 MiB / 91,8 GiB = 0,074    24 MiB/s    1:05:38             
+You have new mail in /var/mail/dattani
