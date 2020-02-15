@@ -2128,3 +2128,42 @@ FC/canonical/fort.55 (5/5)
   100 %      6.569,5 MiB / 22,5 GiB = 0,285   5,2 MiB/s    1:14:04             
 You have new mail in /var/mail/dattani
 
+dattani@allogin1:/algpfs/dattani> du -hsx * | sort -rh | head -100
+28T	Li2
+5,2T	C
+4,9T	Li2_old
+1,4T	femoco
+693G	CH4
+650G	COH2
+632G	O
+563G	C+
+474G	files_for_Nike
+448G	N
+250G	molcas
+237G	F
+197G	MOLCAS
+196G	Be2
+132G	C+++
+102G	Li
+74G	F+
+51G	for_Sandeep
+34G	LiH
+27G	for_Giovanni
+24G	for_ali
+23G	Be+
+21G	C++
+15G	mneci
+4,5G	for_Nick
+1,6G	molcas_scr
+1,2G	ueg
+1,2G	MRCC_tests
+732M	Molcas_build20160604
+116M	FCIDUMP
+83M	Ni
+32M	Be
+32M	Ar
+7,4M	BeH2
+4,6M	B
+192K	Cr2
+0	mem.txt
+0	dirac_scr
