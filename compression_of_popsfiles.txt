@@ -4210,3 +4210,51 @@ xz: 128/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk: No such file or directory
   100 %     673,7 MiB / 5.884,1 MiB = 0,114    17 MiB/s       5:54             
 64/safety/popsfile.h5.bk (45/45)
   100 %     673,5 MiB / 5.883,1 MiB = 0,114    17 MiB/s       5:49 
+
+dattani@allogin2:/algpfs/dattani> du -hsx * | sort -rh | head -100
+26T	Li2
+4,9T	Li2_old
+3,8T	C
+3,1T	algpfs2gra
+1,4T	femoco
+563G	C+
+474G	files_for_Nike
+250G	molcas
+197G	MOLCAS
+102G	Li
+51G	for_Sandeep
+27G	for_Giovanni
+24G	for_ali
+15G	mneci
+4,5G	for_Nick
+1,8G	w
+1,6G	molcas_scr
+1,2G	ueg
+1,2G	MRCC_tests
+732M	Molcas_build20160604
+116M	FCIDUMP
+32M	Be
+4,6M	B
+0	mem.txt
+0	dirac_scr
+dattani@allogin2:/algpfs/dattani> date
+Mi 19. Feb 03:26:13 CET 2020
+
+dattani@allogin2:/algpfs/dattani/Li2> du -hsx * | sort -rh | head -100
+17T	54
+3,9T	aug-cc-pCV6Z-koput
+2,6T	Li2
+1,9T	aug-cc-pCV5Z
+379G	aug-cc-pCV7Z-koput
+216G	aug-cc-pCV8Zi
+14G	V3Z
+14G	for_lozovoi
+12G	dneci_problem
+11G	FCIDUMP_6.00
+11G	FCIDUMP_5.00
+9,6M	sto-2g
+5,7M	lessThanSto2g
+64K	input.Spawn
+64K	aCV7Z_MOLCAS.bas
+dattani@allogin2:/algpfs/dattani/Li2> date
+Mi 19. Feb 03:27:38 CET 2020
