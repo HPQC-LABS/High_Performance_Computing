@@ -4258,3 +4258,7 @@ dattani@allogin2:/algpfs/dattani/Li2> du -hsx * | sort -rh | head -100
 64K	aCV7Z_MOLCAS.bas
 dattani@allogin2:/algpfs/dattani/Li2> date
 Mi 19. Feb 03:27:38 CET 2020
+
+[nike@wob147 O_fc_9z_noaug]$ xz -v -1 fort.55 
+fort.55 (1/1)
+  100.0 %        58,109.3 MiB / 172,148.3 MiB = 0.338   8.0 MiB/s      5:56:40
