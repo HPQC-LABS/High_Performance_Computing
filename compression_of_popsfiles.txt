@@ -2834,3 +2834,1286 @@ c/c/popsfile.h5.bk (6/19)
 2/c/4/c/c/popsfile.h5 (17/19)
 packet_write_wait: Connection to 134.105.156.4 port 22: Broken pipe  2 h 20 min
 
+
+
+dattani@allogin2:/algpfs/dattani/Li2/54/dice/eps1=1e-4> xz -v -1 *hamil*
+0-hamiltonian.bkp (1/640)
+  100 %       276,1 MiB / 945,9 MiB = 0,292    11 MiB/s       1:28             
+100-hamiltonian.bkp (2/640)
+  100 %       279,8 MiB / 953,4 MiB = 0,293    11 MiB/s       1:30             
+101-hamiltonian.bkp (3/640)
+  100 %       278,3 MiB / 950,2 MiB = 0,293    10 MiB/s       1:30             
+102-hamiltonian.bkp (4/640)
+  100 %       278,3 MiB / 950,8 MiB = 0,293    10 MiB/s       1:33             
+103-hamiltonian.bkp (5/640)
+  100 %       279,2 MiB / 952,6 MiB = 0,293    10 MiB/s       1:31             
+104-hamiltonian.bkp (6/640)
+  100 %       278,5 MiB / 951,4 MiB = 0,293    10 MiB/s       1:35             
+105-hamiltonian.bkp (7/640)
+  100 %       279,7 MiB / 954,0 MiB = 0,293   9,6 MiB/s       1:39             
+106-hamiltonian.bkp (8/640)
+  100 %       279,0 MiB / 952,0 MiB = 0,293   9,6 MiB/s       1:39             
+107-hamiltonian.bkp (9/640)
+  100 %       278,8 MiB / 951,5 MiB = 0,293   9,7 MiB/s       1:38             
+108-hamiltonian.bkp (10/640)
+  100 %       278,2 MiB / 950,4 MiB = 0,293   9,8 MiB/s       1:37             
+109-hamiltonian.bkp (11/640)
+  100 %       278,9 MiB / 951,8 MiB = 0,293   9,7 MiB/s       1:38             
+10-hamiltonian.bkp (12/640)
+  100 %       276,9 MiB / 947,8 MiB = 0,292   9,7 MiB/s       1:37             
+110-hamiltonian.bkp (13/640)
+  100 %       278,8 MiB / 952,0 MiB = 0,293   9,6 MiB/s       1:39             
+111-hamiltonian.bkp (14/640)
+  100 %       279,5 MiB / 953,6 MiB = 0,293   9,6 MiB/s       1:39             
+112-hamiltonian.bkp (15/640)
+  100 %       278,8 MiB / 952,1 MiB = 0,293   9,6 MiB/s       1:39             
+113-hamiltonian.bkp (16/640)
+  100 %       279,6 MiB / 953,8 MiB = 0,293   9,6 MiB/s       1:39             
+114-hamiltonian.bkp (17/640)
+  100 %       277,7 MiB / 949,6 MiB = 0,292   9,6 MiB/s       1:39             
+115-hamiltonian.bkp (18/640)
+  100 %       277,8 MiB / 949,6 MiB = 0,293   9,6 MiB/s       1:38             
+116-hamiltonian.bkp (19/640)
+  100 %       276,7 MiB / 947,6 MiB = 0,292   9,6 MiB/s       1:38             
+117-hamiltonian.bkp (20/640)
+  100 %       277,4 MiB / 948,4 MiB = 0,292   9,5 MiB/s       1:39             
+118-hamiltonian.bkp (21/640)
+  100 %       278,1 MiB / 950,3 MiB = 0,293   9,6 MiB/s       1:39             
+119-hamiltonian.bkp (22/640)
+  100 %       278,3 MiB / 951,0 MiB = 0,293   9,6 MiB/s       1:38             
+11-hamiltonian.bkp (23/640)
+  100 %       277,2 MiB / 948,3 MiB = 0,292   9,7 MiB/s       1:37             
+120-hamiltonian.bkp (24/640)
+  100 %       277,4 MiB / 948,9 MiB = 0,292   9,6 MiB/s       1:38             
+121-hamiltonian.bkp (25/640)
+  100 %       278,2 MiB / 950,5 MiB = 0,293   9,6 MiB/s       1:39             
+122-hamiltonian.bkp (26/640)
+  100 %       278,2 MiB / 950,1 MiB = 0,293   9,6 MiB/s       1:39             
+123-hamiltonian.bkp (27/640)
+  100 %       278,9 MiB / 952,1 MiB = 0,293   9,5 MiB/s       1:40             
+124-hamiltonian.bkp (28/640)
+  100 %       279,0 MiB / 951,6 MiB = 0,293   9,6 MiB/s       1:38             
+125-hamiltonian.bkp (29/640)
+  100 %       279,4 MiB / 952,8 MiB = 0,293   9,7 MiB/s       1:38             
+126-hamiltonian.bkp (30/640)
+  100 %       278,7 MiB / 951,4 MiB = 0,293   9,7 MiB/s       1:38             
+127-hamiltonian.bkp (31/640)
+  100 %       279,1 MiB / 952,2 MiB = 0,293   9,5 MiB/s       1:40             
+128-hamiltonian.bkp (32/640)
+  100 %       279,2 MiB / 952,7 MiB = 0,293   9,5 MiB/s       1:40             
+129-hamiltonian.bkp (33/640)
+  100 %       279,1 MiB / 952,2 MiB = 0,293   9,5 MiB/s       1:40             
+12-hamiltonian.bkp (34/640)
+  100 %       277,5 MiB / 949,1 MiB = 0,292   9,5 MiB/s       1:40             
+130-hamiltonian.bkp (35/640)
+  100 %       279,3 MiB / 952,8 MiB = 0,293   9,5 MiB/s       1:40             
+131-hamiltonian.bkp (36/640)
+  100 %       278,9 MiB / 951,7 MiB = 0,293   9,5 MiB/s       1:40             
+132-hamiltonian.bkp (37/640)
+  100 %       280,1 MiB / 954,5 MiB = 0,293   9,5 MiB/s       1:40             
+133-hamiltonian.bkp (38/640)
+  100 %       279,2 MiB / 952,6 MiB = 0,293   9,6 MiB/s       1:39             
+134-hamiltonian.bkp (39/640)
+  100 %       279,5 MiB / 953,5 MiB = 0,293   9,6 MiB/s       1:39             
+135-hamiltonian.bkp (40/640)
+  100 %       280,2 MiB / 954,5 MiB = 0,294   9,5 MiB/s       1:39             
+136-hamiltonian.bkp (41/640)
+  100 %       278,8 MiB / 951,8 MiB = 0,293   9,5 MiB/s       1:40             
+137-hamiltonian.bkp (42/640)
+  100 %       279,3 MiB / 953,0 MiB = 0,293   9,5 MiB/s       1:40             
+138-hamiltonian.bkp (43/640)
+  100 %       278,1 MiB / 950,3 MiB = 0,293   9,6 MiB/s       1:39             
+139-hamiltonian.bkp (44/640)
+  100 %       278,5 MiB / 951,3 MiB = 0,293   9,7 MiB/s       1:38             
+13-hamiltonian.bkp (45/640)
+  100 %       277,5 MiB / 948,8 MiB = 0,292   9,6 MiB/s       1:38             
+140-hamiltonian.bkp (46/640)
+  100 %       278,4 MiB / 951,1 MiB = 0,293   9,6 MiB/s       1:39             
+141-hamiltonian.bkp (47/640)
+  100 %       278,5 MiB / 950,6 MiB = 0,293   9,5 MiB/s       1:39             
+142-hamiltonian.bkp (48/640)
+  100 %       277,9 MiB / 949,5 MiB = 0,293   9,7 MiB/s       1:38             
+143-hamiltonian.bkp (49/640)
+  100 %       278,5 MiB / 950,9 MiB = 0,293   9,4 MiB/s       1:40             
+144-hamiltonian.bkp (50/640)
+  100 %       277,6 MiB / 948,8 MiB = 0,293   9,5 MiB/s       1:39             
+145-hamiltonian.bkp (51/640)
+  100 %       278,5 MiB / 950,3 MiB = 0,293   9,4 MiB/s       1:41             
+146-hamiltonian.bkp (52/640)
+  100 %       277,9 MiB / 949,9 MiB = 0,293   9,6 MiB/s       1:39             
+147-hamiltonian.bkp (53/640)
+  100 %       278,0 MiB / 950,1 MiB = 0,293   9,6 MiB/s       1:39             
+148-hamiltonian.bkp (54/640)
+  100 %       278,2 MiB / 949,9 MiB = 0,293   9,4 MiB/s       1:40             
+149-hamiltonian.bkp (55/640)
+  100 %       277,8 MiB / 949,7 MiB = 0,293   9,6 MiB/s       1:39             
+14-hamiltonian.bkp (56/640)
+  100 %       277,3 MiB / 948,5 MiB = 0,292   9,5 MiB/s       1:39             
+150-hamiltonian.bkp (57/640)
+  100 %       278,3 MiB / 950,4 MiB = 0,293   9,6 MiB/s       1:38             
+151-hamiltonian.bkp (58/640)
+  100 %       277,7 MiB / 949,1 MiB = 0,293   9,5 MiB/s       1:39             
+152-hamiltonian.bkp (59/640)
+  100 %       277,8 MiB / 949,1 MiB = 0,293   9,5 MiB/s       1:39             
+153-hamiltonian.bkp (60/640)
+  100 %       279,0 MiB / 951,7 MiB = 0,293   9,6 MiB/s       1:39             
+154-hamiltonian.bkp (61/640)
+  100 %       278,1 MiB / 949,9 MiB = 0,293   9,7 MiB/s       1:38             
+155-hamiltonian.bkp (62/640)
+  100 %       277,9 MiB / 949,2 MiB = 0,293   9,6 MiB/s       1:39             
+156-hamiltonian.bkp (63/640)
+  100 %       277,8 MiB / 948,9 MiB = 0,293   9,6 MiB/s       1:38             
+157-hamiltonian.bkp (64/640)
+  100 %       277,1 MiB / 947,9 MiB = 0,292   9,6 MiB/s       1:38             
+158-hamiltonian.bkp (65/640)
+  100 %       276,7 MiB / 947,5 MiB = 0,292   9,5 MiB/s       1:39             
+159-hamiltonian.bkp (66/640)
+  100 %       276,3 MiB / 946,3 MiB = 0,292   9,4 MiB/s       1:40             
+15-hamiltonian.bkp (67/640)
+  100 %       276,6 MiB / 946,8 MiB = 0,292   9,6 MiB/s       1:38             
+160-hamiltonian.bkp (68/640)
+  100 %       277,1 MiB / 947,8 MiB = 0,292   9,7 MiB/s       1:38             
+161-hamiltonian.bkp (69/640)
+  100 %       277,5 MiB / 948,9 MiB = 0,292   9,3 MiB/s       1:41             
+162-hamiltonian.bkp (70/640)
+  100 %       276,9 MiB / 947,6 MiB = 0,292   9,6 MiB/s       1:38             
+163-hamiltonian.bkp (71/640)
+  100 %       278,0 MiB / 950,3 MiB = 0,293   9,6 MiB/s       1:39             
+164-hamiltonian.bkp (72/640)
+  100 %       277,6 MiB / 949,2 MiB = 0,293   9,6 MiB/s       1:38             
+165-hamiltonian.bkp (73/640)
+  100 %       277,4 MiB / 948,9 MiB = 0,292   9,7 MiB/s       1:37             
+166-hamiltonian.bkp (74/640)
+  100 %       278,4 MiB / 950,8 MiB = 0,293   9,8 MiB/s       1:37             
+167-hamiltonian.bkp (75/640)
+  100 %       278,0 MiB / 950,2 MiB = 0,293   9,8 MiB/s       1:37             
+168-hamiltonian.bkp (76/640)
+  100 %       277,9 MiB / 950,1 MiB = 0,293   9,8 MiB/s       1:37             
+169-hamiltonian.bkp (77/640)
+  100 %       277,9 MiB / 949,4 MiB = 0,293   9,8 MiB/s       1:36             
+16-hamiltonian.bkp (78/640)
+  100 %       276,5 MiB / 946,9 MiB = 0,292   9,7 MiB/s       1:37             
+170-hamiltonian.bkp (79/640)
+  100 %       277,8 MiB / 949,7 MiB = 0,293   9,8 MiB/s       1:36             
+171-hamiltonian.bkp (80/640)
+  100 %       277,6 MiB / 949,3 MiB = 0,292   9,8 MiB/s       1:37             
+172-hamiltonian.bkp (81/640)
+  100 %       276,8 MiB / 947,3 MiB = 0,292   9,8 MiB/s       1:36             
+173-hamiltonian.bkp (82/640)
+  100 %       279,1 MiB / 952,5 MiB = 0,293   9,7 MiB/s       1:38             
+174-hamiltonian.bkp (83/640)
+  100 %       277,7 MiB / 949,7 MiB = 0,292   9,7 MiB/s       1:37             
+175-hamiltonian.bkp (84/640)
+  100 %       277,9 MiB / 949,7 MiB = 0,293   9,7 MiB/s       1:37             
+176-hamiltonian.bkp (85/640)
+  100 %       277,2 MiB / 947,8 MiB = 0,292   9,8 MiB/s       1:37             
+177-hamiltonian.bkp (86/640)
+  100 %       277,6 MiB / 949,0 MiB = 0,293   9,8 MiB/s       1:37             
+178-hamiltonian.bkp (87/640)
+  100 %       278,2 MiB / 950,0 MiB = 0,293   9,7 MiB/s       1:37             
+179-hamiltonian.bkp (88/640)
+  100 %       278,6 MiB / 950,9 MiB = 0,293   9,7 MiB/s       1:37             
+17-hamiltonian.bkp (89/640)
+  100 %       276,5 MiB / 946,9 MiB = 0,292   9,8 MiB/s       1:36             
+180-hamiltonian.bkp (90/640)
+  100 %       277,5 MiB / 949,0 MiB = 0,292   9,7 MiB/s       1:37             
+181-hamiltonian.bkp (91/640)
+  100 %       276,6 MiB / 946,8 MiB = 0,292   9,7 MiB/s       1:37             
+182-hamiltonian.bkp (92/640)
+  100 %       276,7 MiB / 947,2 MiB = 0,292   9,6 MiB/s       1:38             
+183-hamiltonian.bkp (93/640)
+  100 %       275,1 MiB / 943,8 MiB = 0,291   9,6 MiB/s       1:38             
+184-hamiltonian.bkp (94/640)
+  100 %       275,9 MiB / 945,7 MiB = 0,292   9,5 MiB/s       1:39             
+185-hamiltonian.bkp (95/640)
+  100 %       276,8 MiB / 947,5 MiB = 0,292   9,7 MiB/s       1:37             
+186-hamiltonian.bkp (96/640)
+  100 %       276,0 MiB / 946,5 MiB = 0,292   9,7 MiB/s       1:37             
+187-hamiltonian.bkp (97/640)
+  100 %       276,7 MiB / 947,4 MiB = 0,292   9,7 MiB/s       1:37             
+188-hamiltonian.bkp (98/640)
+  100 %       277,1 MiB / 948,2 MiB = 0,292   9,7 MiB/s       1:38             
+189-hamiltonian.bkp (99/640)
+  100 %       275,6 MiB / 945,2 MiB = 0,292   9,8 MiB/s       1:36             
+18-hamiltonian.bkp (100/640)
+  100 %       277,1 MiB / 947,9 MiB = 0,292   9,6 MiB/s       1:39             
+190-hamiltonian.bkp (101/640)
+  100 %       276,5 MiB / 947,0 MiB = 0,292   9,8 MiB/s       1:36             
+191-hamiltonian.bkp (102/640)
+  100 %       277,7 MiB / 949,6 MiB = 0,292   9,8 MiB/s       1:37             
+192-hamiltonian.bkp (103/640)
+  100 %       277,4 MiB / 948,4 MiB = 0,292   9,8 MiB/s       1:36             
+193-hamiltonian.bkp (104/640)
+  100 %       278,2 MiB / 950,3 MiB = 0,293   9,8 MiB/s       1:36             
+194-hamiltonian.bkp (105/640)
+  100 %       277,4 MiB / 949,3 MiB = 0,292   9,9 MiB/s       1:36             
+195-hamiltonian.bkp (106/640)
+  100 %       278,5 MiB / 951,2 MiB = 0,293   9,8 MiB/s       1:37             
+196-hamiltonian.bkp (107/640)
+  100 %       277,9 MiB / 950,4 MiB = 0,292   9,8 MiB/s       1:37             
+197-hamiltonian.bkp (108/640)
+  100 %       277,8 MiB / 949,4 MiB = 0,293   9,8 MiB/s       1:36             
+198-hamiltonian.bkp (109/640)
+  100 %       276,8 MiB / 947,6 MiB = 0,292   9,8 MiB/s       1:36             
+199-hamiltonian.bkp (110/640)
+  100 %       276,7 MiB / 947,0 MiB = 0,292   9,8 MiB/s       1:36             
+19-hamiltonian.bkp (111/640)
+  100 %       277,2 MiB / 948,7 MiB = 0,292   9,8 MiB/s       1:36             
+1-hamiltonian.bkp (112/640)
+  100 %       276,9 MiB / 947,7 MiB = 0,292   9,7 MiB/s       1:37             
+200-hamiltonian.bkp (113/640)
+  100 %       277,6 MiB / 948,5 MiB = 0,293   9,7 MiB/s       1:37             
+201-hamiltonian.bkp (114/640)
+  100 %       276,3 MiB / 946,4 MiB = 0,292   9,7 MiB/s       1:37             
+202-hamiltonian.bkp (115/640)
+  100 %       275,6 MiB / 944,9 MiB = 0,292   9,6 MiB/s       1:38             
+203-hamiltonian.bkp (116/640)
+  100 %       276,1 MiB / 945,7 MiB = 0,292   9,7 MiB/s       1:37             
+204-hamiltonian.bkp (117/640)
+  100 %       276,3 MiB / 946,0 MiB = 0,292   9,7 MiB/s       1:37             
+205-hamiltonian.bkp (118/640)
+  100 %       275,9 MiB / 945,4 MiB = 0,292   9,8 MiB/s       1:36             
+206-hamiltonian.bkp (119/640)
+  100 %       276,7 MiB / 946,9 MiB = 0,292   9,7 MiB/s       1:37             
+207-hamiltonian.bkp (120/640)
+  100 %       276,8 MiB / 947,1 MiB = 0,292   9,7 MiB/s       1:37             
+208-hamiltonian.bkp (121/640)
+  100 %       277,0 MiB / 947,3 MiB = 0,292   9,7 MiB/s       1:37             
+209-hamiltonian.bkp (122/640)
+  100 %       276,8 MiB / 947,0 MiB = 0,292   9,6 MiB/s       1:38             
+20-hamiltonian.bkp (123/640)
+  100 %       276,9 MiB / 947,9 MiB = 0,292   9,8 MiB/s       1:37             
+210-hamiltonian.bkp (124/640)
+  100 %       276,6 MiB / 947,0 MiB = 0,292   9,8 MiB/s       1:37             
+211-hamiltonian.bkp (125/640)
+  100 %       277,1 MiB / 948,3 MiB = 0,292   9,7 MiB/s       1:37             
+212-hamiltonian.bkp (126/640)
+  100 %       277,5 MiB / 948,7 MiB = 0,293   9,7 MiB/s       1:38             
+213-hamiltonian.bkp (127/640)
+  100 %       276,9 MiB / 947,9 MiB = 0,292   9,7 MiB/s       1:37             
+214-hamiltonian.bkp (128/640)
+  100 %       278,2 MiB / 949,8 MiB = 0,293   9,7 MiB/s       1:38             
+215-hamiltonian.bkp (129/640)
+  100 %       278,0 MiB / 949,8 MiB = 0,293   9,6 MiB/s       1:38             
+216-hamiltonian.bkp (130/640)
+  100 %       278,6 MiB / 950,9 MiB = 0,293   9,7 MiB/s       1:38             
+217-hamiltonian.bkp (131/640)
+  100 %       276,9 MiB / 947,3 MiB = 0,292   9,7 MiB/s       1:37             
+218-hamiltonian.bkp (132/640)
+  100 %       276,4 MiB / 946,8 MiB = 0,292   9,7 MiB/s       1:37             
+219-hamiltonian.bkp (133/640)
+  100 %       277,8 MiB / 948,9 MiB = 0,293   9,8 MiB/s       1:37             
+21-hamiltonian.bkp (134/640)
+  100 %       276,5 MiB / 946,9 MiB = 0,292   9,8 MiB/s       1:37             
+220-hamiltonian.bkp (135/640)
+  100 %       278,4 MiB / 950,9 MiB = 0,293   9,6 MiB/s       1:39             
+221-hamiltonian.bkp (136/640)
+  100 %       278,0 MiB / 950,1 MiB = 0,293   9,7 MiB/s       1:37             
+222-hamiltonian.bkp (137/640)
+  100 %       277,9 MiB / 950,2 MiB = 0,292   9,7 MiB/s       1:37             
+223-hamiltonian.bkp (138/640)
+  100 %       277,2 MiB / 948,5 MiB = 0,292   9,8 MiB/s       1:36             
+224-hamiltonian.bkp (139/640)
+  100 %       277,2 MiB / 948,9 MiB = 0,292   9,8 MiB/s       1:37             
+225-hamiltonian.bkp (140/640)
+  100 %       277,9 MiB / 949,7 MiB = 0,293   9,7 MiB/s       1:37             
+226-hamiltonian.bkp (141/640)
+  100 %       277,5 MiB / 949,2 MiB = 0,292   9,8 MiB/s       1:37             
+227-hamiltonian.bkp (142/640)
+  100 %       278,3 MiB / 951,0 MiB = 0,293   9,7 MiB/s       1:37             
+228-hamiltonian.bkp (143/640)
+  100 %       276,8 MiB / 947,9 MiB = 0,292   9,8 MiB/s       1:37             
+229-hamiltonian.bkp (144/640)
+  100 %       277,1 MiB / 948,3 MiB = 0,292   9,7 MiB/s       1:38             
+22-hamiltonian.bkp (145/640)
+  100 %       275,8 MiB / 945,2 MiB = 0,292   9,8 MiB/s       1:36             
+230-hamiltonian.bkp (146/640)
+  100 %       275,7 MiB / 945,6 MiB = 0,292   9,8 MiB/s       1:36             
+231-hamiltonian.bkp (147/640)
+  100 %       275,4 MiB / 944,8 MiB = 0,292   9,8 MiB/s       1:36             
+232-hamiltonian.bkp (148/640)
+  100 %       276,4 MiB / 946,8 MiB = 0,292   9,8 MiB/s       1:36             
+233-hamiltonian.bkp (149/640)
+  100 %       278,0 MiB / 950,2 MiB = 0,293   9,7 MiB/s       1:37             
+234-hamiltonian.bkp (150/640)
+  100 %       276,6 MiB / 947,2 MiB = 0,292   9,6 MiB/s       1:38             
+235-hamiltonian.bkp (151/640)
+  100 %       276,4 MiB / 947,1 MiB = 0,292   9,7 MiB/s       1:38             
+236-hamiltonian.bkp (152/640)
+  100 %       277,6 MiB / 949,5 MiB = 0,292   9,7 MiB/s       1:38             
+237-hamiltonian.bkp (153/640)
+  100 %       276,7 MiB / 947,8 MiB = 0,292   9,8 MiB/s       1:36             
+238-hamiltonian.bkp (154/640)
+  100 %       276,8 MiB / 947,8 MiB = 0,292   9,8 MiB/s       1:36             
+239-hamiltonian.bkp (155/640)
+  100 %       277,1 MiB / 948,4 MiB = 0,292   9,8 MiB/s       1:37             
+23-hamiltonian.bkp (156/640)
+  100 %       275,1 MiB / 943,3 MiB = 0,292   9,8 MiB/s       1:35             
+240-hamiltonian.bkp (157/640)
+  100 %       278,4 MiB / 950,8 MiB = 0,293   9,7 MiB/s       1:37             
+241-hamiltonian.bkp (158/640)
+  100 %       277,2 MiB / 948,7 MiB = 0,292   9,7 MiB/s       1:37             
+242-hamiltonian.bkp (159/640)
+  100 %       277,8 MiB / 949,6 MiB = 0,293   9,6 MiB/s       1:38             
+243-hamiltonian.bkp (160/640)
+  100 %       277,4 MiB / 949,6 MiB = 0,292   9,8 MiB/s       1:37             
+244-hamiltonian.bkp (161/640)
+  100 %       277,2 MiB / 948,6 MiB = 0,292   9,8 MiB/s       1:36             
+245-hamiltonian.bkp (162/640)
+  100 %       276,0 MiB / 946,2 MiB = 0,292   9,7 MiB/s       1:37             
+246-hamiltonian.bkp (163/640)
+  100 %       276,2 MiB / 946,3 MiB = 0,292   9,7 MiB/s       1:37             
+247-hamiltonian.bkp (164/640)
+  100 %       275,5 MiB / 944,4 MiB = 0,292   9,7 MiB/s       1:37             
+248-hamiltonian.bkp (165/640)
+  100 %       276,8 MiB / 947,6 MiB = 0,292   9,6 MiB/s       1:38             
+249-hamiltonian.bkp (166/640)
+  100 %       276,7 MiB / 947,0 MiB = 0,292   9,6 MiB/s       1:38             
+24-hamiltonian.bkp (167/640)
+  100 %       277,0 MiB / 947,3 MiB = 0,292   9,7 MiB/s       1:37             
+250-hamiltonian.bkp (168/640)
+  100 %       276,1 MiB / 946,3 MiB = 0,292   9,8 MiB/s       1:36             
+251-hamiltonian.bkp (169/640)
+  100 %       276,2 MiB / 946,0 MiB = 0,292   9,8 MiB/s       1:36             
+252-hamiltonian.bkp (170/640)
+  100 %       276,4 MiB / 946,8 MiB = 0,292   9,8 MiB/s       1:36             
+253-hamiltonian.bkp (171/640)
+  100 %       276,7 MiB / 947,6 MiB = 0,292   9,4 MiB/s       1:40             
+254-hamiltonian.bkp (172/640)
+  100 %       276,3 MiB / 946,9 MiB = 0,292   9,8 MiB/s       1:37             
+255-hamiltonian.bkp (173/640)
+  100 %       276,0 MiB / 946,0 MiB = 0,292   9,8 MiB/s       1:36             
+256-hamiltonian.bkp (174/640)
+  100 %       277,4 MiB / 949,2 MiB = 0,292   9,7 MiB/s       1:38             
+257-hamiltonian.bkp (175/640)
+  100 %       278,3 MiB / 951,1 MiB = 0,293   9,7 MiB/s       1:37             
+258-hamiltonian.bkp (176/640)
+  100 %       276,4 MiB / 946,8 MiB = 0,292   9,8 MiB/s       1:36             
+259-hamiltonian.bkp (177/640)
+  100 %       276,3 MiB / 946,8 MiB = 0,292   9,9 MiB/s       1:35             
+25-hamiltonian.bkp (178/640)
+  100 %       276,4 MiB / 946,7 MiB = 0,292   9,8 MiB/s       1:36             
+260-hamiltonian.bkp (179/640)
+  100 %       276,2 MiB / 946,4 MiB = 0,292   9,8 MiB/s       1:36             
+261-hamiltonian.bkp (180/640)
+  100 %       276,3 MiB / 947,0 MiB = 0,292   9,9 MiB/s       1:36             
+262-hamiltonian.bkp (181/640)
+  100 %       275,9 MiB / 946,2 MiB = 0,292   9,7 MiB/s       1:37             
+263-hamiltonian.bkp (182/640)
+  100 %       276,2 MiB / 946,2 MiB = 0,292   9,8 MiB/s       1:36             
+264-hamiltonian.bkp (183/640)
+  100 %       276,0 MiB / 946,0 MiB = 0,292   9,8 MiB/s       1:36             
+265-hamiltonian.bkp (184/640)
+  100 %       275,3 MiB / 944,6 MiB = 0,291   9,8 MiB/s       1:36             
+266-hamiltonian.bkp (185/640)
+  100 %       276,5 MiB / 947,5 MiB = 0,292   9,8 MiB/s       1:37             
+267-hamiltonian.bkp (186/640)
+  100 %       276,0 MiB / 946,0 MiB = 0,292   9,8 MiB/s       1:36             
+268-hamiltonian.bkp (187/640)
+  100 %       275,7 MiB / 945,8 MiB = 0,292   9,8 MiB/s       1:36             
+269-hamiltonian.bkp (188/640)
+  100 %       276,7 MiB / 947,8 MiB = 0,292   9,7 MiB/s       1:37             
+26-hamiltonian.bkp (189/640)
+  100 %       275,6 MiB / 945,1 MiB = 0,292   9,8 MiB/s       1:36             
+270-hamiltonian.bkp (190/640)
+  100 %       275,9 MiB / 946,2 MiB = 0,292   9,8 MiB/s       1:36             
+271-hamiltonian.bkp (191/640)
+  100 %       276,0 MiB / 946,3 MiB = 0,292   9,7 MiB/s       1:37             
+272-hamiltonian.bkp (192/640)
+  100 %       277,0 MiB / 948,4 MiB = 0,292   9,7 MiB/s       1:37             
+273-hamiltonian.bkp (193/640)
+  100 %       277,1 MiB / 948,7 MiB = 0,292   9,7 MiB/s       1:37             
+274-hamiltonian.bkp (194/640)
+  100 %       275,0 MiB / 944,0 MiB = 0,291   9,8 MiB/s       1:36             
+275-hamiltonian.bkp (195/640)
+  100 %       276,5 MiB / 947,4 MiB = 0,292   9,7 MiB/s       1:37             
+276-hamiltonian.bkp (196/640)
+  100 %       275,7 MiB / 945,7 MiB = 0,292   9,7 MiB/s       1:37             
+277-hamiltonian.bkp (197/640)
+  100 %       275,9 MiB / 945,7 MiB = 0,292   9,7 MiB/s       1:37             
+278-hamiltonian.bkp (198/640)
+  100 %       276,2 MiB / 946,3 MiB = 0,292   9,7 MiB/s       1:37             
+279-hamiltonian.bkp (199/640)
+  100 %       276,9 MiB / 948,1 MiB = 0,292   9,7 MiB/s       1:38             
+27-hamiltonian.bkp (200/640)
+  100 %       276,8 MiB / 947,0 MiB = 0,292   9,7 MiB/s       1:37             
+280-hamiltonian.bkp (201/640)
+  100 %       276,3 MiB / 946,8 MiB = 0,292   9,7 MiB/s       1:37             
+281-hamiltonian.bkp (202/640)
+  100 %       277,0 MiB / 948,9 MiB = 0,292   9,7 MiB/s       1:37             
+282-hamiltonian.bkp (203/640)
+  100 %       276,9 MiB / 948,1 MiB = 0,292   9,6 MiB/s       1:38             
+283-hamiltonian.bkp (204/640)
+  100 %       278,1 MiB / 950,6 MiB = 0,293   9,7 MiB/s       1:38             
+284-hamiltonian.bkp (205/640)
+  100 %       277,6 MiB / 950,1 MiB = 0,292   9,7 MiB/s       1:38             
+285-hamiltonian.bkp (206/640)
+  100 %       277,8 MiB / 949,9 MiB = 0,292   9,7 MiB/s       1:38             
+286-hamiltonian.bkp (207/640)
+  100 %       278,2 MiB / 950,7 MiB = 0,293   9,7 MiB/s       1:38             
+287-hamiltonian.bkp (208/640)
+  100 %       277,8 MiB / 949,5 MiB = 0,293   9,7 MiB/s       1:37             
+288-hamiltonian.bkp (209/640)
+  100 %       277,4 MiB / 949,5 MiB = 0,292   9,8 MiB/s       1:37             
+289-hamiltonian.bkp (210/640)
+  100 %       277,4 MiB / 949,0 MiB = 0,292   9,6 MiB/s       1:38             
+28-hamiltonian.bkp (211/640)
+  100 %       278,4 MiB / 950,6 MiB = 0,293   9,7 MiB/s       1:38             
+290-hamiltonian.bkp (212/640)
+  100 %       277,0 MiB / 948,2 MiB = 0,292   9,7 MiB/s       1:37             
+291-hamiltonian.bkp (213/640)
+  100 %       277,8 MiB / 949,5 MiB = 0,293   9,7 MiB/s       1:37             
+292-hamiltonian.bkp (214/640)
+  100 %       277,7 MiB / 949,5 MiB = 0,293   9,7 MiB/s       1:38             
+293-hamiltonian.bkp (215/640)
+  100 %       277,4 MiB / 949,2 MiB = 0,292   9,7 MiB/s       1:38             
+294-hamiltonian.bkp (216/640)
+  100 %       277,1 MiB / 947,8 MiB = 0,292   9,8 MiB/s       1:36             
+295-hamiltonian.bkp (217/640)
+  100 %       278,3 MiB / 951,0 MiB = 0,293   9,7 MiB/s       1:38             
+296-hamiltonian.bkp (218/640)
+  100 %       278,2 MiB / 950,5 MiB = 0,293   9,7 MiB/s       1:37             
+297-hamiltonian.bkp (219/640)
+  100 %       277,8 MiB / 950,1 MiB = 0,292   9,8 MiB/s       1:37             
+298-hamiltonian.bkp (220/640)
+  100 %       277,0 MiB / 948,7 MiB = 0,292   9,8 MiB/s       1:37             
+299-hamiltonian.bkp (221/640)
+  100 %       277,0 MiB / 948,2 MiB = 0,292   9,8 MiB/s       1:37             
+29-hamiltonian.bkp (222/640)
+  100 %       276,9 MiB / 947,8 MiB = 0,292   9,8 MiB/s       1:36             
+2-hamiltonian.bkp (223/640)
+  100 %       276,8 MiB / 947,2 MiB = 0,292   9,9 MiB/s       1:36             
+300-hamiltonian.bkp (224/640)
+  100 %       278,1 MiB / 950,6 MiB = 0,293   9,8 MiB/s       1:37             
+301-hamiltonian.bkp (225/640)
+  100 %       277,2 MiB / 948,7 MiB = 0,292   9,7 MiB/s       1:37             
+302-hamiltonian.bkp (226/640)
+  100 %       277,1 MiB / 948,4 MiB = 0,292   9,8 MiB/s       1:37             
+303-hamiltonian.bkp (227/640)
+  100 %       276,8 MiB / 947,6 MiB = 0,292   9,7 MiB/s       1:37             
+304-hamiltonian.bkp (228/640)
+  100 %       278,2 MiB / 950,1 MiB = 0,293   9,7 MiB/s       1:37             
+305-hamiltonian.bkp (229/640)
+  100 %       276,5 MiB / 947,2 MiB = 0,292   9,7 MiB/s       1:37             
+306-hamiltonian.bkp (230/640)
+  100 %       277,4 MiB / 948,9 MiB = 0,292   9,7 MiB/s       1:37             
+307-hamiltonian.bkp (231/640)
+  100 %       276,6 MiB / 947,4 MiB = 0,292   9,7 MiB/s       1:37             
+308-hamiltonian.bkp (232/640)
+  100 %       276,5 MiB / 947,2 MiB = 0,292   9,8 MiB/s       1:36             
+309-hamiltonian.bkp (233/640)
+  100 %       277,6 MiB / 949,0 MiB = 0,293   9,9 MiB/s       1:36             
+30-hamiltonian.bkp (234/640)
+  100 %       277,7 MiB / 949,0 MiB = 0,293   9,8 MiB/s       1:37             
+310-hamiltonian.bkp (235/640)
+  100 %       277,4 MiB / 949,1 MiB = 0,292   9,7 MiB/s       1:38             
+311-hamiltonian.bkp (236/640)
+  100 %       276,8 MiB / 947,6 MiB = 0,292   9,6 MiB/s       1:38             
+312-hamiltonian.bkp (237/640)
+  100 %       275,9 MiB / 945,4 MiB = 0,292   9,7 MiB/s       1:37             
+313-hamiltonian.bkp (238/640)
+  100 %       276,8 MiB / 947,7 MiB = 0,292   9,7 MiB/s       1:37             
+314-hamiltonian.bkp (239/640)
+  100 %       276,3 MiB / 946,6 MiB = 0,292   9,8 MiB/s       1:36             
+315-hamiltonian.bkp (240/640)
+  100 %       276,1 MiB / 946,6 MiB = 0,292   9,8 MiB/s       1:36             
+316-hamiltonian.bkp (241/640)
+  100 %       277,1 MiB / 948,0 MiB = 0,292   9,7 MiB/s       1:37             
+317-hamiltonian.bkp (242/640)
+  100 %       275,6 MiB / 945,3 MiB = 0,292   9,8 MiB/s       1:36             
+318-hamiltonian.bkp (243/640)
+  100 %       276,3 MiB / 947,2 MiB = 0,292   9,7 MiB/s       1:37             
+319-hamiltonian.bkp (244/640)
+  100 %       276,9 MiB / 948,0 MiB = 0,292   9,8 MiB/s       1:37             
+31-hamiltonian.bkp (245/640)
+  100 %       277,5 MiB / 948,8 MiB = 0,292    10 MiB/s       1:35             
+320-hamiltonian.bkp (246/640)
+  100 %       278,0 MiB / 950,3 MiB = 0,293   9,9 MiB/s       1:36             
+321-hamiltonian.bkp (247/640)
+  100 %       278,7 MiB / 952,0 MiB = 0,293   9,5 MiB/s       1:40             
+322-hamiltonian.bkp (248/640)
+  100 %       277,7 MiB / 949,5 MiB = 0,292   9,9 MiB/s       1:36             
+323-hamiltonian.bkp (249/640)
+  100 %       278,7 MiB / 951,9 MiB = 0,293   9,8 MiB/s       1:37             
+324-hamiltonian.bkp (250/640)
+  100 %       279,1 MiB / 952,9 MiB = 0,293   9,8 MiB/s       1:37             
+325-hamiltonian.bkp (251/640)
+  100 %       278,3 MiB / 951,0 MiB = 0,293   9,9 MiB/s       1:36             
+326-hamiltonian.bkp (252/640)
+  100 %       279,1 MiB / 952,4 MiB = 0,293   9,7 MiB/s       1:37             
+327-hamiltonian.bkp (253/640)
+  100 %       278,4 MiB / 950,8 MiB = 0,293   9,7 MiB/s       1:38             
+328-hamiltonian.bkp (254/640)
+  100 %       278,0 MiB / 949,8 MiB = 0,293    10 MiB/s       1:34             
+329-hamiltonian.bkp (255/640)
+  100 %       277,3 MiB / 948,8 MiB = 0,292    11 MiB/s       1:29             
+32-hamiltonian.bkp (256/640)
+  100 %       277,4 MiB / 948,8 MiB = 0,292    11 MiB/s       1:29             
+330-hamiltonian.bkp (257/640)
+  100 %       277,1 MiB / 948,1 MiB = 0,292    11 MiB/s       1:29             
+331-hamiltonian.bkp (258/640)
+  100 %       277,9 MiB / 949,6 MiB = 0,293    11 MiB/s       1:30             
+332-hamiltonian.bkp (259/640)
+  100 %       278,0 MiB / 950,1 MiB = 0,293    11 MiB/s       1:30             
+333-hamiltonian.bkp (260/640)
+  100 %       278,5 MiB / 950,9 MiB = 0,293    10 MiB/s       1:31             
+334-hamiltonian.bkp (261/640)
+  100 %       277,6 MiB / 949,0 MiB = 0,293    10 MiB/s       1:30             
+335-hamiltonian.bkp (262/640)
+  100 %       277,6 MiB / 948,9 MiB = 0,293    11 MiB/s       1:30             
+336-hamiltonian.bkp (263/640)
+  100 %       277,3 MiB / 948,3 MiB = 0,292    10 MiB/s       1:30             
+337-hamiltonian.bkp (264/640)
+  100 %       277,1 MiB / 948,0 MiB = 0,292    10 MiB/s       1:31             
+338-hamiltonian.bkp (265/640)
+  100 %       276,3 MiB / 946,5 MiB = 0,292    10 MiB/s       1:30             
+339-hamiltonian.bkp (266/640)
+  100 %       276,4 MiB / 946,6 MiB = 0,292    10 MiB/s       1:30             
+33-hamiltonian.bkp (267/640)
+  100 %       277,4 MiB / 948,8 MiB = 0,292    10 MiB/s       1:31             
+340-hamiltonian.bkp (268/640)
+  100 %       276,9 MiB / 947,9 MiB = 0,292    10 MiB/s       1:31             
+341-hamiltonian.bkp (269/640)
+  100 %       277,6 MiB / 949,1 MiB = 0,292    10 MiB/s       1:31             
+342-hamiltonian.bkp (270/640)
+  100 %       277,8 MiB / 949,4 MiB = 0,293    10 MiB/s       1:31             
+343-hamiltonian.bkp (271/640)
+  100 %       275,8 MiB / 945,4 MiB = 0,292    10 MiB/s       1:30             
+344-hamiltonian.bkp (272/640)
+  100 %       276,3 MiB / 946,2 MiB = 0,292    10 MiB/s       1:30             
+345-hamiltonian.bkp (273/640)
+  100 %       275,8 MiB / 944,9 MiB = 0,292    11 MiB/s       1:29             
+346-hamiltonian.bkp (274/640)
+  100 %       276,6 MiB / 947,1 MiB = 0,292    10 MiB/s       1:30             
+347-hamiltonian.bkp (275/640)
+  100 %       276,7 MiB / 947,1 MiB = 0,292    11 MiB/s       1:29             
+348-hamiltonian.bkp (276/640)
+  100 %       277,1 MiB / 947,6 MiB = 0,292    11 MiB/s       1:29             
+349-hamiltonian.bkp (277/640)
+  100 %       276,8 MiB / 947,2 MiB = 0,292    11 MiB/s       1:30             
+34-hamiltonian.bkp (278/640)
+  100 %       278,2 MiB / 950,3 MiB = 0,293    11 MiB/s       1:30             
+350-hamiltonian.bkp (279/640)
+  100 %       277,9 MiB / 949,6 MiB = 0,293    10 MiB/s       1:30             
+351-hamiltonian.bkp (280/640)
+  100 %       277,3 MiB / 948,4 MiB = 0,292    11 MiB/s       1:29             
+352-hamiltonian.bkp (281/640)
+  100 %       277,7 MiB / 949,8 MiB = 0,292    11 MiB/s       1:29             
+353-hamiltonian.bkp (282/640)
+  100 %       276,3 MiB / 946,4 MiB = 0,292    11 MiB/s       1:29             
+354-hamiltonian.bkp (283/640)
+  100 %       277,0 MiB / 947,7 MiB = 0,292    11 MiB/s       1:29             
+355-hamiltonian.bkp (284/640)
+  100 %       277,4 MiB / 948,6 MiB = 0,292    11 MiB/s       1:29             
+356-hamiltonian.bkp (285/640)
+  100 %       277,1 MiB / 948,0 MiB = 0,292    11 MiB/s       1:29             
+357-hamiltonian.bkp (286/640)
+  100 %       277,0 MiB / 948,1 MiB = 0,292    11 MiB/s       1:28             
+358-hamiltonian.bkp (287/640)
+  100 %       277,8 MiB / 949,8 MiB = 0,292    11 MiB/s       1:29             
+359-hamiltonian.bkp (288/640)
+  100 %       278,9 MiB / 951,6 MiB = 0,293    11 MiB/s       1:29             
+35-hamiltonian.bkp (289/640)
+  100 %       278,2 MiB / 950,6 MiB = 0,293    11 MiB/s       1:29             
+360-hamiltonian.bkp (290/640)
+  100 %       278,5 MiB / 950,8 MiB = 0,293    11 MiB/s       1:29             
+361-hamiltonian.bkp (291/640)
+  100 %       277,8 MiB / 949,3 MiB = 0,293    11 MiB/s       1:29             
+362-hamiltonian.bkp (292/640)
+  100 %       278,1 MiB / 950,2 MiB = 0,293    11 MiB/s       1:29             
+363-hamiltonian.bkp (293/640)
+  100 %       278,8 MiB / 951,6 MiB = 0,293    11 MiB/s       1:29             
+364-hamiltonian.bkp (294/640)
+  100 %       279,6 MiB / 952,9 MiB = 0,293    11 MiB/s       1:30             
+365-hamiltonian.bkp (295/640)
+  100 %       279,8 MiB / 953,5 MiB = 0,293    10 MiB/s       1:30             
+366-hamiltonian.bkp (296/640)
+  100 %       278,0 MiB / 949,6 MiB = 0,293    11 MiB/s       1:30             
+367-hamiltonian.bkp (297/640)
+  100 %       278,2 MiB / 950,0 MiB = 0,293    11 MiB/s       1:29             
+368-hamiltonian.bkp (298/640)
+  100 %       277,4 MiB / 948,8 MiB = 0,292    11 MiB/s       1:29             
+369-hamiltonian.bkp (299/640)
+  100 %       277,4 MiB / 948,7 MiB = 0,292    11 MiB/s       1:29             
+36-hamiltonian.bkp (300/640)
+  100 %       278,2 MiB / 950,5 MiB = 0,293    11 MiB/s       1:29             
+370-hamiltonian.bkp (301/640)
+  100 %       277,2 MiB / 948,7 MiB = 0,292    11 MiB/s       1:29             
+371-hamiltonian.bkp (302/640)
+  100 %       277,5 MiB / 948,9 MiB = 0,292    10 MiB/s       1:30             
+372-hamiltonian.bkp (303/640)
+  100 %       276,8 MiB / 947,4 MiB = 0,292    10 MiB/s       1:30             
+373-hamiltonian.bkp (304/640)
+  100 %       277,1 MiB / 947,7 MiB = 0,292    11 MiB/s       1:29             
+374-hamiltonian.bkp (305/640)
+  100 %       276,9 MiB / 947,5 MiB = 0,292    11 MiB/s       1:29             
+375-hamiltonian.bkp (306/640)
+  100 %       277,4 MiB / 948,5 MiB = 0,292    11 MiB/s       1:29             
+376-hamiltonian.bkp (307/640)
+  100 %       277,0 MiB / 947,2 MiB = 0,292    11 MiB/s       1:29             
+377-hamiltonian.bkp (308/640)
+  100 %       277,7 MiB / 949,1 MiB = 0,293    11 MiB/s       1:29             
+378-hamiltonian.bkp (309/640)
+  100 %       277,8 MiB / 949,4 MiB = 0,293    11 MiB/s       1:29             
+379-hamiltonian.bkp (310/640)
+  100 %       278,3 MiB / 950,7 MiB = 0,293    11 MiB/s       1:30             
+37-hamiltonian.bkp (311/640)
+  100 %       278,9 MiB / 951,8 MiB = 0,293    11 MiB/s       1:30             
+380-hamiltonian.bkp (312/640)
+  100 %       276,9 MiB / 948,1 MiB = 0,292    11 MiB/s       1:28             
+381-hamiltonian.bkp (313/640)
+  100 %       278,2 MiB / 950,5 MiB = 0,293    11 MiB/s       1:29             
+382-hamiltonian.bkp (314/640)
+  100 %       279,1 MiB / 952,2 MiB = 0,293    11 MiB/s       1:30             
+383-hamiltonian.bkp (315/640)
+  100 %       278,9 MiB / 951,6 MiB = 0,293    11 MiB/s       1:29             
+384-hamiltonian.bkp (316/640)
+  100 %       279,0 MiB / 951,9 MiB = 0,293    11 MiB/s       1:29             
+385-hamiltonian.bkp (317/640)
+  100 %       278,6 MiB / 951,2 MiB = 0,293    11 MiB/s       1:29             
+386-hamiltonian.bkp (318/640)
+  100 %       279,3 MiB / 952,5 MiB = 0,293    11 MiB/s       1:30             
+387-hamiltonian.bkp (319/640)
+  100 %       278,6 MiB / 951,0 MiB = 0,293    11 MiB/s       1:30             
+388-hamiltonian.bkp (320/640)
+  100 %       279,0 MiB / 951,4 MiB = 0,293    11 MiB/s       1:30             
+389-hamiltonian.bkp (321/640)
+  100 %       280,5 MiB / 954,4 MiB = 0,294    11 MiB/s       1:30             
+38-hamiltonian.bkp (322/640)
+  100 %       279,4 MiB / 952,7 MiB = 0,293    11 MiB/s       1:30             
+390-hamiltonian.bkp (323/640)
+  100 %       278,6 MiB / 950,9 MiB = 0,293    11 MiB/s       1:30             
+391-hamiltonian.bkp (324/640)
+  100 %       278,5 MiB / 950,6 MiB = 0,293    11 MiB/s       1:29             
+392-hamiltonian.bkp (325/640)
+  100 %       279,0 MiB / 951,9 MiB = 0,293    10 MiB/s       1:30             
+393-hamiltonian.bkp (326/640)
+  100 %       278,8 MiB / 951,4 MiB = 0,293    10 MiB/s       1:31             
+394-hamiltonian.bkp (327/640)
+  100 %       278,5 MiB / 951,3 MiB = 0,293    10 MiB/s       1:32             
+395-hamiltonian.bkp (328/640)
+  100 %       279,2 MiB / 952,6 MiB = 0,293    10 MiB/s       1:30             
+396-hamiltonian.bkp (329/640)
+  100 %       277,5 MiB / 948,9 MiB = 0,292    11 MiB/s       1:30             
+397-hamiltonian.bkp (330/640)
+  100 %       278,1 MiB / 949,7 MiB = 0,293    10 MiB/s       1:30             
+398-hamiltonian.bkp (331/640)
+  100 %       279,2 MiB / 952,5 MiB = 0,293    11 MiB/s       1:30             
+399-hamiltonian.bkp (332/640)
+  100 %       277,7 MiB / 949,1 MiB = 0,293    11 MiB/s       1:29             
+39-hamiltonian.bkp (333/640)
+  100 %       280,0 MiB / 954,0 MiB = 0,293    10 MiB/s       1:31             
+3-hamiltonian.bkp (334/640)
+  100 %       277,9 MiB / 949,0 MiB = 0,293    10 MiB/s       1:31             
+400-hamiltonian.bkp (335/640)
+  100 %       277,6 MiB / 949,2 MiB = 0,292    10 MiB/s       1:31             
+401-hamiltonian.bkp (336/640)
+  100 %       278,2 MiB / 950,4 MiB = 0,293    10 MiB/s       1:32             
+402-hamiltonian.bkp (337/640)
+  100 %       278,3 MiB / 950,4 MiB = 0,293    10 MiB/s       1:31             
+403-hamiltonian.bkp (338/640)
+  100 %       278,4 MiB / 950,8 MiB = 0,293    10 MiB/s       1:31             
+404-hamiltonian.bkp (339/640)
+  100 %       278,0 MiB / 950,0 MiB = 0,293    10 MiB/s       1:31             
+405-hamiltonian.bkp (340/640)
+  100 %       277,9 MiB / 949,7 MiB = 0,293    10 MiB/s       1:30             
+406-hamiltonian.bkp (341/640)
+  100 %       278,0 MiB / 949,6 MiB = 0,293    10 MiB/s       1:30             
+407-hamiltonian.bkp (342/640)
+  100 %       278,3 MiB / 950,4 MiB = 0,293    10 MiB/s       1:31             
+408-hamiltonian.bkp (343/640)
+  100 %       278,1 MiB / 949,7 MiB = 0,293    10 MiB/s       1:30             
+409-hamiltonian.bkp (344/640)
+  100 %       280,1 MiB / 953,7 MiB = 0,294    10 MiB/s       1:31             
+40-hamiltonian.bkp (345/640)
+  100 %       279,7 MiB / 953,2 MiB = 0,293    10 MiB/s       1:31             
+410-hamiltonian.bkp (346/640)
+  100 %       278,7 MiB / 951,0 MiB = 0,293    10 MiB/s       1:30             
+411-hamiltonian.bkp (347/640)
+  100 %       278,2 MiB / 950,0 MiB = 0,293    11 MiB/s       1:29             
+412-hamiltonian.bkp (348/640)
+  100 %       277,0 MiB / 947,5 MiB = 0,292    11 MiB/s       1:29             
+413-hamiltonian.bkp (349/640)
+  100 %       276,8 MiB / 946,8 MiB = 0,292    11 MiB/s       1:28             
+414-hamiltonian.bkp (350/640)
+  100 %       277,1 MiB / 947,6 MiB = 0,292    10 MiB/s       1:30             
+415-hamiltonian.bkp (351/640)
+  100 %       277,1 MiB / 947,2 MiB = 0,292    11 MiB/s       1:28             
+416-hamiltonian.bkp (352/640)
+  100 %       276,6 MiB / 946,6 MiB = 0,292    11 MiB/s       1:29             
+417-hamiltonian.bkp (353/640)
+  100 %       277,1 MiB / 947,7 MiB = 0,292    11 MiB/s       1:29             
+418-hamiltonian.bkp (354/640)
+  100 %       276,0 MiB / 945,9 MiB = 0,292    11 MiB/s       1:29             
+419-hamiltonian.bkp (355/640)
+  100 %       276,9 MiB / 947,2 MiB = 0,292    11 MiB/s       1:29             
+41-hamiltonian.bkp (356/640)
+  100 %       279,9 MiB / 953,5 MiB = 0,293    10 MiB/s       1:30             
+420-hamiltonian.bkp (357/640)
+  100 %       276,8 MiB / 946,5 MiB = 0,292    11 MiB/s       1:29             
+421-hamiltonian.bkp (358/640)
+  100 %       276,4 MiB / 946,2 MiB = 0,292    11 MiB/s       1:29             
+422-hamiltonian.bkp (359/640)
+  100 %       277,6 MiB / 948,7 MiB = 0,293    11 MiB/s       1:30             
+423-hamiltonian.bkp (360/640)
+  100 %       277,6 MiB / 948,7 MiB = 0,293    11 MiB/s       1:29             
+424-hamiltonian.bkp (361/640)
+  100 %       278,2 MiB / 950,0 MiB = 0,293    11 MiB/s       1:30             
+425-hamiltonian.bkp (362/640)
+  100 %       277,7 MiB / 949,1 MiB = 0,293    11 MiB/s       1:29             
+426-hamiltonian.bkp (363/640)
+  100 %       277,6 MiB / 948,8 MiB = 0,293    11 MiB/s       1:29             
+427-hamiltonian.bkp (364/640)
+  100 %       277,4 MiB / 948,9 MiB = 0,292    11 MiB/s       1:30             
+428-hamiltonian.bkp (365/640)
+  100 %       276,4 MiB / 946,5 MiB = 0,292    11 MiB/s       1:29             
+429-hamiltonian.bkp (366/640)
+  100 %       276,5 MiB / 946,7 MiB = 0,292    11 MiB/s       1:29             
+42-hamiltonian.bkp (367/640)
+  100 %       279,7 MiB / 953,0 MiB = 0,293    11 MiB/s       1:30             
+430-hamiltonian.bkp (368/640)
+  100 %       276,4 MiB / 946,5 MiB = 0,292    11 MiB/s       1:29             
+431-hamiltonian.bkp (369/640)
+  100 %       276,7 MiB / 947,2 MiB = 0,292    11 MiB/s       1:29             
+432-hamiltonian.bkp (370/640)
+  100 %       276,3 MiB / 946,2 MiB = 0,292    11 MiB/s       1:29             
+433-hamiltonian.bkp (371/640)
+  100 %       277,0 MiB / 947,8 MiB = 0,292    11 MiB/s       1:30             
+434-hamiltonian.bkp (372/640)
+  100 %       277,1 MiB / 947,9 MiB = 0,292    11 MiB/s       1:29             
+435-hamiltonian.bkp (373/640)
+  100 %       276,5 MiB / 946,4 MiB = 0,292    11 MiB/s       1:29             
+436-hamiltonian.bkp (374/640)
+  100 %       276,8 MiB / 947,6 MiB = 0,292    11 MiB/s       1:29             
+437-hamiltonian.bkp (375/640)
+  100 %       277,4 MiB / 948,8 MiB = 0,292    10 MiB/s       1:30             
+438-hamiltonian.bkp (376/640)
+  100 %       277,8 MiB / 949,6 MiB = 0,293    11 MiB/s       1:30             
+439-hamiltonian.bkp (377/640)
+  100 %       277,2 MiB / 948,0 MiB = 0,292    11 MiB/s       1:29             
+43-hamiltonian.bkp (378/640)
+  100 %       279,3 MiB / 952,6 MiB = 0,293    11 MiB/s       1:30             
+440-hamiltonian.bkp (379/640)
+  100 %       277,4 MiB / 948,4 MiB = 0,293    11 MiB/s       1:29             
+441-hamiltonian.bkp (380/640)
+  100 %       277,4 MiB / 948,6 MiB = 0,292    11 MiB/s       1:30             
+442-hamiltonian.bkp (381/640)
+  100 %       277,3 MiB / 948,8 MiB = 0,292    11 MiB/s       1:29             
+443-hamiltonian.bkp (382/640)
+  100 %       276,5 MiB / 946,9 MiB = 0,292    11 MiB/s       1:28             
+444-hamiltonian.bkp (383/640)
+  100 %       276,6 MiB / 947,3 MiB = 0,292    11 MiB/s       1:29             
+445-hamiltonian.bkp (384/640)
+  100 %       275,8 MiB / 945,7 MiB = 0,292    11 MiB/s       1:29             
+446-hamiltonian.bkp (385/640)
+  100 %       276,5 MiB / 947,0 MiB = 0,292    11 MiB/s       1:29             
+447-hamiltonian.bkp (386/640)
+  100 %       275,7 MiB / 945,7 MiB = 0,292    11 MiB/s       1:29             
+448-hamiltonian.bkp (387/640)
+  100 %       275,8 MiB / 945,9 MiB = 0,292    11 MiB/s       1:29             
+449-hamiltonian.bkp (388/640)
+  100 %       275,2 MiB / 944,5 MiB = 0,291    11 MiB/s       1:29             
+44-hamiltonian.bkp (389/640)
+  100 %       280,0 MiB / 954,1 MiB = 0,293    11 MiB/s       1:29             
+450-hamiltonian.bkp (390/640)
+  100 %       275,2 MiB / 944,4 MiB = 0,291    11 MiB/s       1:28             
+451-hamiltonian.bkp (391/640)
+  100 %       275,4 MiB / 944,7 MiB = 0,291    11 MiB/s       1:28             
+452-hamiltonian.bkp (392/640)
+  100 %       276,9 MiB / 947,9 MiB = 0,292    11 MiB/s       1:29             
+453-hamiltonian.bkp (393/640)
+  100 %       277,0 MiB / 948,0 MiB = 0,292    11 MiB/s       1:30             
+454-hamiltonian.bkp (394/640)
+  100 %       277,3 MiB / 948,7 MiB = 0,292    11 MiB/s       1:28             
+455-hamiltonian.bkp (395/640)
+  100 %       276,5 MiB / 947,0 MiB = 0,292    11 MiB/s       1:30             
+456-hamiltonian.bkp (396/640)
+  100 %       276,8 MiB / 947,6 MiB = 0,292    11 MiB/s       1:29             
+457-hamiltonian.bkp (397/640)
+  100 %       276,1 MiB / 946,5 MiB = 0,292    11 MiB/s       1:28             
+458-hamiltonian.bkp (398/640)
+  100 %       275,8 MiB / 945,5 MiB = 0,292    11 MiB/s       1:28             
+459-hamiltonian.bkp (399/640)
+  100 %       277,5 MiB / 948,9 MiB = 0,292    11 MiB/s       1:29             
+45-hamiltonian.bkp (400/640)
+  100 %       278,7 MiB / 951,9 MiB = 0,293    11 MiB/s       1:29             
+460-hamiltonian.bkp (401/640)
+  100 %       276,7 MiB / 947,4 MiB = 0,292    11 MiB/s       1:29             
+461-hamiltonian.bkp (402/640)
+  100 %       275,9 MiB / 945,3 MiB = 0,292    11 MiB/s       1:29             
+462-hamiltonian.bkp (403/640)
+  100 %       275,7 MiB / 945,4 MiB = 0,292    11 MiB/s       1:28             
+463-hamiltonian.bkp (404/640)
+  100 %       275,1 MiB / 943,5 MiB = 0,292    11 MiB/s       1:27             
+464-hamiltonian.bkp (405/640)
+  100 %       276,8 MiB / 947,7 MiB = 0,292    11 MiB/s       1:29             
+465-hamiltonian.bkp (406/640)
+  100 %       277,9 MiB / 950,1 MiB = 0,292    11 MiB/s       1:29             
+466-hamiltonian.bkp (407/640)
+  100 %       275,6 MiB / 945,0 MiB = 0,292    10 MiB/s       1:33             
+467-hamiltonian.bkp (408/640)
+  100 %       276,4 MiB / 946,6 MiB = 0,292    10 MiB/s       1:31             
+468-hamiltonian.bkp (409/640)
+  100 %       275,7 MiB / 944,9 MiB = 0,292    10 MiB/s       1:30             
+469-hamiltonian.bkp (410/640)
+  100 %       277,4 MiB / 948,7 MiB = 0,292    10 MiB/s       1:31             
+46-hamiltonian.bkp (411/640)
+  100 %       279,7 MiB / 953,7 MiB = 0,293    10 MiB/s       1:31             
+470-hamiltonian.bkp (412/640)
+  100 %       277,4 MiB / 948,8 MiB = 0,292    10 MiB/s       1:31             
+471-hamiltonian.bkp (413/640)
+  100 %       276,9 MiB / 947,6 MiB = 0,292    10 MiB/s       1:31             
+472-hamiltonian.bkp (414/640)
+  100 %       277,4 MiB / 948,6 MiB = 0,292    10 MiB/s       1:31             
+473-hamiltonian.bkp (415/640)
+  100 %       278,3 MiB / 950,4 MiB = 0,293    10 MiB/s       1:31             
+474-hamiltonian.bkp (416/640)
+  100 %       276,4 MiB / 946,8 MiB = 0,292    10 MiB/s       1:31             
+475-hamiltonian.bkp (417/640)
+  100 %       275,7 MiB / 945,2 MiB = 0,292    10 MiB/s       1:32             
+476-hamiltonian.bkp (418/640)
+  100 %       277,3 MiB / 948,8 MiB = 0,292    10 MiB/s       1:31             
+477-hamiltonian.bkp (419/640)
+  100 %       278,2 MiB / 950,3 MiB = 0,293    10 MiB/s       1:32             
+478-hamiltonian.bkp (420/640)
+  100 %       277,2 MiB / 948,6 MiB = 0,292    10 MiB/s       1:31             
+479-hamiltonian.bkp (421/640)
+  100 %       278,7 MiB / 951,4 MiB = 0,293    10 MiB/s       1:30             
+47-hamiltonian.bkp (422/640)
+  100 %       279,6 MiB / 953,2 MiB = 0,293    11 MiB/s       1:30             
+480-hamiltonian.bkp (423/640)
+  100 %       277,8 MiB / 949,4 MiB = 0,293    10 MiB/s       1:30             
+481-hamiltonian.bkp (424/640)
+  100 %       277,9 MiB / 949,6 MiB = 0,293    11 MiB/s       1:29             
+482-hamiltonian.bkp (425/640)
+  100 %       276,8 MiB / 947,3 MiB = 0,292    11 MiB/s       1:29             
+483-hamiltonian.bkp (426/640)
+  100 %       276,3 MiB / 946,8 MiB = 0,292    10 MiB/s       1:30             
+484-hamiltonian.bkp (427/640)
+  100 %       277,1 MiB / 948,3 MiB = 0,292    11 MiB/s       1:30             
+485-hamiltonian.bkp (428/640)
+  100 %       276,6 MiB / 947,5 MiB = 0,292    10 MiB/s       1:30             
+486-hamiltonian.bkp (429/640)
+  100 %       276,8 MiB / 947,6 MiB = 0,292    11 MiB/s       1:29             
+487-hamiltonian.bkp (430/640)
+  100 %       277,7 MiB / 949,1 MiB = 0,293    11 MiB/s       1:29             
+488-hamiltonian.bkp (431/640)
+  100 %       276,7 MiB / 947,1 MiB = 0,292    11 MiB/s       1:29             
+489-hamiltonian.bkp (432/640)
+  100 %       277,6 MiB / 948,8 MiB = 0,293    11 MiB/s       1:29             
+48-hamiltonian.bkp (433/640)
+  100 %       279,2 MiB / 952,8 MiB = 0,293    11 MiB/s       1:30             
+490-hamiltonian.bkp (434/640)
+  100 %       277,8 MiB / 949,1 MiB = 0,293    11 MiB/s       1:29             
+491-hamiltonian.bkp (435/640)
+  100 %       277,2 MiB / 948,0 MiB = 0,292    11 MiB/s       1:30             
+492-hamiltonian.bkp (436/640)
+  100 %       276,2 MiB / 946,2 MiB = 0,292    11 MiB/s       1:29             
+493-hamiltonian.bkp (437/640)
+  100 %       277,1 MiB / 947,1 MiB = 0,293    11 MiB/s       1:30             
+494-hamiltonian.bkp (438/640)
+  100 %       276,4 MiB / 946,2 MiB = 0,292    11 MiB/s       1:29             
+495-hamiltonian.bkp (439/640)
+  100 %       276,0 MiB / 945,4 MiB = 0,292    11 MiB/s       1:29             
+496-hamiltonian.bkp (440/640)
+  100 %       276,0 MiB / 945,6 MiB = 0,292    11 MiB/s       1:29             
+497-hamiltonian.bkp (441/640)
+  100 %       276,9 MiB / 947,1 MiB = 0,292    11 MiB/s       1:29             
+498-hamiltonian.bkp (442/640)
+  100 %       275,7 MiB / 945,5 MiB = 0,292    11 MiB/s       1:29             
+499-hamiltonian.bkp (443/640)
+  100 %       276,9 MiB / 947,2 MiB = 0,292    11 MiB/s       1:29             
+49-hamiltonian.bkp (444/640)
+  100 %       280,0 MiB / 953,9 MiB = 0,293    11 MiB/s       1:30             
+4-hamiltonian.bkp (445/640)
+  100 %       277,6 MiB / 948,3 MiB = 0,293    11 MiB/s       1:30             
+500-hamiltonian.bkp (446/640)
+  100 %       276,1 MiB / 946,2 MiB = 0,292    11 MiB/s       1:28             
+501-hamiltonian.bkp (447/640)
+  100 %       277,3 MiB / 948,4 MiB = 0,292    11 MiB/s       1:29             
+502-hamiltonian.bkp (448/640)
+  100 %       277,4 MiB / 948,4 MiB = 0,292    11 MiB/s       1:29             
+503-hamiltonian.bkp (449/640)
+  100 %       278,3 MiB / 950,3 MiB = 0,293    10 MiB/s       1:30             
+504-hamiltonian.bkp (450/640)
+  100 %       278,4 MiB / 950,3 MiB = 0,293    11 MiB/s       1:30             
+505-hamiltonian.bkp (451/640)
+  100 %       278,2 MiB / 950,4 MiB = 0,293    11 MiB/s       1:30             
+506-hamiltonian.bkp (452/640)
+  100 %       278,7 MiB / 951,7 MiB = 0,293    11 MiB/s       1:30             
+507-hamiltonian.bkp (453/640)
+  100 %       277,5 MiB / 949,2 MiB = 0,292    11 MiB/s       1:30             
+508-hamiltonian.bkp (454/640)
+  100 %       277,3 MiB / 948,2 MiB = 0,292    10 MiB/s       1:30             
+509-hamiltonian.bkp (455/640)
+  100 %       277,9 MiB / 949,7 MiB = 0,293    11 MiB/s       1:30             
+50-hamiltonian.bkp (456/640)
+  100 %       278,7 MiB / 951,7 MiB = 0,293    11 MiB/s       1:30             
+510-hamiltonian.bkp (457/640)
+  100 %       277,9 MiB / 949,6 MiB = 0,293    11 MiB/s       1:29             
+511-hamiltonian.bkp (458/640)
+  100 %       278,8 MiB / 951,3 MiB = 0,293    11 MiB/s       1:30             
+512-hamiltonian.bkp (459/640)
+  100 %       275,9 MiB / 946,0 MiB = 0,292    11 MiB/s       1:29             
+513-hamiltonian.bkp (460/640)
+  100 %       275,8 MiB / 945,4 MiB = 0,292    11 MiB/s       1:29             
+514-hamiltonian.bkp (461/640)
+  100 %       276,4 MiB / 946,6 MiB = 0,292    11 MiB/s       1:29             
+515-hamiltonian.bkp (462/640)
+  100 %       278,7 MiB / 951,2 MiB = 0,293    11 MiB/s       1:29             
+516-hamiltonian.bkp (463/640)
+  100 %       278,8 MiB / 951,7 MiB = 0,293    11 MiB/s       1:30             
+517-hamiltonian.bkp (464/640)
+  100 %       277,5 MiB / 949,2 MiB = 0,292    10 MiB/s       1:30             
+518-hamiltonian.bkp (465/640)
+  100 %       278,4 MiB / 951,3 MiB = 0,293    11 MiB/s       1:29             
+519-hamiltonian.bkp (466/640)
+  100 %       278,6 MiB / 951,3 MiB = 0,293    11 MiB/s       1:28             
+51-hamiltonian.bkp (467/640)
+  100 %       277,8 MiB / 949,2 MiB = 0,293    11 MiB/s       1:29             
+520-hamiltonian.bkp (468/640)
+  100 %       278,1 MiB / 950,1 MiB = 0,293    11 MiB/s       1:30             
+521-hamiltonian.bkp (469/640)
+  100 %       278,2 MiB / 950,6 MiB = 0,293    11 MiB/s       1:30             
+522-hamiltonian.bkp (470/640)
+  100 %       278,2 MiB / 950,5 MiB = 0,293    11 MiB/s       1:30             
+523-hamiltonian.bkp (471/640)
+  100 %       279,7 MiB / 953,3 MiB = 0,293    10 MiB/s       1:30             
+524-hamiltonian.bkp (472/640)
+  100 %       279,1 MiB / 952,0 MiB = 0,293    11 MiB/s       1:29             
+525-hamiltonian.bkp (473/640)
+  100 %       278,3 MiB / 950,0 MiB = 0,293    10 MiB/s       1:30             
+526-hamiltonian.bkp (474/640)
+  100 %       278,2 MiB / 950,3 MiB = 0,293    11 MiB/s       1:30             
+527-hamiltonian.bkp (475/640)
+  100 %       278,0 MiB / 949,7 MiB = 0,293    10 MiB/s       1:30             
+528-hamiltonian.bkp (476/640)
+  100 %       278,6 MiB / 951,2 MiB = 0,293    10 MiB/s       1:30             
+529-hamiltonian.bkp (477/640)
+  100 %       278,4 MiB / 950,9 MiB = 0,293    11 MiB/s       1:29             
+52-hamiltonian.bkp (478/640)
+  100 %       278,1 MiB / 950,0 MiB = 0,293    10 MiB/s       1:30             
+530-hamiltonian.bkp (479/640)
+  100 %       277,9 MiB / 949,3 MiB = 0,293    11 MiB/s       1:30             
+531-hamiltonian.bkp (480/640)
+  100 %       277,9 MiB / 949,4 MiB = 0,293    11 MiB/s       1:30             
+532-hamiltonian.bkp (481/640)
+  100 %       277,2 MiB / 948,0 MiB = 0,292    10 MiB/s       1:30             
+533-hamiltonian.bkp (482/640)
+  100 %       277,7 MiB / 949,3 MiB = 0,293    10 MiB/s       1:31             
+534-hamiltonian.bkp (483/640)
+  100 %       278,3 MiB / 950,7 MiB = 0,293    10 MiB/s       1:31             
+535-hamiltonian.bkp (484/640)
+  100 %       278,6 MiB / 951,0 MiB = 0,293    10 MiB/s       1:31             
+536-hamiltonian.bkp (485/640)
+  100 %       278,5 MiB / 950,7 MiB = 0,293    10 MiB/s       1:31             
+537-hamiltonian.bkp (486/640)
+  100 %       277,5 MiB / 948,9 MiB = 0,292    10 MiB/s       1:30             
+538-hamiltonian.bkp (487/640)
+  100 %       277,8 MiB / 949,3 MiB = 0,293    10 MiB/s       1:32             
+539-hamiltonian.bkp (488/640)
+  100 %       278,1 MiB / 949,9 MiB = 0,293    10 MiB/s       1:32             
+53-hamiltonian.bkp (489/640)
+  100 %       278,5 MiB / 951,0 MiB = 0,293    10 MiB/s       1:32             
+540-hamiltonian.bkp (490/640)
+  100 %       277,0 MiB / 948,1 MiB = 0,292    10 MiB/s       1:31             
+541-hamiltonian.bkp (491/640)
+  100 %       277,4 MiB / 948,4 MiB = 0,292    10 MiB/s       1:30             
+542-hamiltonian.bkp (492/640)
+  100 %       277,5 MiB / 949,0 MiB = 0,292    10 MiB/s       1:31             
+543-hamiltonian.bkp (493/640)
+  100 %       278,0 MiB / 949,8 MiB = 0,293    10 MiB/s       1:30             
+544-hamiltonian.bkp (494/640)
+  100 %       278,5 MiB / 951,1 MiB = 0,293    10 MiB/s       1:31             
+545-hamiltonian.bkp (495/640)
+  100 %       278,4 MiB / 950,8 MiB = 0,293    11 MiB/s       1:30             
+546-hamiltonian.bkp (496/640)
+  100 %       277,5 MiB / 948,6 MiB = 0,293    11 MiB/s       1:29             
+547-hamiltonian.bkp (497/640)
+  100 %       277,6 MiB / 948,9 MiB = 0,293    11 MiB/s       1:29             
+548-hamiltonian.bkp (498/640)
+  100 %       277,2 MiB / 948,1 MiB = 0,292    11 MiB/s       1:30             
+549-hamiltonian.bkp (499/640)
+  100 %       276,4 MiB / 946,2 MiB = 0,292    10 MiB/s       1:30             
+54-hamiltonian.bkp (500/640)
+  100 %       279,6 MiB / 953,1 MiB = 0,293    11 MiB/s       1:30             
+550-hamiltonian.bkp (501/640)
+  100 %       277,7 MiB / 949,2 MiB = 0,293    11 MiB/s       1:29             
+551-hamiltonian.bkp (502/640)
+  100 %       277,5 MiB / 948,5 MiB = 0,293    11 MiB/s       1:29             
+552-hamiltonian.bkp (503/640)
+  100 %       277,2 MiB / 948,3 MiB = 0,292    11 MiB/s       1:29             
+553-hamiltonian.bkp (504/640)
+  100 %       277,3 MiB / 948,6 MiB = 0,292    11 MiB/s       1:29             
+554-hamiltonian.bkp (505/640)
+  100 %       278,1 MiB / 950,0 MiB = 0,293    11 MiB/s       1:30             
+555-hamiltonian.bkp (506/640)
+  100 %       278,5 MiB / 950,6 MiB = 0,293    11 MiB/s       1:30             
+556-hamiltonian.bkp (507/640)
+  100 %       277,9 MiB / 949,4 MiB = 0,293    11 MiB/s       1:29             
+557-hamiltonian.bkp (508/640)
+  100 %       277,9 MiB / 949,5 MiB = 0,293    11 MiB/s       1:29             
+558-hamiltonian.bkp (509/640)
+  100 %       277,8 MiB / 948,9 MiB = 0,293    11 MiB/s       1:29             
+559-hamiltonian.bkp (510/640)
+  100 %       278,0 MiB / 949,6 MiB = 0,293    11 MiB/s       1:29             
+55-hamiltonian.bkp (511/640)
+  100 %       280,7 MiB / 955,5 MiB = 0,294    11 MiB/s       1:30             
+560-hamiltonian.bkp (512/640)
+  100 %       278,3 MiB / 950,1 MiB = 0,293    11 MiB/s       1:30             
+561-hamiltonian.bkp (513/640)
+  100 %       278,4 MiB / 950,4 MiB = 0,293    11 MiB/s       1:28             
+562-hamiltonian.bkp (514/640)
+  100 %       279,1 MiB / 952,1 MiB = 0,293    11 MiB/s       1:28             
+563-hamiltonian.bkp (515/640)
+  100 %       278,9 MiB / 951,8 MiB = 0,293    11 MiB/s       1:29             
+564-hamiltonian.bkp (516/640)
+  100 %       277,9 MiB / 949,6 MiB = 0,293    11 MiB/s       1:29             
+565-hamiltonian.bkp (517/640)
+  100 %       279,1 MiB / 952,2 MiB = 0,293    11 MiB/s       1:30             
+566-hamiltonian.bkp (518/640)
+  100 %       279,9 MiB / 953,9 MiB = 0,293    11 MiB/s       1:30             
+567-hamiltonian.bkp (519/640)
+  100 %       279,2 MiB / 952,1 MiB = 0,293    11 MiB/s       1:30             
+568-hamiltonian.bkp (520/640)
+  100 %       278,0 MiB / 949,6 MiB = 0,293    11 MiB/s       1:29             
+569-hamiltonian.bkp (521/640)
+  100 %       278,0 MiB / 949,7 MiB = 0,293    11 MiB/s       1:30             
+56-hamiltonian.bkp (522/640)
+  100 %       280,6 MiB / 954,9 MiB = 0,294    11 MiB/s       1:30             
+570-hamiltonian.bkp (523/640)
+  100 %       277,8 MiB / 949,2 MiB = 0,293    11 MiB/s       1:30             
+571-hamiltonian.bkp (524/640)
+  100 %       276,9 MiB / 947,8 MiB = 0,292    11 MiB/s       1:29             
+572-hamiltonian.bkp (525/640)
+  100 %       277,2 MiB / 948,5 MiB = 0,292    11 MiB/s       1:30             
+573-hamiltonian.bkp (526/640)
+  100 %       277,4 MiB / 948,2 MiB = 0,293    11 MiB/s       1:30             
+574-hamiltonian.bkp (527/640)
+  100 %       277,9 MiB / 949,7 MiB = 0,293    11 MiB/s       1:29             
+575-hamiltonian.bkp (528/640)
+  100 %       277,2 MiB / 947,9 MiB = 0,292    11 MiB/s       1:29             
+576-hamiltonian.bkp (529/640)
+  100 %       278,7 MiB / 950,7 MiB = 0,293    11 MiB/s       1:29             
+577-hamiltonian.bkp (530/640)
+  100 %       277,8 MiB / 949,0 MiB = 0,293    11 MiB/s       1:29             
+578-hamiltonian.bkp (531/640)
+  100 %       277,2 MiB / 947,9 MiB = 0,292    11 MiB/s       1:28             
+579-hamiltonian.bkp (532/640)
+  100 %       276,8 MiB / 947,2 MiB = 0,292    11 MiB/s       1:28             
+57-hamiltonian.bkp (533/640)
+  100 %       282,7 MiB / 959,1 MiB = 0,295    10 MiB/s       1:31             
+580-hamiltonian.bkp (534/640)
+  100 %       276,5 MiB / 947,0 MiB = 0,292    11 MiB/s       1:29             
+581-hamiltonian.bkp (535/640)
+  100 %       276,8 MiB / 947,5 MiB = 0,292    11 MiB/s       1:29             
+582-hamiltonian.bkp (536/640)
+  100 %       276,9 MiB / 947,6 MiB = 0,292    11 MiB/s       1:29             
+583-hamiltonian.bkp (537/640)
+  100 %       277,9 MiB / 950,0 MiB = 0,293    11 MiB/s       1:30             
+584-hamiltonian.bkp (538/640)
+  100 %       277,9 MiB / 949,9 MiB = 0,293    11 MiB/s       1:29             
+585-hamiltonian.bkp (539/640)
+  100 %       277,7 MiB / 949,4 MiB = 0,293    11 MiB/s       1:30             
+586-hamiltonian.bkp (540/640)
+  100 %       277,9 MiB / 950,0 MiB = 0,293    11 MiB/s       1:30             
+587-hamiltonian.bkp (541/640)
+  100 %       278,0 MiB / 949,8 MiB = 0,293    11 MiB/s       1:30             
+588-hamiltonian.bkp (542/640)
+  100 %       277,1 MiB / 948,5 MiB = 0,292    11 MiB/s       1:29             
+589-hamiltonian.bkp (543/640)
+  100 %       277,0 MiB / 947,8 MiB = 0,292    10 MiB/s       1:30             
+58-hamiltonian.bkp (544/640)
+  100 %       282,8 MiB / 959,6 MiB = 0,295    10 MiB/s       1:32             
+590-hamiltonian.bkp (545/640)
+  100 %       277,8 MiB / 949,8 MiB = 0,293    11 MiB/s       1:29             
+591-hamiltonian.bkp (546/640)
+  100 %       277,9 MiB / 949,8 MiB = 0,293    10 MiB/s       1:30             
+592-hamiltonian.bkp (547/640)
+  100 %       278,7 MiB / 951,5 MiB = 0,293    10 MiB/s       1:30             
+593-hamiltonian.bkp (548/640)
+  100 %       278,1 MiB / 950,5 MiB = 0,293    10 MiB/s       1:31             
+594-hamiltonian.bkp (549/640)
+  100 %       277,0 MiB / 947,8 MiB = 0,292    11 MiB/s       1:30             
+595-hamiltonian.bkp (550/640)
+  100 %       277,4 MiB / 948,7 MiB = 0,292    11 MiB/s       1:30             
+596-hamiltonian.bkp (551/640)
+  100 %       278,2 MiB / 950,1 MiB = 0,293    10 MiB/s       1:31             
+597-hamiltonian.bkp (552/640)
+  100 %       277,7 MiB / 949,4 MiB = 0,293    11 MiB/s       1:29             
+598-hamiltonian.bkp (553/640)
+  100 %       277,4 MiB / 949,1 MiB = 0,292    11 MiB/s       1:30             
+599-hamiltonian.bkp (554/640)
+  100 %       278,2 MiB / 950,9 MiB = 0,293    10 MiB/s       1:30             
+59-hamiltonian.bkp (555/640)
+  100 %       281,7 MiB / 957,0 MiB = 0,294    10 MiB/s       1:32             
+5-hamiltonian.bkp (556/640)
+  100 %       277,8 MiB / 948,9 MiB = 0,293    10 MiB/s       1:31             
+600-hamiltonian.bkp (557/640)
+  100 %       278,4 MiB / 951,4 MiB = 0,293    10 MiB/s       1:31             
+601-hamiltonian.bkp (558/640)
+  100 %       277,1 MiB / 948,7 MiB = 0,292    10 MiB/s       1:31             
+602-hamiltonian.bkp (559/640)
+  100 %       277,2 MiB / 948,5 MiB = 0,292    10 MiB/s       1:31             
+603-hamiltonian.bkp (560/640)
+  100 %       276,7 MiB / 946,8 MiB = 0,292    10 MiB/s       1:31             
+604-hamiltonian.bkp (561/640)
+  100 %       277,1 MiB / 947,9 MiB = 0,292    10 MiB/s       1:30             
+605-hamiltonian.bkp (562/640)
+  100 %       276,6 MiB / 946,8 MiB = 0,292    10 MiB/s       1:30             
+606-hamiltonian.bkp (563/640)
+  100 %       277,7 MiB / 949,7 MiB = 0,292    10 MiB/s       1:31             
+607-hamiltonian.bkp (564/640)
+  100 %       277,6 MiB / 949,2 MiB = 0,292    10 MiB/s       1:31             
+608-hamiltonian.bkp (565/640)
+  100 %       278,0 MiB / 949,8 MiB = 0,293    10 MiB/s       1:30             
+609-hamiltonian.bkp (566/640)
+  100 %       276,0 MiB / 946,0 MiB = 0,292    10 MiB/s       1:30             
+60-hamiltonian.bkp (567/640)
+  100 %       281,2 MiB / 956,0 MiB = 0,294    10 MiB/s       1:32             
+610-hamiltonian.bkp (568/640)
+  100 %       277,9 MiB / 949,5 MiB = 0,293    10 MiB/s       1:35             
+611-hamiltonian.bkp (569/640)
+  100 %       277,5 MiB / 948,6 MiB = 0,292    11 MiB/s       1:29             
+612-hamiltonian.bkp (570/640)
+  100 %       275,1 MiB / 943,8 MiB = 0,292    11 MiB/s       1:28             
+613-hamiltonian.bkp (571/640)
+  100 %       275,5 MiB / 944,2 MiB = 0,292    11 MiB/s       1:28             
+614-hamiltonian.bkp (572/640)
+  100 %       275,1 MiB / 943,5 MiB = 0,292    11 MiB/s       1:28             
+615-hamiltonian.bkp (573/640)
+  100 %       276,1 MiB / 945,8 MiB = 0,292    11 MiB/s       1:28             
+616-hamiltonian.bkp (574/640)
+  100 %       276,3 MiB / 945,8 MiB = 0,292    11 MiB/s       1:29             
+617-hamiltonian.bkp (575/640)
+  100 %       276,7 MiB / 946,9 MiB = 0,292    11 MiB/s       1:29             
+618-hamiltonian.bkp (576/640)
+  100 %       277,2 MiB / 947,8 MiB = 0,292    11 MiB/s       1:29             
+619-hamiltonian.bkp (577/640)
+  100 %       277,3 MiB / 948,3 MiB = 0,292    11 MiB/s       1:29             
+61-hamiltonian.bkp (578/640)
+  100 %       280,9 MiB / 955,7 MiB = 0,294    11 MiB/s       1:30             
+620-hamiltonian.bkp (579/640)
+  100 %       277,0 MiB / 947,9 MiB = 0,292    11 MiB/s       1:28             
+621-hamiltonian.bkp (580/640)
+  100 %       276,9 MiB / 947,3 MiB = 0,292    11 MiB/s       1:29             
+622-hamiltonian.bkp (581/640)
+  100 %       276,7 MiB / 947,0 MiB = 0,292    11 MiB/s       1:28             
+623-hamiltonian.bkp (582/640)
+  100 %       277,9 MiB / 949,7 MiB = 0,293    10 MiB/s       1:30             
+624-hamiltonian.bkp (583/640)
+  100 %       279,3 MiB / 952,7 MiB = 0,293    11 MiB/s       1:30             
+625-hamiltonian.bkp (584/640)
+  100 %       278,2 MiB / 950,5 MiB = 0,293    11 MiB/s       1:30             
+626-hamiltonian.bkp (585/640)
+  100 %       277,8 MiB / 949,3 MiB = 0,293    11 MiB/s       1:29             
+627-hamiltonian.bkp (586/640)
+  100 %       278,3 MiB / 951,0 MiB = 0,293    11 MiB/s       1:30             
+628-hamiltonian.bkp (587/640)
+  100 %       278,4 MiB / 951,0 MiB = 0,293    11 MiB/s       1:28             
+629-hamiltonian.bkp (588/640)
+  100 %       277,6 MiB / 948,9 MiB = 0,293    11 MiB/s       1:28             
+62-hamiltonian.bkp (589/640)
+  100 %       281,5 MiB / 957,3 MiB = 0,294    11 MiB/s       1:29             
+630-hamiltonian.bkp (590/640)
+  100 %       278,3 MiB / 950,7 MiB = 0,293    11 MiB/s       1:28             
+631-hamiltonian.bkp (591/640)
+  100 %       277,8 MiB / 949,2 MiB = 0,293    11 MiB/s       1:29             
+632-hamiltonian.bkp (592/640)
+  100 %       277,1 MiB / 947,6 MiB = 0,292    10 MiB/s       1:30             
+633-hamiltonian.bkp (593/640)
+  100 %       277,3 MiB / 948,1 MiB = 0,292    11 MiB/s       1:29             
+634-hamiltonian.bkp (594/640)
+  100 %       276,0 MiB / 945,7 MiB = 0,292    11 MiB/s       1:29             
+635-hamiltonian.bkp (595/640)
+  100 %       276,0 MiB / 946,3 MiB = 0,292    11 MiB/s       1:29             
+636-hamiltonian.bkp (596/640)
+  100 %       276,2 MiB / 946,0 MiB = 0,292    11 MiB/s       1:28             
+637-hamiltonian.bkp (597/640)
+  100 %       276,4 MiB / 946,6 MiB = 0,292    11 MiB/s       1:28             
+638-hamiltonian.bkp (598/640)
+  100 %       276,3 MiB / 946,3 MiB = 0,292    11 MiB/s       1:29             
+639-hamiltonian.bkp (599/640)
+  100 %       276,7 MiB / 946,8 MiB = 0,292    11 MiB/s       1:29             
+63-hamiltonian.bkp (600/640)
+  100 %       280,3 MiB / 954,1 MiB = 0,294    10 MiB/s       1:30             
+64-hamiltonian.bkp (601/640)
+  100 %       279,9 MiB / 954,1 MiB = 0,293    11 MiB/s       1:30             
+65-hamiltonian.bkp (602/640)
+  100 %       280,1 MiB / 954,2 MiB = 0,294    11 MiB/s       1:29             
+66-hamiltonian.bkp (603/640)
+  100 %       280,3 MiB / 954,5 MiB = 0,294    10 MiB/s       1:31             
+67-hamiltonian.bkp (604/640)
+  100 %       280,4 MiB / 954,4 MiB = 0,294    11 MiB/s       1:30             
+68-hamiltonian.bkp (605/640)
+  100 %       280,1 MiB / 954,3 MiB = 0,294    10 MiB/s       1:32             
+69-hamiltonian.bkp (606/640)
+  100 %       279,5 MiB / 952,6 MiB = 0,293    11 MiB/s       1:29             
+6-hamiltonian.bkp (607/640)
+  100 %       277,6 MiB / 948,8 MiB = 0,293    11 MiB/s       1:29             
+70-hamiltonian.bkp (608/640)
+  100 %       280,2 MiB / 954,3 MiB = 0,294    11 MiB/s       1:30             
+71-hamiltonian.bkp (609/640)
+  100 %       280,1 MiB / 953,6 MiB = 0,294    10 MiB/s       1:31             
+72-hamiltonian.bkp (610/640)
+  100 %       280,3 MiB / 953,9 MiB = 0,294    11 MiB/s       1:30             
+73-hamiltonian.bkp (611/640)
+  100 %       281,7 MiB / 957,4 MiB = 0,294    11 MiB/s       1:31             
+74-hamiltonian.bkp (612/640)
+  100 %       280,8 MiB / 955,7 MiB = 0,294    11 MiB/s       1:30             
+75-hamiltonian.bkp (613/640)
+  100 %       280,7 MiB / 955,6 MiB = 0,294    11 MiB/s       1:30             
+76-hamiltonian.bkp (614/640)
+  100 %       281,8 MiB / 957,7 MiB = 0,294    10 MiB/s       1:31             
+77-hamiltonian.bkp (615/640)
+  100 %       281,7 MiB / 957,8 MiB = 0,294    10 MiB/s       1:31             
+78-hamiltonian.bkp (616/640)
+  100 %       281,2 MiB / 956,2 MiB = 0,294    10 MiB/s       1:31             
+79-hamiltonian.bkp (617/640)
+  100 %       281,3 MiB / 956,4 MiB = 0,294    11 MiB/s       1:30             
+7-hamiltonian.bkp (618/640)
+  100 %       277,1 MiB / 947,4 MiB = 0,292    11 MiB/s       1:29             
+80-hamiltonian.bkp (619/640)
+  100 %       280,5 MiB / 955,3 MiB = 0,294    10 MiB/s       1:31             
+81-hamiltonian.bkp (620/640)
+  100 %       281,0 MiB / 956,4 MiB = 0,294    10 MiB/s       1:31             
+82-hamiltonian.bkp (621/640)
+  100 %       280,9 MiB / 956,1 MiB = 0,294    11 MiB/s       1:30             
+83-hamiltonian.bkp (622/640)
+  100 %       278,1 MiB / 950,5 MiB = 0,293    10 MiB/s       1:31             
+84-hamiltonian.bkp (623/640)
+  100 %       279,2 MiB / 953,0 MiB = 0,293    10 MiB/s       1:31             
+85-hamiltonian.bkp (624/640)
+  100 %       279,2 MiB / 952,4 MiB = 0,293    10 MiB/s       1:31             
+86-hamiltonian.bkp (625/640)
+  100 %       278,0 MiB / 949,6 MiB = 0,293    10 MiB/s       1:31             
+87-hamiltonian.bkp (626/640)
+  100 %       278,9 MiB / 952,0 MiB = 0,293    10 MiB/s       1:31             
+88-hamiltonian.bkp (627/640)
+  100 %       280,0 MiB / 953,9 MiB = 0,294    11 MiB/s       1:30             
+89-hamiltonian.bkp (628/640)
+  100 %       280,4 MiB / 955,1 MiB = 0,294    11 MiB/s       1:30             
+8-hamiltonian.bkp (629/640)
+  100 %       277,3 MiB / 947,9 MiB = 0,293    10 MiB/s       1:30             
+90-hamiltonian.bkp (630/640)
+  100 %       279,4 MiB / 953,1 MiB = 0,293    10 MiB/s       1:30             
+91-hamiltonian.bkp (631/640)
+  100 %       279,3 MiB / 952,6 MiB = 0,293    11 MiB/s       1:30             
+92-hamiltonian.bkp (632/640)
+  100 %       278,6 MiB / 951,2 MiB = 0,293    10 MiB/s       1:31             
+93-hamiltonian.bkp (633/640)
+  100 %       278,0 MiB / 950,2 MiB = 0,293    11 MiB/s       1:30             
+94-hamiltonian.bkp (634/640)
+  100 %       278,7 MiB / 951,5 MiB = 0,293    10 MiB/s       1:30             
+95-hamiltonian.bkp (635/640)
+  100 %       278,4 MiB / 951,1 MiB = 0,293    10 MiB/s       1:30             
+96-hamiltonian.bkp (636/640)
+  100 %       278,9 MiB / 951,9 MiB = 0,293    10 MiB/s       1:30             
+97-hamiltonian.bkp (637/640)
+  100 %       278,4 MiB / 951,0 MiB = 0,293    10 MiB/s       1:30             
+98-hamiltonian.bkp (638/640)
+  100 %       278,7 MiB / 951,4 MiB = 0,293    11 MiB/s       1:30             
+99-hamiltonian.bkp (639/640)
+  100 %       280,3 MiB / 955,1 MiB = 0,293    11 MiB/s       1:30             
+9-hamiltonian.bkp (640/640)
+  100 %       276,6 MiB / 946,7 MiB = 0,292    11 MiB/s       1:29   
