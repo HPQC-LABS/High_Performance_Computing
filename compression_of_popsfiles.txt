@@ -4262,3 +4262,38 @@ Mi 19. Feb 03:27:38 CET 2020
 [nike@wob147 O_fc_9z_noaug]$ xz -v -1 fort.55 
 fort.55 (1/1)
   100.0 %        58,109.3 MiB / 172,148.3 MiB = 0.338   8.0 MiB/s      5:56:40
+
+dattani@allogin2:/algpfs/dattani/Li2_old/Be2/aug-cc-pCV5Z/MRCC> xz -v -1 nr/fort.55  nr/actuallyBe2/fort.55 noAug/nr/fort.55 noAug/x2c/fort.55 
+nr/fort.55 (1/4)
+  100 %   2.603,8 MiB / 8.104,5 MiB = 0,321   7,8 MiB/s      17:25             
+nr/actuallyBe2/fort.55 (2/4)
+  100 %         13,3 GiB / 46,9 GiB = 0,283   8,6 MiB/s    1:32:34             
+noAug/nr/fort.55 (3/4)
+  100 %         18,1 GiB / 56,3 GiB = 0,321   7,8 MiB/s    2:03:16             
+noAug/x2c/fort.55 (4/4)
+  100 %         18,1 GiB / 56,3 GiB = 0,321   8,0 MiB/s    2:00:01 
+  
+  dattani@allogin1:/algpfs/dattani/Li2_old/Be2/aug-cc-pCV5Z/2.446/4e6/c/8/c/redo_cuzLostPOPS/c/1.6e7/3.2e7/6.4e7/c/c/c/128/256/c/c/thouMill/512/c/1e3,5e5/1e9> xz -v -1  POPSFILE* c/POPSFILE* c/c/POPSFILE* c/c/c/popsfile.h5.tar.gz c/c/c/c/popsfile.h5.tar.gz c/c/c/c/c/popsfile.h5.tar.gz c/c/c/c/c/rc/popsfile.h5*
+POPSFILEBIN.tar.gz (1/11)
+  100 %   6.841,9 MiB / 6.841,5 MiB = 1,000   2,5 MiB/s      44:51             
+POPSFILEHEAD (2/11)
+  100 %          4.532 B / 15,2 KiB = 0,291                                    
+c/POPSFILEBIN.tar.gz (3/11)
+  100 %   8.371,9 MiB / 8.371,5 MiB = 1,000   2,9 MiB/s      48:27             
+c/POPSFILEHEAD (4/11)
+  100 %          4.548 B / 15,2 KiB = 0,292                                    
+c/c/POPSFILEBIN (5/11)
+  100 %      7.291,2 MiB / 72,7 GiB = 0,098    19 MiB/s    1:04:19             
+c/c/POPSFILEHEAD (6/11)
+  100 %          4.548 B / 15,2 KiB = 0,292                                    
+c/c/c/popsfile.h5.tar.gz (7/11)
+  100 %   9.623,9 MiB / 9.623,4 MiB = 1,000   2,8 MiB/s      56:59             
+c/c/c/c/popsfile.h5.tar.gz (8/11)
+  100 %   9.680,9 MiB / 9.680,4 MiB = 1,000   2,8 MiB/s      58:01             
+c/c/c/c/c/popsfile.h5.tar.gz (9/11)
+  100 %   9.654,0 MiB / 9.653,5 MiB = 1,000   2,7 MiB/s      58:52             
+c/c/c/c/c/rc/popsfile.h5 (10/11)
+  100 %      8.780,0 MiB / 80,2 GiB = 0,107    17 MiB/s    1:20:45             
+c/c/c/c/c/rc/popsfile.h5.tar.gz (11/11)
+  100 %   9.801,4 MiB / 9.800,9 MiB = 1,000   2,3 MiB/s    1:10:41             
+You have new mail in /var/mail/dattani
