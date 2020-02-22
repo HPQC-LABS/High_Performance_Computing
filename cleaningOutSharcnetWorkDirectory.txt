@@ -80,4 +80,498 @@
 0	Mn2
 0	2ndRow
 
+[nike@wob142 Li2]$ du -hsx * | sort -rh | head -100
+37T	CFOUR
+59G	FCIDUMP_00010154
+3.3G	x2c
+303M	POPSFILEBIN
 
+[nike@wob142 CFOUR]$ du -hsx * | sort -rh | head -100
+35T	nr
+2.3T	c
+72G	x2c
+15G	x2c_dirac
+8.0K	Li_aug-cc-pCV5Z_CFOUR_fromMolpro
+
+[nike@wob142 nr]$ du -hsx * | sort -rh | head -100
+8.2T	CCSDT-aug-cc-pCV6Z-NR
+5.1T	CCSDT-aug-cc-pCV7Zi-NR_MRCC
+4.5T	CCSDT-aug-cc-pCV7Zi-unc_MRCC
+2.6T	CCSDTQ-aug-cc-pCV5Z-NR
+2.1T	CCSDT-aug-cc-pCV7Zi-NR-CFOUR
+2.0T	CCSDT-aug-cc-pCV6Z-unc
+1.7T	CCSD-aug-cc-pCV7Zi-unc
+1.4T	CCSDT-aug-cc-pCV7Zi-unc
+1.1T	CCSDTQ-aug-cc-pCV5Z-unc
+925G	CCSD-aug-cc-pCV7Zi-ManuallyUnc
+894G	CCSDTQ-aug-cc-pCV4Z-unc
+729G	CCSDT-aug-cc-pCV5Z-unc
+598G	100
+507G	CCSDT-aug-cc-pCV7Zi-NR
+397G	CISDTQ-cc-pCV5Z-NR
+323G	CCSDT-aug-cc-pCV7Zi-ManuallyUnc
+319G	30
+231G	CISDTQ-aug-cc-pCV5Z-unc
+225G	CCSDTQ-aug-cc-pCV4Z-NR-MRCC
+161G	CISDTQ-aug-cc-pCV5Z-NR
+161G	CCSDT-aug-cc-pCV5Z-NR
+107G	CISDTQP-cc-pCV3Z-unc
+104G	CCSDT-cc-pCV5Z-unc
+98G	FCI-aug-cc-pCV2Z-unc
+77G	CCSDTQ-cc-pCV5Z-NR-MRCC
+77G	CCSD-aug-cc-pCV7Zi-unc_AOBASIS
+73G	CCSDT-aug-cc-pCV4Z-unc
+72G	CCSD-aug-cc-pCV7i-unc-UHF
+66G	CCSDT-cc-pCV5Z-NR
+66G	CCSD-aug-cc-pCV7i-ManuallyUnc
+52G	CISDTQP-cc-pCV4Z-NR_MRCC
+49G	CISDTQP-cc-pCV3Z-NR
+33G	CCSDT-aug-cc-pCV4Z-NR
+22G	CCSDTQ-aug-cc-pCV4Z-NR-MRCC_2
+17G	CCSDTQ-cc-pCV4Z-unc
+14G	CISDTQP-cc-pCV4Z-unc
+11G	CCSDTQpP-aug-cc-pCV3Z
+7.4G	CISDTQP-cc-pCV4Z-NR
+7.4G	CCSDTQP-cc-pCV4Z-unc
+7.4G	CCSDTQP-cc-pCV4Z-NR
+4.1G	CISDTQP-aug-cc-pCV3Z-unc
+3.9G	CCSDTQpP-aug-cc-pCV3Z-unc
+1.8G	20
+735M	CCSDTQPpH-aug-cc-pCV2Z-unc
+587M	FCI-aug-cc-pCV2Z-NR
+
+[nike@wob142 CCSDT-aug-cc-pCV6Z-NR]$ du -hsx * | sort -rh | head -100
+6.4T	ta
+666G	fort.55
+316G	CFOUR
+183G	fort.32
+182G	fort.28
+182G	fort.27
+182G	fort.26
+97G	fort.131
+21G	fort.87
+
+[nike@wob142 ta]$ du -hsx * | sort -rh | head -100
+4.3T	ccsd
+663G	fort.55
+183G	fort.32
+182G	fort.28
+182G	fort.27
+182G	fort.26
+146G	fort.21
+138G	fort.30
+133G	fort.13
+133G	fort.12
+93G	fort.131
+70G	fort.19
+70G	fort.18
+21G	fort.87
+13G	TEINT
+1.5G	fort.20
+1.4G	fort.23
+1.4G	fort.16
+1.4G	fort.11
+14M	MOLDEN
+
+[nike@wob142 ccsd]$ du -hsx * | sort -rh | head -100
+2.4T	ccsd_more_RAM
+660G	fort.55
+183G	fort.32
+182G	fort.28
+182G	fort.27
+182G	fort.26
+136G	fort.30
+133G	fort.13
+133G	fort.12
+97G	fort.131
+21G	fort.87
+12G	TEINT
+1.5G	fort.20
+868M	fort.21
+55M	fort.19
+55M	fort.18
+
+[nike@wob142 ccsd_more_RAM]$ du -hsx * | sort -rh | head -100
+1.9T	betterIntegralsAndSCF
+183G	fort.31
+182G	fort.26
+93G	fort.131
+21G	fort.87
+12G	TEINT
+14M	MOLDEN
+9.6M	MOCOEF
+
+[nike@wob142 betterIntegralsAndSCF]$ du -hsx * | sort -rh | head -100
+667G	fort.55
+183G	fort.32
+182G	fort.28
+182G	fort.27
+182G	fort.26
+136G	fort.30
+133G	fort.13
+133G	fort.12
+93G	fort.131
+21G	fort.87
+20G	TEINT
+1.5G	fort.20
+868M	fort.21
+19M	fort.19
+19M	fort.18
+14M	MOLDEN
+
+rm fort.32 fort.28 fort.27 fort.26 fort.30 fort.13 fort.12 fort.131 fort.87 fort.20 fort.21 fort.19 fort.18 fort.23 fort.21 fort.11 fort.78 fort.22 fort.14 fort.10 fort.56 fort.24
+
+[nike@wob142 ccsd_more_RAM]$ du -hsx * | sort -rh | head -100
+686G	betterIntegralsAndSCF
+183G	fort.31
+182G	fort.26
+93G	fort.131
+21G	fort.87
+12G	TEINT
+
+rm fort.32 fort.28 fort.27 fort.26 fort.30 fort.13 fort.12 fort.131 fort.87 fort.20 fort.21 fort.19 fort.18 fort.23 fort.21 fort.11 fort.78 fort.22 fort.14 fort.10 fort.56 fort.24
+
+[nike@wob142 ccsd]$ du -hsx * | sort -rh | head -100
+880G	ccsd_more_RAM
+660G	fort.55
+183G	fort.32
+182G	fort.28
+182G	fort.27
+182G	fort.26
+136G	fort.30
+133G	fort.13
+133G	fort.12
+97G	fort.131
+21G	fort.87
+12G	TEINT
+1.5G	fort.20
+868M	fort.21
+
+rm fort.32 fort.28 fort.27 fort.26 fort.30 fort.13 fort.12 fort.131 fort.87 fort.20 fort.21 fort.19 fort.18 fort.23 fort.21 fort.11 fort.78 fort.22 fort.14 fort.10 fort.56 fort.24
+
+[nike@wob142 ta]$ du -hsx * | sort -rh | head -100
+1.6T	ccsd
+663G	fort.55
+183G	fort.32
+182G	fort.28
+182G	fort.27
+182G	fort.26
+146G	fort.21
+138G	fort.30
+133G	fort.13
+133G	fort.12
+93G	fort.131
+70G	fort.19
+70G	fort.18
+21G	fort.87
+13G	TEINT
+1.5G	fort.20
+1.4G	fort.23
+1.4G	fort.16
+1.4G	fort.11
+14M	MOLDEN
+
+rm fort.32 fort.28 fort.27 fort.26 fort.30 fort.13 fort.12 fort.131 fort.87 fort.20 fort.21 fort.19 fort.18 fort.23 fort.21 fort.11 fort.78 fort.22 fort.14 fort.10 fort.56 fort.24
+
+[nike@wob142 CCSDT-aug-cc-pCV6Z-NR]$ du -hsx * | sort -rh | head -100
+2.2T	ta
+666G	fort.55
+316G	CFOUR
+183G	fort.32
+182G	fort.28
+182G	fort.27
+182G	fort.26
+97G	fort.131
+21G	fort.87
+15G	TEINT
+14M	MOLDEN
+
+rm fort.32 fort.28 fort.27 fort.26 fort.30 fort.13 fort.12 fort.131 fort.87 fort.20 fort.21 fort.19 fort.18 fort.23 fort.21 fort.11 fort.78 fort.22 fort.14 fort.10 fort.56 fort.24
+
+[nike@wob142 nr]$ du -hsx * | sort -rh | head -100
+5.1T	CCSDT-aug-cc-pCV7Zi-NR_MRCC
+4.5T	CCSDT-aug-cc-pCV7Zi-unc_MRCC
+3.2T	CCSDT-aug-cc-pCV6Z-NR
+2.6T	CCSDTQ-aug-cc-pCV5Z-NR
+2.1T	CCSDT-aug-cc-pCV7Zi-NR-CFOUR
+2.0T	CCSDT-aug-cc-pCV6Z-unc
+1.7T	CCSD-aug-cc-pCV7Zi-unc
+1.4T	CCSDT-aug-cc-pCV7Zi-unc
+1.1T	CCSDTQ-aug-cc-pCV5Z-unc
+
+[nike@wob142 CCSDT-aug-cc-pCV7Zi-NR_MRCC]$ du -hsx * | sort -rh | head -100
+4.9T	scfiguess=restart
+37G	red9
+36G	UHF_aobasis
+36G	red10
+35G	UHF
+33G	fort.28
+27G	fort.55
+17G	fort.131
+3.3G	TEINT
+3.2G	fort.87
+390M	fort.16
+11M	fortlS4Vwv
+
+[nike@wob142 scfiguess=restart]$ du -hsx * | sort -rh | head -100
+4.9T	rest=2
+13M	MOLDEN
+
+[nike@wob142 rest=2]$ du -hsx * | sort -rh | head -100
+2.1T	fort.55
+2.0T	ccsd
+453G	fort.30
+
+[nike@wob142 ccsd]$ du -hsx * | sort -rh | head -100
+632G	fort.31
+605G	fort.26
+343G	fort.131
+309G	fort.32
+51G	fort.87
+42G	TEINT
+
+rm fort.32 fort.28 fort.27 fort.26 fort.30 fort.13 fort.12 fort.131 fort.87 fort.20 fort.21 fort.19 fort.18 fort.23 fort.21 fort.11 fort.78 fort.22 fort.14 fort.10 fort.56 fort.24 fort.31
+
+[nike@wob142 rest=2]$ du -hsx * | sort -rh | head -100
+2.1T	fort.55
+453G	fort.30
+343G	fort.131
+51G	fort.87
+42G	TEINT
+42G	ccsd
+2.2G	fort.21
+
+rm fort.32 fort.28 fort.27 fort.26 fort.30 fort.13 fort.12 fort.131 fort.87 fort.20 fort.21 fort.19 fort.18 fort.23 fort.21 fort.11 fort.78 fort.22 fort.14 fort.10 fort.56 fort.24 fort.31
+
+[nike@wob142 scfiguess=restart]$ du -hsx * | sort -rh | head -100
+2.1T	rest=2
+13M	MOLDEN
+
+[nike@wob142 CCSDT-aug-cc-pCV7Zi-NR_MRCC]$ du -hsx * | sort -rh | head -100
+2.1T	scfiguess=restart
+37G	red9
+36G	UHF_aobasis
+36G	red10
+35G	UHF
+33G	fort.28
+27G	fort.55
+17G	fort.131
+3.3G	TEINT
+3.2G	fort.87
+390M	fort.16
+
+[nike@wob142 nr]$ du -hsx * | sort -rh | head -100
+4.5T	CCSDT-aug-cc-pCV7Zi-unc_MRCC
+3.2T	CCSDT-aug-cc-pCV6Z-NR
+2.6T	CCSDTQ-aug-cc-pCV5Z-NR
+2.3T	CCSDT-aug-cc-pCV7Zi-NR_MRCC
+2.1T	CCSDT-aug-cc-pCV7Zi-NR-CFOUR
+2.0T	CCSDT-aug-cc-pCV6Z-unc
+1.7T	CCSD-aug-cc-pCV7Zi-unc
+1.4T	CCSDT-aug-cc-pCV7Zi-unc
+1.1T	CCSDTQ-aug-cc-pCV5Z-unc
+
+[nike@wob142 CCSDT-aug-cc-pCV7Zi-unc_MRCC]$ du -hsx * | sort -rh | head -100
+4.4T	scfiguess=restart
+47G	TEINT
+12M	fortshD8jH
+
+[nike@wob142 scfiguess=restart]$ du -hsx * | sort -rh | head -100
+770G	fort.31
+736G	fort.32
+736G	fort.28
+556G	fort.30
+543G	fort.13
+543G	fort.12
+380G	fort.131
+66G	CFOUR
+47G	TEINT
+34G	fort.87
+
+ rm fort.32 fort.28 fort.27 fort.26 fort.30 fort.13 fort.12 fort.131 fort.87 fort.20 fort.21 fort.19 fort.18 fort.23 fort.21 fort.11 fort.78 fort.22 fort.14 fort.10 fort.56 fort.24 fort.31 fortRXSrIc fortJelEo1 fortEDneW7 fortAROyKQ
+ 
+ [nike@wob142 nr]$ du -hsx * | sort -rh | head -100
+3.2T	CCSDT-aug-cc-pCV6Z-NR
+2.6T	CCSDTQ-aug-cc-pCV5Z-NR
+2.3T	CCSDT-aug-cc-pCV7Zi-NR_MRCC
+2.1T	CCSDT-aug-cc-pCV7Zi-NR-CFOUR
+2.0T	CCSDT-aug-cc-pCV6Z-unc
+1.7T	CCSD-aug-cc-pCV7Zi-unc
+1.4T	CCSDT-aug-cc-pCV7Zi-unc
+1.1T	CCSDTQ-aug-cc-pCV5Z-unc
+
+[nike@wob142 CCSDTQ-aug-cc-pCV5Z-NR]$ du -hsx * | sort -rh | head -100
+652G	rest=2
+491G	fort.19
+491G	fort.18
+310G	parenthesis_P
+194G	fort.30
+84G	CISD
+73G	fort.12
+59G	CFOUR
+45G	fort.23
+45G	fort.16
+45G	fort.11
+33G	fort.28
+27G	fort.55
+17G	fort.131
+12G	fort.13
+3.3G	TEINT
+3.2G	fort.87
+203M	fort.20
+3.2M	fort.22
+3.0M	MOLDEN
+
+[nike@wob142 rest=2]$ du -hsx * | sort -rh | head -100
+387G	betterHF
+86G	fort.55
+33G	fort.32
+33G	fort.28
+33G	fort.27
+33G	fort.26
+26G	fort.21
+17G	fort.131
+5.6G	fort.87
+3.3G	TEINT
+
+[nike@wob142 betterHF]$ du -hsx * | sort -rh | head -100
+387G	canonical
+108K	SCFDENSITIES
+24K	GENBAS
+4.0K	MINP
+
+[nike@wob142 canonical]$ du -hsx * | sort -rh | head -100
+303G	easierHR
+33G	fort.28
+27G	fort.55
+
+[nike@wob142 easierHR]$ du -hsx * | sort -rh | head -100
+219G	betterHF
+33G	fort.28
+
+[nike@wob142 betterHF]$ du -hsx * | sort -rh | head -100
+135G	cisd
+33G	fort.28
+27G	fort.55
+19G	fort.131
+4.0G	TEINT
+
+[nike@wob142 cisd]$ du -hsx * | sort -rh | head -100
+33G	fort.28
+27G	fort.55
+25G	fort.30
+24G	fort.12
+19G	fort.131
+
+rm fort.32 fort.28 fort.27 fort.26 fort.30 fort.13 fort.12 fort.131 fort.87 fort.20 fort.21 fort.19 fort.18 fort.23 fort.21 fort.11 fort.78 fort.22 fort.14 fort.10 fort.56 fort.24 fort.31 fort.17 fort.57
+
+[nike@wob142 betterHF]$ du -hsx * | sort -rh | head -100
+33G	fort.28
+31G	cisd
+27G	fort.55
+19G	fort.131
+4.0G	TEINT
+
+rm fort.32 fort.28 fort.27 fort.26 fort.30 fort.13 fort.12 fort.131 fort.87 fort.20 fort.21 fort.19 fort.18 fort.23 fort.21 fort.11 fort.78 fort.22 fort.14 fort.10 fort.56 fort.24 fort.31 fort.17 fort.57
+
+[nike@wob142 easierHR]$ du -hsx * | sort -rh | head -100
+62G	betterHF
+33G	fort.28
+27G	fort.55
+19G	fort.131
+4.0G	TEINT
+
+[nike@wob142 canonical]$ du -hsx * | sort -rh | head -100
+92G	easierHR
+33G	fort.28
+27G	fort.55
+19G	fort.131
+4.0G	TEINT
+
+[nike@wob142 betterHF]$ du -hsx * | sort -rh | head -100
+123G	canonical
+108K	SCFDENSITIES
+
+[nike@wob142 rest=2]$ du -hsx * | sort -rh | head -100
+123G	betterHF
+86G	fort.55
+33G	fort.32
+
+[nike@wob142 rest=2]$ du -hsx * | sort -rh | head -100
+123G	betterHF
+86G	fort.55
+3.3G	TEINT
+
+[nike@wob142 CCSDTQ-aug-cc-pCV5Z-NR]$ du -hsx * | sort -rh | head -100
+491G	fort.19
+491G	fort.18
+310G	parenthesis_P
+212G	rest=2
+194G	fort.30
+84G	CISD
+73G	fort.12
+59G	CFOUR
+45G	fort.23
+
+rm fort.32 fort.28 fort.27 fort.26 fort.30 fort.13 fort.12 fort.131 fort.87 fort.20 fort.21 fort.19 fort.18 fort.23 fort.21 fort.11 fort.78 fort.22 fort.14 fort.10 fort.56 fort.24 fort.31 fort.17 fort.57
+
+[nike@wob142 CCSDTQ-aug-cc-pCV5Z-NR]$ du -hsx * | sort -rh | head -100
+310G	parenthesis_P
+212G	rest=2
+84G	CISD
+59G	CFOUR
+45G	fort.16
+
+[nike@wob142 parenthesis_P]$ du -hsx * | sort -rh | head -100
+86G	fort.55
+45G	fort.16
+33G	fort.32
+33G	fort.28
+33G	fort.27
+33G	fort.26
+26G	fort.21
+17G	fort.131
+5.6G	fort.87
+3.3G	TEINT
+
+rm fort.32 fort.28 fort.27 fort.26 fort.30 fort.13 fort.12 fort.131 fort.87 fort.20 fort.21 fort.19 fort.18 fort.23 fort.21 fort.11 fort.78 fort.22 fort.14 fort.10 fort.56 fort.24 fort.31 fort.17 fort.57
+
+[nike@wob142 CCSDTQ-aug-cc-pCV5Z-NR]$ du -hsx * | sort -rh | head -100
+212G	rest=2
+133G	parenthesis_P
+84G	CISD
+59G	CFOUR
+45G	fort.16
+
+[nike@wob142 CISD]$ du -hsx * | sort -rh | head -100
+33G	fort.28
+27G	fort.55
+19G	fort.131
+3.3G	TEINT
+
+rm fort.32 fort.28 fort.27 fort.26 fort.30 fort.13 fort.12 fort.131 fort.87 fort.20 fort.21 fort.19 fort.18 fort.23 fort.21 fort.11 fort.78 fort.22 fort.14 fort.10 fort.56 fort.24 fort.31 fort.17 fort.57
+
+[nike@wob142 CCSDTQ-aug-cc-pCV5Z-NR]$ du -hsx * | sort -rh | head -100
+212G	rest=2
+133G	parenthesis_P
+59G	CFOUR
+45G	fort.16
+30G	CISD
+27G	fort.55
+3.3G	TEINT
+
+[nike@wob142 nr]$ du -hsx * | sort -rh | head -100
+3.2T	CCSDT-aug-cc-pCV6Z-NR
+2.3T	CCSDT-aug-cc-pCV7Zi-NR_MRCC
+2.1T	CCSDT-aug-cc-pCV7Zi-NR-CFOUR
+2.0T	CCSDT-aug-cc-pCV6Z-unc
+1.7T	CCSD-aug-cc-pCV7Zi-unc
+1.4T	CCSDT-aug-cc-pCV7Zi-unc
+1.1T	CCSDTQ-aug-cc-pCV5Z-unc
+925G	CCSD-aug-cc-pCV7Zi-ManuallyUnc
+894G	CCSDTQ-aug-cc-pCV4Z-unc
+729G	CCSDT-aug-cc-pCV5Z-unc
+598G	100
+507G	CCSDTQ-aug-cc-pCV5Z-NR
+
+Start with CCSDT-aug-cc-pCV6Z-unc next time....
