@@ -1,0 +1,333 @@
+[nike@wob97 nike]$ du -hsx * | sort -rh | head -10
+12T	H2O
+12T	H2
+4.7T	femoco
+3.3T	Ne
+3.2T	Li2_7Z
+2.7T	Li2_6Z
+2.6T	Ne+
+2.6T	N
+2.2T	O
+2.2T	benzene
+
+[nike@wob97 H2O]$ du -hsx * | sort -rh | head -10
+5.0T	V6Z
+1.9T	H2O_9z
+1.8T	V7Z
+1.2T	V5Z
+917G	V3Z
+874G	ae
+294G	V4Z
+81G	H2O_8z
+66G	aVDZ
+206M	VDZ
+[nike@wob97 H2O]$ cd V6Z/
+[nike@wob97 V6Z]$ du -hsx * | sort -rh | head -10
+5.0T	V6Z
+4.0G	fort.30
+[nike@wob97 V6Z]$ rm fort.30 
+[nike@wob97 V6Z]$ cd V6Z/
+[nike@wob97 V6Z]$ du -hsx * | sort -rh | head -10
+1.7T	H2O_6z
+803G	fort.30
+542G	fort.19
+542G	fort.18
+271G	fort.bkbk
+271G	fort.23
+271G	fort.16
+271G	fort.11
+112G	fort.12
+108G	fort.55
+[nike@wob97 V6Z]$ rm fort.30 fort.19 fort.18 fort.23 fort.11 fort.12 fort.55 &
+[1] 14673
+[nike@wob97 V6Z]$ cd H2O_6z/
+[nike@wob97 H2O_6z]$ du -hsx * | sort -rh | head -100
+271G	fort.16.bk.jun26
+271G	fort.16.bk.after4iters
+271G	fort.16.bk.after1more
+271G	fort.16.bk
+271G	fort.16
+224G	fort.16.jul13
+108G	fort.55
+19G	MOABCD
+
+[nike@wob97 H2O]$ du -hsx * | sort -rh | head -100
+2.4T	V6Z
+1.9T	H2O_9z
+1.8T	V7Z
+1.2T	V5Z
+917G	V3Z
+874G	ae
+294G	V4Z
+81G	H2O_8z
+66G	aVDZ
+206M	VDZ
+[nike@wob97 H2O]$ cd H2O_9z/
+[nike@wob97 H2O_9z]$ du -hsx * | sort -rh | head -100
+1.6T	H2O_9z
+138G	IJIJ
+128G	IJKL
+70G	IIJJ
+27G	IIII
+2.3M	GENBAS
+4.0K	ZMAT
+4.0K	MINP
+4.0K	0submit
+[nike@wob97 H2O_9z]$ cd H2O_9z/
+[nike@wob97 H2O_9z]$ du -hsx * | sort -rh | head -100
+1.2T	MOABCD
+138G	IJIJ
+128G	IJKL
+70G	IIJJ
+
+[nike@wob97 H2O_7z]$ du -hsx * | sort -rh | head -100
+126G	7z_CCSDTpQ_resetFlags
+126G	7z_CCSDTpQ
+125G	7z
+24G	7z_failedAgain
+24G	7z_failed
+782M	CCSDTQ_MRCC
+102M	fort.55
+
+[nike@wob97 V5Z]$ du -hsx * | sort -rh | head -100
+1.2T	ta
+16G	H2O_5z
+16G	fort.55
+2.8G	MOABCD
+2.3G	fort.21
+364M	fort.16
+286M	IJIJ
+
+[nike@wob97 ta]$ du -hsx * | sort -rh | head -100
+319G	fort.30
+316G	fort.19
+316G	fort.18
+40G	fort.23
+40G	fort.16.bk_afterCCSDTQ
+40G	fort.16.bk.1dayBeforeCCSDTQcompletion
+40G	fort.16
+40G	fort.11
+16G	fort.55
+13G	fort.12
+2.8G	MOABCD
+2.3G	fort.21
+1.1G	fort.13
+286M	IJIJ
+
+[nike@wob97 V3Z]$ du -hsx * | sort -rh | head -100
+510G	V3Z
+320G	VTZ
+80G	fort.30
+8.4G	molpro
+
+[nike@wob97 V3Z]$ du -hsx * | sort -rh | head -100
+503G	V3Z
+2.9G	fort.30
+1.5G	fort.19
+
+[nike@wob97 V3Z]$ du -hsx * | sort -rh | head -100
+503G	V3Z
+215M	fort.16
+
+[nike@wob97 V3Z]$ du -hsx * | sort -rh | head -100
+144G	fort.19
+144G	fort.18
+80G	fort.30
+
+[nike@wob97 V3Z]$ du -hsx * | sort -rh | head -100
+58G	V3Z
+215M	fort.16
+
+[nike@wob97 V3Z]$ du -hsx * | sort -rh | head -100
+29G	fort.16.bk
+29G	fort.16
+94M	fort.55
+
+[nike@wob97 H2O_ae_4z]$ du -hsx * | sort -rh | head -100
+732G	H2O_ae_4z
+60G	fort.19
+30G	fort.23
+30G	fort.11
+19G	fort.21
+4.1G	fort.55
+718M	MOABCD
+
+[nike@wob97 V4Z]$ du -hsx * | sort -rh | head -100
+162G	H2O_4z
+130G	fort.16
+1.7G	fort.55
+282M	MOABCD
+
+[nike@wob97 nike]$ du -hsx * | sort -rh | head -100
+12T	H2
+5.9T	H2O
+4.7T	femoco
+3.3T	Ne
+
+[nike@wob97 H2]$ du -hsx * | sort -rh | head -100
+5.4T	9z
+5.0T	10z
+1.1T	8z
+[nike@wob97 H2]$ cd 9z/
+[nike@wob97 9z]$ du -hsx * | sort -rh | head -100
+5.3T	9z
+78G	fort.131
+6.2M	TEDAT
+
+[nike@wob97 9z]$ du -hsx * | sort -rh | head -100
+3.6T	H2_9z
+671G	fort.31
+544G	fort.32
+421G	fort.131
+90G	TEINT
+
+[nike@wob97 9z]$ du -hsx * | sort -rh | head -100
+3.6T	H2_9z
+671G	fort.31
+544G	fort.32
+421G	fort.131
+90G	TEINT
+
+[nike@wob97 H2_9z]$ du -hsx * | sort -rh | head -100
+1.5T	H2_9z
+1.5T	fort.55
+274G	fort.30
+270G	MOABCD
+
+[nike@wob97 H2]$ cd 10z/
+[nike@wob97 10z]$ du -hsx * | sort -rh | head -100
+3.4T	H2_10z
+664G	fort.31
+537G	fort.32
+436G	fort.131
+90G	TEINT
+86M	out.1662566
+
+[nike@wob97 10z]$ du -hsx * | sort -rh | head -100
+3.4T	H2_10z
+90G	TEINT
+86M	out.1662566
+
+803G	fort.30
+741G	moreRAM
+741G	fort.55
+537G	fort.28
+474G	fort.131
+90G	TEINT
+3.0G	fort.87
+
+[nike@wob97 H2_10z]$ du -hsx * | sort -rh | head -100
+741G	moreRAM
+741G	fort.55
+537G	fort.28
+90G	TEINT
+3.0G	fort.87
+
+[nike@wob97 moreRAM]$ du -hsx * | sort -rh | head -100
+741G	fort.55
+560K	fort.16
+36K	fort.14
+16K	out.1696418
+
+[nike@wob97 nike]$ du -hsx * | sort -rh | head -20
+5.9T	H2O
+5.8T	H2
+4.7T	femoco
+
+[nike@wob97 nike]$ cd femoco/
+[nike@wob97 femoco]$ du -hsx * | sort -rh | head -100
+4.7T	fewerCoresLocalDisk
+[nike@wob97 femoco]$ cd fewerCoresLocalDisk/
+[nike@wob97 fewerCoresLocalDisk]$ du -hsx * | sort -rh | head -100
+1.9T	fort.19
+1.9T	fort.18
+213G	fort.23
+213G	fort.16.bk
+213G	fort.16
+213G	fort.11
+73G	fort.30
+7.1G	fort.13
+7.1G	fort.12
+51M	fort.55
+13M	fort.20
+1.8M	fort.21
+1.6M	fort.14
+508K	fort.10
+
+[nike@wob97 nike]$ du -hsx * | sort -rh | head -15
+5.9T	H2O
+5.8T	H2
+3.3T	Ne
+
+[nike@wob97 nike]$ du -hsx * | sort -rh | head -100
+5.9T	H2O
+5.8T	H2
+4.7T	femoco
+3.3T	Ne
+3.2T	Li2_7Z
+2.7T	Li2_6Z
+2.6T	Ne+
+2.6T	N
+2.2T	O
+2.2T	benzene
+1.9T	B
+1.8T	formamide
+1.8T	Cr2
+1.7T	C
+1.5T	O+
+1.5T	C+
+1.3T	N+
+1.3T	aceticAcid
+1.2T	failed_transfer
+995G	B+
+994G	Li2_c
+959G	H3+
+781G	H2+
+772G	F
+740G	SO2
+592G	SO2+
+554G	BN2-pyrene
+552G	2butene1chloro-
+454G	C2
+426G	buta
+407G	C++++
+406G	Be
+351G	F+
+351G	Be2
+257G	Be+
+227G	C+++
+212G	H
+168G	Li2_5Z
+168G	5z
+165G	N2
+155G	Li2_8Z
+127G	napth
+109G	buta_fc_5z
+82G	NaCl+_a5z
+77G	DLA76
+77G	Cr
+40G	molcas.FciDmp
+34G	quadratization
+34G	Li2_a
+25G	BrK
+16G	H2O-N2
+16G	Cu2+
+15G	QuadratizationCode
+15G	KBr
+15G	GW
+13G	CN-
+11G	NaCl
+11G	FCIDUMP_molcas_C_aCV8Z.tar.gz
+11G	CN
+7.9G	MgO
+2.8G	MgO+
+2.4G	Li2_b
+2.3G	Si
+1.4G	Zn
+1.1G	Ni
+1.1G	Cu2
+1013M	borane
+761M	LLDUC
+479M	cfour_v2.00beta_withApril2019xnmol
+[nike@wob97 nike]$ date
+Wed Mar  4 22:44:26 EST 2020
