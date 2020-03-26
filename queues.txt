@@ -24,3 +24,1622 @@
 2038 CPUs total, 1174 idle, 319 active; 398 jobs running, 0 suspended, 1217 queued.
 [nike@wob149 Ne_fc_6z]$ date
 Wed Mar 25 21:59:40 EDT 2020
+
+[nike@wob149 Ne_fc_6z]$ sqjobs -a
+  jobid     user st ncpu  pri    mem   time command
+------- -------- -- ---- ---- ------ ------ -------
+1658506     nike  R   16    0  31.0G 444.9d ~nike/MRCC/dmrcc
+1660343     nike  Q   15    0 104.0G 423.3d ~nike/cfour_v2.00beta/bin/xcfour
+1667615     nike  R    8    0 127.0G 363.0d ~nike/cfour_v2.00beta/bin/xcfour
+1668827     nike  R   10    0 129.0G 353.1d ~nike/MRCC/dmrcc
+1669357     nike  R    1    0   1.0G 348.9d ./quadGruber.sh 74
+1669364     nike  R    1    0   1.0G 348.9d ./quadGruber.sh 68
+1669387     nike  R    1    0   1.0G 348.9d ./quadGruber.sh 498
+1669388     nike  R    1    0   1.0G 348.9d ./quadGruber.sh 497
+1676326 stenekpr  R    1  490   1.0G 344.1d ~stenekpr/bin/OpenSees /gwork/stenek
+1676336 stenekpr  R    1  489   1.0G 344.1d ~stenekpr/bin/OpenSees /gwork/stenek
+1676386    kaveh  R   10  171   3.0G 344.6d /opt/sharcnet/lammps/15.05.2015/bin/
+1686348 npourkhi  R   10  531   3.0G 333.4d /opt/sharcnet/lammps/15.05.2015/bin/
+1696417     nike  R   14    0 590.0G 326.3d ~nike/MRCC/dmrcc
+1699167    kaveh  R   10  170   3.0G 323.8d /opt/sharcnet/lammps/15.05.2015/bin/
+1699171    kaveh  R   10  169   3.0G 323.3d /opt/sharcnet/lammps/15.05.2015/bin/
+1707453 mcclenad  R    1  997   1.6G 321.4d scripts/jobs/generateDiagramPart.sh 
+1707828 mcclenad  R    1  996   1.6G 321.2d scripts/jobs/generateDiagramPart.sh 
+1710624    kaveh  R   10  168   3.0G 322.8d /opt/sharcnet/lammps/15.05.2015/bin/
+1710625    kaveh  R   10  167   3.0G 322.8d /opt/sharcnet/lammps/15.05.2015/bin/
+1710626    kaveh  R   10  166   3.0G 322.8d /opt/sharcnet/lammps/15.05.2015/bin/
+1710658 mattchan  R    1 3102   8.0G 321.9d ./runDOCIprimed.sh
+1710659 mattchan  R    1 3101   8.0G 321.9d ./runDOCIprimed.sh
+1711789     nike  R    8    0 511.0G 317.2d ~nike/MRCC/dmrcc
+1720023     nike  R    8    0 511.0G 314.9d ~nike/MRCC/dmrcc
+1720024     nike  R   24    0  85.0G 314.9d ~nike/MRCC/dmrcc
+1732635     nike  R   20    0   1.0G 307.9d /project1/nike/cfour_v2.00beta_May20
+1732636     nike  R   23    0  80.0G 307.9d ~nike/cfour_v2.00beta/bin/xcfour
+1743902     nike  R   12    0 424.0G 301.1d ~nike/MRCC/dmrcc
+1743927 stalebim  R    1  968 562.0M 300.0d ./mstm Analysis.inp
+1743928 stalebim  R    1  967 562.0M 300.0d ./mstm Analysis.inp
+1744974 stalebim  R    1  966 562.0M 297.1d ./mstm Analysis.inp
+1756987    kaveh  R   10  165   3.0G 283.4d /opt/sharcnet/lammps/15.05.2015/bin/
+1756988    kaveh  R   10  164   3.0G 283.4d /opt/sharcnet/lammps/15.05.2015/bin/
+1757289 stalebim  R    1  965 562.0M 283.1d ./mstm Analysis.inp
+1757294 stalebim  R    1  964 562.0M 283.1d ./mstm Analysis.inp
+1758102 stalebim  R    1  963 562.0M 281.0d ./mstm Analysis.inp
+1758103 stalebim  R    1  962 562.0M 281.0d ./mstm Analysis.inp
+1760148 stalebim  R    1  961 562.0M 279.6d ./mstm Analysis.inp
+1760149 stalebim  R    1  960 562.0M 279.6d ./mstm Analysis.inp
+1761287 stalebim  R    1  959 562.0M 278.0d ./mstm Analysis.inp
+1761300 stalebim  R    1  958 562.0M 278.0d ./mstm Analysis.inp
+1761493 stalebim  R    1  957 562.0M 277.8d ./mstm Analysis.inp
+1761532 stalebim  R    1  956 562.0M 277.8d ./mstm Analysis.inp
+1762253 stalebim  R    1  955 562.0M 275.2d ./mstm Analysis.inp
+1762280 stalebim  R    1  954 562.0M 275.2d ./mstm Analysis.inp
+1786140 npourkhi  R   10  530   3.0G 217.5d /opt/sharcnet/lammps/15.05.2015/bin/
+1786141 npourkhi  R   10  529   3.0G 217.5d /opt/sharcnet/lammps/15.05.2015/bin/
+1789535 stalebim  R    1  953 562.0M 210.9d ./mstm Analysis.inp
+1789616 stalebim  R    1  952 562.0M 210.9d ./mstm Analysis.inp
+1791888 npourkhi  R   10  528   3.0G 207.6d /opt/sharcnet/lammps/15.05.2015/bin/
+1803315 npourkhi  R   10  527   3.0G 188.6d /opt/sharcnet/lammps/15.05.2015/bin/
+1803316 npourkhi  R   10  526   3.0G 188.6d /opt/sharcnet/lammps/15.05.2015/bin/
+1803318    kaveh  R   10  163   3.0G 195.6d /opt/sharcnet/lammps/15.05.2015/bin/
+1803319    kaveh  R   10  162   3.0G 195.6d /opt/sharcnet/lammps/15.05.2015/bin/
+1803320    kaveh  R   10  161   3.0G 195.5d /opt/sharcnet/lammps/15.05.2015/bin/
+1803321    kaveh  R   10  160   3.0G 195.5d /opt/sharcnet/lammps/15.05.2015/bin/
+1803322    kaveh  R   10  159   3.0G 195.5d /opt/sharcnet/lammps/15.05.2015/bin/
+1803323    kaveh  R   10  158   3.0G 195.5d /opt/sharcnet/lammps/15.05.2015/bin/
+1803324    kaveh  R   10  157   3.0G 195.5d /opt/sharcnet/lammps/15.05.2015/bin/
+1803325    kaveh  R   10  156   3.0G 195.5d /opt/sharcnet/lammps/15.05.2015/bin/
+1803326    kaveh  R   10  155   3.0G 195.5d /opt/sharcnet/lammps/15.05.2015/bin/
+1803327    kaveh  R   10  154   3.0G 195.5d /opt/sharcnet/lammps/15.05.2015/bin/
+1803328    kaveh  R   10  153   3.0G 195.5d /opt/sharcnet/lammps/15.05.2015/bin/
+1803330    kaveh  R   10  152   3.0G 195.5d /opt/sharcnet/lammps/15.05.2015/bin/
+1809916 stenekpr  R   16  503   1.0G 188.0d ./MASTER_GA_cor_par
+1809917 stenekpr  R   16  502   1.0G 188.0d ./MASTER_GA_cor_par
+1809918 stenekpr  R   16  501   1.0G 188.0d ./MASTER_GA_cor_par
+1809919 stenekpr  R   16  500   1.0G 188.0d ./MASTER_GA_cor_par
+1809920 stenekpr  R   16  499   1.0G 188.0d ./MASTER_GA_cor_par
+1809921 stenekpr  R   16  498   1.0G 188.0d ./MASTER_GA_cor_par
+1809924 stenekpr  R   16  497   1.0G 188.0d ./MASTER_GA_cor_par
+1809925 stenekpr  R   16  496   1.0G 188.0d ./MASTER_GA_cor_par
+1810021 npourkhi  R   10  525   3.0G 187.7d /opt/sharcnet/lammps/15.05.2015/bin/
+1810023 npourkhi  R   10  524   3.0G 187.7d /opt/sharcnet/lammps/15.05.2015/bin/
+1810026 npourkhi  R   10  523   3.0G 187.7d /opt/sharcnet/lammps/15.05.2015/bin/
+1810027 npourkhi  R   10  522   3.0G 187.7d /opt/sharcnet/lammps/15.05.2015/bin/
+1810029 npourkhi  R   10  521   3.0G 187.7d /opt/sharcnet/lammps/15.05.2015/bin/
+1812586    kaveh  R   10  151   3.0G 185.5d /opt/sharcnet/lammps/15.05.2015/bin/
+1834283 npourkhi  R   10  520   3.0G 172.3d /opt/sharcnet/lammps/15.05.2015/bin/
+1840623 stalebim  R    1  951   1.5G 167.9d ./run_RUN_case_4.sh /opt/sharcnet/ma
+1840624 stalebim  R    1  950   1.5G 167.9d ./run_RUN_case_4.sh /opt/sharcnet/ma
+1859809   kimt33  R    1 3002   3.0G 161.1d ./results.sh
+1859950   kimt33  R    1 3001   3.0G 161.1d ./results.sh
+1888077 stenekpr  R    1  480   1.0G 110.7d ~stenekpr/bin/OpenSees /work/stenekp
+1888081 stenekpr  R    1  479   1.0G 110.6d ~stenekpr/bin/OpenSees /work/stenekp
+1910921 stenekpr  R    1  478   1.0G  98.6d ~stenekpr/bin/OpenSees /work/stenekp
+1911081 stenekpr  R    1  477   1.0G  98.5d ~stenekpr/bin/OpenSees /work/stenekp
+1924463     nike  Q    8    0   1.0G  92.9d /project1/nike/cfour_v2.00beta_May20
+1925447     nike  R    1    0  31.0G  65.0d /opt/sharcnet/molpro/2012.1.12-mpp/b
+1926282   kimt33  R    1 3000   3.0G  51.4d ./results.sh
+1926283   kimt33  R    1 2999   3.0G  51.4d ./results.sh
+1926284   kimt33  R    1 2998   3.0G  51.4d ./results.sh
+1926285   kimt33  R    1 2997   3.0G  51.4d ./results.sh
+1926286   kimt33  R    1 2996   3.0G  51.4d ./results.sh
+1926287   kimt33  R    1 2995   3.0G  51.4d ./results.sh
+1926288   kimt33  R    1 2994   3.0G  51.4d ./results.sh
+1926289   kimt33  R    1 2993   3.0G  51.4d ./results.sh
+1926290   kimt33  R    1 2992   3.0G  51.4d ./results.sh
+1926291   kimt33  R    1 2991   3.0G  51.4d ./results.sh
+1926292   kimt33  R    1 2990   3.0G  51.4d ./results.sh
+1926293   kimt33  R    1 2989   3.0G  51.4d ./results.sh
+1926294   kimt33  R    1 2988   3.0G  51.4d ./results.sh
+1926295   kimt33  R    1 2987   3.0G  51.4d ./results.sh
+1926296   kimt33  R    1 2986   3.0G  51.4d ./results.sh
+1926297   kimt33  R    1 2985   3.0G  51.4d ./results.sh
+1926298   kimt33  R    1 2984   3.0G  51.4d ./results.sh
+1926299   kimt33  R    1 2983   3.0G  51.4d ./results.sh
+1926300   kimt33  R    1 2982   3.0G  51.4d ./results.sh
+1926301   kimt33  R    1 2981   3.0G  51.4d ./results.sh
+1926302   kimt33  R    1 2980   3.0G  51.4d ./results.sh
+1926303   kimt33  R    1 2979   3.0G  51.4d ./results.sh
+1926304   kimt33  R    1 2978   3.0G  51.4d ./results.sh
+1926305   kimt33  R    1 2977   3.0G  51.4d ./results.sh
+1926306   kimt33  R    1 2976   3.0G  51.4d ./results.sh
+1926307   kimt33  R    1 2975   3.0G  51.4d ./results.sh
+1926308   kimt33  R    1 2974   3.0G  51.4d ./results.sh
+1926309   kimt33  R    1 2973   3.0G  51.4d ./results.sh
+1926310   kimt33  R    1 2972   3.0G  51.4d ./results.sh
+1926311   kimt33  R    1 2971   3.0G  51.4d ./results.sh
+1926312   kimt33  R    1 2970   3.0G  51.4d ./results.sh
+1926313   kimt33  R    1 2969   3.0G  51.4d ./results.sh
+1926314   kimt33  R    1 2968   3.0G  51.4d ./results.sh
+1926315   kimt33  R    1 2967   3.0G  51.4d ./results.sh
+1926316   kimt33  R    1 2966   3.0G  51.4d ./results.sh
+1926317   kimt33  R    1 2965   3.0G  51.4d ./results.sh
+1926318   kimt33  R    1 2964   3.0G  51.4d ./results.sh
+1926319   kimt33  R    1 2963   3.0G  51.4d ./results.sh
+1926320   kimt33  R    1 2962   3.0G  51.4d ./results.sh
+1926321   kimt33  R    1 2961   3.0G  51.4d ./results.sh
+1926322   kimt33  R    1 2960   3.0G  51.4d ./results.sh
+1926323   kimt33  R    1 2959   3.0G  51.4d ./results.sh
+1926324   kimt33  R    1 2958   3.0G  51.4d ./results.sh
+1926325   kimt33  R    1 2957   3.0G  51.4d ./results.sh
+1926326   kimt33  R    1 2956   3.0G  51.4d ./results.sh
+1926327   kimt33  R    1 2955   3.0G  51.4d ./results.sh
+1926328   kimt33  R    1 2954   3.0G  51.4d ./results.sh
+1926329   kimt33  R    1 2953   3.0G  51.4d ./results.sh
+1926330   kimt33  R    1 2952   3.0G  51.4d ./results.sh
+1926331   kimt33  R    1 2951   3.0G  51.4d ./results.sh
+1926332   kimt33  R    1 2950   3.0G  51.4d ./results.sh
+1926333   kimt33  R    1 2949   3.0G  51.4d ./results.sh
+1926334   kimt33  R    1 2948   3.0G  51.4d ./results.sh
+1926335   kimt33  R    1 2947   3.0G  51.4d ./results.sh
+1926336   kimt33  R    1 2946   3.0G  51.4d ./results.sh
+1926337   kimt33  R    1 2945   3.0G  51.4d ./results.sh
+1926338   kimt33  R    1 2944   3.0G  51.4d ./results.sh
+1926339   kimt33  R    1 2943   3.0G  51.4d ./results.sh
+1926340   kimt33  R    1 2942   3.0G  51.4d ./results.sh
+1926341   kimt33  R    1 2941   3.0G  51.4d ./results.sh
+1926342   kimt33  R    1 2940   3.0G  51.4d ./results.sh
+1926343   kimt33  R    1 2939   3.0G  51.4d ./results.sh
+1926344   kimt33  R    1 2938   3.0G  51.4d ./results.sh
+1926345   kimt33  R    1 2937   3.0G  51.4d ./results.sh
+1926346   kimt33  R    1 2936   3.0G  51.4d ./results.sh
+1926347   kimt33  R    1 2935   3.0G  51.4d ./results.sh
+1926348   kimt33  R    1 2934   3.0G  51.4d ./results.sh
+1926349   kimt33  R    1 2933   3.0G  51.4d ./results.sh
+1926350   kimt33  R    1 2932   3.0G  51.4d ./results.sh
+1926351   kimt33  R    1 2931   3.0G  51.4d ./results.sh
+1926352   kimt33  R    1 2930   3.0G  51.4d ./results.sh
+1926353   kimt33  R    1 2929   3.0G  51.4d ./results.sh
+1926354   kimt33  R    1 2928   3.0G  51.4d ./results.sh
+1926355   kimt33  R    1 2927   3.0G  51.4d ./results.sh
+1926356   kimt33  R    1 2926   3.0G  51.4d ./results.sh
+1926357   kimt33  R    1 2925   3.0G  51.4d ./results.sh
+1926358   kimt33  R    1 2924   3.0G  51.4d ./results.sh
+1926359   kimt33  R    1 2923   3.0G  51.4d ./results.sh
+1926360   kimt33  R    1 2922   3.0G  51.4d ./results.sh
+1926361   kimt33  R    1 2921   3.0G  51.4d ./results.sh
+1926362   kimt33  R    1 2920   3.0G  51.4d ./results.sh
+1926363   kimt33  R    1 2919   3.0G  51.4d ./results.sh
+1926364   kimt33  R    1 2918   3.0G  51.4d ./results.sh
+1926365   kimt33  R    1 2917   3.0G  51.4d ./results.sh
+1926366   kimt33  R    1 2916   3.0G  51.4d ./results.sh
+1926367   kimt33  R    1 2915   3.0G  51.4d ./results.sh
+1926368   kimt33  R    1 2914   3.0G  51.4d ./results.sh
+1926369   kimt33  R    1 2913   3.0G  51.4d ./results.sh
+1926370   kimt33  R    1 2912   3.0G  51.4d ./results.sh
+1926371   kimt33  R    1 2911   3.0G  51.4d ./results.sh
+1926372   kimt33  R    1 2910   3.0G  51.4d ./results.sh
+1926373   kimt33  R    1 2909   3.0G  51.4d ./results.sh
+1926374   kimt33  R    1 2908   3.0G  51.4d ./results.sh
+1926375   kimt33  R    1 2907   3.0G  51.4d ./results.sh
+1926376   kimt33  R    1 2906   3.0G  51.4d ./results.sh
+1926377   kimt33  R    1 2905   3.0G  51.4d ./results.sh
+1926378   kimt33  R    1 2904   3.0G  51.4d ./results.sh
+1926379   kimt33  R    1 2903   3.0G  51.4d ./results.sh
+1926380   kimt33  R    1 2902   3.0G  51.4d ./results.sh
+1926391   kimt33  R    1 2901   3.0G  51.4d ./results.sh
+1926392   kimt33  R    1 2900   3.0G  51.4d ./results.sh
+1926393   kimt33  R    1 2899   3.0G  51.4d ./results.sh
+1926394   kimt33  R    1 2898   3.0G  51.4d ./results.sh
+1926395   kimt33  R    1 2897   3.0G  51.4d ./results.sh
+1926396   kimt33  R    1 2896   3.0G  51.4d ./results.sh
+1926397   kimt33  R    1 2895   3.0G  51.4d ./results.sh
+1926398   kimt33  R    1 2894   3.0G  51.4d ./results.sh
+1926399   kimt33  R    1 2893   3.0G  51.4d ./results.sh
+1926400   kimt33  R    1 2892   3.0G  51.4d ./results.sh
+1926411   kimt33  R    1 2891   3.0G  51.4d ./results.sh
+1926412   kimt33  R    1 2890   3.0G  51.4d ./results.sh
+1926413   kimt33  R    1 2889   3.0G  51.4d ./results.sh
+1926414   kimt33  R    1 2888   3.0G  51.4d ./results.sh
+1926415   kimt33  R    1 2887   3.0G  51.4d ./results.sh
+1926416   kimt33  R    1 2886   3.0G  51.4d ./results.sh
+1926417   kimt33  R    1 2885   3.0G  51.4d ./results.sh
+1926418   kimt33  R    1 2884   3.0G  51.4d ./results.sh
+1926419   kimt33  R    1 2883   3.0G  51.4d ./results.sh
+1926420   kimt33  R    1 2882   3.0G  51.4d ./results.sh
+1926431   kimt33  R    1 2881   3.0G  51.4d ./results.sh
+1926432   kimt33  R    1 2880   3.0G  51.4d ./results.sh
+1926433   kimt33  R    1 2879   3.0G  51.4d ./results.sh
+1926434   kimt33  R    1 2878   3.0G  51.4d ./results.sh
+1926435   kimt33  R    1 2877   3.0G  51.4d ./results.sh
+1926436   kimt33  R    1 2876   3.0G  51.4d ./results.sh
+1926437   kimt33  R    1 2875   3.0G  51.4d ./results.sh
+1926438   kimt33  R    1 2874   3.0G  51.4d ./results.sh
+1926439   kimt33  R    1 2873   3.0G  51.4d ./results.sh
+1926440   kimt33  R    1 2872   3.0G  51.4d ./results.sh
+1926816   kimt33  R    1 2871   3.0G  50.2d ./results.sh
+1926817   kimt33  R    1 2870   3.0G  50.2d ./results.sh
+1926818   kimt33  R    1 2869   3.0G  50.2d ./results.sh
+1926819   kimt33  R    1 2868   3.0G  50.2d ./results.sh
+1926820   kimt33  R    1 2867   3.0G  50.2d ./results.sh
+1926821   kimt33  R    1 2866   3.0G  50.2d ./results.sh
+1926822   kimt33  R    1 2865   3.0G  50.2d ./results.sh
+1926823   kimt33  R    1 2864   3.0G  50.2d ./results.sh
+1926824   kimt33  R    1 2863   3.0G  50.2d ./results.sh
+1926825   kimt33  R    1 2862   3.0G  50.2d ./results.sh
+1926834   kimt33  R    1 2861   3.0G  50.2d ./results.sh
+1926836   kimt33  R    1 2860   3.0G  50.2d ./results.sh
+1926838   kimt33  R    1 2859   3.0G  50.2d ./results.sh
+1926840   kimt33  R    1 2858   3.0G  50.2d ./results.sh
+1926842   kimt33  R    1 2857   3.0G  50.2d ./results.sh
+1926844   kimt33  R    1 2856   3.0G  50.2d ./results.sh
+1926846   kimt33  R    1 2855   3.0G  50.2d ./results.sh
+1926848   kimt33  R    1 2854   3.0G  50.2d ./results.sh
+1926850   kimt33  R    1 2853   3.0G  50.2d ./results.sh
+1926851   kimt33  R    1 2852   3.0G  50.2d ./results.sh
+1926852   kimt33  R    1 2851   3.0G  50.2d ./results.sh
+1926853   kimt33  R    1 2850   3.0G  50.2d ./results.sh
+1926854   kimt33  R    1 2849   3.0G  50.2d ./results.sh
+1926855   kimt33  R    1 2848   3.0G  50.2d ./results.sh
+1926856   kimt33  R    1 2847   3.0G  50.2d ./results.sh
+1926857   kimt33  R    1 2846   3.0G  50.2d ./results.sh
+1926858   kimt33  R    1 2845   3.0G  50.2d ./results.sh
+1926859   kimt33  R    1 2844   3.0G  50.2d ./results.sh
+1926860   kimt33  R    1 2843   3.0G  50.2d ./results.sh
+1926861   kimt33  R    1 2842   3.0G  50.2d ./results.sh
+1926870   kimt33  R    1 2841   3.0G  50.2d ./results.sh
+1926872   kimt33  R    1 2840   3.0G  50.2d ./results.sh
+1940600     nike  Q   15    0  31.0G  20.9d /project1/nike/cfour_v2.00beta_May20
+1958521 stalebim  R    1  949 562.0M  18.1d ./mstm Analysis.inp
+1958539 stalebim  R    1  948 562.0M  18.1d ./mstm Analysis.inp
+1973335     nike  R    4    0 129.0G  14.0d ~nike/MRCC/dmrcc
+1973336     nike  R    4    0 129.0G  14.0d ~nike/MRCC/dmrcc
+1986927 alexfrol  R    1  901   1.0G   8.3d ./aps2m2
+1991655 alexfrol  R    1  900   3.0G   6.3d ./oh3-c16
+2004019 alexfrol  R    1  899   1.0G   5.3d ./mups12
+2004020 alexfrol  R    1  898   1.0G   5.3d ./mups10
+2006632 stenekpr  R    1  476   1.0G   5.3h ~stenekpr/bin/OpenSees /project1/ste
+2006634 stenekpr  R    1  474   1.0G   5.3h ~stenekpr/bin/OpenSees /project1/ste
+2006646 stenekpr  R    1  473   1.0G   5.0h ~stenekpr/bin/OpenSees /project1/ste
+2006648 stenekpr  R    1  472   1.0G   4.8h ~stenekpr/bin/OpenSees /project1/ste
+2006649 stenekpr  R    1  471   1.0G   4.8h ~stenekpr/bin/OpenSees /project1/ste
+2006651 stenekpr  R    1  470   1.0G   4.6h ~stenekpr/bin/OpenSees /project1/ste
+2006652 stenekpr  R    1  469   1.0G   4.5h ~stenekpr/bin/OpenSees /project1/ste
+2006654 stenekpr  R    1  468   1.0G   4.4h ~stenekpr/bin/OpenSees /project1/ste
+2006655 stenekpr  R    1  467   1.0G   4.2h ~stenekpr/bin/OpenSees /project1/ste
+2006656 stenekpr  R    1  466   1.0G   4.2h ~stenekpr/bin/OpenSees /project1/ste
+2006657 stenekpr  R    1  465   1.0G   4.2h ~stenekpr/bin/OpenSees /project1/ste
+2006658 stenekpr  R    1  464   1.0G   4.2h ~stenekpr/bin/OpenSees /project1/ste
+2006659 stenekpr  R    1  463   1.0G   4.1h ~stenekpr/bin/OpenSees /project1/ste
+2006661 stenekpr  R    1  462   1.0G   4.1h ~stenekpr/bin/OpenSees /project1/ste
+2006662 stenekpr  R    1  461   1.0G   4.0h ~stenekpr/bin/OpenSees /project1/ste
+2006665 stenekpr  R    1  460   1.0G   4.0h ~stenekpr/bin/OpenSees /project1/ste
+2006666 stenekpr  R    1  459   1.0G   3.9h ~stenekpr/bin/OpenSees /project1/ste
+2006668 stenekpr  R    1  458   1.0G   3.9h ~stenekpr/bin/OpenSees /project1/ste
+2006669 stenekpr  R    1  457   1.0G   3.8h ~stenekpr/bin/OpenSees /project1/ste
+2006670 stenekpr  R    1  456   1.0G   3.8h ~stenekpr/bin/OpenSees /project1/ste
+2006671 stenekpr  R    1  455   1.0G   3.8h ~stenekpr/bin/OpenSees /project1/ste
+2006672 stenekpr  R    1  454   1.0G   3.7h ~stenekpr/bin/OpenSees /project1/ste
+2006673 stenekpr  R    1  453   1.0G   3.7h ~stenekpr/bin/OpenSees /project1/ste
+2006674 stenekpr  R    1  452   1.0G   3.5h ~stenekpr/bin/OpenSees /project1/ste
+2006675 stenekpr  R    1  451   1.0G   3.5h ~stenekpr/bin/OpenSees /project1/ste
+2006676 stenekpr  R    1  450   1.0G   3.4h ~stenekpr/bin/OpenSees /project1/ste
+2006677 stenekpr  R    1  449   1.0G   3.4h ~stenekpr/bin/OpenSees /project1/ste
+2006678 stenekpr  R    1  448   1.0G   3.4h ~stenekpr/bin/OpenSees /project1/ste
+2006679 stenekpr  R    1  447   1.0G   3.2h ~stenekpr/bin/OpenSees /project1/ste
+2006680 stenekpr  R    1  446   1.0G   3.1h ~stenekpr/bin/OpenSees /project1/ste
+2006681 stenekpr  R    1  445   1.0G   3.0h ~stenekpr/bin/OpenSees /project1/ste
+2006682 stenekpr  R    1  444   1.0G   2.9h ~stenekpr/bin/OpenSees /project1/ste
+2006683 stenekpr  R    1  443   1.0G   2.8h ~stenekpr/bin/OpenSees /project1/ste
+2006684 stenekpr  R    1  442   1.0G   2.8h ~stenekpr/bin/OpenSees /project1/ste
+2006685 stenekpr  R    1  441   1.0G   2.8h ~stenekpr/bin/OpenSees /project1/ste
+2006686 stenekpr  R    1  440   1.0G   2.7h ~stenekpr/bin/OpenSees /project1/ste
+2006687 stenekpr  R    1  439   1.0G   2.5h ~stenekpr/bin/OpenSees /project1/ste
+2006688 stenekpr  R    1  438   1.0G   2.5h ~stenekpr/bin/OpenSees /project1/ste
+2006689 stenekpr  R    1  437   1.0G   2.4h ~stenekpr/bin/OpenSees /project1/ste
+2006690 stenekpr  R    1  436   1.0G   2.4h ~stenekpr/bin/OpenSees /project1/ste
+2006691 stenekpr  R    1  435   1.0G   2.3h ~stenekpr/bin/OpenSees /project1/ste
+2006692 stenekpr  R    1  434   1.0G   2.3h ~stenekpr/bin/OpenSees /project1/ste
+2006693 stenekpr  R    1  433   1.0G   2.2h ~stenekpr/bin/OpenSees /project1/ste
+2006694 stenekpr  R    1  432   1.0G   2.2h ~stenekpr/bin/OpenSees /project1/ste
+2006695 stenekpr  R    1  431   1.0G   2.2h ~stenekpr/bin/OpenSees /project1/ste
+2006696 stenekpr  R    1  430   1.0G   2.2h ~stenekpr/bin/OpenSees /project1/ste
+2006697 stenekpr  R    1  429   1.0G   2.1h ~stenekpr/bin/OpenSees /project1/ste
+2006698 stenekpr  R    1  428   1.0G   2.1h ~stenekpr/bin/OpenSees /project1/ste
+2006699 stenekpr  R    1  427   1.0G   2.1h ~stenekpr/bin/OpenSees /project1/ste
+2006700 stenekpr  R    1  426   1.0G   2.1h ~stenekpr/bin/OpenSees /project1/ste
+2006701 stenekpr  R    1  425   1.0G   2.0h ~stenekpr/bin/OpenSees /project1/ste
+2006702 stenekpr  R    1  424   1.0G   2.0h ~stenekpr/bin/OpenSees /project1/ste
+2006703 stenekpr  R    1  423   1.0G   1.9h ~stenekpr/bin/OpenSees /project1/ste
+2006704 stenekpr  R    1  422   1.0G   1.9h ~stenekpr/bin/OpenSees /project1/ste
+2006705 stenekpr  R    1  421   1.0G   1.9h ~stenekpr/bin/OpenSees /project1/ste
+2006706 stenekpr  R    1  420   1.0G   1.8h ~stenekpr/bin/OpenSees /project1/ste
+2006707 stenekpr  R    1  419   1.0G   1.8h ~stenekpr/bin/OpenSees /project1/ste
+2006708 stenekpr  R    1  418   1.0G   1.7h ~stenekpr/bin/OpenSees /project1/ste
+2006709 stenekpr  R    1  417   1.0G   1.7h ~stenekpr/bin/OpenSees /project1/ste
+2006710 stenekpr  R    1  416   1.0G   1.7h ~stenekpr/bin/OpenSees /project1/ste
+2006711 stenekpr  R    1  415   1.0G   1.6h ~stenekpr/bin/OpenSees /project1/ste
+2006712 stenekpr  R    1  414   1.0G   1.6h ~stenekpr/bin/OpenSees /project1/ste
+2006713 stenekpr  R    1  413   1.0G   1.6h ~stenekpr/bin/OpenSees /project1/ste
+2006714 stenekpr  R    1  412   1.0G   1.6h ~stenekpr/bin/OpenSees /project1/ste
+2006715 stenekpr  R    1  411   1.0G   1.6h ~stenekpr/bin/OpenSees /project1/ste
+2006716 stenekpr  R    1  410   1.0G   1.6h ~stenekpr/bin/OpenSees /project1/ste
+2006717 stenekpr  R    1  409   1.0G   1.6h ~stenekpr/bin/OpenSees /project1/ste
+2006718 stenekpr  R    1  408   1.0G   1.6h ~stenekpr/bin/OpenSees /project1/ste
+2006719 stenekpr  R    1  407   1.0G   1.5h ~stenekpr/bin/OpenSees /project1/ste
+2006720 stenekpr  R    1  406   1.0G   1.5h ~stenekpr/bin/OpenSees /project1/ste
+2006721 stenekpr  R    1  405   1.0G   1.5h ~stenekpr/bin/OpenSees /project1/ste
+2006722 stenekpr  R    1  404   1.0G   1.5h ~stenekpr/bin/OpenSees /project1/ste
+2006723 stenekpr  R    1  403   1.0G   1.4h ~stenekpr/bin/OpenSees /project1/ste
+2006724 stenekpr  R    1  402   1.0G   1.4h ~stenekpr/bin/OpenSees /project1/ste
+2006725 stenekpr  R    1  401   1.0G   1.3h ~stenekpr/bin/OpenSees /project1/ste
+2006726 stenekpr  R    1  400   1.0G   1.3h ~stenekpr/bin/OpenSees /project1/ste
+2006727 stenekpr  R    1  399   1.0G   1.3h ~stenekpr/bin/OpenSees /project1/ste
+2006728 stenekpr  R    1  398   1.0G   1.3h ~stenekpr/bin/OpenSees /project1/ste
+2006729 stenekpr  R    1  397   1.0G   1.3h ~stenekpr/bin/OpenSees /project1/ste
+2006730 stenekpr  R    1  396   1.0G   1.2h ~stenekpr/bin/OpenSees /project1/ste
+2006731 stenekpr  R    1  395   1.0G   1.2h ~stenekpr/bin/OpenSees /project1/ste
+2006732 stenekpr  R    1  394   1.0G   1.1h ~stenekpr/bin/OpenSees /project1/ste
+2006733 stenekpr  R    1  393   1.0G   1.1h ~stenekpr/bin/OpenSees /project1/ste
+2006734 stenekpr  R    1  392   1.0G   1.1h ~stenekpr/bin/OpenSees /project1/ste
+2006735 stenekpr  R    1  391   1.0G   1.1h ~stenekpr/bin/OpenSees /project1/ste
+2006736 stenekpr  R    1  390   1.0G   1.1h ~stenekpr/bin/OpenSees /project1/ste
+2006737 stenekpr  R    1  389   1.0G   1.1h ~stenekpr/bin/OpenSees /project1/ste
+2006738 stenekpr  R    1  388   1.0G   1.1h ~stenekpr/bin/OpenSees /project1/ste
+2006739 stenekpr  R    1  387   1.0G   1.1h ~stenekpr/bin/OpenSees /project1/ste
+2006740 stenekpr  R    1  386   1.0G   1.1h ~stenekpr/bin/OpenSees /project1/ste
+2006741 stenekpr  R    1  385   1.0G   1.0h ~stenekpr/bin/OpenSees /project1/ste
+2006742 stenekpr  R    1  384   1.0G   1.0h ~stenekpr/bin/OpenSees /project1/ste
+2006743 stenekpr  R    1  383   1.0G   1.0h ~stenekpr/bin/OpenSees /project1/ste
+2006744 stenekpr  R    1  382   1.0G   1.0h ~stenekpr/bin/OpenSees /project1/ste
+2006745 stenekpr  R    1  381   1.0G   1.0h ~stenekpr/bin/OpenSees /project1/ste
+2006746 stenekpr  R    1  380   1.0G  3584s ~stenekpr/bin/OpenSees /project1/ste
+2006747 stenekpr  R    1  379   1.0G  3584s ~stenekpr/bin/OpenSees /project1/ste
+2006748 stenekpr  R    1  378   1.0G  3584s ~stenekpr/bin/OpenSees /project1/ste
+2006749 stenekpr  R    1  377   1.0G  3584s ~stenekpr/bin/OpenSees /project1/ste
+2006750 stenekpr  R    1  376   1.0G  3528s ~stenekpr/bin/OpenSees /project1/ste
+2006751 stenekpr  R    1  375   1.0G  3528s ~stenekpr/bin/OpenSees /project1/ste
+2006752 stenekpr  R    1  374   1.0G  3408s ~stenekpr/bin/OpenSees /project1/ste
+2006753 stenekpr  R    1  373   1.0G  3408s ~stenekpr/bin/OpenSees /project1/ste
+2006754 stenekpr  R    1  372   1.0G  3408s ~stenekpr/bin/OpenSees /project1/ste
+2006755 stenekpr  R    1  371   1.0G  3287s ~stenekpr/bin/OpenSees /project1/ste
+2006756 stenekpr  R    1  370   1.0G  3104s ~stenekpr/bin/OpenSees /project1/ste
+2006757 stenekpr  R    1  369   1.0G  2864s ~stenekpr/bin/OpenSees /project1/ste
+2006758 stenekpr  R    1  368   1.0G  2864s ~stenekpr/bin/OpenSees /project1/ste
+2006759 stenekpr  R    1  367   1.0G  2807s ~stenekpr/bin/OpenSees /project1/ste
+2006760 stenekpr  R    1  366   1.0G  2744s ~stenekpr/bin/OpenSees /project1/ste
+2006761 stenekpr  R    1  365   1.0G  2688s ~stenekpr/bin/OpenSees /project1/ste
+2006762 stenekpr  R    1  364   1.0G  2504s ~stenekpr/bin/OpenSees /project1/ste
+2006763 stenekpr  R    1  363   1.0G  2383s ~stenekpr/bin/OpenSees /project1/ste
+2006764 stenekpr  R    1  362   1.0G  2088s ~stenekpr/bin/OpenSees /project1/ste
+2006765 stenekpr  R    1  361   1.0G  1607s ~stenekpr/bin/OpenSees /project1/ste
+2006766 stenekpr  R    1  360   1.0G  1544s ~stenekpr/bin/OpenSees /project1/ste
+2006767 stenekpr  R    1  359   1.0G  1304s ~stenekpr/bin/OpenSees /project1/ste
+2006768 stenekpr  R    1  358   1.0G  1183s ~stenekpr/bin/OpenSees /project1/ste
+2006769 stenekpr  R    1  357   1.0G   704s ~stenekpr/bin/OpenSees /project1/ste
+2006770 stenekpr  R    1  356   1.0G   584s ~stenekpr/bin/OpenSees /project1/ste
+2006771 stenekpr  R    1  355   1.0G   408s ~stenekpr/bin/OpenSees /project1/ste
+2006772 stenekpr  R    1  355   1.0G    47s ~stenekpr/bin/OpenSees /project1/ste
+2006773 stenekpr  Q    1  354   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006774 stenekpr  Q    1  353   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006775 stenekpr  Q    1  352   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006776 stenekpr  Q    1  351   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006777 stenekpr  Q    1  350   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006778 stenekpr  Q    1  349   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006779 stenekpr  Q    1  348   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006780 stenekpr  Q    1  347   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006781 stenekpr  Q    1  346   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006782 stenekpr  Q    1  345   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006783 stenekpr  Q    1  344   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006784 stenekpr  Q    1  343   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006785 stenekpr  Q    1  342   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006786 stenekpr  Q    1  341   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006787 stenekpr  Q    1  340   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006788 stenekpr  Q    1  339   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006789 stenekpr  Q    1  338   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006790 stenekpr  Q    1  337   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006791 stenekpr  Q    1  336   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006792 stenekpr  Q    1  335   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006793 stenekpr  Q    1  334   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006794 stenekpr  Q    1  333   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006795 stenekpr  Q    1  332   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006796 stenekpr  Q    1  331   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006797 stenekpr  Q    1  330   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006798 stenekpr  Q    1  329   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006799 stenekpr  Q    1  328   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006800 stenekpr  Q    1  327   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006801 stenekpr  Q    1  326   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006802 stenekpr  Q    1  325   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006803 stenekpr  Q    1  324   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006815 stenekpr  Q    1  323   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006816 stenekpr  Q    1  322   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006817 stenekpr  Q    1  321   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006818 stenekpr  Q    1  320   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006819 stenekpr  Q    1  319   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006820 stenekpr  Q    1  318   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006821 stenekpr  Q    1  317   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006822 stenekpr  Q    1  316   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006823 stenekpr  Q    1  315   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006824 stenekpr  Q    1  314   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006825 stenekpr  Q    1  313   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006826 stenekpr  Q    1  312   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006827 stenekpr  Q    1  311   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006828 stenekpr  Q    1  310   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006829 stenekpr  Q    1  309   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006830 stenekpr  Q    1  308   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006831 stenekpr  Q    1  307   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006832 stenekpr  Q    1  306   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006833 stenekpr  Q    1  305   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006834 stenekpr  Q    1  304   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006835 stenekpr  Q    1  303   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006836 stenekpr  Q    1  302   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006837 stenekpr  Q    1  301   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006838 stenekpr  Q    1  300   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006839 stenekpr  Q    1  299   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006840 stenekpr  Q    1  298   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006841 stenekpr  Q    1  297   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006842 stenekpr  Q    1  296   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006843 stenekpr  Q    1  295   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006844 stenekpr  Q    1  294   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006845 stenekpr  Q    1  293   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006846 stenekpr  Q    1  292   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006847 stenekpr  Q    1  291   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006848 stenekpr  Q    1  290   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006849 stenekpr  Q    1  289   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006850 stenekpr  Q    1  288   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006851 stenekpr  Q    1  287   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006852 stenekpr  Q    1  286   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006853 stenekpr  Q    1  285   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006854 stenekpr  Q    1  284   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006855 stenekpr  Q    1  283   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006856 stenekpr  Q    1  282   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006857 stenekpr  Q    1  281   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006858 stenekpr  Q    1  280   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006859 stenekpr  Q    1  279   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006860 stenekpr  Q    1  278   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006861 stenekpr  Q    1  277   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006862 stenekpr  Q    1  276   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006863 stenekpr  Q    1  275   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006864 stenekpr  Q    1  274   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006865 stenekpr  Q    1  273   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006866 stenekpr  Q    1  272   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006867 stenekpr  Q    1  271   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006868 stenekpr  Q    1  270   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006869 stenekpr  Q    1  269   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006870 stenekpr  Q    1  268   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006871 stenekpr  Q    1  267   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006872 stenekpr  Q    1  266   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006873 stenekpr  Q    1  265   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006874 stenekpr  Q    1  264   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006875 stenekpr  Q    1  263   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006876 stenekpr  Q    1  262   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006877 stenekpr  Q    1  261   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006878 stenekpr  Q    1  260   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006879 stenekpr  Q    1  259   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006880 stenekpr  Q    1  258   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006881 stenekpr  Q    1  257   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006882 stenekpr  Q    1  256   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006883 stenekpr  Q    1  255   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006884 stenekpr  Q    1  254   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006885 stenekpr  Q    1  253   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006886 stenekpr  Q    1  252   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006887 stenekpr  Q    1  251   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006888 stenekpr  Q    1  250   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006889 stenekpr  Q    1  249   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006890 stenekpr  Q    1  248   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006891 stenekpr  Q    1  247   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006892 stenekpr  Q    1  246   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006893 stenekpr  Q    1  245   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006894 stenekpr  Q    1  244   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006895 stenekpr  Q    1  243   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006896 stenekpr  Q    1  242   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006897 stenekpr  Q    1  241   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006898 stenekpr  Q    1  240   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006899 stenekpr  Q    1  239   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006900 stenekpr  Q    1  238   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006901 stenekpr  Q    1  237   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006902 stenekpr  Q    1  236   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006903 stenekpr  Q    1  235   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006904 stenekpr  Q    1  234   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006905 stenekpr  Q    1  233   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006906 stenekpr  Q    1  232   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006907 stenekpr  Q    1  231   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006908 stenekpr  Q    1  230   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006909 stenekpr  Q    1  229   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006910 stenekpr  Q    1  228   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006911 stenekpr  Q    1  227   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006912 stenekpr  Q    1  226   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006913 stenekpr  Q    1  225   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006914 stenekpr  Q    1  224   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006915 stenekpr  Q    1  223   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006916 stenekpr  Q    1  222   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006917 stenekpr  Q    1  221   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006918 stenekpr  Q    1  220   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006919 stenekpr  Q    1  219   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006920 stenekpr  Q    1  218   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006921 stenekpr  Q    1  217   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006922 stenekpr  Q    1  216   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006923 stenekpr  Q    1  215   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006924 stenekpr  Q    1  214   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006925 stenekpr  Q    1  213   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006926 stenekpr  Q    1  212   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006927 stenekpr  Q    1  211   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006928 stenekpr  Q    1  210   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006929 stenekpr  Q    1  209   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006930 stenekpr  Q    1  208   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006931 stenekpr  Q    1  207   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006932 stenekpr  Q    1  206   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006933 stenekpr  Q    1  205   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006934 stenekpr  Q    1  204   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006935 stenekpr  Q    1  203   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006936 stenekpr  Q    1  202   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006937 stenekpr  Q    1  201   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006938 stenekpr  Q    1  200   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006939 stenekpr  Q    1  199   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006940 stenekpr  Q    1  198   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006941 stenekpr  Q    1  197   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006942 stenekpr  Q    1  196   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006943 stenekpr  Q    1  195   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006944 stenekpr  Q    1  194   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006945 stenekpr  Q    1  193   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006946 stenekpr  Q    1  192   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006947 stenekpr  Q    1  191   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006959 stenekpr  Q    1  190   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006960 stenekpr  Q    1  189   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006961 stenekpr  Q    1  188   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006962 stenekpr  Q    1  187   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006963 stenekpr  Q    1  186   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006964 stenekpr  Q    1  185   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006965 stenekpr  Q    1  184   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006966 stenekpr  Q    1  183   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006967 stenekpr  Q    1  182   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006968 stenekpr  Q    1  181   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006969 stenekpr  Q    1  180   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006970 stenekpr  Q    1  179   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006971 stenekpr  Q    1  178   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006972 stenekpr  Q    1  177   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006973 stenekpr  Q    1  176   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006974 stenekpr  Q    1  175   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006975 stenekpr  Q    1  174   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006976 stenekpr  Q    1  173   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006977 stenekpr  Q    1  172   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006978 stenekpr  Q    1  171   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006979 stenekpr  Q    1  170   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006980 stenekpr  Q    1  169   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006981 stenekpr  Q    1  168   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006982 stenekpr  Q    1  167   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006983 stenekpr  Q    1  166   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006984 stenekpr  Q    1  165   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006985 stenekpr  Q    1  164   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006986 stenekpr  Q    1  163   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006987 stenekpr  Q    1  162   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006988 stenekpr  Q    1  161   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006989 stenekpr  Q    1  160   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006990 stenekpr  Q    1  159   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006991 stenekpr  Q    1  158   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006992 stenekpr  Q    1  157   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006993 stenekpr  Q    1  156   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006994 stenekpr  Q    1  155   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006995 stenekpr  Q    1  154   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006996 stenekpr  Q    1  153   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006997 stenekpr  Q    1  152   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006998 stenekpr  Q    1  151   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2006999 stenekpr  Q    1  150   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007000 stenekpr  Q    1  149   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007001 stenekpr  Q    1  148   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007002 stenekpr  Q    1  147   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007003 stenekpr  Q    1  146   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007004 stenekpr  Q    1  145   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007005 stenekpr  Q    1  144   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007006 stenekpr  Q    1  143   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007007 stenekpr  Q    1  142   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007008 stenekpr  Q    1  141   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007009 stenekpr  Q    1  140   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007010 stenekpr  Q    1  139   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007011 stenekpr  Q    1  138   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007012 stenekpr  Q    1  137   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007013 stenekpr  Q    1  136   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007014 stenekpr  Q    1  135   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007015 stenekpr  Q    1  134   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007016 stenekpr  Q    1  133   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007017 stenekpr  Q    1  132   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007018 stenekpr  Q    1  131   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007019 stenekpr  Q    1  130   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007020 stenekpr  Q    1  129   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007021 stenekpr  Q    1  128   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007022 stenekpr  Q    1  127   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007023 stenekpr  Q    1  126   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007024 stenekpr  Q    1  125   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007025 stenekpr  Q    1  124   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007026 stenekpr  Q    1  123   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007027 stenekpr  Q    1  122   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007028 stenekpr  Q    1  121   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007029 stenekpr  Q    1  120   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007030 stenekpr  Q    1  119   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007031 stenekpr  Q    1  118   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007032 stenekpr  Q    1  117   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007033 stenekpr  Q    1  116   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007034 stenekpr  Q    1  115   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007035 stenekpr  Q    1  114   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007036 stenekpr  Q    1  113   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007037 stenekpr  Q    1  112   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007038 stenekpr  Q    1  111   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007039 stenekpr  Q    1  110   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007040 stenekpr  Q    1  109   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007041 stenekpr  Q    1  108   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007042 stenekpr  Q    1  107   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007043 stenekpr  Q    1  106   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007044 stenekpr  Q    1  105   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007045 stenekpr  Q    1  104   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007046 stenekpr  Q    1  103   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007047 stenekpr  Q    1  102   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007048 stenekpr  Q    1  101   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007049 stenekpr  Q    1  100   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007050 stenekpr  Q    1   99   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007051 stenekpr  Q    1   98   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007052 stenekpr  Q    1   97   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007053 stenekpr  Q    1   96   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007054 stenekpr  Q    1   95   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007055 stenekpr  Q    1   94   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007056 stenekpr  Q    1   93   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007057 stenekpr  Q    1   92   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007058 stenekpr  Q    1   91   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007059 stenekpr  Q    1   90   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007060 stenekpr  Q    1   89   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007061 stenekpr  Q    1   88   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007062 stenekpr  Q    1   87   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007063 stenekpr  Q    1   86   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007064 stenekpr  Q    1   85   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007065 stenekpr  Q    1   84   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007066 stenekpr  Q    1   83   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007067 stenekpr  Q    1   82   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007068 stenekpr  Q    1   81   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007069 stenekpr  Q    1   80   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007070 stenekpr  Q    1   79   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007071 stenekpr  Q    1   78   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007072 stenekpr  Q    1   77   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007073 stenekpr  Q    1   76   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007074 stenekpr  Q    1   75   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007075 stenekpr  Q    1   74   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007076 stenekpr  Q    1   73   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007077 stenekpr  Q    1   72   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007090 stenekpr  Q    1   71   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007091 stenekpr  Q    1   70   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007092 stenekpr  Q    1   69   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007093 stenekpr  Q    1   68   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007094 stenekpr  Q    1   67   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007095 stenekpr  Q    1   66   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007096 stenekpr  Q    1   65   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007097 stenekpr  Q    1   64   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007098 stenekpr  Q    1   63   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007099 stenekpr  Q    1   62   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007100 stenekpr  Q    1   61   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007101 stenekpr  Q    1   60   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007102 stenekpr  Q    1   59   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007103 stenekpr  Q    1   58   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007104 stenekpr  Q    1   57   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007105 stenekpr  Q    1   56   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007106 stenekpr  Q    1   55   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007107 stenekpr  Q    1   54   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007108 stenekpr  Q    1   53   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007109 stenekpr  Q    1   52   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007110 stenekpr  Q    1   51   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007111 stenekpr  Q    1   50   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007112 stenekpr  Q    1   49   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007113 stenekpr  Q    1   48   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007114 stenekpr  Q    1   47   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007115 stenekpr  Q    1   46   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007116 stenekpr  Q    1   45   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007117 stenekpr  Q    1   44   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007118 stenekpr  Q    1   43   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007119 stenekpr  Q    1   42   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007120 stenekpr  Q    1   41   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007121 stenekpr  Q    1   40   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007122 stenekpr  Q    1   39   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007123 stenekpr  Q    1   38   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007124 stenekpr  Q    1   37   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007125 stenekpr  Q    1   36   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007126 stenekpr  Q    1   35   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007127 stenekpr  Q    1   34   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007128 stenekpr  Q    1   33   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007129 stenekpr  Q    1   32   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007130 stenekpr  Q    1   31   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007131 stenekpr  Q    1   30   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007132 stenekpr  Q    1   29   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007133 stenekpr  Q    1   28   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007134 stenekpr  Q    1   27   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007135 stenekpr  Q    1   26   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007136 stenekpr  Q    1   25   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007137 stenekpr  Q    1   24   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007138 stenekpr  Q    1   23   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007139 stenekpr  Q    1   22   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007140 stenekpr  Q    1   21   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007141 stenekpr  Q    1   20   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007142 stenekpr  Q    1   19   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007143 stenekpr  Q    1   18   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007144 stenekpr  Q    1   17   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007145 stenekpr  Q    1   16   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007146 stenekpr  Q    1   15   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007147 stenekpr  Q    1   14   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007148 stenekpr  Q    1   13   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007149 stenekpr  Q    1   12   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007150 stenekpr  Q    1   11   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007151 stenekpr  Q    1   10   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007152 stenekpr  Q    1    9   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007153 stenekpr  Q    1    8   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007154 stenekpr  Q    1    7   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007155 stenekpr  Q    1    6   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007156 stenekpr  Q    1    5   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007157 stenekpr  Q    1    4   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007158 stenekpr  Q    1    3   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007159 stenekpr  Q    1    2   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007160 stenekpr  Q    1    1   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007161 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007162 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007163 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007164 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007165 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007166 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007167 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007168 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007169 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007170 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007171 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007172 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007173 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007174 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007175 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007176 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007177 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007178 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007179 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007180 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007181 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007182 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007183 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007184 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007185 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007186 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007187 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007188 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007189 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007190 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007191 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007192 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007193 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007206 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007207 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007208 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007209 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007210 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007211 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007212 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007213 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007214 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007215 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007216 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007217 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007218 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007219 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007220 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007221 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007222 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007223 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007224 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007225 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007226 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007227 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007228 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007229 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007230 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007231 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007232 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007233 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007234 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007235 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007236 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007237 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007238 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007239 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007240 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007241 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007242 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007243 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007244 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007245 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007246 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007247 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007248 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007249 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007250 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007251 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007252 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007253 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007254 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007255 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007256 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007257 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007258 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007259 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007260 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007261 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007262 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007263 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007264 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007265 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007266 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007267 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007268 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007269 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007270 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007271 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007272 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007273 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007274 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007275 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007276 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007277 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007278 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007279 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007280 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007281 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007282 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007283 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007284 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007285 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007286 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007287 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007288 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007289 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007290 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007291 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007292 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007293 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007294 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007295 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007296 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007297 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007298 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007299 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007300 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007301 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007321 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007322 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007323 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007324 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007325 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007326 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007327 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007328 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007329 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007330 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007331 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007332 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007333 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007334 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007335 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007336 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007337 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007338 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007339 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007340 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007341 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007342 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007343 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007344 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007345 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007346 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007347 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007348 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007349 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007350 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007351 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007352 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007353 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007354 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007355 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007356 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007357 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007358 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007359 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007360 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007361 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007362 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007363 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007364 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007365 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007366 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007367 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007368 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007369 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007370 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007371 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007372 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007373 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007374 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007375 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007376 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007377 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007378 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007379 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007380 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007381 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007382 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007383 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007384 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007385 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007386 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007387 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007388 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007389 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007390 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007391 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007392 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007393 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007394 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007395 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007396 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007397 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007398 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007399 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007400 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007401 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007424 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007425 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007426 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007427 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007428 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007429 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007430 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007431 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007432 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007433 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007434 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007435 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007436 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007437 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007438 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007439 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007440 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007441 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007442 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007443 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007444 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007445 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007446 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007447 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007448 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007449 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007450 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007451 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007452 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007453 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007454 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007455 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007456 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007457 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007458 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007459 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007460 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007461 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007462 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007463 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007464 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007465 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007466 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007467 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007468 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007469 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007470 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007471 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007472 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007473 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007474 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007475 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007476 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007477 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007478 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007479 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007480 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007481 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007482 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007483 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007484 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007485 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007486 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007487 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007488 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007489 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007490 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007491 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007492 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007513 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007514 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007515 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007516 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007517 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007518 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007519 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007520 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007521 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007522 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007523 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007524 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007525 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007526 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007527 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007528 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007529 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007530 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007531 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007532 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007533 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007534 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007535 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007536 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007537 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007538 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007539 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007540 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007541 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007542 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007543 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007544 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007545 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007546 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007547 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007548 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007549 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007550 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007551 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007552 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007553 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007554 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007555 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007556 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007557 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007558 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007559 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007560 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007561 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007562 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007563 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007564 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007565 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007566 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007567 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007568 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007569 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007570 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007571 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007572 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007573 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007574 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007575 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007576 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007585 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007586 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007587 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007588 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007589 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007590 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007591 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007592 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007593 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007594 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007595 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007596 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007597 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007598 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007599 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007600 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007601 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007602 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007603 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007604 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007605 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007606 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007607 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007608 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007609 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007610 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007611 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007612 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007613 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007614 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007615 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007616 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007617 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007618 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007619 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007620 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007621 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007622 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007623 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007624 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007625 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007626 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007627 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007628 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007629 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007630 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007631 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007632 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007633 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007634 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007635 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007636 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007637 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007638 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007639 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007640 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007641 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007642 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007649 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007650 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007651 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007652 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007653 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007654 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007655 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007656 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007657 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007658 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007659 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007660 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007661 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007662 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007663 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007664 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007665 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007666 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007667 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007668 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007669 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007670 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007671 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007672 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007673 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007674 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007675 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007676 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007677 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007678 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007679 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007680 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007681 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007682 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007683 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007693 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007694 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007695 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007696 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007697 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007698 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007699 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007700 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007701 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007702 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007703 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007704 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007705 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007706 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007707 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007708 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007709 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007710 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007711 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007712 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007713 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007714 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007715 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007716 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007717 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007718 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007719 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007720 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007721 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007722 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007723 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007724 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007725 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007737 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007738 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007739 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007740 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007741 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007742 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007743 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007744 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007745 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007746 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007747 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007748 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007749 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007750 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007751 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007752 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007753 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007754 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007755 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007756 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007757 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007769 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007770 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007771 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007772 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007773 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007774 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007775 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007776 stenekpr  Q    1    0   1.0G   4.2d ~stenekpr/bin/OpenSees /project1/ste
+2007779 alexfrol  R    1 1197  12.0G   4.1d ./apte40
+2007780 alexfrol  R    1 1196  14.0G   4.1d ./apte42
+2008264 alexfrol  R    1  895   1.0G   4.0d ./hps10
+2008265 alexfrol  R    1  894   1.0G   4.0d ./hps12
+2008266 alexfrol  R    1  893   1.0G   4.0d ./aps2m3
+2008267 alexfrol  R    1  892   1.0G   4.0d ./aps2m4
+2008268 alexfrol  R    1  891   1.0G   4.0d ./aps2m5
+2008269 alexfrol  R    1  890   1.0G   4.0d ./aps2m6
+2008270 alexfrol  R    1  889   1.0G   4.0d ./aps2m10
+2008271 alexfrol  R    1  888   1.0G   4.0d ./aps2m7
+2008272 alexfrol  R    1  887   1.0G   4.0d ./aps2m8
+2008273 alexfrol  R    1  886   1.0G   4.0d ./aps2m9
+2008275 alexfrol  R    1  885   1.0G   3.5d ./och3-
+2008276 alexfrol  R    1  884   1.0G   2.4d ./oche3
+2008277 alexfrol  R    1  883   1.0G   2.4d ./och3-
+2008278 alexfrol  R    1 1182  10.0G   2.4d ./apte38
+2008281 alexfrol  R    1 1181  15.0G  24.0h ./apte44
+2008282 alexfrol  R    1  880   4.0G  23.7h ./ops25c
+2008283 alexfrol  R    1  879   4.0G  23.6h ./oh3c20
+2009207 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009208 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009209 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009210 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009211 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009212 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009213 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009214 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009215 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009216 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009217 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009218 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009219 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009220 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009221 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009222 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009223 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009224 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009225 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009226 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009227 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009228 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009229 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009230 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009231 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009232 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009233 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009234 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009235 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009236 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009237 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009238 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009239 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009240 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009241 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009242 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009243 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009244 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009245 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009246 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009247 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009248 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009249 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009250 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009251 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009252 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009253 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009254 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009255 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009256 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009261 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009262 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009263 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009264 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009265 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009266 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009267 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009268 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009269 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009270 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009271 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009272 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009273 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009274 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009275 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009276 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009277 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009278 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009279 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009280 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009281 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009282 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009283 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009284 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009285 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009286 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009287 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009288 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009289 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009290 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009291 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009292 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009293 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009294 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009295 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009296 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009297 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009298 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009299 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009300 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009301 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009302 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009303 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009304 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009305 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009306 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009307 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009308 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009309 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009310 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009311 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009312 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009315 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009316 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009317 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009318 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009319 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009320 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009321 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009322 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009323 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009324 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009325 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009326 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009327 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009328 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009329 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009330 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009331 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009332 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009333 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009334 stenekpr  Q    1    0   1.0G   7.2h ~stenekpr/bin/OpenSees /project1/ste
+2009335 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009336 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009337 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009338 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009339 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009340 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009341 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009342 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009343 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009344 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009345 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009346 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009347 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009348 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009349 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009350 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009351 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009352 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009353 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009354 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009355 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009356 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009357 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009358 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009359 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009360 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009361 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009362 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009363 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009364 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009365 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009366 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009367 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009375 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009376 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009377 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009378 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009379 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009380 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009381 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009382 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009383 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009384 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009385 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009386 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009387 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009388 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009389 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009390 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009391 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009392 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009393 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009394 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009395 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009396 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009397 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009398 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009399 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009400 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009401 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009402 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009403 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009404 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009405 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009406 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009407 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009408 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009409 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009410 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009411 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009412 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009413 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009414 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009415 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009416 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009417 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009418 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009419 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009420 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009421 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009422 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009433 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009434 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009435 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009436 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009437 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009438 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009439 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009440 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009441 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009442 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009443 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009444 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009445 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009446 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009447 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009448 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009449 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009450 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009451 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009452 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009453 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009454 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009455 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009456 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009457 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009458 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009459 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009460 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009461 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009462 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009463 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009464 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009465 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009466 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009467 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009468 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009469 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009470 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009471 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009472 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009473 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009474 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009475 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009476 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009477 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009478 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009480 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009481 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009482 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009483 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009484 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009485 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009486 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009487 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009488 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009489 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009490 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009491 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009492 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009493 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009494 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009495 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009496 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009497 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009498 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009499 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009500 stenekpr  Q    1    0   1.0G   7.1h ~stenekpr/bin/OpenSees /project1/ste
+2009501 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009502 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009503 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009504 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009505 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009506 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009507 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009508 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009509 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009510 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009511 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009512 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009513 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009514 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009515 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009516 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009517 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009518 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009519 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009520 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009521 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009522 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009523 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009524 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009525 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009526 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009527 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009528 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009529 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009530 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009531 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009538 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009539 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009540 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009541 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009542 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009543 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009544 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009545 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009546 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009547 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009548 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009549 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009550 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009551 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009552 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009553 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009554 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009555 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009556 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009557 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009558 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009559 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009560 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009561 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009562 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009563 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009564 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009565 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009566 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009567 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009568 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009569 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009570 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009571 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009572 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009573 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009574 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009575 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009576 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009577 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009578 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009579 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009580 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009581 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009582 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009583 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009584 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009585 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009586 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009587 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009590 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009591 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009592 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009593 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009594 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009595 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009596 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009597 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009598 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009599 stenekpr  Q    1    0   1.0G   7.0h ~stenekpr/bin/OpenSees /project1/ste
+2009600  ibrahr5  R    8 1445  32.0G   1.5h ~ibrahr5/MCNP_source/MCNP_CODE/bin/m
+2038 CPUs total, 1174 idle, 319 active; 398 jobs running, 0 suspended, 1216 queued.
