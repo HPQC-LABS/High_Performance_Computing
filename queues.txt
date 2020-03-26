@@ -1,0 +1,26 @@
+[nike@wob149 Ne_fc_6z]$ sqjobs 
+  jobid user st ncpu pri    mem   time command
+------- ---- -- ---- --- ------ ------ -------
+1658506 nike  R   16   0  31.0G 444.9d ~nike/MRCC/dmrcc
+1660343 nike  Q   15   0 104.0G 423.3d ~nike/cfour_v2.00beta/bin/xcfour
+1667615 nike  R    8   0 127.0G 363.0d ~nike/cfour_v2.00beta/bin/xcfour
+1668827 nike  R   10   0 129.0G 353.1d ~nike/MRCC/dmrcc
+1669357 nike  R    1   0   1.0G 348.9d ./quadGruber.sh 74
+1669364 nike  R    1   0   1.0G 348.9d ./quadGruber.sh 68
+1669387 nike  R    1   0   1.0G 348.9d ./quadGruber.sh 498
+1669388 nike  R    1   0   1.0G 348.9d ./quadGruber.sh 497
+1696417 nike  R   14   0 590.0G 326.3d ~nike/MRCC/dmrcc
+1711789 nike  R    8   0 511.0G 317.2d ~nike/MRCC/dmrcc
+1720023 nike  R    8   0 511.0G 314.9d ~nike/MRCC/dmrcc
+1720024 nike  R   24   0  85.0G 314.9d ~nike/MRCC/dmrcc
+1732635 nike  R   20   0   1.0G 307.9d /project1/nike/cfour_v2.00beta_May2019xnm
+1732636 nike  R   23   0  80.0G 307.9d ~nike/cfour_v2.00beta/bin/xcfour
+1743902 nike  R   12   0 424.0G 301.1d ~nike/MRCC/dmrcc
+1924463 nike  Q    8   0   1.0G  92.9d /project1/nike/cfour_v2.00beta_May2019xnm
+1925447 nike  R    1   0  31.0G  65.0d /opt/sharcnet/molpro/2012.1.12-mpp/bin/mo
+1940600 nike  Q   15   0  31.0G  20.9d /project1/nike/cfour_v2.00beta_May2019xnm
+1973335 nike  R    4   0 129.0G  14.0d ~nike/MRCC/dmrcc
+1973336 nike  R    4   0 129.0G  14.0d ~nike/MRCC/dmrcc
+2038 CPUs total, 1174 idle, 319 active; 398 jobs running, 0 suspended, 1217 queued.
+[nike@wob149 Ne_fc_6z]$ date
+Wed Mar 25 21:59:40 EDT 2020
