@@ -1,0 +1,4 @@
+1,8T	dattani
+251G	tew
+dattani@allogin1:/pool> date
+Sa 25. Apr 04:49:38 CEST 2020
