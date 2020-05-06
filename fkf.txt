@@ -2,3 +2,59 @@
 251G	tew
 dattani@allogin1:/pool> date
 Sa 25. Apr 04:49:38 CEST 2020
+
+==================================
+37T	dattani
+31T	liebermann
+29T	katukuri
+19T	lozovoi
+14T	limanni
+12T	dobrautz
+8,5T	cohen
+7,5T	tew
+4,8T	bogdanov
+4,2T	kersten
+2,4T	ghanem
+1,6T	alavi
+1,5T	hluo
+1,4T	blunt
+1,3T	song
+914G	booth
+874G	sorathia
+871G	levy
+783G	jichen
+783G	jeanmairet
+732G	ebling
+682G	dxma
+599G	sjyun
+451G	samanta
+449G	liao
+407G	weser
+355G	usvyat
+299G	guther
+228G	smart
+228G	kats
+195G	lopezrios
+181G	lschwarz
+180G	schuhma
+133G	vitale
+118G	luber
+103G	grueneis
+97G	tests
+94G	infantino
+50G	thomas
+24G	ruggeri
+14G	jeszenszki
+13G	ccg
+7,7G	__gss-update
+1,8G	schraivogel
+1,8G	giner
+456M	shosseini
+136K	sharma
+0	test3
+0	pahl
+0	ganguli
+0	burkhard
+[1]+  Done                    du -hsx * | sort -rh | head -100 > dattani/du.txt
+dattani@allogin1:/algpfs> date
+Mi 6. Mai 22:02:45 CEST 2020
