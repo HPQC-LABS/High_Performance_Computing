@@ -1,0 +1,11 @@
+[nike@gra-login1 job_1]$ xz -v temp_5.ext temp_3.ext temp_4.ext temp_6.ext temp_2.ext 
+temp_5.ext (1/5)
+  100 %      94,4 MiB / 3.034,0 MiB = 0,031   5,3 MiB/s       9:35             
+temp_3.ext (2/5)
+  100 %      77,2 MiB / 2.453,8 MiB = 0,031   5,3 MiB/s       7:44             
+temp_4.ext (3/5)
+  100 %      75,8 MiB / 2.425,4 MiB = 0,031   5,3 MiB/s       7:39             
+temp_6.ext (4/5)
+  100 %      62,4 MiB / 2.038,0 MiB = 0,031   5,3 MiB/s       6:28             
+temp_2.ext (5/5)
+  100 %      41,0 MiB / 1.266,1 MiB = 0,032   5,2 MiB/s       4:05  
