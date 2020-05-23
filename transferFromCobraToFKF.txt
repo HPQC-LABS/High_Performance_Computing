@@ -1,0 +1,159 @@
+=================================================================================
+ARCHIVE /r/
+=================================================================================
+
+ndattani@cobra01:/r/n/ndattani> du -hsx * | sort -rh | head -10
+1,9G	transferFromHydra_2017_03_10
+104M	Li2
+901K	files_for_nike
+615K	femoco
+456K	Wiebe
+1,0K	m-Baum
+0	popsfile.h5
+ndattani@cobra01:/r/n/ndattani> rsync -r * dattani@mz4.fkf.mpg:fromCobraArchive17may2020/
+ssh: Could not resolve hostname mz4.fkf.mpg: Name or service not known
+rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+rsync error: unexplained error (code 255) at io.c(235) [sender=3.1.0]
+ndattani@cobra01:/r/n/ndattani> rsync -r * dattani@mz4.fkf.mpg.de:fromCobraArchive17may2020/
+Password: 
+^[OA^[OA^[OAskipping non-regular file "Li2/aug-cc-pCV6Z-koput/1/FCIDUMP"
+skipping non-regular file "Li2/aug-cc-pCV6Z-koput/1/ta/FCIDUMP"
+^[OA^[OA^[OA^[OApacket_write_wait: Connection to 134.105.156.4 port 22: Broken pipe
+
+=================================================================================
+HOME /u/
+=================================================================================
+
+ndattani@cobra01:~> du -hsx * | sort -rh | head -100
+853G	popsfile.h5
+3,1G	FeMoco
+2,3G	NECI_2019_03_29
+1,7G	NECI_2018_03_28
+501M	MRCC_2018_with_new_ovirt,goldstone,xmrcc,MRCCCOMMON,mrcc.tar
+492M	MRCC_2018_03_29
+84M	QCBugs
+1,5M	out.936449
+384K	squeue4.txt
+320K	squeue.txt
+320K	squeue3.txt
+320K	squeue2.txt
+128K	jobs.txt
+3,0K	intel
+1,0K	0commands
+ndattani@cobra01:~> rsync * dattani@mz4.fkf.mpg.de:/fromCobraHome17may2020/
+Password: 
+skipping directory FeMoco
+skipping directory intel
+skipping directory MRCC_2018_03_29
+skipping directory NECI_2018_03_28
+skipping directory NECI_2019_03_29
+skipping directory QCBugs
+rsync: mkdir "/fromCobraHome17may2020" failed: Permission denied (13)
+rsync error: error in file IO (code 11) at main.c(664) [Receiver=3.1.3]
+ndattani@cobra01:~> rsync -r * dattani@mz4.fkf.mpg.de:fromCobraHome17may2020/
+Password: 
+^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[B^[[A^[[A^[[A^[[Askipping non-regular file "NECI_2018_03_28/test_suite/hdf5/neci/Ne_FCIMCPar_hist_tau_cont_hdf5/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/hdf5/neci/Ne_FCIMCPar_hist_tau_cont_hdf5_restart/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/kmneci/Rn_lanczos_fci/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/kmneci/Se2_multiref_orthog/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/kneci/C_221_int/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/kneci/C_221_real/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/kneci/C_221_real_adi/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/kneci/C_221_real_full/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/kneci/CuO2_311_trial/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/kneci/Se2_mag_semi_pops/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/kneci/Se2_mag_semi_trial_pops/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/cfqmc/HeHe_5_states/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/cfqmc/HeHe_5_states_exact_hamil/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/excited_state/BeH_3_states_rdm/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/excited_state/HeHe_3_states_rdm/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/excited_state/HeHe_3_states_rdm_singlerun/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/excited_state/HeHe_3_states_rdm_singlerun_transition/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/excited_state/HeHe_3_states_rdm_transition/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/excited_state/HeHe_3_states_rdm_unbound/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/excited_state/HeHe_8_states/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/excited_state/HeHe_hphf_3_states_rdm_singlerun/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/excited_state/HeHe_hphf_3_states_rdm_singlerun_transition/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/excited_state/HeHe_hphf_3_states_rdm_transition/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/excited_state/Ne_2_states/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/excited_state/Ne_2_states_back_spawn/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/excited_state/Ne_2_states_hist_tau/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/excited_state/Ne_hphf_2_states_rdm_transition/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/rdm/BeH_open_shell/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/rdm/HeHe_SS/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/rdm/HeHe_int/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/rdm/HeHe_real/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/rdm/N_open_shell/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/rdm/Ne/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/rdm/Ne_hphf/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/rdm/Ne_hphf_back_spawn/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/rdm/Ne_nat_orbs/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/mneci/rdm/OH_open_shell/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/determ_and_trial_spaces/determ_cas/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/determ_and_trial_spaces/determ_doubles/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/determ_and_trial_spaces/determ_opt_amp/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/determ_and_trial_spaces/determ_opt_num/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/determ_and_trial_spaces/determ_pops/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/determ_and_trial_spaces/determ_pops_dyn/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/determ_and_trial_spaces/determ_pops_dyn_adi/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/determ_and_trial_spaces/determ_ras/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/determ_and_trial_spaces/determ_read/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/determ_and_trial_spaces/trial_cas/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/determ_and_trial_spaces/trial_doubles/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/determ_and_trial_spaces/trial_opt_amp/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/determ_and_trial_spaces/trial_opt_num/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/determ_and_trial_spaces/trial_pops/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/determ_and_trial_spaces/trial_read/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/C2_FCIMCPar_CAS/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/C2_FCIMCPar_MP1/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/HeHe_SS_Doubles/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/N_FCIMCPar/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/N_FCIMCPar_cache/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/Ne_FCIMCPar_back_spawn/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/Ne_FCIMCPar_back_spawn_flex_-1/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/Ne_FCIMCPar_back_spawn_flex_0/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/Ne_FCIMCPar_back_spawn_flex_1/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/Ne_FCIMCPar_back_spawn_flex_2/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/Ne_FCIMCPar_back_spawn_hphf/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/Ne_FCIMCPar_back_spawn_occ_virt/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/Ne_FCIMCPar_csf/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/Ne_FCIMCPar_hist_tau/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/Ne_FCIMCPar_hist_tau_cont/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/Ne_FCIMCPar_hist_tau_cont_restart/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/Ne_FCIMCPar_init/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/Ne_FCIMCPar_reverse/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/Ne_FCIMCPar_trunc_spawn/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/Ne_FCIMCPar_unbound/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/Ne_FCIMCPar_unbound_hist_tau/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/Ne_FCIMCPar_unbound_trunc_hist/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/Ne_FCIMCPar_weighted/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/Ne_SS_Trial_Pops/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/Ne_Trial/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/parallel/Ne_Trial_Bin/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/rdm_singlerun/parallel/BeH_open_shell_explicit/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/rdm_singlerun/parallel/HeHe_determ/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/rdm_singlerun/parallel/HeHe_real_hphf/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/rdm_singlerun/serial/HeHe_explicit_determ/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/rdm_singlerun/serial/HeHe_explicit_real/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/rdm_singlerun/serial/HeHe_real/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/serial/HeHe_Davidson_Direct_CI/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/serial/Ne_SS_Trial_Pops/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/serial/Ne_adi_Pops/FCIDUMP"
+skipping non-regular file "NECI_2018_03_28/test_suite/neci/serial/Ne_adi_Pops_min_si/FCIDUMP"
+skipping non-regular file "NECI_2019_03_29/test_suite/kneci/C_221_real_adi/FCIDUMP"
+skipping non-regular file "NECI_2019_03_29/test_suite/mneci/en2/Ne_avdz_cas/FCIDUMP"
+skipping non-regular file "NECI_2019_03_29/test_suite/mneci/en2/water_avdz/FCIDUMP"
+skipping non-regular file "NECI_2019_03_29/test_suite/mneci/excited_state/Ne_2_states_back_spawn/FCIDUMP"
+skipping non-regular file "NECI_2019_03_29/test_suite/mneci/rdm/Ne_hphf_back_spawn/FCIDUMP"
+skipping non-regular file "NECI_2019_03_29/test_suite/neci/determ_and_trial_spaces/determ_pops_dyn/FCIDUMP"
+skipping non-regular file "NECI_2019_03_29/test_suite/neci/determ_and_trial_spaces/determ_pops_dyn_adi/FCIDUMP"
+skipping non-regular file "NECI_2019_03_29/test_suite/neci/parallel/Ne_FCIMCPar_back_spawn/FCIDUMP"
+skipping non-regular file "NECI_2019_03_29/test_suite/neci/parallel/Ne_FCIMCPar_back_spawn_flex_-1/FCIDUMP"
+skipping non-regular file "NECI_2019_03_29/test_suite/neci/parallel/Ne_FCIMCPar_back_spawn_flex_0/FCIDUMP"
+skipping non-regular file "NECI_2019_03_29/test_suite/neci/parallel/Ne_FCIMCPar_back_spawn_flex_1/FCIDUMP"
+skipping non-regular file "NECI_2019_03_29/test_suite/neci/parallel/Ne_FCIMCPar_back_spawn_flex_2/FCIDUMP"
+skipping non-regular file "NECI_2019_03_29/test_suite/neci/parallel/Ne_FCIMCPar_back_spawn_hphf/FCIDUMP"
+skipping non-regular file "NECI_2019_03_29/test_suite/neci/parallel/Ne_FCIMCPar_back_spawn_occ_virt/FCIDUMP"
+skipping non-regular file "NECI_2019_03_29/test_suite/neci/parallel/Ne_FCIMCPar_init/FCIDUMP"
+skipping non-regular file "NECI_2019_03_29/test_suite/neci/serial/Ne_adi_Pops/FCIDUMP"
+skipping non-regular file "NECI_2019_03_29/test_suite/neci/serial/Ne_adi_Pops_min_si/FCIDUMP"
