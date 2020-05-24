@@ -1,0 +1,438 @@
+[nike@wob97 nike]$ sqhosts -l
+  host  state  n nused mem  mused      comment                              jobs
+------ ------ -- ----- --- ------ ------------                              ----
+  req2  drain  2     0   8      0        decom                                  
+  req3  drain  2     0   8      0           xc                                  
+  req4  drain  2     0   8      0        decom                                  
+  req5  drain  2     0   8      0        decom                                  
+  req7  drain  2     0   8      0        decom                                  
+  req8  drain  2     0   8      0        decom                                  
+  req9  drain  2     0   8      0           xc                                  
+ req10  drain  2     0   8      0        decom                                  
+ req11  drain  2     0   8      0        decom                                  
+ req12  drain  2     0   8      0        decom                                  
+ req13  drain  2     0   8      0           xc                                  
+ req17  drain  2     0   8      0        decom                                  
+ req18  drain  2     0   8      0        decom                                  
+ req19  drain  2     0   8      0        decom                                  
+ req20  drain  2     0   8      0        decom                                  
+ req21  drain  2     0   8      0        decom                                  
+ req22  drain  2     0   8      0        decom                                  
+ req23  drain  2     0   8      0        decom                                  
+ req24  drain  2     0   8      0        decom                                  
+ req25  drain  2     0   8      0        decom                                  
+ req26  drain  2     0   8      0        decom                                  
+ req27  drain  2     0   8      0        decom                                  
+ req28  drain  2     0   8      0        decom                                  
+ req29  drain  2     0   8      0        decom                                  
+ req31  drain  2     0   8      0        decom                                  
+ req32  drain  2     0   8      0        decom                                  
+ req33  drain  2     0   8      0        decom                                  
+ req34  drain  2     0   8      0        decom                                  
+ req35  drain  2     0   8      0        decom                                  
+ req36  drain  2     0   8      0        decom                                  
+ req37  drain  2     0   8      0        decom                                  
+ req38  drain  2     0   8      0           xc                                  
+ req39  drain  2     0   8      0          off                                  
+ req40  drain  2     0   8      0        decom                                  
+ req41  drain  2     0   8      0    localdisk                                  
+ req42  drain  2     0   8      0        decom                                  
+ req43  drain  2     0   8      0    localdisk                                  
+ req45  drain  2     0   8      0    localdisk                                  
+ req46  drain  2     0   8      0          off                                  
+ req47  drain  2     0   8      0          off                                  
+ req48  drain  2     0   8      0          off                                  
+ req49  drain  2     0   8      0          off                                  
+ req50  drain  2     0   8      0        decom                                  
+ req51  drain  2     0   8      0    localdisk                                  
+ req52  drain  2     0   8      0        decom                                  
+ req53  drain  2     0   8      0        decom                                  
+ req54  drain  2     0   8      0        decom                                  
+ req55  drain  2     0   8      0    localdisk                                  
+ req56  drain  2     0   8      0          off                                  
+ req57  drain  2     0   8      0          off                                  
+ req58  drain  2     0   8      0        decom                                  
+ req59  drain  2     0   8      0        decom                                  
+ req60  drain  2     0   8      0        decom                                  
+ req61  drain  2     0   8      0        decom                                  
+ req63  drain  2     0   8      0        decom                                  
+ req64  drain  2     0   8      0    localdisk                                  
+ req65  drain  2     0   8      0          off                                  
+ req66  drain  2     0   8      0          off                                  
+ req67  drain  2     0   8      0        decom                                  
+ req68  drain  2     0   8      0        decom                                  
+ req70  drain  2     0   8      0          off                                  
+ req71  drain  2     0   8      0          off                                  
+ req72  drain  2     0   8      0          off                                  
+ req74  drain  2     0   8      0          off                                  
+ req75  drain  2     0   8      0          off                                  
+ req76  drain  2     0   8      0          off                                  
+ req77  drain  2     0   8      0        decom                                  
+ req78  drain  2     0   8      0        decom                                  
+ req79  drain  2     0   8      0        decom                                  
+ req80  drain  2     0   8      0        decom                                  
+ req81  drain  2     0   8      0        decom                                  
+ req82  drain  2     0   8      0        decom                                  
+ req83  drain  2     0   8      0        decom                                  
+ req85  drain  2     0   8      0          off                                  
+ req86  drain  2     0   8      0        decom                                  
+ req87  drain  2     0   8      0        decom                                  
+ req88  drain  2     0   8      0        decom                                  
+ req89  drain  2     0   8      0        decom                                  
+ req90  drain  2     0   8      0        decom                                  
+ req91  drain  2     0   8      0        decom                                  
+ req92  drain  2     0   8      0        decom                                  
+ req93  drain  2     0   8      0          off                                  
+ req94  drain  2     0   8      0          off                                  
+ req95  drain  2     0   8      0        decom                                  
+ req96  drain  2     0   8      0        decom                                  
+ req97  drain  2     0   8      0          off                                  
+ req98  drain  2     0   8      0          off                                  
+ req99  drain  2     0   8      0        decom                                  
+req100  drain  2     0   8      0        decom                                  
+req101  drain  2     0   8      0        decom                                  
+req102  drain  2     0   8      0        decom                                  
+req103  drain  2     0   8      0        decom                                  
+req104  drain  2     0   8      0        decom                                  
+req105  drain  2     0   8      0        decom                                  
+req106  drain  2     0   8      0        decom                                  
+req107  drain  2     0   8      0        decom                                  
+req108  drain  2     0   8      0        decom                                  
+req109  drain  2     0   8      0        decom                                  
+req110  drain  2     0   8      0        decom                                  
+req111  drain  2     0   8      0        decom                                  
+req112  drain  2     0   8      0        decom                                  
+req113  drain  2     0   8      0          sdb                                  
+req114  drain  2     0   8      0        decom                                  
+req115  drain  2     0   8      0        decom                                  
+req116  drain  2     2   8   1.1G        decom                   1761493,1761532
+req117  drain  2     0   8      0        decom                                  
+req118  drain  2     0   8      0        decom                                  
+req119  drain  2     0   8      0        decom                                  
+req120  drain  2     0   8      0          off                                  
+req122  drain  2     0   8      0        decom                                  
+req123  drain  2     0   8      0        decom                                  
+req124  drain  2     0   8      0        decom                                  
+req125  drain  2     0   8      0        decom                                  
+req126  drain  2     0   8      0        decom                                  
+req127  drain  2     0   8      0        decom                                  
+req128  drain  2     0   8      0        decom                                  
+req129  drain  2     0   8      0        decom                                  
+req130  drain  2     0   8      0        decom                                  
+req131  drain  2     0   8      0        decom                                  
+req132  drain  2     0   8      0        decom                                  
+req133  drain  2     0   8      0        decom                                  
+req134  drain  2     0   8      0        decom                                  
+req135  drain  2     0   8      0        decom                                  
+req136  drain  2     0   8      0        decom                                  
+req137  drain  2     0   8      0        decom                                  
+req138  drain  2     0   8      0        decom                                  
+req139  drain  2     0   8      0        decom                                  
+req140  drain  2     0   8      0        decom                                  
+req141  drain  2     0   8      0        decom                                  
+req142  drain  2     0   8      0        decom                                  
+req143  drain  2     0   8      0        decom                                  
+req144  drain  2     0   8      0        decom                                  
+req145  drain  2     0   8      0          off                                  
+req146  drain  2     0   8      0        decom                                  
+req147  drain  2     0   8      0        decom                                  
+req148  drain  2     0   8      0        decom                                  
+req149  drain  2     0   8      0        decom                                  
+req150  drain  2     0   8      0        decom                                  
+req151  drain  2     0   8      0        decom                                  
+req152  drain  2     0   8      0        decom                                  
+req153  drain  2     0   8      0        decom                                  
+req154  drain  2     0   8      0        decom                                  
+req155  drain  2     0   8      0        decom                                  
+req156  drain  2     2   8   2.0G        decom                   1669357,1669364
+req157  drain  2     0   8      0        decom                                  
+req158  drain  2     0   8      0        decom                                  
+req159  drain  2     0   8      0        decom                                  
+req160  drain  2     0   8      0        decom                                  
+req161  drain  2     0   8      0        decom                                  
+req162  drain  2     0   8      0        decom                                  
+req163  drain  2     0   8      0        decom                                  
+req164  drain  2     0   8      0        decom                                  
+req165  drain  2     0   8      0        decom                                  
+req166  drain  2     0   8      0        decom                                  
+req167  drain  2     0   8      0        decom                                  
+req168  drain  2     0   8      0        decom                                  
+req169  drain  2     0   8      0        decom                                  
+req170  drain  2     0   8      0        decom                                  
+req172  drain  2     0   8      0        decom                                  
+req173  drain  2     0   8      0        decom                                  
+req174  drain  2     0   8      0        decom                                  
+req175  drain  2     0   8      0        decom                                  
+req176  drain  2     0   8      0        decom                                  
+req177  drain  2     0   8      0        decom                                  
+req178  drain  2     0   8      0        decom                                  
+req179  drain  2     0   8      0        decom                                  
+req180  drain  2     0   8      0        decom                                  
+req181  drain  2     0   8      0        decom                                  
+req182  drain  2     0   8      0        decom                                  
+req183  drain  2     0   8      0        decom                                  
+req184  drain  2     0   8      0        decom                                  
+req185  drain  2     0   8      0        decom                                  
+req187  drain  2     0   8      0        decom                                  
+req189  drain  2     0   8      0          off                                  
+req193  drain  2     0   8      0    localdisk                                  
+req194  drain  2     0   8      0    localdisk                                  
+req195  drain  2     0   8      0        decom                                  
+req196  drain  2     0   8      0        decom                                  
+req202  drain  2     0   8      0        decom                                  
+req203  drain  2     0   8      0        decom                                  
+req204  drain  2     0   8      0        decom                                  
+req205  drain  2     0   8      0          off                                  
+req206  drain  2     0   8      0           xc                                  
+req207  drain  2     0   8      0        decom                                  
+req210  drain  2     0   8      0        decom                                  
+req211  drain  2     0   8      0        decom                                  
+req214  drain  2     0   8      0          off                                  
+req215  drain  2     0   8      0           xc                                  
+req216  drain  2     0   8      0    localdisk                                  
+req219  drain  2     0   8      0           xc                                  
+req220  drain  2     0   8      0          off                                  
+req221  drain  2     0   8      0          off                                  
+req222  drain  2     0   8      0        decom                                  
+req223  drain  2     0   8      0        decom                                  
+req224  drain  2     0   8      0        decom                                  
+req225  drain  2     0   8      0        decom                                  
+req227  drain  2     0   8      0          off                                  
+req228  drain  2     0   8      0           xc                                  
+req229  drain  2     0   8      0        decom                                  
+req231  drain  2     0   8      0        decom                                  
+req232  drain  2     0   8      0    localdisk                                  
+req233  drain  2     0   8      0          off                                  
+req234  drain  2     0   8      0        decom                                  
+req235  drain  2     0   8      0    localdisk                                  
+req236  drain  2     0   8      0        decom                                  
+req237  drain  2     2   8   2.0G        decom                   1669387,1669388
+req238  drain  2     0   8      0        decom                                  
+req240  drain  2     0   8      0        decom                                  
+req242  drain  2     0   8      0        decom                                  
+req244  drain  2     0   8      0        decom                                  
+req245  drain  2     0   8      0        decom                                  
+req246  drain  2     0   8      0        decom                                  
+req247  drain  2     2   8   3.1G        decom                   1707453,1707828
+req248  drain  2     0   8      0        decom                                  
+req250  drain  2     0   8      0        decom                                  
+req251  drain  2     0   8      0        decom                                  
+req252  drain  2     0   8      0        decom                                  
+req253  drain  2     0   8      0          off                                  
+req254  drain  2     0   8      0        decom                                  
+req255  drain  2     0   8      0    localdisk                                  
+req256  drain  2     0   8      0          off                                  
+req257  drain  2     0   8      0        decom                                  
+req258  drain  2     0   8      0        decom                                  
+req259  drain  2     0   8      0        decom                                  
+req260  drain  2     0   8      0        decom                                  
+req261  drain  2     0   8      0        decom                                  
+req262  drain  2     0   8      0        decom                                  
+req263  drain  2     0   8      0        decom                                  
+req264  drain  2     0   8      0        decom                                  
+req265  drain  2     0   8      0        decom                                  
+req266  drain  2     0   8      0        decom                                  
+req267  drain  2     0   8      0        decom                                  
+req268  drain  2     0   8      0        decom                                  
+req269  drain  2     0   8      0        decom                                  
+req270  drain  2     0   8      0    localdisk                                  
+req271  drain  2     0   8      0    localdisk                                  
+req272  drain  2     0   8      0        decom                                  
+req273  drain  2     0   8      0    localdisk                                  
+req274  drain  2     0   8      0    localdisk                                  
+req275  drain  2     0   8      0        decom                                  
+req276  drain  2     0   8      0        decom                                  
+req277  drain  2     0   8      0        decom                                  
+req278  drain  2     0   8      0        decom                                  
+req279  drain  2     0   8      0        decom                                  
+req280  drain  2     0   8      0        decom                                  
+req281  drain  2     0   8      0        decom                                  
+req282  drain  2     0   8      0        decom                                  
+req283  drain  2     0   8      0        decom                                  
+req284  drain  2     0   8      0        decom                                  
+req285  drain  2     0   8      0        decom                                  
+req286  drain  2     0   8      0        decom                                  
+req287  drain  2     0   8      0        decom                                  
+req288  drain  2     0   8      0        decom                                  
+req289  drain  2     0   8      0        decom                                  
+req290  drain  2     1   8   3.0G        decom                           1926855
+req291  drain  2     0   8      0        decom                                  
+req292  drain  2     0   8      0          off                                  
+req293  drain  2     0   8      0          off                                  
+req294  drain  2     0   8      0        decom                                  
+req295  drain  2     0   8      0    localdisk                                  
+req296  drain  2     0   8      0    localdisk                                  
+req297  drain  2     0   8      0    localdisk                                  
+req298  drain  2     0   8      0        decom                                  
+req299  drain  2     0   8      0        decom                                  
+req300  drain  2     0   8      0        decom                                  
+req301  drain  2     0   8      0          off                                  
+req302  drain  2     0   8      0        decom                                  
+req303  drain  2     0   8      0        decom                                  
+req304  drain  2     0   8      0          off                                  
+req306  drain  2     0   8      0        decom                                  
+req307  drain  2     0   8      0          off                                  
+req308  drain  2     0   8      0          off                                  
+req310  drain  2     0   8      0          off                                  
+req311  drain  2     0   8      0        decom                                  
+req314  drain  2     0   8      0        decom                                  
+req316  drain  2     0   8      0        decom                                  
+req317  drain  2     0   8      0          off                                  
+req319  drain  2     0   8      0        decom                                  
+req321  drain  2     0   8      0        decom                                  
+req328  drain  2     0   8      0        decom                                  
+req329  drain  2     0   8      0          off                                  
+req330  drain  2     0   8      0        decom                                  
+req331  drain  2     0   8      0        decom                                  
+req334  drain  2     0   8      0          off                                  
+req335  drain  2     0   8      0          off                                  
+req336  drain  2     0   8      0          off                                  
+req337  drain  2     0   8      0          off                                  
+req339  drain  2     0   8      0          off                                  
+req340  drain  2     0   8      0        decom                                  
+req341  drain  2     0   8      0        decom                                  
+req342  drain  2     0   8      0          off                                  
+req343  drain  2     0   8      0         temp                                  
+req345  drain  2     0   8      0         temp                                  
+req346  drain  2     0   8      0         temp                                  
+req348  drain  2     0   8      0         temp                                  
+req349  drain  2     0   8      0         temp                                  
+req351  drain  2     0   8      0         temp                                  
+req353  drain  2     0   8      0         temp                                  
+req355  drain  2     0   8      0         temp                                  
+req357  drain  2     0   8      0         temp                                  
+req358  drain  2     0   8      0         temp                                  
+req359  drain  2     0   8      0         temp                                  
+req360  drain  2     0   8      0         temp                                  
+req361  drain  2     0   8      0         temp                                  
+req362  drain  2     0   8      0         temp                                  
+req363  drain  2     0   8      0         temp                                  
+req364  drain  2     0   8      0         temp                                  
+req365  drain  2     0   8      0         temp                                  
+req366  drain  2     0   8      0         temp                                  
+req367  drain  2     0   8      0          off                                  
+req368  drain  2     0   8      0          off                                  
+req370  drain  2     0   8      0         temp                                  
+req371  drain  2     0   8      0         temp                                  
+req372  drain  2     0   8      0         temp                                  
+req373  drain  2     0   8      0         temp                                  
+req374  drain  2     0   8      0          off                                  
+req375  drain  2     0   8      0         temp                                  
+req376  drain  2     0   8      0         temp                                  
+req377  drain  2     0   8      0         temp                                  
+req379  drain  2     0   8      0         temp                                  
+req380  drain  2     0   8      0          off                                  
+req381  drain  2     0   8      0        decom                                  
+req382  drain  2     0   8      0          sdb                                  
+req383  drain  2     0   8      0          off                                  
+req384  drain  2     0   8      0        decom                                  
+req385  drain  2     0   8      0        decom                                  
+req386  drain  2     0   8      0          sdb                                  
+req387  drain  2     0   8      0        decom                                  
+req388  drain  2     0   8      0        decom                                  
+req389  drain  2     0   8      0          sdb                                  
+req390  drain  2     0   8      0        decom                                  
+req391  drain  2     0   8      0          off                                  
+req392  drain  2     0   8      0        decom                                  
+req394  drain  2     0   8      0          sdb                                  
+req395  drain  2     0   8      0        decom                                  
+req396  drain  2     0   8      0        decom                                  
+req397  drain  2     0   8      0        decom                                  
+req398  drain  2     0   8      0          off                                  
+req399  drain  2     0   8      0          off                                  
+req401  drain  2     0   8      0        decom                                  
+req403  drain  2     0   8      0        decom                                  
+req404  drain  2     0   8      0        decom                                  
+req406  drain  2     0   8      0        decom                                  
+req407  drain  2     0   8      0          sdb                                  
+req408  drain  2     0   8      0        decom                                  
+req409  drain  2     0   8      0        decom                                  
+req410  drain  2     0   8      0        decom                                  
+req413  drain  2     0   8      0        decom                                  
+req416  drain  2     0   8      0        decom                                  
+req417  drain  2     0   8      0        decom                                  
+req418  drain  2     0   8      0        decom                                  
+req480  drain  2     0   8      0          off                                  
+req489  drain  2     0   8      0          off                                  
+req550  drain  2     0   8      0         disk                                  
+req551  drain  2     0   8      0         temp                                  
+req552  drain  2     0   8      0         temp                                  
+req554  drain  2     0   8      0         disk                                  
+req555  drain  2     0   8      0         temp                                  
+req557  drain  2     0   8      0         temp                                  
+req560  drain  2     0   8      0         temp                                  
+req561  drain  2     0   8      0         temp                                  
+req566  drain  2     0   8      0         temp                                  
+req567  drain  2     0   8      0         temp                                  
+req572  drain  2     0   8      0          off                                  
+req685  drain  2     0   8      0          off                                  
+req686  drain  2     0   8      0          off                                  
+req687  drain  2     0   8      0          off                                  
+req689  drain  2     0   8      0          off                                  
+req690  drain  2     0   8      0          off                                  
+req691  drain  2     0   8      0          off                                  
+req707  drain  2     0   8      0          off                                  
+req723  drain  2     0   8      0          off                                  
+req724  drain  2     0   8      0          off                                  
+req726  drain  2     0   8      0          off                                  
+req727  drain  2     0   8      0          off                                  
+req728  drain  2     0   8      0          off                                  
+req729  drain  2     0   8      0          off                                  
+req730  drain  2     0   8      0          off                                  
+req731  drain  2     0   8      0          off                                  
+req732  drain  2     0   8      0          off                                  
+req733  drain  2     0   8      0          off                                  
+req734  drain  2     0   8      0          off                                  
+req735  drain  2     0   8      0          off                                  
+req759  drain  2     0   8      0          off                                  
+req760  drain  2     0   8      0        decom                                  
+req761  drain  2     0   8      0        decom                                  
+req762  drain  2     0   8      0        decom                                  
+req763  drain  2     0   8      0        decom                                  
+req764  drain  2     0   8      0        decom                                  
+req765  drain  2     0   8      0        decom                                  
+req766  drain  2     0   8      0        decom                                  
+req767  drain  2     0   8      0      onedisk                                  
+ wob96  drain  2     0   8      0          off                                  
+wob100  drain  4     0  32      0          off                                  
+wob101  drain 32     0  32      0         test                                  
+wob102 closed 32     0  32      0 dispatchFail                                  
+wob103  drain 32     0  32      0        class                                  
+wob104  drain 32     0  32      0        class                                  
+wob105  drain 32     0  32      0        class                                  
+wob106  drain 32    10  32  30.0G        decom 1926301,1926307,1926303,1926309,1
+wob107  drain 32    10  32  30.0G        decom 1926397,1926392,1926393,1926398,1
+wob108  drain 32    10  32  30.0G        decom 1926338,1926340,1926337,1926339,1
+wob109  drain 32     5  32  15.0G        decom 1926844,1926846,1926848,1926840,1
+wob110  drain 32    10  32  30.0G        decom 1926321,1926323,1926329,1926330,1
+wob111  drain 32    10  32  30.0G        decom 1926856,1926850,1926853,1926852,1
+wob112  drain 32     0  32      0        decom                                  
+wob113  drain 32     1  32  31.0G        decom                           1925447
+wob114  drain 32     3  32   9.0G        decom           1926834,1926836,1926838
+wob115  drain 32     0  32      0    localdisk                                  
+wob116  drain 32    10  32  30.0G        decom 1926376,1926378,1926374,1926377,1
+wob117  drain 32    10  32  30.0G        decom 1926349,1926344,1926343,1926341,1
+wob118  drain 32    10  32  30.0G        decom 1926438,1926435,1926439,1926433,1
+wob119  drain 32     6  32  18.0G        decom 1926823,1926822,1926821,1926825,1
+wob120  drain 32    10  32  30.0G        decom 1926363,1926368,1926361,1926365,1
+wob121  drain 32     9  32  27.0G        decom 1926283,1926284,1926287,1926289,1
+wob122  drain 32     0  32      0        decom                                  
+wob123  drain 32    10  32  30.0G        decom 1926292,1926296,1926298,1926294,1
+wob124  drain 32     0  32      0        decom                                  
+wob125  drain 32    10  32  30.0G        decom 1926417,1926412,1926416,1926414,1
+wob126  drain 32    10  32  30.0G        decom 1926358,1926351,1926352,1926357,1
+wob127  drain 32     4  32  12.0G        decom   1926817,1926819,1926816,1926818
+wob128  drain 32     2  32   6.0G        decom                   1926861,1926870
+wob129  drain 32    16  32  31.0G        decom                           1658506
+wob130  drain 32     1  32   3.0G        decom                           1926872
+wob131  drain 32    10  32  30.0G        decom 1926314,1926312,1926320,1926318,1
+wob132  drain 32     0  32      0        decom                                  
+wob141  drain 24     0 768      0        decom                                  
+wob142  drain 24     0 768      0        decom                                  
+wob143  drain 24     0 128      0        decom                                  
+wob144  drain 24     0 128      0        decom                                  
+wob145  drain 24     0 128      0        decom                                  
+wob146  drain 24     0 128      0        decom                                  
+wob147  drain 24     0 128      0        decom                                  
+wob148  drain 28     0 512      0        decom                                  
+wob149  drain 28     8 512 258.0G        decom                   1973335,1973336
