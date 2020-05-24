@@ -1,0 +1,6 @@
+No use compressing a MOABCD file from CFOUR:
+
+[nike@wob97 H2O_9z]$ xz -v MOABCD 
+MOABCD (1/1)
+    0.0 %                 67.8 MiB / 73.4 MiB = 0.924   1.0 MiB/s         1:12
+====================================
