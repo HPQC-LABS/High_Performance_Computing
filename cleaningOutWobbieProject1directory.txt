@@ -339,6 +339,10 @@ Wed Mar  4 22:44:26 EST 2020
 [nike@wob97 nike]$ date 
 Sat May 23 23:07:15 EDT 2020
 
+==========================================================
+1 of 10
+==========================================================
+
  4099  2020-05-23 23:32:38 mkdir project1toGraham_1of10
  4100  2020-05-23 23:32:54 mv crashedMRCCjobs project1toGraham_1of10/
  4101  2020-05-23 23:32:59 mv molcas.FciDmp project1toGraham_1of10/
@@ -423,3 +427,67 @@ Total bytes received: 31
 
 sent 167.43G bytes  received 31 bytes  36.00M bytes/sec
 total size is 167.41G  speedup is 1.00
+
+[nike@wob97 nike]$ du -hsx * | sort -rh | head -45
+6.3T	GW
+5.8T	H2O
+5.8T	H2
+3.2T	Li2_7Z
+1.9T	Li2_6Z
+1.7T	C
+1.5T	C+
+1.3T	N+
+1.3T	aceticAcid
+1.2T	failed_transfer
+1.1T	O
+1.1T	Cr2
+995G	B+
+994G	Li2_c
+959G	H3+
+892G	B
+781G	H2+
+776G	formamide
+776G	F
+554G	BN2-pyrene
+552G	2butene1chloro-
+541G	femoco
+459G	C2
+426G	buta
+407G	C++++
+406G	O+
+406G	Be
+388G	Ne
+352G	benzene
+351G	F+
+351G	Be2
+342G	N
+257G	Be+
+227G	C+++
+212G	H
+168G	N2
+168G	Li2_5Z
+168G	5z
+161G	project1toGraham_1of10.tar
+156G	project1toGraham_1of10
+155G	Li2_8Z
+127G	napth
+123G	NaCl
+109G	Ne+
+109G	buta_fc_5z
+
+==========================================================
+2 of 10
+==========================================================
+
+[nike@wob97 nike]$ mkdir project1toGraham_2of10
+[nike@wob97 nike]$ mv buta_fc_5z/ project1toGraham_2of10/
+[nike@wob97 nike]$ mv Ne+/ project1toGraham_2of10/
+[nike@wob97 nike]$ mv NaCl project1toGraham_2of10/
+[nike@wob97 nike]$ mv napth project1toGraham_2of10/
+[nike@wob97 nike]$ mv Li2_8Z/ project1toGraham_2of10/
+[nike@wob97 nike]$ mv 5z/ project1toGraham_2of10/
+[nike@wob97 nike]$ mv N2/ project1toGraham_2of10/
+[nike@wob97 nike]$ mv Li2_5Z/ project1toGraham_2of10/
+[nike@wob97 nike]$ mv H project1toGraham_2of10/
+[nike@wob97 nike]$ time tar -cvf project1toGraham_2of10.tar project1toGraham_2of10/
+
