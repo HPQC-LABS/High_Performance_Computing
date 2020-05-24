@@ -1,0 +1,23 @@
+From Cobra's ptmp in 2019, this is what was not transferred to /r:
+Everything up to and including the folders:
+/ptmp/ndattani/femoco/R1/1b/c/c/c/c/c/c/c/c/2b/c/c/c/c/c/c/c/512
+/ptmp/ndattani/femoco/R1/1b/c/c/c/c/c/c/c/c/2b/c/c/c/c/c/c/c/8b/c/256/384/512/448/400 (except: out.936449)
+/ptmp/ndattani/femoco/R1/1b/c/c/c/c/c/c/c/c/2b/c/c/c/c/c/c/c/8b/c/256/384/512/448/400/32b (except: input.Spawn  out.961610)
+/ptmp/ndattani/femoco/R1/1b/c/c/c/c/c/c/c/c/2b/c/c/c/c/c/c/c/8b/c/256/384/512/448/400/32b/rdm (except: out.965790)
+/ptmp/ndattani/femoco/R1/1b/c/c/c/c/c/c/c/c/2b/c/c/c/c/c/c/c/8b/c/256/384/512/448/400/32b/rdm/c (except: 0awk fciqmc_stats  out.967025)
+/ptmp/ndattani/femoco/R1/1b/c/c/c/c/c/c/c/c/2b/c/c/c/c/c/c/c/8b/c/256/384/512/448/400/32b/rdm/c/c (except: out.967027 out.967027.1)
+/ptmp/ndattani/femoco/R1/1b/c/c/c/c/c/c/c/c/2b/c/c/c/c/c/c/c/8b/c/256/384/512/448/400/32b/rdm/c/c/501/ (except: 0awk   fciqmc_stats  out.975910  tjob.out.975910)
+cd
+/ptmp/ndattani/femoco/R1/1b/c/c/c/c/c/c/c/c/2b/c/c/c/c/c/c/c/8b/c/256/384/512/448/400/32b/rdm/c/c/501/512 (except: 620  FCIDUMP  out.975912  tjob.out.975912)
+/ptmp/ndattani/femoco/R1/1b/c/c/c/c/c/c/c/c/2b/c/c/c/c/c/c/c/8b/c/256/384/512/448/400/32b/rdm/c/c/501/512/620 (except: 0awk     fciqmc_stats    initiator_stats    NO_OCC_NUMEBRS.1  out.975913.1  RDMEstimates.1 FCIDUMP  fciqmc_stats.1  initiator_stats.1  out.975913        RDMEstimates  tjob.out.975913)
+/ptmp/ndattani/femoco/R1/1b/c/c/c/c/c/c/c/c/2b/c/c/c/c/c/c/c/8b/c/256/384/512/448/400/32b_n0620 (except: out.946604)
+/ptmp/ndattani/femoco/R1/1b/c/c/c/c/c/c/c/c/2b/c/c/c/c/c/c/c/8b/c/c
+/ptmp/ndattani/femoco/R1/200m/c/c/c/c/c/c
+/ptmp/ndattani/femoco/R1/200m/test
+/ptmp/ndattani/femoco/R1/400m/c/c/c/c/c/c/c/c
+/ptmp/ndattani/Li2/5z/320m/192GB
+/ptmp/ndattani/Li2/5z/960m
+/ptmp/ndattani/Li2/6z
+
+After this manual check through all folders and sub-folders in /ptmp/ndattani, it seems that everything is either gone (the files in the folders and subfolders above, since they were not present in the archive folder), or in the archive (the "except" files). There was nothing that did not fit into either of these categories. So removal of the entire /ptmp/ndattani will not cause loss to any files that are not already missing from the /r/ndattani/ archive).
+
