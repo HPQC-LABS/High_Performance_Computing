@@ -396,3 +396,30 @@ Sat May 23 23:07:15 EDT 2020
  4153  2020-05-23 23:40:53 du -hsx project1toGraham_1of10/ | sort -rh | head -10
  4154  2020-05-23 23:42:18 tar -cvf project1toGraham_1of10.tar project1toGraham_1of10/
  4155  2020-05-24 02:02:50 history
+
+
+ [nike@wob97 nike]$ rsync -arvh --progress --stats project1toGraham_1of10.tar nike@graham.computecanada.ca:/project/rrg-mcrowley/nike/
+could not open any host key
+ssh_keysign: no reply
+key_sign failed
+nike@graham.computecanada.ca's password: 
+Permission denied, please try again.
+nike@graham.computecanada.ca's password: 
+sending incremental file list
+project1toGraham_1of10.tar
+     167.41G 100%   34.42MB/s    1:17:18 (xfer#1, to-check=0/1)
+
+Number of files: 1
+Number of files transferred: 1
+Total file size: 167.41G bytes
+Total transferred file size: 167.41G bytes
+Literal data: 167.41G bytes
+Matched data: 0 bytes
+File list size: 64
+File list generation time: 0.001 seconds
+File list transfer time: 0.000 seconds
+Total bytes sent: 167.43G
+Total bytes received: 31
+
+sent 167.43G bytes  received 31 bytes  36.00M bytes/sec
+total size is 167.41G  speedup is 1.00
