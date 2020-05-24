@@ -331,3 +331,11 @@
 479M	cfour_v2.00beta_withApril2019xnmol
 [nike@wob97 nike]$ date
 Wed Mar  4 22:44:26 EST 2020
+
+[nike@wob97 nike]$ du -hsx * | sort -rh | head -100
+6.3T	GW
+5.8T	H2O
+5.8T	H2
+[nike@wob97 nike]$ date 
+Sat May 23 23:07:15 EDT 2020
+
