@@ -560,3 +560,300 @@ wob144
 2.0M	CCSDTQPH
 2.0M	CCSDTQP
 
+[nike@wob144 CCSDTQ]$ du -hsx * | sort -rh | head -100
+87G	fort.30
+9.6G	fort.55
+4.7G	fort.61
+1.8G	fort.62
+796M	fort.63
+796M	fort.28
+796M	fort.27
+796M	fort.17
+796M	fort.16
+155M	IJKL
+63M	IJIJ
+37M	IIJJ
+36M	fort.14
+
+[nike@wob144 CCSDTQ]$ rm fort.30 &
+[1] 26502
+[nike@wob144 CCSDTQ]$ rm fort.61 &
+[2] 26503
+[1]   Done                    rm fort.30
+[nike@wob144 CCSDTQ]$ rm fort.62 &
+[3] 26504
+[2]   Done                    rm fort.61
+[nike@wob144 CCSDTQ]$ rm fort.63 &
+[4] 26505
+[3]   Done                    rm fort.62
+[nike@wob144 CCSDTQ]$ rm fort.28 &
+[5] 26506
+[4]   Done                    rm fort.63
+[nike@wob144 CCSDTQ]$ rm fort.27 &
+[6] 26507
+[5]   Done                    rm fort.28
+[nike@wob144 CCSDTQ]$ rm fort.17 &
+[7] 26509
+[6]   Done                    rm fort.27
+
+[nike@wob144 CCSDTQ]$ du -hsx * | sort -rh | head -100
+9.6G	fort.55
+796M	fort.16
+155M	IJKL
+
+[nike@wob144 6z]$ du -hsx * | sort -rh | head -100
+17G	CCSDT
+16G	CCSD
+11G	CCSDTQ
+2.0M	CCSDTQPH
+
+[nike@wob144 fc]$ du -hsx * | sort -rh | head -100
+43G	6z
+21G	5z
+3.3G	4z
+378M	3z
+89M	2z
+9.8M	9z
+
+[nike@wob144 dboc]$ du -hsx * | sort -rh | head -100
+74G	ae
+68G	fc
+83M	template_fc
+83M	template_ae
+
+[nike@wob144 O+]$ du -hsx * | sort -rh | head -100
+332G	3z
+141G	dboc
+5.6G	4z
+147M	2z
+
+[nike@wob144 BH3+_5z]$ du -hsx * | sort -rh | head -100
+588G	BH3+_5z
+86G	MOABCD
+5.7G	fort.55
+1.3G	IIII
+86M	JOBARC
+
+[nike@wob144 BH3+_5z]$ du -hsx * | sort -rh | head -100
+487G	fort.55
+86G	MOABCD
+5.5G	IJIJ
+4.5G	IJKL
+2.8G	IIJJ
+1.6G	MOINTS
+1.3G	IIII
+465M	GAMLAM
+369M	fort.21
+86M	JOBARC
+
+===========================================
+wob145
+===========================================
+
+Was empty. The "release" files (file containing meta data about the jobs) there were only from February 2020 onwards it seems, which may have been after this node was resurfaced after the disk failure. Mark told me in email that the disk used a RAID setting which meant that all data was gone permanently. I forgot why scienide2 was recovered despite being apparently in one of the RAID configurations where recoveries are not possible. 
+
+It's worth it to ask Mark for all the "release" files for all my jobs though!
+
+===========================================
+wob146
+===========================================
+
+[nike@wob146 nike]$  du -hsx * | sort -rh | head -100
+521G	H2O_8z  <- 418G is MOABCD
+261G	H2O_4z  <- 130G x 2 = fort.16 and fort.16.bk
+
+[nike@wob146 nike]$ mkdir wob146
+[nike@wob146 nike]$ mv * wob146/
+mv: cannot move `wob146' to a subdirectory of itself, `wob146/wob146'
+[nike@wob146 nike]$ time tar -cvf wob146.tar wob146
+
+===========================================
+wob147
+===========================================
+
+[nike@wob147 nike]$ du -hsx * | sort -rh | head -100
+92G	O_fc_9z_noaug <- all fort.55.xz and MOABCD
+66G	aVDZ          <- all fort.16 backups
+
+[nike@wob147 nike]$ mkdir wob147
+[nike@wob147 nike]$ mv * wob147/
+mv: cannot move `wob147' to a subdirectory of itself, `wob147/wob147'
+[nike@wob147 nike]$ time tar -cvf wob147.tar wob147
+
+===========================================
+wob148
+===========================================
+
+[nike@wob148 nike]$ du -hsx * | sort -rh | head -100
+12T 	H2O_av9z+cv7z10zH-Unc
+2.7T	H2O_av9z+cv7z10zH_tryToUseResetFlags
+2.7T	H2O_av9z+cv7z10zH_bk
+2.7T	H2O_av9z+cv7z10zH
+2.2T	H2O_av9z+cv7z
+1.7T	BH3_6z
+1.6T	ISOL4
+1.6T	H2O_av9z+cv7z9zH-Unc2
+1.6T	H2O_av9z+cv7z9zH-Unc
+1.5T	CH4+_fc_5z
+998G	H2O_av8z+cv7z9zH
+905G	H2O_av9z+cv7z7zH
+876G	H2O_av9z+cv7z8zH-Unc
+871G	H2O_av9z+cv7z8zH-Unc2
+784G	H2O_acv7zOav10zH
+703G	H2O_acv7zOav9zH
+581G	H2O_acv7z
+506G	H2O_av8zCV7z
+481G	H2O_av9z+cv7z7zH-Unc2
+415G	H2O_cv7z
+385G	H2O_cv6z
+290G	NaCl+
+268G	H2O_4z
+261G	H2O_av8z+cv7z7zH
+225G	7z
+89G	  NaCl
+36G	H2O_acv6z_UHF
+33G	H2O_3z
+12G	6z
+5.5G	CISDTQ
+164M	H2O_2z
+112M	bin
+13M	H2O_7z_MRCC_CCSDTQ
+3.3M	8z
+24K	optg_fort7vZYx0
+
+
+-rw-r--r-- 1 nike mcrowley          571 Apr 25 01:51 ZMAT
+[nike@wob148 H2O_av9z+cv7z]$ du -hsx * | sort -rh | head -100
+1.5T	actuallyMake9zforH
+296G	IJIJ
+274G	IJKL
+149G	IIJJ
+58G	IIII
+372M	JOBARC
+55M	MOLDEN
+
+[nike@wob148 H2O_av9z+cv7z]$ cd actuallyMake9zforH/
+[nike@wob148 actuallyMake9zforH]$ du -hsx * | sort -rh | head -100
+554G	IJIJ
+516G	IJKL
+279G	IIJJ
+106G	IIII
+528M	JOBARC
+77M	MOLDEN
+
+[nike@wob148 H2O_cv6z]$ du -hsx * | sort -rh | head -100
+150G	fort.55
+81G	fort.30
+54G	fort.28
+39G	fort.13
+28G	fort.131
+19G	TEINT
+13G	fort.87
+1.9G	fort.20
+1.9G	fort.12
+343M	fort.21
+12M	fort.23
+12M	fort.16
+12M	fort.11
+3.8M	MOLDEN
+
+[nike@wob148 H2O_cv6z]$ rm fort.30 fort.28 fort.13* fort.87 fort.2* fort.12 
+rm: cannot remove `fort.28': No such file or directory
+
+[nike@wob148 H2O_av8zCV7z]$ du -hsx * | sort -rh | head -100
+193G	IJIJ
+178G	IJKL
+98G	IIJJ
+38G	IIII
+288M	JOBARC
+43M	MOLDEN
+
+
+[nike@wob148 H2O_av8zCV7z]$ xz -0 -v IIII 
+IIII (1/1)
+^C    1.3 %               247.8 MiB / 502.6 MiB = 0.493    10 MiB/s         0:47
+
+[nike@wob148 H2O_av8zCV7z]$ xz -0 -v IJIJ
+IJIJ (1/1)
+^C    0.1 %                66.8 MiB / 138.0 MiB = 0.484    10 MiB/s         0:13
+
+Back to H2O_av9z+cv7z/actuallyMake9zforH/
+
+===========================================
+wob149
+===========================================
+
+[nike@wob149 nike]$ du -hsx * | sort -rh | head -100
+12T	H2O_9z
+11T	H2O_5z
+6.7T	H2O_unc
+3.4T	H2O_8z
+2.0T	H2O_av8z+cv7z10zH
+1.5T	H2O_acv7zOav10zH
+989G	CH4_fc_5z
+983G	MRCC+
+819G	MRCC
+339G	H2O_acv7zOav8zH
+255G	O_acv7z
+239G	H2O_acv5zOav8zH
+178G	av6z
+165G	H2O_aCV7Z-CSONTOS
+130G	H2O_cv7z
+49G	H2O_cv6z
+46G	H2O_cv5z
+46G	H2O_acv5z_UHF
+5.8G	H2O_acv4z_UHF
+4.8G	O_acv7Zkoput
+112M	bin
+
+[nike@wob149 H2O_9z]$ du -hsx * | sort -rh | head -100
+12T	ta
+539M	IJIJ
+473M	IJKL
+288M	IIJJ
+181M	JOBARC
+119M	IIII
+35M	den.dat
+
+[nike@wob149 ta]$ du -hsx * | sort -rh | head -100
+12T	ta
+539M	IJIJ
+473M	IJKL
+288M	IIJJ
+119M	IIII
+2.4M	GENBAS
+
+[nike@wob149 ta]$ du -hsx * | sort -rh | head -100
+12T	debugButNoGDB
+138G	IJIJ
+128G	IJKL
+70G	  IIJJ
+32G	  faster
+27G	  IIII
+257M	JOBARC.good
+257M	JOBARC
+38M	  MOLDEN.good
+38M  	MOLDEN
+
+[nike@wob149 debugButNoGDB]$ du -hsx * | sort -rh | head -100
+11T	moreRAM
+138G	IJIJ
+128G	IJKL
+70G	IIJJ
+27G	IIII
+410M	JOBARC
+257M	JOBARC.good
+38M	MOLDEN
+
+[nike@wob149 moreRAM]$ du -hsx * | sort -rh | head -100
+8.5T	fort.55
+1.5T	MOABCD
+681G	7z
+138G	IJIJ
+128G	IJKL
+70G	IIJJ
+27G	IIII
+9.1G	MOINTS
+4.3G	GAMLAM
+
+Will take 8 days and 21 hours to comprees the fort.55 down to 3T with xz -0.
