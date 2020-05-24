@@ -1,0 +1,5 @@
+No use trying to compress fort.16:
+
+fort.16 (5/23)
+    0.1 %               132.1 MiB / 141.5 MiB = 0.934   1.4 MiB/s         1:38
+=============================
