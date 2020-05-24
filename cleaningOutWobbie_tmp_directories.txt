@@ -1,0 +1,562 @@
+===========================================
+wob100
+===========================================
+
+[nike@wob97 nike]$ ssh wob100
+ssh: connect to host wob100 port 22: No route to host
+
+===========================================
+wob101
+===========================================
+
+[nike@wob101 nike]$ du -hsx * | sort -rh | head -100
+44G	H2O_ae_3z
+2.7G	borane
+8.0K	try
+[nike@wob101 nike]$ mkdir wob101
+[nike@wob101 nike]$ mv * wob101/
+mv: cannot move `wob101' to a subdirectory of itself, `wob101/wob101'
+[nike@wob101 nike]$ time tar -cvf wob101.tar wob101
+
+real	5m31.585s
+user	0m2.164s
+sys	1m46.367s
+
+[nike@wob101 nike]$ ls -l -t
+total 48125964
+-rw-r--r-- 1 nike mcrowley 49280972800 May 24 15:14 wob101.tar
+drwxr-xr-x 5 nike mcrowley        4096 May 24 15:07 wob101
+
+===========================================
+wob102
+===========================================
+
+[nike@wob97 ~]$ ssh wob102
+ssh: connect to host wob102 port 22: No route to host
+
+===========================================
+wob103
+===========================================
+
+[nike@wob97 ~]$ ssh wob103
+ssh: connect to host wob103 port 22: No route to host
+
+===========================================
+wob104
+===========================================
+
+[nike@wob97 ~]$ ssh wob104
+ssh: connect to host wob104 port 22: No route to host
+
+===========================================
+wob105
+===========================================
+
+[nike@wob97 ~]$ ssh wob105
+ssh: connect to host wob105 port 22: No route to host
+
+===========================================
+wob106 to wob140
+===========================================
+
+[nike@wob97 ~]$ ssh wob106
+ssh: connect to host wob106 port 22: No route to host
+
+[nike@wob97 ~]$ ssh wob102
+ssh: connect to host wob102 port 22: No route to host
+[nike@wob97 ~]$ ssh wob103
+ssh: connect to host wob103 port 22: No route to host
+[nike@wob97 ~]$ ssh wob104
+ssh: connect to host wob104 port 22: No route to host
+[nike@wob97 ~]$ ssh wob105
+ssh: connect to host wob105 port 22: No route to host
+[nike@wob97 ~]$ ssh wob106
+ssh: connect to host wob106 port 22: No route to host
+[nike@wob97 ~]$ ssh wob107
+ssh: connect to host wob107 port 22: No route to host
+[nike@wob97 ~]$ ssh wob108
+ssh: connect to host wob108 port 22: No route to host
+[nike@wob97 ~]$ ssh wob109
+ssh: connect to host wob109 port 22: No route to host
+[nike@wob97 ~]$ ssh wob110
+ssh: connect to host wob110 port 22: No route to host
+[nike@wob97 ~]$ ssh wob111
+ssh: connect to host wob111 port 22: No route to host
+[nike@wob97 ~]$ ssh wob112
+ssh: connect to host wob112 port 22: No route to host
+[nike@wob97 ~]$ ssh wob113
+ssh: connect to host wob113 port 22: No route to host
+[nike@wob97 ~]$ ssh wob114
+ssh: connect to host wob114 port 22: No route to host
+[nike@wob97 ~]$ ssh wob115
+ssh: connect to host wob115 port 22: No route to host
+[nike@wob97 ~]$ ssh wob116
+ssh: connect to host wob116 port 22: No route to host
+[nike@wob97 ~]$ ssh wob117
+ssh: connect to host wob117 port 22: No route to host
+[nike@wob97 ~]$ ssh wob118
+ssh: connect to host wob118 port 22: No route to host
+[nike@wob97 ~]$ ssh wob119
+ssh: connect to host wob119 port 22: No route to host
+[nike@wob97 ~]$ ssh wob120
+ssh: connect to host wob120 port 22: No route to host
+[nike@wob97 ~]$ ssh wob121
+ssh: connect to host wob121 port 22: No route to host
+[nike@wob97 ~]$ ssh wob122
+ssh: connect to host wob122 port 22: No route to host
+[nike@wob97 ~]$ ssh wob123
+ssh: connect to host wob123 port 22: No route to host
+[nike@wob97 ~]$ ssh wob124
+ssh: connect to host wob124 port 22: No route to host
+[nike@wob97 ~]$ ssh wob125
+ssh: connect to host wob125 port 22: No route to host
+[nike@wob97 ~]$ ssh wob126
+ssh: connect to host wob126 port 22: No route to host
+[nike@wob97 ~]$ ssh wob127
+ssh: connect to host wob127 port 22: No route to host
+[nike@wob97 ~]$ ssh wob128
+ssh: connect to host wob128 port 22: No route to host
+[nike@wob97 ~]$ ssh wob129
+ssh: connect to host wob129 port 22: No route to host
+[nike@wob97 ~]$ ssh wob130
+ssh: connect to host wob130 port 22: No route to host
+[nike@wob97 ~]$ ssh wob131
+ssh: connect to host wob131 port 22: No route to host
+[nike@wob97 ~]$ ssh wob132
+ssh: connect to host wob132 port 22: No route to host
+[nike@wob97 ~]$ ssh wob133
+ssh: connect to host wob133 port 22: No route to host
+[nike@wob97 ~]$ ssh wob134
+ssh: connect to host wob134 port 22: No route to host
+[nike@wob97 ~]$ ssh wob135
+ssh: connect to host wob135 port 22: No route to host
+[nike@wob97 ~]$ ssh wob136
+ssh: connect to host wob136 port 22: No route to host
+[nike@wob97 ~]$ ssh wob137
+ssh: connect to host wob137 port 22: No route to host
+[nike@wob97 ~]$ ssh wob138
+ssh: connect to host wob138 port 22: No route to host
+[nike@wob97 ~]$ ssh wob139
+ssh: connect to host wob139 port 22: No route to host
+[nike@wob97 ~]$ ssh wob140
+ssh: connect to host wob140 port 22: No route to host
+
+===========================================
+wob141
+===========================================
+
+[nike@wob141 nike]$ du -hsx * | sort -rh | head -100
+11T	H2O_5z_CC5_direct
+768G	formamide_CC5
+141G	H2O_8z
+43G	H2O_9z
+172M	FCIDUMP.newerGiovanni
+136K	H2O_MRChem
+
+[nike@wob141 H2O_5z_CC5_direct]$ ls -l -t
+total 11351309780
+-rw-r--r-- 1 nike mcrowley         17818 Feb 16 03:07 out.1924488
+-rw-r--r-- 1 nike mcrowley 2496463400960 Feb 16 03:06 fort.11
+-rw-r--r-- 1 nike mcrowley  358624985088 Feb 15 23:15 fort.12
+-rw-r--r-- 1 nike mcrowley 3702745100288 Feb 15 23:13 fort.30
+-rw-r--r-- 1 nike mcrowley   53386346496 Feb 15 23:06 fort.13
+-rw-r--r-- 1 nike mcrowley      91037696 Feb  9 16:42 fort.20
+-rw-r--r-- 1 nike mcrowley 2496463405056 Dec 25 16:21 fort.23
+-rw-r--r-- 1 nike mcrowley       3674112 Dec 25 10:43 fort.22
+-rw-r--r-- 1 nike mcrowley    2425466880 Dec 25 10:43 fort.21
+-rw-r--r-- 1 nike mcrowley             0 Dec 25 10:42 fort.18
+-rw-r--r-- 1 nike mcrowley             0 Dec 25 10:42 fort.19
+-rw-r--r-- 1 nike mcrowley            38 Dec 25 10:42 EXIT
+-rw-r--r-- 1 nike mcrowley       7901434 Dec 25 10:42 fort.10
+-rw-r--r-- 1 nike mcrowley      45606182 Dec 25 10:42 fort.14
+-rw-r--r-- 1 nike mcrowley           144 Dec 25 10:41 fort.24
+-rw-r--r-- 1 nike mcrowley           910 Dec 25 10:36 fort.56
+-rw-r--r-- 1 nike mcrowley            85 Dec 25 10:12 iface
+-rw-r--r-- 1 nike mcrowley          1567 Dec 25 10:12 KEYWD
+-rwxr-xr-x 1 nike mcrowley           310 Dec 25 10:11 0submit
+-rw-r--r-- 1 nike mcrowley           409 Dec 25 10:11 MINP
+-rw-r--r-- 1 nike mcrowley          3139 Dec 25 10:08 out.1924487
+-rw-r--r-- 1 nike mcrowley         17844 Dec 25 06:24 out.1924485
+-rw-r--r-- 1 nike mcrowley 2496463400960 Dec 25 00:42 fort.16
+-rw-r--r-- 1 nike mcrowley         24406 Dec 24 23:03 out.1924482
+-rw-r--r-- 1 nike mcrowley          5128 Dec 24 22:18 out.1924481
+-rw-r--r-- 1 nike mcrowley   17019678824 Dec 24 22:18 fort.55
+
+[nike@wob141 H2O_5z_CC5_direct]$ rm fort.30 &
+[1] 68892
+[nike@wob141 H2O_5z_CC5_direct]$ rm fort.23 &
+[2] 68895
+[nike@wob141 H2O_5z_CC5_direct]$ rm fort.11 &
+[3] 68898
+[nike@wob141 H2O_5z_CC5_direct]$ rm fort.12 &
+[4] 68900
+[nike@wob141 H2O_5z_CC5_direct]$ rm fort.13 &
+[5] 68903
+[nike@wob141 H2O_5z_CC5_direct]$ rm fort.41 &
+[6] 68907
+[nike@wob141 H2O_5z_CC5_direct]$ rm: cannot remove `fort.41': No such file or directory
+rm fort.41 &^C
+[5]-  Done                    rm fort.13
+[6]+  Exit 1                  rm fort.41
+[nike@wob141 H2O_5z_CC5_direct]$ rm fort.21 &
+[5] 68915
+[nike@wob141 H2O_5z_CC5_direct]$ rm fort.20 &
+[6] 68943
+[5]   Done                    rm fort.21
+[nike@wob141 H2O_5z_CC5_direct]$ rm fort.14 &
+[7] 68950
+[6]   Done                    rm fort.20
+[nike@wob141 H2O_5z_CC5_direct]$ rm fort.10 &
+[8] 68953
+[7]   Done                    rm fort.14
+[nike@wob141 H2O_5z_CC5_direct]$ rm fort.22 &
+[9] 68956
+[4]   Done                    rm fort.12
+[8]   Done                    rm fort.10
+
+
+===========================================
+wob142
+===========================================
+
+[nike@wob142 nike]$ du -hsx * | sort -rh | head -100
+4.8T	7z_CCSDTQ                                         <- CFOUR files (Z4 and T4). Already compressed.
+2.7T	Ne+_fc_6z
+1.9T	H2O_8z                                            <- Almost all from CFOUR's MOABCD which is already in binary
+1.1T	O_5z_fc
+739G	N+_6z
+490G	buta
+135G	V6Z
+126G	7z_CCSDTpQ_resetFlags                             <- Almost all from CFOUR's MOABCD which is already in binary
+2.9G	N2_fc_2z
+
+[nike@wob142 Ne+_fc_6z]$ du -hsx * | sort -rh | head -100
+324G	fort.23
+324G	fort.19
+324G	fort.18
+324G	fort.16.bk_afterIteration1
+324G	fort.16.bk
+324G	fort.16
+324G	fort.11
+262G	fort.30
+159G	fort.12
+27G	fort.13
+9.5G	fort.55
+1.8G	fort.21
+1.7G	MOABCD
+156M	IJKL
+79M	MOINTS
+64M	IJIJ
+37M	IIJJ
+32M	fort.20
+19M	JOBARC
+7.8M	IIII
+5.9M	fort.22
+3.2M	GAMLAM
+2.9M	fort.14......
+
+[nike@wob142 Ne+_fc_6z]$ rm fort.23 &
+[1] 25989
+[nike@wob142 Ne+_fc_6z]$ rm fort.19 &
+[2] 25990
+[nike@wob142 Ne+_fc_6z]$ rm fort.18 &
+[3] 25991
+[nike@wob142 Ne+_fc_6z]$ rm fort.11 &
+[4] 25992
+[1]   Done                    rm fort.23
+[nike@wob142 Ne+_fc_6z]$ rm fort.30 &
+[5] 25994
+[nike@wob142 Ne+_fc_6z]$ rm fort.12 &
+[6] 25995
+[nike@wob142 Ne+_fc_6z]$ rm fort.13 &
+[7] 25996
+[nike@wob142 Ne+_fc_6z]$ rm fort.21 &
+[8] 25997
+[7]   Done                    rm fort.13
+
+[nike@wob142 H2O_8z]$ du -hsx * | sort -rh | head -100
+1.1T	CCSDpT                                             <-- Almost all from CFOUR's MOABCD which is already in binary
+422G	fresh_withRelevantOldFiles
+418G	MOABCD
+3.6G	MOINTS
+2.2G	fresh
+
+[nike@wob142 O_5z_fc]$ du -hsx * | sort -rh | head -100
+777G	fort.30
+122G	fort.19
+122G	fort.18
+34G	fort.12
+12G	fort.23
+12G	fort.16
+12G	fort.11
+3.8G	fort.13
+1.9G	fort.55
+345M	fort.21
+328M	MOABCD
+30M	IJKL
+25M	MOINTS
+13M	IJIJ
+8.3M	JOBARC
+7.6M	IIJJ
+4.6M	fort.14
+
+[nike@wob142 O_5z_fc]$ rm fort.30 &
+[1] 26054
+[nike@wob142 O_5z_fc]$ rm fort.19 &
+[2] 26055
+[nike@wob142 O_5z_fc]$ rm fort.18 &
+[3] 26056
+[nike@wob142 O_5z_fc]$ rm fort.12 &
+[4] 26057
+[nike@wob142 O_5z_fc]$ rm fort.23 &
+[5] 26058
+[4]   Done                    rm fort.12
+[nike@wob142 O_5z_fc]$ rm fort.11 &
+[6] 26059
+[5]   Done                    rm fort.23
+[nike@wob142 O_5z_fc]$ rm fort.13 &
+[7] 26061
+[6]   Done                    rm fort.11
+[nike@wob142 O_5z_fc]$ rm fort.21 &
+[8] 26062
+[2]   Done                    rm fort.19
+[3]   Done                    rm fort.18
+[7]   Done                    rm fort.13
+
+[nike@wob142 N+_6z]$ du -hsx * | sort -rh | head -100
+307G	fort.30
+156G	fort.19
+156G	fort.18
+47G	fort.55
+16G	fort.23
+16G	fort.16
+16G	fort.11
+8.8G	fort.21
+8.2G	MOABCD
+8.0G	fort.12
+2.1G	fort.13
+648M	IJKL
+261M	IJIJ
+200M	MOINTS
+147M	IIJJ
+40M	JOBARC
+33M	fort.20
+29M	IIII
+26M	fort.14
+
+[nike@wob142 N+_6z]$ rm fort.30 &
+[1] 26079
+[nike@wob142 N+_6z]$ rm fort.19 &
+[2] 26080
+[nike@wob142 N+_6z]$ rm fort.18 &
+[3] 26081
+[nike@wob142 N+_6z]$ rm fort.23 &
+[4] 26083
+[nike@wob142 N+_6z]$ rm fort.11 &
+[5] 26084
+[1]   Done                    rm fort.30
+[4]   Done                    rm fort.23
+[nike@wob142 N+_6z]$ rm fort.21 &
+[6] 26085
+[5]   Done                    rm fort.11
+[nike@wob142 N+_6z]$ rm fort.12 &
+[7] 26086
+[2]   Done                    rm fort.19
+[3]   Done                    rm fort.18
+[6]   Done                    rm fort.21
+[nike@wob142 N+_6z]$ rm fort.13 &
+[8] 26087
+[7]   Done                    rm fort.12
+[nike@wob142 N+_6z]$ rm fort.20 &
+[9] 26089
+[8]   Done                    rm fort.13
+[nike@wob142 N+_6z]$ rm fort.14 &
+[10] 26090
+[9]   Done                    rm fort.20
+
+[nike@wob142 buta]$ du -hsx * | sort -rh | head -100
+119G	fort.30
+65G	fort.23
+65G	fort.16_from_graham_afterCCSDTQ
+65G	fort.16.fromBeluga
+65G	fort.16
+65G	fort.11
+41G	fort.12
+9.2G	fort.13
+636M	fort.21
+613M	fort.20
+60M	fort.55
+280K	fort.14
+
+[nike@wob142 buta]$ rm fort.30 &
+[1] 26097
+[nike@wob142 buta]$ rm fort.23 &
+[2] 26098
+[1]   Done                    rm fort.30
+[nike@wob142 buta]$ rm fort.11 &
+[3] 26100
+[2]   Done                    rm fort.23
+[nike@wob142 buta]$ rm fort.12 &
+[4] 26101
+[3]   Done                    rm fort.11
+[nike@wob142 buta]$ rm fort.13 &
+[5] 26102
+[4]   Done                    rm fort.12
+[nike@wob142 buta]$ 
+[5]+  Done                    rm fort.13
+[nike@wob142 buta]$ rm fort.21 &
+[1] 26104
+[nike@wob142 buta]$ rm fort.20 &
+[2] 26105
+[1]   Done                    rm fort.21
+
+[nike@wob142 nike]$ du -hsx * | sort -rh | head -100
+4.8T	7z_CCSDTQ             <- CFOUR binary files
+1.9T	H2O_8z                <- CFOUR binary files
+983G	Ne+_fc_6z             <- 3 backup fort.16 files, each 324G
+193G	buta                  <- 3 backup fort.16 files, each 65G
+135G	V6Z                   <- fort.55 = 108G, MOABCD = 19G
+126G	7z_CCSDTpQ_resetFlags <- CFOUR binary files
+72G	N+_6z                   <- fort.55 (47G) and fort.16 (16G)
+14G	O_5z_fc
+2.9G	N2_fc_2z
+
+[nike@wob142 nike]$ mkdir wob142
+[nike@wob142 nike]$ mv * wob142
+mv: cannot move `wob142' to a subdirectory of itself, `wob142/wob142'
+[nike@wob142 nike]$ time tar -cvf wob142.tar wob142
+
+===========================================
+wob143
+===========================================
+
+[nike@wob143 nike]$ du -hsx * | sort -rh | head -100
+1.6T	H2O_3Z_FCI
+1.5T	CH4+_fc_5z      <- 1.2T in fort.55, 215G in MOABCD
+0	FILES
+
+[nike@wob143 H2O_3Z_FCI]$ du -hsx * | sort -rh | head -100
+353G	fort.19
+353G	fort.18
+291G	fort.23
+291G	fort.16
+291G	fort.11
+94M	fort.55
+66M	fort.30
+13M	fort.21
+11M	fort.12
+2.4M	fort.14
+
+[nike@wob143 H2O_3Z_FCI]$ rm fort.19 &
+[1] 25288
+[nike@wob143 H2O_3Z_FCI]$ rm fort.18 &
+[2] 25289
+[nike@wob143 H2O_3Z_FCI]$ rm fort.23 &
+[3] 25290
+[nike@wob143 H2O_3Z_FCI]$ rm fort.11 &
+[4] 25291
+[nike@wob143 H2O_3Z_FCI]$ rm fort.30 &
+[5] 25320
+[nike@wob143 H2O_3Z_FCI]$ rm fort.21 &
+[6] 25321
+[5]   Done                    rm fort.30
+[nike@wob143 H2O_3Z_FCI]$ rm fort.12 &
+[7] 25322
+[6]   Done                    rm fort.21
+[nike@wob143 H2O_3Z_FCI]$ rm fort.14 &
+[8] 25323
+[7]   Done                    rm fort.12
+
+[nike@wob143 CH4+_fc_5z]$ du -hsx * | sort -rh | head -100
+1.2T	fort.55
+215G	MOABCD
+17G	IJIJ
+9.9G	IIII
+8.4G	IIJJ
+3.6G	MOINTS
+439M	fort.21
+98M	JOBARC
+
+[nike@wob143 CH4+_fc_5z]$ xz -v -0 fort.55
+fort.55 (1/1)
+
+===========================================
+wob144
+===========================================
+
+[nike@wob144 nike]$ du -hsx * | sort -rh | head -100
+788G	O+
+681G	BH3+_5z
+6.2G	wob110
+2.4M	fort.55
+2.3M	N_6z
+
+[nike@wob144 O+]$ du -hsx * | sort -rh | head -100
+451G	dboc
+332G	3z
+5.6G	4z
+147M	2z
+
+[nike@wob144 dboc]$ du -hsx * | sort -rh | head -100
+288G	ae
+163G	fc
+83M	template_fc
+83M	template_ae
+
+[nike@wob144 ae]$ du -hsx * | sort -rh | head -100
+255G	5z
+29G	4z
+3.1G	3z
+871M	2z
+3.9M	template
+
+[nike@wob144 5z]$ du -hsx * | sort -rh | head -100
+226G	CCSDTQ
+16G	CCSDT
+13G	CCSD
+
+[nike@wob144 CCSDTQ]$ du -hsx * | sort -rh | head -100
+215G	fort.30
+8.2G	fort.55
+1.4G	MOABCD
+1.4G	fort.14
+
+[nike@wob144 CCSDTQ]$ rm fort.30 &
+
+[nike@wob144 5z]$ du -hsx * | sort -rh | head -100
+16G	CCSDT
+13G	CCSD
+12G	CCSDTQ
+
+[nike@wob144 ae]$ du -hsx * | sort -rh | head -100
+41G	5z
+29G	4z
+3.1G	3z
+871M	2z
+3.9M	template
+
+[nike@wob144 dboc]$ du -hsx * | sort -rh | head -100
+163G	fc
+74G	ae
+83M	template_fc
+83M	template_ae
+
+[nike@wob144 fc]$ du -hsx * | sort -rh | head -100
+139G	6z
+21G	5z
+3.3G	4z
+378M	3z
+89M	2z
+9.8M	9z
+9.8M	8z
+9.8M	7z
+3.9M	template
+4.0K	batch_sed
+
+[nike@wob144 6z]$ du -hsx * | sort -rh | head -100
+107G	CCSDTQ
+17G	CCSDT
+16G	CCSD
+2.0M	CCSDTQPH
+2.0M	CCSDTQP
+
