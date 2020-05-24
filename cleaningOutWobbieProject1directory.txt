@@ -339,3 +339,60 @@ Wed Mar  4 22:44:26 EST 2020
 [nike@wob97 nike]$ date 
 Sat May 23 23:07:15 EDT 2020
 
+ 4099  2020-05-23 23:32:38 mkdir project1toGraham_1of10
+ 4100  2020-05-23 23:32:54 mv crashedMRCCjobs project1toGraham_1of10/
+ 4101  2020-05-23 23:32:59 mv molcas.FciDmp project1toGraham_1of10/
+ 4102  2020-05-23 23:33:05 mv FCIDUMP_molcas_C_aCV8Z.tar.gz project1toGraham_1of10/
+ 4103  2020-05-23 23:33:16 mv cfour_v2.00beta.tar project1toGraham_1of10/
+ 4104  2020-05-23 23:33:23 mv cfour_v2.* project1toGraham_1of10/
+ 4105  2020-05-23 23:33:35 mv ISOL4/ project1toGraham_1of10/
+ 4106  2020-05-23 23:33:39 mv Na project1toGraham_1of10/
+ 4107  2020-05-23 23:33:43 mv Co/ project1toGraham_1of10/
+ 4108  2020-05-23 23:33:48 mv anth/ project1toGraham_1of10/
+ 4109  2020-05-23 23:33:51 mv Kr/ project1toGraham_1of10/
+ 4110  2020-05-23 23:33:55 mv Li project1toGraham_1of10/
+ 4111  2020-05-23 23:33:59 mv C project1toGraham_1of10/
+ 4112  2020-05-23 23:34:02 mv N+ project1toGraham_1of10/
+ 4113  2020-05-23 23:34:06 mv aceticAcid/ project1toGraham_1of10/
+ 4114  2020-05-23 23:34:48 mv project1toGraham_1of10/aceticAcid/ .
+ 4115  2020-05-23 23:34:54 mv project1toGraham_1of10/N+/ .
+ 4116  2020-05-23 23:35:03 mv project1toGraham_1of10/C .
+ 4117  2020-05-23 23:35:24 mv Al2Cl6/ project1toGraham_1of10/ .
+ 4118  2020-05-23 23:35:40 mv Al2Cl6/ project1toGraham_1of10/ 
+ 4119  2020-05-23 23:35:49 mv Kr project1toGraham_1of10/
+ 4120  2020-05-23 23:35:57 mv Ca/ project1toGraham_1of10/
+ 4121  2020-05-23 23:36:01 mv Cl/ project1toGraham_1of10/
+ 4122  2020-05-23 23:36:05 mv P/ project1toGraham_1of10/
+ 4123  2020-05-23 23:36:10 mv shci_2019_05_28/ project1toGraham_1of10/
+ 4124  2020-05-23 23:36:15 mv Al/ project1toGraham_1of10/
+ 4125  2020-05-23 23:36:28 mv buta_fc_6z/ project1toGraham_1of10/
+ 4126  2020-05-23 23:36:34 mv Mg/ project1toGraham_1of10/
+ 4127  2020-05-23 23:36:37 mv S+/ project1toGraham_1of10/
+ 4128  2020-05-23 23:36:41 mv Mn/ project1toGraham_1of10/
+ 4129  2020-05-23 23:36:45 mv OH/ project1toGraham_1of10/
+ 4130  2020-05-23 23:36:49 mv Na project1toGraham_1of10/
+ 4131  2020-05-23 23:37:01 mv QCBugs/ project1toGraham_1of10/
+ 4132  2020-05-23 23:37:05 mv S project1toGraham_1of10/
+ 4133  2020-05-23 23:37:09 mv Fe/ project1toGraham_1of10/
+ 4134  2020-05-23 23:37:13 mv F- project1toGraham_1of10/
+ 4135  2020-05-23 23:37:23 mv KH project1toGraham_1of10/
+ 4136  2020-05-23 23:37:28 mv Li2_X project1toGraham_1of10/
+ 4137  2020-05-23 23:37:32 mv AI_ENERGIES/ project1toGraham_1of10/
+ 4138  2020-05-23 23:37:37 mv Ar/ project1toGraham_1of10/
+ 4139  2020-05-23 23:37:39 mv V/ project1toGraham_1of10/
+ 4140  2020-05-23 23:37:50 mv LLDUC/ project1toGraham_1of10/
+ 4141  2020-05-23 23:38:05 mv Ni/ project1toGraham_1of10/
+ 4142  2020-05-23 23:38:09 mv Zn/ project1toGraham_1of10/
+ 4143  2020-05-23 23:38:13 mv N2+/ project1toGraham_1of10/
+ 4144  2020-05-23 23:38:24 mv CH4/ project1toGraham_1of10/
+ 4145  2020-05-23 23:38:28 mv Si/ project1toGraham_1of10/
+ 4146  2020-05-23 23:38:34 mv Li2_b/ project1toGraham_1of10/
+ 4147  2020-05-23 23:38:53 mv Cu2 project1toGraham_1of10/
+ 4148  2020-05-23 23:38:58 mv CN project1toGraham_1of10/
+ 4149  2020-05-23 23:39:02 mv CN- project1toGraham_1of10/
+ 4150  2020-05-23 23:39:16 mv Cu2+/ project1toGraham_1of10/
+ 4151  2020-05-23 23:39:22 mv H2O-N2/ project1toGraham_1of10/
+ 4152  2020-05-23 23:39:41 mv Li2_a/ project1toGraham_1of10/
+ 4153  2020-05-23 23:40:53 du -hsx project1toGraham_1of10/ | sort -rh | head -10
+ 4154  2020-05-23 23:42:18 tar -cvf project1toGraham_1of10.tar project1toGraham_1of10/
+ 4155  2020-05-24 02:02:50 history
