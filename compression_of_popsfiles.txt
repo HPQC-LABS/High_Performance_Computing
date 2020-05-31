@@ -4310,5 +4310,715 @@ dattani@allogin1:/algpfs/dattani> du -hsx * | sort -rh | head -10
 197G	MOLCAS
 102G	Li
 
+dattani@allogin1:/algpfs/dattani/femoco/DLA76/bad_fcidump_of_giovanni/mneci/limitExcittations/betterDet/51.2m> xz -v -1 * FCI/* FCI/c/* FCI/c/c/* FCI/c/c/c/* FCI/c/c/c/c/* FCI/c/c/c/c/c/* FCI/c/c/c/c/c/c/* FCI/c/c/c/c/c/c/* FCI/c/c/c/c/c/c/c/* FCI/c/c/c/c/c/c/c/c/* 
+0awk (1/354)
+  100 %               184 B / 171 B = 1,076                                    
+0bwk (2/354)
+  100 %               152 B / 120 B = 1,267                                    
+0copy (3/354)
+  100 %               216 B / 283 B = 0,763                                    
+0exit (4/354)
+  100 %                 84 B / 28 B = 3,000                                    
+0git (5/354)
+  100 %             404 B / 2.182 B = 0,185                                    
+0readme (6/354)
+  100 %             768 B / 2.516 B = 0,305                                    
+0submit (7/354)
+  100 %             772 B / 2.864 B = 0,270                                    
+0writepopsfile (8/354)
+  100 %                 92 B / 33 B = 2,788                                    
+CORESPACE (9/354)
+  100 %             484 B / 2.190 B = 0,221                                    
+FCI (10/354)
+xz: FCI: Is a directory, skipping
+FCIDUMP (11/354)
+xz: FCIDUMP: Is a symbolic link, skipping
+fciqmc_stats (12/354)
+  100 %   1.043,1 KiB / 3.428,1 KiB = 0,304                                    
+initiator_stats (13/354)
+  100 %     594,7 KiB / 2.103,1 KiB = 0,283                                    
+input.Spawn (14/354)
+  100 %             880 B / 1.556 B = 0,566                                    
+job.err.88643 (15/354)
+  100 %               180 B / 119 B = 1,513                                    
+job.err.88646 (16/354)
+  100 %               180 B / 119 B = 1,513                                    
+job.err.88662 (17/354)
+  100 %             192 B / 1.527 B = 0,126                                    
+job.out.88643 (18/354)
+  100 %                  32 B / 0 B > 9,999                                    
+job.out.88646 (19/354)
+  100 %                  32 B / 0 B > 9,999                                    
+job.out.88662 (20/354)
+  100 %                  32 B / 0 B > 9,999                                    
+NO_OCC_NUMEBRS.1 (21/354)
+  100 %          2.668 B / 13,8 KiB = 0,188                                    
+NO_TRANSFORM.1 (22/354)
+  100 %        88,6 KiB / 546,8 KiB = 0,162                                    
+OneRDM.1 (23/354)
+  100 %        43,4 KiB / 217,2 KiB = 0,200                                    
+ORBOCCUPATIONS (24/354)
+  100 %           1.176 B / 7.038 B = 0,167                                    
+output.Spawn (25/354)
+  100 %     193,6 KiB / 1.486,6 KiB = 0,130                                    
+popsfile.h5 (26/354)
+  100 %     811,2 MiB / 3.798,5 MiB = 0,214    10 MiB/s       6:18             
+popsfile.h5.bk (27/354)
+  100 %     811,4 MiB / 3.798,5 MiB = 0,214    10 MiB/s       6:20             
+RDMEstimates (28/354)
+  100 %         19,7 KiB / 61,3 KiB = 0,322                                    
+RDM_POPSFILE (29/354)
+  100 %     342,0 MiB / 1.126,3 MiB = 0,304   8,7 MiB/s       2:08             
+ROFCIDUMP (30/354)
+  100 %        66,9 MiB / 343,2 MiB = 0,195    11 MiB/s       0:30             
+spawns_tofrom_excit (31/354)
+  100 %       488,3 KiB / 278,8 MiB = 0,002    63 MiB/s       0:04             
+spinfree_TwoRDM.1 (32/354)
+  100 %     355,8 MiB / 2.446,0 MiB = 0,145    15 MiB/s       2:46             
+TRIALSPACE (33/354)
+  100 %             484 B / 2.190 B = 0,221                                    
+TwoRDM_aaaa.1 (34/354)
+  100 %        37,6 MiB / 145,9 MiB = 0,258   9,2 MiB/s       0:15             
+TwoRDM_abab.1 (35/354)
+  100 %        36,0 MiB / 139,6 MiB = 0,258   9,2 MiB/s       0:15             
+TwoRDM_abba.1 (36/354)
+  100 %        31,5 MiB / 122,1 MiB = 0,258   9,1 MiB/s       0:13             
+FCI/0awk (37/354)
+  100 %               184 B / 171 B = 1,076                                    
+FCI/0bwk (38/354)
+  100 %               152 B / 120 B = 1,267                                    
+FCI/0copy (39/354)
+  100 %               216 B / 283 B = 0,763                                    
+FCI/0exit (40/354)
+  100 %                 84 B / 28 B = 3,000                                    
+FCI/0git (41/354)
+  100 %               272 B / 540 B = 0,504                                    
+FCI/0readme (42/354)
+  100 %             768 B / 2.516 B = 0,305                                    
+FCI/0submit (43/354)
+  100 %             772 B / 2.864 B = 0,270                                    
+FCI/0writepopsfile (44/354)
+  100 %                 92 B / 33 B = 2,788                                    
+FCI/c (45/354)
+xz: FCI/c: Is a directory, skipping
+FCI/CORESPACE (46/354)
+  100 %             516 B / 2.190 B = 0,236                                    
+FCI/FCIDUMP (47/354)
+xz: FCI/FCIDUMP: Is a symbolic link, skipping
+FCI/fciqmc_stats (48/354)
+  100 %   1.074,4 KiB / 3.530,7 KiB = 0,304                                    
+FCI/initiator_stats (49/354)
+  100 %     611,5 KiB / 2.166,1 KiB = 0,282                                    
+FCI/input.Spawn (50/354)
+  100 %             884 B / 1.557 B = 0,568                                    
+FCI/job.err.88784 (51/354)
+  100 %               180 B / 119 B = 1,513                                    
+FCI/job.out.88784 (52/354)
+  100 %                  32 B / 0 B > 9,999                                   
+FCI/output.Spawn (53/354)
+  100 %         14,4 KiB / 63,2 KiB = 0,227                                    
+FCI/popsfile.h5 (54/354)
+  100 %     800,7 MiB / 3.757,9 MiB = 0,213    10 MiB/s       6:13             
+FCI/popsfile.h5.bk (55/354)
+  100 %     801,3 MiB / 3.757,6 MiB = 0,213    10 MiB/s       6:14             
+FCI/RDMEstimates (56/354)
+  100 %         19,7 KiB / 61,4 KiB = 0,321                                    
+FCI/spawns_tofrom_excit (57/354)
+  100 %         41,9 KiB / 25,6 MiB = 0,002                                    
+FCI/TRIALSPACE (58/354)
+  100 %             516 B / 2.190 B = 0,236                                    
+FCI/c/0awk (59/354)
+  100 %               184 B / 171 B = 1,076                                    
+FCI/c/0bwk (60/354)
+  100 %               152 B / 120 B = 1,267                                    
+FCI/c/0copy (61/354)
+  100 %               216 B / 283 B = 0,763                                    
+FCI/c/0exit (62/354)
+  100 %                 84 B / 28 B = 3,000                                    
+FCI/c/0git (63/354)
+  100 %             404 B / 2.182 B = 0,185                                    
+FCI/c/0readme (64/354)
+  100 %             768 B / 2.516 B = 0,305                                    
+FCI/c/0submit (65/354)
+  100 %             772 B / 2.862 B = 0,270                                    
+FCI/c/0writepopsfile (66/354)
+  100 %                 92 B / 33 B = 2,788                                    
+FCI/c/c (67/354)
+xz: FCI/c/c: Is a directory, skipping
+FCI/c/CORESPACE (68/354)
+  100 %             532 B / 2.190 B = 0,243                                    
+FCI/c/FCIDUMP (69/354)
+xz: FCI/c/FCIDUMP: Is a symbolic link, skipping
+FCI/c/fciqmc_stats (70/354)
+  100 %   1.145,2 KiB / 3.762,6 KiB = 0,304                                    
+FCI/c/initiator_stats (71/354)
+  100 %     649,8 KiB / 2.308,3 KiB = 0,282                                    
+FCI/c/input.Spawn (72/354)
+  100 %             880 B / 1.555 B = 0,566                                    
+FCI/c/job.err.88824 (73/354)
+  100 %               188 B / 415 B = 0,453                                    
+FCI/c/job.out.88824 (74/354)
+  100 %                  32 B / 0 B > 9,999                                    
+FCI/c/NO_OCC_NUMEBRS.1 (75/354)
+  100 %          2.636 B / 13,8 KiB = 0,186                                    
+FCI/c/NO_TRANSFORM.1 (76/354)
+  100 %        88,6 KiB / 546,8 KiB = 0,162                                    
+FCI/c/OneRDM.1 (77/354)
+  100 %        43,2 KiB / 217,2 KiB = 0,199                                    
+FCI/c/ORBOCCUPATIONS (78/354)
+  100 %           1.168 B / 7.038 B = 0,166                                    
+FCI/c/output.Spawn (79/354)
+  100 %     138,4 KiB / 1.194,8 KiB = 0,116                                    
+FCI/c/popsfile.h5 (80/354)
+  100 %     795,7 MiB / 3.759,4 MiB = 0,212    10 MiB/s       6:11             
+FCI/c/popsfile.h5.bk (81/354)
+  100 %     796,0 MiB / 3.759,3 MiB = 0,212    10 MiB/s       6:10             
+FCI/c/RDMEstimates (82/354)
+  100 %         23,6 KiB / 73,6 KiB = 0,320                                    
+FCI/c/RDM_POPSFILE (83/354)
+  100 %     245,1 MiB / 1.091,5 MiB = 0,225    11 MiB/s       1:39             
+FCI/c/rofcidump (84/354)
+xz: FCI/c/rofcidump: Is a directory, skipping
+FCI/c/ROFCIDUMP (85/354)
+  100 %        67,2 MiB / 343,2 MiB = 0,196    11 MiB/s       0:30             
+FCI/c/spawns_tofrom_excit (86/354)
+  100 %         91,2 KiB / 58,3 MiB = 0,002                                    
+FCI/c/spinfree_TwoRDM.1 (87/354)
+  100 %     246,2 MiB / 1.697,2 MiB = 0,145    15 MiB/s       1:54             
+FCI/c/TRIALSPACE (88/354)
+  100 %             532 B / 2.190 B = 0,243                                    
+FCI/c/TwoRDM_aaaa.1 (89/354)
+  100 %         24,6 MiB / 94,7 MiB = 0,260   9,1 MiB/s       0:10             
+FCI/c/TwoRDM_abab.1 (90/354)
+  100 %         21,5 MiB / 82,2 MiB = 0,261   9,0 MiB/s       0:09             
+FCI/c/TwoRDM_abba.1 (91/354)
+  100 %         17,6 MiB / 67,6 MiB = 0,261   9,1 MiB/s       0:07             
+FCI/c/c/0awk (92/354)
+  100 %               184 B / 170 B = 1,082                                    
+FCI/c/c/0bwk (93/354)
+  100 %               152 B / 120 B = 1,267                                    
+FCI/c/c/0copy (94/354)
+  100 %               216 B / 283 B = 0,763                                    
+FCI/c/c/0exit (95/354)
+  100 %                 84 B / 28 B = 3,000                                    
+FCI/c/c/0git (96/354)
+  100 %             404 B / 2.182 B = 0,185                                    
+FCI/c/c/0readme (97/354)
+  100 %             768 B / 2.516 B = 0,305                                    
+FCI/c/c/0submit (98/354)
+  100 %             776 B / 2.851 B = 0,272                                    
+FCI/c/c/0writepopsfile (99/354)
+  100 %                 92 B / 33 B = 2,788                                    
+FCI/c/c/c (100/354)
+xz: FCI/c/c/c: Is a directory, skipping
+FCI/c/c/CORESPACE (101/354)
+  100 %             512 B / 2.190 B = 0,234                                    
+FCI/c/c/FCIDUMP (102/354)
+xz: FCI/c/c/FCIDUMP: Is a symbolic link, skipping
+FCI/c/c/fciqmc_stats (103/354)
+  100 %   1.335,1 KiB / 4.380,5 KiB = 0,305                                    
+FCI/c/c/initiator_stats (104/354)
+  100 %     752,8 KiB / 2.687,4 KiB = 0,280                                   
+FCI/c/c/input.Spawn (105/354)
+  100 %             876 B / 1.556 B = 0,563                                    
+FCI/c/c/job.err.88894 (106/354)
+  100 %             256 B / 1.030 B = 0,249                                    
+FCI/c/c/job.out.88894 (107/354)
+  100 %                  32 B / 0 B > 9,999                                    
+FCI/c/c/NO_OCC_NUMEBRS.1 (108/354)
+  100 %          2.632 B / 13,8 KiB = 0,186                                    
+FCI/c/c/NO_TRANSFORM.1 (109/354)
+  100 %        88,5 KiB / 546,8 KiB = 0,162                                    
+FCI/c/c/OneRDM.1 (110/354)
+  100 %        43,4 KiB / 217,2 KiB = 0,200                                    
+FCI/c/c/ORBOCCUPATIONS (111/354)
+  100 %           1.160 B / 7.038 B = 0,165                                    
+FCI/c/c/output.Spawn (112/354)
+  100 %     321,6 KiB / 2.827,9 KiB = 0,114                                    
+FCI/c/c/popsfile.h5 (113/354)
+  100 %     792,4 MiB / 3.761,6 MiB = 0,211    10 MiB/s       6:12             
+FCI/c/c/popsfile.h5.bk (114/354)
+  100 %     792,4 MiB / 3.761,5 MiB = 0,211    10 MiB/s       6:11             
+FCI/c/c/RDMEstimates (115/354)
+  100 %        47,2 KiB / 148,4 KiB = 0,318                                    
+FCI/c/c/RDM_POPSFILE (116/354)
+  100 %     352,1 MiB / 1.127,8 MiB = 0,312   8,7 MiB/s       2:10             
+FCI/c/c/ROFCIDUMP (117/354)
+  100 %        66,8 MiB / 343,2 MiB = 0,195    11 MiB/s       0:30             
+FCI/c/c/spawns_tofrom_excit (118/354)
+  100 %       225,4 KiB / 156,1 MiB = 0,001                   0:02             
+FCI/c/c/spinfree_TwoRDM.1 (119/354)
+  100 %     362,4 MiB / 2.496,4 MiB = 0,145    15 MiB/s       2:49             
+FCI/c/c/TRIALSPACE (120/354)
+  100 %             512 B / 2.190 B = 0,234                                    
+FCI/c/c/TwoRDM_aaaa.1 (121/354)
+  100 %        38,7 MiB / 150,1 MiB = 0,258   9,1 MiB/s       0:16             
+FCI/c/c/TwoRDM_abab.1 (122/354)
+  100 %        37,3 MiB / 144,3 MiB = 0,258   9,1 MiB/s       0:15             
+FCI/c/c/TwoRDM_abba.1 (123/354)
+  100 %        32,8 MiB / 127,1 MiB = 0,258   9,1 MiB/s       0:13             
+FCI/c/c/c/0awk (124/354)
+  100 %               184 B / 170 B = 1,082                                    
+FCI/c/c/c/0bwk (125/354)
+  100 %               152 B / 120 B = 1,267                                    
+FCI/c/c/c/0copy (126/354)
+  100 %               216 B / 283 B = 0,763                                    
+FCI/c/c/c/0exit (127/354)
+  100 %                 84 B / 28 B = 3,000                                    
+FCI/c/c/c/0git (128/354)
+  100 %             404 B / 2.182 B = 0,185                                    
+FCI/c/c/c/0readme (129/354)
+  100 %             768 B / 2.516 B = 0,305                                    
+FCI/c/c/c/0submit (130/354)
+  100 %             776 B / 2.851 B = 0,272                                    
+FCI/c/c/c/0writepopsfile (131/354)
+  100 %                 92 B / 33 B = 2,788                                    
+FCI/c/c/c/1 (132/354)
+  100 %             880 B / 1.865 B = 0,472                                    
+FCI/c/c/c/blocking.py (133/354)
+  100 %          5.144 B / 16,1 KiB = 0,311                                   
+FCI/c/c/c/blockingResult.txt (134/354)
+  100 %                120 B / 62 B = 1,935                                    
+FCI/c/c/c/c (135/354)
+xz: FCI/c/c/c/c: Is a directory, skipping
+FCI/c/c/c/CORESPACE (136/354)
+  100 %             492 B / 2.190 B = 0,225                                    
+FCI/c/c/c/FCIDUMP (137/354)
+xz: FCI/c/c/c/FCIDUMP: Is a symbolic link, skipping
+FCI/c/c/c/fciqmc_stats (138/354)
+  100 %   1.509,5 KiB / 4.947,6 KiB = 0,305                                    
+FCI/c/c/c/fort.7 (139/354)
+  100 %                  60 B / 1 B > 9,999                                    
+FCI/c/c/c/initiator_stats (140/354)
+  100 %     846,9 KiB / 3.035,3 KiB = 0,279                                    
+FCI/c/c/c/input.Spawn (141/354)
+  100 %             872 B / 1.546 B = 0,564                                    
+FCI/c/c/c/job.err.88982 (142/354)
+  100 %               296 B / 302 B = 0,980                                    
+FCI/c/c/c/job.err.89116 (143/354)
+  100 %               256 B / 965 B = 0,265                                    
+FCI/c/c/c/job.out.88982 (144/354)
+  100 %                  32 B / 0 B > 9,999                                    
+FCI/c/c/c/job.out.89116 (145/354)
+  100 %                  32 B / 0 B > 9,999                                    
+FCI/c/c/c/NO_OCC_NUMEBRS.1 (146/354)
+  100 %          2.636 B / 13,8 KiB = 0,186                                    
+FCI/c/c/c/NO_TRANSFORM.1 (147/354)
+  100 %        88,5 KiB / 546,8 KiB = 0,162                                    
+FCI/c/c/c/OneRDM.1 (148/354)
+  100 %        43,5 KiB / 217,2 KiB = 0,200                                    
+FCI/c/c/c/ORBOCCUPATIONS (149/354)
+  100 %           1.164 B / 7.038 B = 0,165                                    
+FCI/c/c/c/output.Spawn (150/354)
+  100 %     320,5 KiB / 2.827,8 KiB = 0,113                                    
+FCI/c/c/c/popsfile.h5 (151/354)
+  100 %     792,3 MiB / 3.763,5 MiB = 0,211    10 MiB/s       6:10             
+FCI/c/c/c/popsfile.h5.bk (152/354)
+  100 %     792,3 MiB / 3.763,4 MiB = 0,211    10 MiB/s       6:11             
+FCI/c/c/c/RDMEstimates (153/354)
+  100 %        76,4 KiB / 240,3 KiB = 0,318                                    
+FCI/c/c/c/RDMEstimates.blocking (154/354)
+  100 %        76,4 KiB / 239,7 KiB = 0,319                                    
+FCI/c/c/c/RDM_POPSFILE (155/354)
+  100 %     364,1 MiB / 1.129,1 MiB = 0,322   8,4 MiB/s       2:14             
+FCI/c/c/c/ROFCIDUMP (156/354)
+  100 %        66,8 MiB / 343,2 MiB = 0,195    11 MiB/s       0:30             
+FCI/c/c/c/spawns_tofrom_excit (157/354)
+  100 %       205,8 KiB / 143,2 MiB = 0,001                   0:02             
+FCI/c/c/c/spinfree_TwoRDM.1 (158/354)
+  100 %     370,3 MiB / 2.553,2 MiB = 0,145    15 MiB/s       2:52             
+FCI/c/c/c/TRIALSPACE (159/354)
+  100 %             492 B / 2.190 B = 0,225                                    
+FCI/c/c/c/TwoRDM_aaaa.1 (160/354)
+  100 %        39,8 MiB / 154,7 MiB = 0,257   9,2 MiB/s       0:16             
+FCI/c/c/c/TwoRDM_abab.1 (161/354)
+  100 %        38,7 MiB / 150,0 MiB = 0,258   9,2 MiB/s       0:16             
+FCI/c/c/c/TwoRDM_abba.1 (162/354)
+  100 %        34,3 MiB / 133,0 MiB = 0,258   9,1 MiB/s       0:14             
+FCI/c/c/c/c/0awk (163/354)
+  100 %               184 B / 170 B = 1,082                                    
+FCI/c/c/c/c/0bwk (164/354)
+  100 %               152 B / 120 B = 1,267                                    
+FCI/c/c/c/c/0copy (165/354)
+  100 %               216 B / 283 B = 0,763                                    
+FCI/c/c/c/c/0exit (166/354)
+  100 %                 84 B / 28 B = 3,000                                    
+FCI/c/c/c/c/0git (167/354)
+  100 %             404 B / 2.182 B = 0,185                                   
+FCI/c/c/c/c/0readme (168/354)
+  100 %             768 B / 2.516 B = 0,305                                    
+FCI/c/c/c/c/0submit (169/354)
+  100 %             776 B / 2.851 B = 0,272                                    
+FCI/c/c/c/c/0writepopsfile (170/354)
+  100 %                 92 B / 33 B = 2,788                                    
+FCI/c/c/c/c/c (171/354)
+xz: FCI/c/c/c/c/c: Is a directory, skipping
+FCI/c/c/c/c/CORESPACE (172/354)
+  100 %             508 B / 2.190 B = 0,232                                    
+FCI/c/c/c/c/FCIDUMP (173/354)
+xz: FCI/c/c/c/c/FCIDUMP: Is a symbolic link, skipping
+FCI/c/c/c/c/fciqmc_stats (174/354)
+  100 %   1.683,4 KiB / 5.514,7 KiB = 0,305                                    
+FCI/c/c/c/c/initiator_stats (175/354)
+  100 %     940,5 KiB / 3.383,2 KiB = 0,278                                    
+FCI/c/c/c/c/input.Spawn (176/354)
+  100 %             872 B / 1.546 B = 0,564                                    
+FCI/c/c/c/c/job.err.89509 (177/354)
+  100 %               256 B / 965 B = 0,265                                    
+FCI/c/c/c/c/job.out.89509 (178/354)
+  100 %                  32 B / 0 B > 9,999                                    
+FCI/c/c/c/c/NO_OCC_NUMEBRS.1 (179/354)
+  100 %          2.644 B / 13,8 KiB = 0,187                                    
+FCI/c/c/c/c/NO_TRANSFORM.1 (180/354)
+  100 %        88,4 KiB / 546,8 KiB = 0,162                                    
+FCI/c/c/c/c/OneRDM.1 (181/354)
+  100 %        43,2 KiB / 217,2 KiB = 0,199                                    
+FCI/c/c/c/c/ORBOCCUPATIONS (182/354)
+  100 %           1.184 B / 7.038 B = 0,168                                    
+FCI/c/c/c/c/output.Spawn (183/354)
+  100 %     320,9 KiB / 2.825,3 KiB = 0,114                                    
+FCI/c/c/c/c/popsfile.h5 (184/354)
+  100 %     792,9 MiB / 3.764,8 MiB = 0,211    10 MiB/s       6:09             
+FCI/c/c/c/c/popsfile.h5.bk (185/354)
+  100 %     792,9 MiB / 3.764,7 MiB = 0,211    10 MiB/s       6:11             
+FCI/c/c/c/c/RDMEstimates (186/354)
+  100 %       105,7 KiB / 332,2 KiB = 0,318                                    
+FCI/c/c/c/c/RDM_POPSFILE (187/354)
+  100 %     362,8 MiB / 1.129,1 MiB = 0,321   8,4 MiB/s       2:13             
+FCI/c/c/c/c/ROFCIDUMP (188/354)
+  100 %        66,8 MiB / 343,2 MiB = 0,195    11 MiB/s       0:30             
+FCI/c/c/c/c/spawns_tofrom_excit (189/354)
+  100 %       213,2 KiB / 143,2 MiB = 0,001                   0:02             
+FCI/c/c/c/c/spinfree_TwoRDM.1 (190/354)
+  100 %     369,1 MiB / 2.546,1 MiB = 0,145    15 MiB/s       2:52             
+FCI/c/c/c/c/TRIALSPACE (191/354)
+  100 %             508 B / 2.190 B = 0,232                                    
+FCI/c/c/c/c/TwoRDM_aaaa.1 (192/354)
+  100 %        39,7 MiB / 154,1 MiB = 0,257   9,2 MiB/s       0:16             
+FCI/c/c/c/c/TwoRDM_abab.1 (193/354)
+  100 %        38,5 MiB / 149,3 MiB = 0,258   9,1 MiB/s       0:16             
+FCI/c/c/c/c/TwoRDM_abba.1 (194/354)
+  100 %        34,2 MiB / 132,4 MiB = 0,258   9,2 MiB/s       0:14             
+FCI/c/c/c/c/c/0awk (195/354)
+  100 %               184 B / 170 B = 1,082                                    
+FCI/c/c/c/c/c/0bwk (196/354)
+  100 %               152 B / 120 B = 1,267                                    
+FCI/c/c/c/c/c/0copy (197/354)
+  100 %               216 B / 283 B = 0,763                                    
+FCI/c/c/c/c/c/0exit (198/354)
+  100 %                 84 B / 28 B = 3,000                                    
+FCI/c/c/c/c/c/0git (199/354)
+  100 %             404 B / 2.182 B = 0,185                                    
+FCI/c/c/c/c/c/0readme (200/354)
+  100 %             768 B / 2.516 B = 0,305                                    
+FCI/c/c/c/c/c/0submit (201/354)
+  100 %             776 B / 2.851 B = 0,272                                    
+FCI/c/c/c/c/c/0writepopsfile (202/354)
+  100 %                 92 B / 33 B = 2,788                                    
+FCI/c/c/c/c/c/c (203/354)
+xz: FCI/c/c/c/c/c/c: Is a directory, skipping
+FCI/c/c/c/c/c/CORESPACE (204/354)
+  100 %             492 B / 2.190 B = 0,225                                    
+FCI/c/c/c/c/c/FCIDUMP (205/354)
+xz: FCI/c/c/c/c/c/FCIDUMP: Is a symbolic link, skipping
+FCI/c/c/c/c/c/fciqmc_stats (206/354)
+  100 %   1.857,9 KiB / 6.084,1 KiB = 0,305                                    
+FCI/c/c/c/c/c/initiator_stats (207/354)
+  100 %   1.034,8 KiB / 3.732,6 KiB = 0,277                                    
+FCI/c/c/c/c/c/input.Spawn (208/354)
+  100 %             872 B / 1.546 B = 0,564                                    
+FCI/c/c/c/c/c/job.err.89730 (209/354)
+  100 %               256 B / 968 B = 0,264                                    
+FCI/c/c/c/c/c/job.out.89730 (210/354)
+  100 %                  32 B / 0 B > 9,999                                    
+FCI/c/c/c/c/c/NO_OCC_NUMEBRS.1 (211/354)
+  100 %          2.672 B / 13,8 KiB = 0,189                                    
+FCI/c/c/c/c/c/NO_TRANSFORM.1 (212/354)
+  100 %        88,5 KiB / 546,8 KiB = 0,162                                    
+FCI/c/c/c/c/c/OneRDM.1 (213/354)
+  100 %        43,4 KiB / 217,2 KiB = 0,200                                    
+FCI/c/c/c/c/c/ORBOCCUPATIONS (214/354)
+  100 %           1.164 B / 7.038 B = 0,165                                    
+FCI/c/c/c/c/c/output.Spawn (215/354)
+  100 %     321,1 KiB / 2.827,9 KiB = 0,114                                    
+FCI/c/c/c/c/c/popsfile.h5 (216/354)
+  100 %     793,5 MiB / 3.765,9 MiB = 0,211    10 MiB/s       6:11             
+FCI/c/c/c/c/c/popsfile.h5.bk (217/354)
+  100 %     793,4 MiB / 3.765,8 MiB = 0,211    10 MiB/s       6:11             
+FCI/c/c/c/c/c/RDMEstimates (218/354)
+  100 %       135,1 KiB / 424,5 KiB = 0,318                                    
+FCI/c/c/c/c/c/RDM_POPSFILE (219/354)
+  100 %     361,9 MiB / 1.129,1 MiB = 0,321   8,4 MiB/s       2:13             
+FCI/c/c/c/c/c/ROFCIDUMP (220/354)
+  100 %        66,8 MiB / 343,2 MiB = 0,195    11 MiB/s       0:30             
+FCI/c/c/c/c/c/spawns_tofrom_excit (221/354)
+  100 %       215,1 KiB / 143,8 MiB = 0,001                   0:02             
+FCI/c/c/c/c/c/spinfree_TwoRDM.1 (222/354)
+  100 %     368,4 MiB / 2.541,8 MiB = 0,145    15 MiB/s       2:53             
+FCI/c/c/c/c/c/TRIALSPACE (223/354)
+  100 %             492 B / 2.190 B = 0,225                                    
+FCI/c/c/c/c/c/TwoRDM_aaaa.1 (224/354)
+  100 %        39,6 MiB / 153,8 MiB = 0,257   9,1 MiB/s       0:16             
+FCI/c/c/c/c/c/TwoRDM_abab.1 (225/354)
+  100 %        38,4 MiB / 149,0 MiB = 0,258   9,1 MiB/s       0:16             
+FCI/c/c/c/c/c/TwoRDM_abba.1 (226/354)
+  100 %        34,1 MiB / 132,0 MiB = 0,258   9,1 MiB/s       0:14             
+FCI/c/c/c/c/c/c/0awk (227/354)
+  100 %               184 B / 170 B = 1,082                                    
+FCI/c/c/c/c/c/c/0bwk (228/354)
+  100 %               152 B / 120 B = 1,267                                    
+FCI/c/c/c/c/c/c/0copy (229/354)
+  100 %               216 B / 283 B = 0,763                                    
+FCI/c/c/c/c/c/c/0exit (230/354)
+  100 %                 84 B / 28 B = 3,000                                    
+FCI/c/c/c/c/c/c/0git (231/354)
+  100 %             404 B / 2.182 B = 0,185                                    
+FCI/c/c/c/c/c/c/0readme (232/354)
+  100 %             768 B / 2.516 B = 0,305                                    
+FCI/c/c/c/c/c/c/0submit (233/354)
+  100 %             776 B / 2.851 B = 0,272                                    
+FCI/c/c/c/c/c/c/0writepopsfile (234/354)
+  100 %                 92 B / 33 B = 2,788                                    
+FCI/c/c/c/c/c/c/c (235/354)
+xz: FCI/c/c/c/c/c/c/c: Is a directory, skipping
+FCI/c/c/c/c/c/c/CORESPACE (236/354)
+  100 %             492 B / 2.190 B = 0,225                                    
+FCI/c/c/c/c/c/c/FCIDUMP (237/354)
+xz: FCI/c/c/c/c/c/c/FCIDUMP: Is a symbolic link, skipping
+FCI/c/c/c/c/c/c/fciqmc_stats (238/354)
+  100 %   2.033,3 KiB / 6.655,8 KiB = 0,305                                    
+FCI/c/c/c/c/c/c/initiator_stats (239/354)
+  100 %   1.129,2 KiB / 4.083,3 KiB = 0,277                                    
+FCI/c/c/c/c/c/c/input.Spawn (240/354)
+  100 %             872 B / 1.546 B = 0,564                                    
+FCI/c/c/c/c/c/c/job.err.90002 (241/354)
+  100 %               256 B / 971 B = 0,264                                    
+FCI/c/c/c/c/c/c/job.out.90002 (242/354)
+  100 %                  32 B / 0 B > 9,999                                    
+FCI/c/c/c/c/c/c/NO_OCC_NUMEBRS.1 (243/354)
+  100 %          2.664 B / 13,8 KiB = 0,188                                    
+FCI/c/c/c/c/c/c/NO_TRANSFORM.1 (244/354)
+  100 %        88,7 KiB / 546,8 KiB = 0,162                                    
+FCI/c/c/c/c/c/c/OneRDM.1 (245/354)
+  100 %        43,2 KiB / 217,2 KiB = 0,199                                    
+FCI/c/c/c/c/c/c/ORBOCCUPATIONS (246/354)
+  100 %           1.164 B / 7.038 B = 0,165                                    
+FCI/c/c/c/c/c/c/output.Spawn (247/354)
+  100 %     321,6 KiB / 2.825,9 KiB = 0,114                                    
+FCI/c/c/c/c/c/c/popsfile.h5 (248/354)
+  100 %     794,2 MiB / 3.767,0 MiB = 0,211    10 MiB/s       6:12             
+FCI/c/c/c/c/c/c/popsfile.h5.bk (249/354)
+  100 %     794,2 MiB / 3.767,0 MiB = 0,211    10 MiB/s       6:11             
+FCI/c/c/c/c/c/c/RDMEstimates (250/354)
+  100 %       164,6 KiB / 517,2 KiB = 0,318                                    
+FCI/c/c/c/c/c/c/RDM_POPSFILE (251/354)
+  100 %     360,8 MiB / 1.129,1 MiB = 0,320   8,5 MiB/s       2:13             
+FCI/c/c/c/c/c/c/ROFCIDUMP (252/354)
+  100 %        66,8 MiB / 343,2 MiB = 0,195    11 MiB/s       0:30             
+FCI/c/c/c/c/c/c/spawns_tofrom_excit (253/354)
+  100 %       218,6 KiB / 144,4 MiB = 0,001                   0:02             
+FCI/c/c/c/c/c/c/spinfree_TwoRDM.1 (254/354)
+  100 %     367,6 MiB / 2.537,2 MiB = 0,145    15 MiB/s       2:52             
+FCI/c/c/c/c/c/c/TRIALSPACE (255/354)
+  100 %             492 B / 2.190 B = 0,225                                    
+FCI/c/c/c/c/c/c/TwoRDM_aaaa.1 (256/354)
+  100 %        39,5 MiB / 153,4 MiB = 0,257   9,1 MiB/s       0:16             
+FCI/c/c/c/c/c/c/TwoRDM_abab.1 (257/354)
+  100 %        38,3 MiB / 148,4 MiB = 0,258   9,1 MiB/s       0:16             
+FCI/c/c/c/c/c/c/TwoRDM_abba.1 (258/354)
+  100 %        33,9 MiB / 131,5 MiB = 0,258   9,1 MiB/s       0:14             
+FCI/c/c/c/c/c/c/0awk (259/354)
+xz: FCI/c/c/c/c/c/c/0awk: No such file or directory
+FCI/c/c/c/c/c/c/0bwk (260/354)
+xz: FCI/c/c/c/c/c/c/0bwk: No such file or directory
+FCI/c/c/c/c/c/c/0copy (261/354)
+xz: FCI/c/c/c/c/c/c/0copy: No such file or directory
+FCI/c/c/c/c/c/c/0exit (262/354)
+xz: FCI/c/c/c/c/c/c/0exit: No such file or directory
+FCI/c/c/c/c/c/c/0git (263/354)
+xz: FCI/c/c/c/c/c/c/0git: No such file or directory
+FCI/c/c/c/c/c/c/0readme (264/354)
+xz: FCI/c/c/c/c/c/c/0readme: No such file or directory
+FCI/c/c/c/c/c/c/0submit (265/354)
+xz: FCI/c/c/c/c/c/c/0submit: No such file or directory
+FCI/c/c/c/c/c/c/0writepopsfile (266/354)
+xz: FCI/c/c/c/c/c/c/0writepopsfile: No such file or directory
+FCI/c/c/c/c/c/c/c (267/354)
+xz: FCI/c/c/c/c/c/c/c: Is a directory, skipping
+FCI/c/c/c/c/c/c/CORESPACE (268/354)
+xz: FCI/c/c/c/c/c/c/CORESPACE: No such file or directory
+FCI/c/c/c/c/c/c/FCIDUMP (269/354)
+xz: FCI/c/c/c/c/c/c/FCIDUMP: Is a symbolic link, skipping
+FCI/c/c/c/c/c/c/fciqmc_stats (270/354)
+xz: FCI/c/c/c/c/c/c/fciqmc_stats: No such file or directory
+FCI/c/c/c/c/c/c/initiator_stats (271/354)
+xz: FCI/c/c/c/c/c/c/initiator_stats: No such file or directory
+FCI/c/c/c/c/c/c/input.Spawn (272/354)
+xz: FCI/c/c/c/c/c/c/input.Spawn: No such file or directory
+FCI/c/c/c/c/c/c/job.err.90002 (273/354)
+xz: FCI/c/c/c/c/c/c/job.err.90002: No such file or directory
+FCI/c/c/c/c/c/c/job.out.90002 (274/354)
+xz: FCI/c/c/c/c/c/c/job.out.90002: No such file or directory
+FCI/c/c/c/c/c/c/NO_OCC_NUMEBRS.1 (275/354)
+xz: FCI/c/c/c/c/c/c/NO_OCC_NUMEBRS.1: No such file or directory
+FCI/c/c/c/c/c/c/NO_TRANSFORM.1 (276/354)
+xz: FCI/c/c/c/c/c/c/NO_TRANSFORM.1: No such file or directory
+FCI/c/c/c/c/c/c/OneRDM.1 (277/354)
+xz: FCI/c/c/c/c/c/c/OneRDM.1: No such file or directory
+FCI/c/c/c/c/c/c/ORBOCCUPATIONS (278/354)
+xz: FCI/c/c/c/c/c/c/ORBOCCUPATIONS: No such file or directory
+FCI/c/c/c/c/c/c/output.Spawn (279/354)
+xz: FCI/c/c/c/c/c/c/output.Spawn: No such file or directory
+FCI/c/c/c/c/c/c/popsfile.h5 (280/354)
+xz: FCI/c/c/c/c/c/c/popsfile.h5: No such file or directory
+FCI/c/c/c/c/c/c/popsfile.h5.bk (281/354)
+xz: FCI/c/c/c/c/c/c/popsfile.h5.bk: No such file or directory
+FCI/c/c/c/c/c/c/RDMEstimates (282/354)
+xz: FCI/c/c/c/c/c/c/RDMEstimates: No such file or directory
+FCI/c/c/c/c/c/c/RDM_POPSFILE (283/354)
+xz: FCI/c/c/c/c/c/c/RDM_POPSFILE: No such file or directory
+FCI/c/c/c/c/c/c/ROFCIDUMP (284/354)
+xz: FCI/c/c/c/c/c/c/ROFCIDUMP: No such file or directory
+FCI/c/c/c/c/c/c/spawns_tofrom_excit (285/354)
+xz: FCI/c/c/c/c/c/c/spawns_tofrom_excit: No such file or directory
+FCI/c/c/c/c/c/c/spinfree_TwoRDM.1 (286/354)
+xz: FCI/c/c/c/c/c/c/spinfree_TwoRDM.1: No such file or directory
+FCI/c/c/c/c/c/c/TRIALSPACE (287/354)
+xz: FCI/c/c/c/c/c/c/TRIALSPACE: No such file or directory
+FCI/c/c/c/c/c/c/TwoRDM_aaaa.1 (288/354)
+xz: FCI/c/c/c/c/c/c/TwoRDM_aaaa.1: No such file or directory
+FCI/c/c/c/c/c/c/TwoRDM_abab.1 (289/354)
+xz: FCI/c/c/c/c/c/c/TwoRDM_abab.1: No such file or directory
+FCI/c/c/c/c/c/c/TwoRDM_abba.1 (290/354)
+xz: FCI/c/c/c/c/c/c/TwoRDM_abba.1: No such file or directory
+FCI/c/c/c/c/c/c/c/0awk (291/354)
+  100 %               184 B / 170 B = 1,082                                    
+FCI/c/c/c/c/c/c/c/0bwk (292/354)
+  100 %               152 B / 120 B = 1,267                                    
+FCI/c/c/c/c/c/c/c/0copy (293/354)
+  100 %               216 B / 283 B = 0,763                                    
+FCI/c/c/c/c/c/c/c/0exit (294/354)
+  100 %                 84 B / 28 B = 3,000                                    
+FCI/c/c/c/c/c/c/c/0git (295/354)
+  100 %             404 B / 2.182 B = 0,185                                    
+FCI/c/c/c/c/c/c/c/0readme (296/354)
+  100 %             768 B / 2.516 B = 0,305                                    
+FCI/c/c/c/c/c/c/c/0submit (297/354)
+  100 %             776 B / 2.851 B = 0,272                                    
+FCI/c/c/c/c/c/c/c/0writepopsfile (298/354)
+  100 %                 92 B / 33 B = 2,788                                    
+FCI/c/c/c/c/c/c/c/c (299/354)
+xz: FCI/c/c/c/c/c/c/c/c: Is a directory, skipping
+FCI/c/c/c/c/c/c/c/CORESPACE (300/354)
+  100 %             496 B / 2.190 B = 0,226                                    
+FCI/c/c/c/c/c/c/c/FCIDUMP (301/354)
+xz: FCI/c/c/c/c/c/c/c/FCIDUMP: Is a symbolic link, skipping
+FCI/c/c/c/c/c/c/c/fciqmc_stats (302/354)
+  100 %   2.210,1 KiB / 7.232,3 KiB = 0,306                                    
+FCI/c/c/c/c/c/c/c/initiator_stats (303/354)
+  100 %   1.224,6 KiB / 4.437,0 KiB = 0,276                                    
+FCI/c/c/c/c/c/c/c/input.Spawn (304/354)
+  100 %             872 B / 1.546 B = 0,564                                    
+FCI/c/c/c/c/c/c/c/job.err.90154 (305/354)
+  100 %               256 B / 977 B = 0,262                                    
+FCI/c/c/c/c/c/c/c/job.out.90154 (306/354)
+  100 %                  32 B / 0 B > 9,999                                    
+FCI/c/c/c/c/c/c/c/NO_OCC_NUMEBRS.1 (307/354)
+  100 %          2.700 B / 13,8 KiB = 0,191                                    
+FCI/c/c/c/c/c/c/c/NO_TRANSFORM.1 (308/354)
+  100 %        88,5 KiB / 546,8 KiB = 0,162                                    
+FCI/c/c/c/c/c/c/c/OneRDM.1 (309/354)
+  100 %        43,5 KiB / 217,2 KiB = 0,200                                    
+FCI/c/c/c/c/c/c/c/ORBOCCUPATIONS (310/354)
+  100 %           1.184 B / 7.038 B = 0,168                                    
+FCI/c/c/c/c/c/c/c/output.Spawn (311/354)
+  100 %     322,9 KiB / 2.827,5 KiB = 0,114                                    
+FCI/c/c/c/c/c/c/c/popsfile.h5 (312/354)
+  100 %     794,8 MiB / 3.768,1 MiB = 0,211    10 MiB/s       6:13             
+FCI/c/c/c/c/c/c/c/popsfile.h5.bk (313/354)
+  100 %     794,8 MiB / 3.768,1 MiB = 0,211    10 MiB/s       6:13             
+FCI/c/c/c/c/c/c/c/RDMEstimates (314/354)
+  100 %       194,3 KiB / 610,6 KiB = 0,318                                    
+FCI/c/c/c/c/c/c/c/RDM_POPSFILE (315/354)
+  100 %     360,4 MiB / 1.129,1 MiB = 0,319   8,4 MiB/s       2:13             
+FCI/c/c/c/c/c/c/c/ROFCIDUMP (316/354)
+  100 %        66,8 MiB / 343,2 MiB = 0,195    11 MiB/s       0:30             
+FCI/c/c/c/c/c/c/c/spawns_tofrom_excit (317/354)
+  100 %       221,9 KiB / 145,6 MiB = 0,001                   0:02             
+FCI/c/c/c/c/c/c/c/spinfree_TwoRDM.1 (318/354)
+  100 %     367,1 MiB / 2.534,7 MiB = 0,145    15 MiB/s       2:51             
+FCI/c/c/c/c/c/c/c/TRIALSPACE (319/354)
+  100 %             496 B / 2.190 B = 0,226                                    
+FCI/c/c/c/c/c/c/c/TwoRDM_aaaa.1 (320/354)
+  100 %        39,5 MiB / 153,3 MiB = 0,257   9,1 MiB/s       0:16             
+FCI/c/c/c/c/c/c/c/TwoRDM_abab.1 (321/354)
+  100 %        38,3 MiB / 148,3 MiB = 0,258   9,1 MiB/s       0:16             
+FCI/c/c/c/c/c/c/c/TwoRDM_abba.1 (322/354)
+  100 %        33,9 MiB / 131,2 MiB = 0,258   9,2 MiB/s       0:14             
+FCI/c/c/c/c/c/c/c/c/0awk (323/354)
+  100 %               184 B / 170 B = 1,082                                    
+FCI/c/c/c/c/c/c/c/c/0bwk (324/354)
+  100 %               152 B / 120 B = 1,267                                    
+FCI/c/c/c/c/c/c/c/c/0copy (325/354)
+  100 %               216 B / 283 B = 0,763                                    
+FCI/c/c/c/c/c/c/c/c/0exit (326/354)
+  100 %                 84 B / 28 B = 3,000                                    
+FCI/c/c/c/c/c/c/c/c/0git (327/354)
+  100 %             404 B / 2.182 B = 0,185                                    
+FCI/c/c/c/c/c/c/c/c/0readme (328/354)
+  100 %             768 B / 2.516 B = 0,305                                    
+FCI/c/c/c/c/c/c/c/c/0submit (329/354)
+  100 %             776 B / 2.851 B = 0,272                                    
+FCI/c/c/c/c/c/c/c/c/0writepopsfile (330/354)
+  100 %                 92 B / 33 B = 2,788                                    
+FCI/c/c/c/c/c/c/c/c/blocking.py (331/354)
+  100 %          5.144 B / 16,1 KiB = 0,311                                    
+FCI/c/c/c/c/c/c/c/c/CORESPACE (332/354)
+  100 %             480 B / 2.190 B = 0,219                                    
+FCI/c/c/c/c/c/c/c/c/FCIDUMP (333/354)
+xz: FCI/c/c/c/c/c/c/c/c/FCIDUMP: Is a symbolic link, skipping
+FCI/c/c/c/c/c/c/c/c/fciqmc_stats (334/354)
+  100 %   2.324,5 KiB / 7.606,7 KiB = 0,306                                    
+FCI/c/c/c/c/c/c/c/c/initiator_stats (335/354)
+  100 %   1.286,2 KiB / 4.666,7 KiB = 0,276                                    
+FCI/c/c/c/c/c/c/c/c/input.Spawn (336/354)
+  100 %             872 B / 1.546 B = 0,564                                    
+FCI/c/c/c/c/c/c/c/c/job.err.90409 (337/354)
+  100 %               252 B / 719 B = 0,350                                    
+FCI/c/c/c/c/c/c/c/c/job.out.90409 (338/354)
+  100 %                  32 B / 0 B > 9,999                                    
+FCI/c/c/c/c/c/c/c/c/NO_OCC_NUMEBRS.1 (339/354)
+  100 %          2.628 B / 13,8 KiB = 0,186                                    
+FCI/c/c/c/c/c/c/c/c/NO_TRANSFORM.1 (340/354)
+  100 %        88,6 KiB / 546,8 KiB = 0,162                                    
+FCI/c/c/c/c/c/c/c/c/OneRDM.1 (341/354)
+  100 %        43,2 KiB / 217,2 KiB = 0,199                                    
+FCI/c/c/c/c/c/c/c/c/ORBOCCUPATIONS (342/354)
+  100 %           1.184 B / 7.038 B = 0,168                                    
+FCI/c/c/c/c/c/c/c/c/output.Spawn (343/354)
+  100 %     309,9 KiB / 2.750,1 KiB = 0,113                                    
+FCI/c/c/c/c/c/c/c/c/popsfile.h5 (344/354)
+  100 %     795,1 MiB / 3.768,2 MiB = 0,211    10 MiB/s       6:12             
+FCI/c/c/c/c/c/c/c/c/popsfile.h5.bk (345/354)
+  100 %     795,0 MiB / 3.768,1 MiB = 0,211    10 MiB/s       6:12             
+FCI/c/c/c/c/c/c/c/c/RDMEstimates (346/354)
+  100 %       213,7 KiB / 671,3 KiB = 0,318                                    
+FCI/c/c/c/c/c/c/c/c/RDM_POPSFILE (347/354)
+  100 %     331,9 MiB / 1.125,7 MiB = 0,295   9,1 MiB/s       2:04             
+FCI/c/c/c/c/c/c/c/c/ROFCIDUMP (348/354)
+  100 %        66,9 MiB / 343,2 MiB = 0,195    11 MiB/s       0:30             
+FCI/c/c/c/c/c/c/c/c/spawns_tofrom_excit (349/354)
+  100 %        144,2 KiB / 94,4 MiB = 0,001                   0:01             
+FCI/c/c/c/c/c/c/c/c/spinfree_TwoRDM.1 (350/354)
+  100 %     345,6 MiB / 2.385,7 MiB = 0,145    15 MiB/s       2:41             
+FCI/c/c/c/c/c/c/c/c/TRIALSPACE (351/354)
+  100 %             480 B / 2.190 B = 0,219                                    
+FCI/c/c/c/c/c/c/c/c/TwoRDM_aaaa.1 (352/354)
+  100 %        36,6 MiB / 141,7 MiB = 0,258   9,2 MiB/s       0:15             
+FCI/c/c/c/c/c/c/c/c/TwoRDM_abab.1 (353/354)
+  100 %        34,7 MiB / 134,1 MiB = 0,259   9,2 MiB/s       0:14             
+FCI/c/c/c/c/c/c/c/c/TwoRDM_abba.1 (354/354)
+  100 %        30,2 MiB / 116,8 MiB = 0,259   9,2 MiB/s       0:12  
+
 dattani@allogin1:/algpfs/dattani/Li2/54/pt2/409.6c> xz -v -1 POPSFILEBIN c/POPSFILEBIN c/c/POPSFILEBIN c/c/c/POPSFILEBIN c/c/c/c/POPSFILEBIN c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 
 
