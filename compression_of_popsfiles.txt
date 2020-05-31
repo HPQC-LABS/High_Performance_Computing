@@ -4298,5 +4298,17 @@ c/c/c/c/c/rc/popsfile.h5.tar.gz (11/11)
   100 %   9.801,4 MiB / 9.800,9 MiB = 1,000   2,3 MiB/s    1:10:41             
 You have new mail in /var/mail/dattani
 
+dattani@allogin1:/algpfs/dattani> du -hsx * | sort -rh | head -10
+17T	Li2
+9,5T	algpfs2gra
+4,3T	Li2_old
+3,8T	C
+1,4T	femoco
+563G	C+
+474G	files_for_Nike
+250G	molcas
+197G	MOLCAS
+102G	Li
+
 dattani@allogin1:/algpfs/dattani/Li2/54/pt2/409.6c> xz -v -1 POPSFILEBIN c/POPSFILEBIN c/c/POPSFILEBIN c/c/c/POPSFILEBIN c/c/c/c/POPSFILEBIN c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 
 
