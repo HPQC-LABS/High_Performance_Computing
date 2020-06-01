@@ -5020,5 +5020,2569 @@ FCI/c/c/c/c/c/c/c/c/TwoRDM_abab.1 (353/354)
 FCI/c/c/c/c/c/c/c/c/TwoRDM_abba.1 (354/354)
   100 %        30,2 MiB / 116,8 MiB = 0,259   9,2 MiB/s       0:12  
 
+dattani@allogin1:/algpfs/dattani/Li2/54/dice/eps1=1e-4> xz -v -1 *.bkp
+0-helpers.bkp (1/1281)
+  100 %     387,4 MiB / 2.103,1 MiB = 0,184    11 MiB/s       3:18             
+0-spatialRDM.bkp (2/1281)
+  100 %         60,6 MiB / 64,9 MiB = 0,935   3,2 MiB/s       0:20             
+0-variational.bkp (3/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+100-helpers.bkp (4/1281)
+  100 %                100 B / 69 B = 1,449                                    
+100-variational.bkp (5/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:59             
+101-helpers.bkp (6/1281)
+  100 %                100 B / 69 B = 1,449                                    
+101-variational.bkp (7/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    10 MiB/s       2:08             
+102-helpers.bkp (8/1281)
+  100 %                100 B / 69 B = 1,449                                    
+102-variational.bkp (9/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    10 MiB/s       2:02             
+103-helpers.bkp (10/1281)
+  100 %                100 B / 69 B = 1,449                                    
+103-variational.bkp (11/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+104-helpers.bkp (12/1281)
+  100 %                100 B / 69 B = 1,449                                    
+104-variational.bkp (13/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:54             
+105-helpers.bkp (14/1281)
+  100 %                100 B / 69 B = 1,449                                    
+105-variational.bkp (15/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+106-helpers.bkp (16/1281)
+  100 %                100 B / 69 B = 1,449                                    
+106-variational.bkp (17/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+107-helpers.bkp (18/1281)
+  100 %                100 B / 69 B = 1,449                                    
+107-variational.bkp (19/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+108-helpers.bkp (20/1281)
+  100 %                100 B / 69 B = 1,449                                    
+108-variational.bkp (21/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+109-helpers.bkp (22/1281)
+  100 %                100 B / 69 B = 1,449                                    
+109-variational.bkp (23/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+10-helpers.bkp (24/1281)
+  100 %                100 B / 69 B = 1,449                                    
+10-variational.bkp (25/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+110-helpers.bkp (26/1281)
+  100 %                100 B / 69 B = 1,449                                    
+110-variational.bkp (27/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+111-helpers.bkp (28/1281)
+  100 %                100 B / 69 B = 1,449                                    
+111-variational.bkp (29/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+112-helpers.bkp (30/1281)
+  100 %                100 B / 69 B = 1,449                                    
+112-variational.bkp (31/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+113-helpers.bkp (32/1281)
+  100 %                100 B / 69 B = 1,449                                    
+113-variational.bkp (33/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+114-helpers.bkp (34/1281)
+  100 %                100 B / 69 B = 1,449                                    
+114-variational.bkp (35/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+115-helpers.bkp (36/1281)
+  100 %                100 B / 69 B = 1,449                                    
+115-variational.bkp (37/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+116-helpers.bkp (38/1281)
+  100 %                100 B / 69 B = 1,449                                    
+116-variational.bkp (39/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+117-helpers.bkp (40/1281)
+  100 %                100 B / 69 B = 1,449                                    
+117-variational.bkp (41/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+118-helpers.bkp (42/1281)
+  100 %                100 B / 69 B = 1,449                                    
+118-variational.bkp (43/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+119-helpers.bkp (44/1281)
+  100 %                100 B / 69 B = 1,449                                    
+119-variational.bkp (45/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+11-helpers.bkp (46/1281)
+  100 %                100 B / 69 B = 1,449                                    
+11-variational.bkp (47/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+120-helpers.bkp (48/1281)
+  100 %                100 B / 69 B = 1,449                                    
+120-variational.bkp (49/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+121-helpers.bkp (50/1281)
+  100 %                100 B / 69 B = 1,449                                    
+121-variational.bkp (51/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+122-helpers.bkp (52/1281)
+  100 %                100 B / 69 B = 1,449                                    
+122-variational.bkp (53/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+123-helpers.bkp (54/1281)
+  100 %                100 B / 69 B = 1,449                                    
+123-variational.bkp (55/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+124-helpers.bkp (56/1281)
+  100 %                100 B / 69 B = 1,449                                    
+124-variational.bkp (57/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+125-helpers.bkp (58/1281)
+  100 %                100 B / 69 B = 1,449                                    
+125-variational.bkp (59/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+126-helpers.bkp (60/1281)
+  100 %                100 B / 69 B = 1,449                                    
+126-variational.bkp (61/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+127-helpers.bkp (62/1281)
+  100 %                100 B / 69 B = 1,449                                    
+127-variational.bkp (63/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+128-helpers.bkp (64/1281)
+  100 %                100 B / 69 B = 1,449                                    
+128-variational.bkp (65/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+129-helpers.bkp (66/1281)
+  100 %                100 B / 69 B = 1,449                                    
+129-variational.bkp (67/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+12-helpers.bkp (68/1281)
+  100 %                100 B / 69 B = 1,449                                    
+12-variational.bkp (69/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+130-helpers.bkp (70/1281)
+  100 %                100 B / 69 B = 1,449                                    
+130-variational.bkp (71/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+131-helpers.bkp (72/1281)
+  100 %                100 B / 69 B = 1,449                                    
+131-variational.bkp (73/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+132-helpers.bkp (74/1281)
+  100 %                100 B / 69 B = 1,449                                    
+132-variational.bkp (75/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+133-helpers.bkp (76/1281)
+  100 %                100 B / 69 B = 1,449                                    
+133-variational.bkp (77/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+134-helpers.bkp (78/1281)
+  100 %                100 B / 69 B = 1,449                                    
+134-variational.bkp (79/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+135-helpers.bkp (80/1281)
+  100 %                100 B / 69 B = 1,449                                    
+135-variational.bkp (81/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+136-helpers.bkp (82/1281)
+  100 %                100 B / 69 B = 1,449                                    
+136-variational.bkp (83/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+137-helpers.bkp (84/1281)
+  100 %                100 B / 69 B = 1,449                                    
+137-variational.bkp (85/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+138-helpers.bkp (86/1281)
+  100 %                100 B / 69 B = 1,449                                    
+138-variational.bkp (87/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+139-helpers.bkp (88/1281)
+  100 %                100 B / 69 B = 1,449                                    
+139-variational.bkp (89/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+13-helpers.bkp (90/1281)
+  100 %                100 B / 69 B = 1,449                                    
+13-variational.bkp (91/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+140-helpers.bkp (92/1281)
+  100 %                100 B / 69 B = 1,449                                    
+140-variational.bkp (93/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+141-helpers.bkp (94/1281)
+  100 %                100 B / 69 B = 1,449                                    
+141-variational.bkp (95/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+142-helpers.bkp (96/1281)
+  100 %                100 B / 69 B = 1,449                                    
+142-variational.bkp (97/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:59             
+143-helpers.bkp (98/1281)
+  100 %                100 B / 69 B = 1,449                                    
+143-variational.bkp (99/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+144-helpers.bkp (100/1281)
+  100 %                100 B / 69 B = 1,449                                    
+144-variational.bkp (101/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+145-helpers.bkp (102/1281)
+  100 %                100 B / 69 B = 1,449                                    
+145-variational.bkp (103/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+146-helpers.bkp (104/1281)
+  100 %                100 B / 69 B = 1,449                                    
+146-variational.bkp (105/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+147-helpers.bkp (106/1281)
+  100 %                100 B / 69 B = 1,449                                    
+147-variational.bkp (107/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+148-helpers.bkp (108/1281)
+  100 %                100 B / 69 B = 1,449                                    
+148-variational.bkp (109/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+149-helpers.bkp (110/1281)
+  100 %                100 B / 69 B = 1,449                                    
+149-variational.bkp (111/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+14-helpers.bkp (112/1281)
+  100 %                100 B / 69 B = 1,449                                    
+14-variational.bkp (113/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+150-helpers.bkp (114/1281)
+  100 %                100 B / 69 B = 1,449                                    
+150-variational.bkp (115/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+151-helpers.bkp (116/1281)
+  100 %                100 B / 69 B = 1,449                                    
+151-variational.bkp (117/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+152-helpers.bkp (118/1281)
+  100 %                100 B / 69 B = 1,449                                    
+152-variational.bkp (119/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+153-helpers.bkp (120/1281)
+  100 %                100 B / 69 B = 1,449                                    
+153-variational.bkp (121/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+154-helpers.bkp (122/1281)
+  100 %                100 B / 69 B = 1,449                                    
+154-variational.bkp (123/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+155-helpers.bkp (124/1281)
+  100 %                100 B / 69 B = 1,449                                    
+155-variational.bkp (125/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+156-helpers.bkp (126/1281)
+  100 %                100 B / 69 B = 1,449                                    
+156-variational.bkp (127/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+157-helpers.bkp (128/1281)
+  100 %                100 B / 69 B = 1,449                                    
+157-variational.bkp (129/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+158-helpers.bkp (130/1281)
+  100 %                100 B / 69 B = 1,449                                    
+158-variational.bkp (131/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+159-helpers.bkp (132/1281)
+  100 %                100 B / 69 B = 1,449                                    
+159-variational.bkp (133/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+15-helpers.bkp (134/1281)
+  100 %                100 B / 69 B = 1,449                                    
+15-variational.bkp (135/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+160-helpers.bkp (136/1281)
+  100 %                100 B / 69 B = 1,449                                    
+160-variational.bkp (137/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+161-helpers.bkp (138/1281)
+  100 %                100 B / 69 B = 1,449                                    
+161-variational.bkp (139/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:59             
+162-helpers.bkp (140/1281)
+  100 %                100 B / 69 B = 1,449                                    
+162-variational.bkp (141/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+163-helpers.bkp (142/1281)
+  100 %                100 B / 69 B = 1,449                                    
+163-variational.bkp (143/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+164-helpers.bkp (144/1281)
+  100 %                100 B / 69 B = 1,449                                    
+164-variational.bkp (145/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+165-helpers.bkp (146/1281)
+  100 %                100 B / 69 B = 1,449                                    
+165-variational.bkp (147/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:59             
+166-helpers.bkp (148/1281)
+  100 %                100 B / 69 B = 1,449                                    
+166-variational.bkp (149/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:59             
+167-helpers.bkp (150/1281)
+  100 %                100 B / 69 B = 1,449                                    
+167-variational.bkp (151/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:59             
+168-helpers.bkp (152/1281)
+  100 %                100 B / 69 B = 1,449                                    
+168-variational.bkp (153/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+169-helpers.bkp (154/1281)
+  100 %                100 B / 69 B = 1,449                                    
+169-variational.bkp (155/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+16-helpers.bkp (156/1281)
+  100 %                100 B / 69 B = 1,449                                    
+16-variational.bkp (157/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+170-helpers.bkp (158/1281)
+  100 %                100 B / 69 B = 1,449                                    
+170-variational.bkp (159/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+171-helpers.bkp (160/1281)
+  100 %                100 B / 69 B = 1,449                                    
+171-variational.bkp (161/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+172-helpers.bkp (162/1281)
+  100 %                100 B / 69 B = 1,449                                    
+172-variational.bkp (163/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+173-helpers.bkp (164/1281)
+  100 %                100 B / 69 B = 1,449                                    
+173-variational.bkp (165/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+174-helpers.bkp (166/1281)
+  100 %                100 B / 69 B = 1,449                                    
+174-variational.bkp (167/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+175-helpers.bkp (168/1281)
+  100 %                100 B / 69 B = 1,449                                    
+175-variational.bkp (169/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+176-helpers.bkp (170/1281)
+  100 %                100 B / 69 B = 1,449                                    
+176-variational.bkp (171/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+177-helpers.bkp (172/1281)
+  100 %                100 B / 69 B = 1,449                                    
+177-variational.bkp (173/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+178-helpers.bkp (174/1281)
+  100 %                100 B / 69 B = 1,449                                    
+178-variational.bkp (175/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+179-helpers.bkp (176/1281)
+  100 %                100 B / 69 B = 1,449                                    
+179-variational.bkp (177/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+17-helpers.bkp (178/1281)
+  100 %                100 B / 69 B = 1,449                                    
+17-variational.bkp (179/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+180-helpers.bkp (180/1281)
+  100 %                100 B / 69 B = 1,449                                    
+180-variational.bkp (181/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+181-helpers.bkp (182/1281)
+  100 %                100 B / 69 B = 1,449                                    
+181-variational.bkp (183/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:59             
+182-helpers.bkp (184/1281)
+  100 %                100 B / 69 B = 1,449                                    
+182-variational.bkp (185/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+183-helpers.bkp (186/1281)
+  100 %                100 B / 69 B = 1,449                                    
+183-variational.bkp (187/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+184-helpers.bkp (188/1281)
+  100 %                100 B / 69 B = 1,449                                    
+184-variational.bkp (189/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+185-helpers.bkp (190/1281)
+  100 %                100 B / 69 B = 1,449                                    
+185-variational.bkp (191/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+186-helpers.bkp (192/1281)
+  100 %                100 B / 69 B = 1,449                                    
+186-variational.bkp (193/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+187-helpers.bkp (194/1281)
+  100 %                100 B / 69 B = 1,449                                    
+187-variational.bkp (195/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+188-helpers.bkp (196/1281)
+  100 %                100 B / 69 B = 1,449                                    
+188-variational.bkp (197/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+189-helpers.bkp (198/1281)
+  100 %                100 B / 69 B = 1,449                                    
+189-variational.bkp (199/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+18-helpers.bkp (200/1281)
+  100 %                100 B / 69 B = 1,449                                    
+18-variational.bkp (201/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+190-helpers.bkp (202/1281)
+  100 %                100 B / 69 B = 1,449                                    
+190-variational.bkp (203/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+191-helpers.bkp (204/1281)
+  100 %                100 B / 69 B = 1,449                                    
+191-variational.bkp (205/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+192-helpers.bkp (206/1281)
+  100 %                100 B / 69 B = 1,449                                    
+192-variational.bkp (207/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+193-helpers.bkp (208/1281)
+  100 %                100 B / 69 B = 1,449                                    
+193-variational.bkp (209/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+194-helpers.bkp (210/1281)
+  100 %                100 B / 69 B = 1,449                                    
+194-variational.bkp (211/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+195-helpers.bkp (212/1281)
+  100 %                100 B / 69 B = 1,449                                    
+195-variational.bkp (213/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+196-helpers.bkp (214/1281)
+  100 %                100 B / 69 B = 1,449                                    
+196-variational.bkp (215/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+197-helpers.bkp (216/1281)
+  100 %                100 B / 69 B = 1,449                                    
+197-variational.bkp (217/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+198-helpers.bkp (218/1281)
+  100 %                100 B / 69 B = 1,449                                    
+198-variational.bkp (219/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+199-helpers.bkp (220/1281)
+  100 %                100 B / 69 B = 1,449                                    
+199-variational.bkp (221/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+19-helpers.bkp (222/1281)
+  100 %                100 B / 69 B = 1,449                                    
+19-variational.bkp (223/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+1-helpers.bkp (224/1281)
+  100 %                100 B / 69 B = 1,449                                    
+1-variational.bkp (225/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+200-helpers.bkp (226/1281)
+  100 %                100 B / 69 B = 1,449                                    
+200-variational.bkp (227/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+201-helpers.bkp (228/1281)
+  100 %                100 B / 69 B = 1,449                                    
+201-variational.bkp (229/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+202-helpers.bkp (230/1281)
+  100 %                100 B / 69 B = 1,449                                    
+202-variational.bkp (231/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+203-helpers.bkp (232/1281)
+  100 %                100 B / 69 B = 1,449                                    
+203-variational.bkp (233/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+204-helpers.bkp (234/1281)
+  100 %                100 B / 69 B = 1,449                                    
+204-variational.bkp (235/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+205-helpers.bkp (236/1281)
+  100 %                100 B / 69 B = 1,449                                    
+205-variational.bkp (237/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+206-helpers.bkp (238/1281)
+  100 %                100 B / 69 B = 1,449                                    
+206-variational.bkp (239/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+207-helpers.bkp (240/1281)
+  100 %                100 B / 69 B = 1,449                                    
+207-variational.bkp (241/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:59             
+208-helpers.bkp (242/1281)
+  100 %                100 B / 69 B = 1,449                                    
+208-variational.bkp (243/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+209-helpers.bkp (244/1281)
+  100 %                100 B / 69 B = 1,449                                    
+209-variational.bkp (245/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+20-helpers.bkp (246/1281)
+  100 %                100 B / 69 B = 1,449                                    
+20-variational.bkp (247/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+210-helpers.bkp (248/1281)
+  100 %                100 B / 69 B = 1,449                                    
+210-variational.bkp (249/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+211-helpers.bkp (250/1281)
+  100 %                100 B / 69 B = 1,449                                    
+211-variational.bkp (251/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+212-helpers.bkp (252/1281)
+  100 %                100 B / 69 B = 1,449                                    
+212-variational.bkp (253/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+213-helpers.bkp (254/1281)
+  100 %                100 B / 69 B = 1,449                                    
+213-variational.bkp (255/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+214-helpers.bkp (256/1281)
+  100 %                100 B / 69 B = 1,449                                    
+214-variational.bkp (257/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+215-helpers.bkp (258/1281)
+  100 %                100 B / 69 B = 1,449                                    
+215-variational.bkp (259/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+216-helpers.bkp (260/1281)
+  100 %                100 B / 69 B = 1,449                                    
+216-variational.bkp (261/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+217-helpers.bkp (262/1281)
+  100 %                100 B / 69 B = 1,449                                    
+217-variational.bkp (263/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+218-helpers.bkp (264/1281)
+  100 %                100 B / 69 B = 1,449                                    
+218-variational.bkp (265/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+219-helpers.bkp (266/1281)
+  100 %                100 B / 69 B = 1,449                                    
+219-variational.bkp (267/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+21-helpers.bkp (268/1281)
+  100 %                100 B / 69 B = 1,449                                    
+21-variational.bkp (269/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+220-helpers.bkp (270/1281)
+  100 %                100 B / 69 B = 1,449                                    
+220-variational.bkp (271/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+221-helpers.bkp (272/1281)
+  100 %                100 B / 69 B = 1,449                                    
+221-variational.bkp (273/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+222-helpers.bkp (274/1281)
+  100 %                100 B / 69 B = 1,449                                    
+222-variational.bkp (275/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+223-helpers.bkp (276/1281)
+  100 %                100 B / 69 B = 1,449                                    
+223-variational.bkp (277/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+224-helpers.bkp (278/1281)
+  100 %                100 B / 69 B = 1,449                                    
+224-variational.bkp (279/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+225-helpers.bkp (280/1281)
+  100 %                100 B / 69 B = 1,449                                    
+225-variational.bkp (281/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+226-helpers.bkp (282/1281)
+  100 %                100 B / 69 B = 1,449                                    
+226-variational.bkp (283/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+227-helpers.bkp (284/1281)
+  100 %                100 B / 69 B = 1,449                                    
+227-variational.bkp (285/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+228-helpers.bkp (286/1281)
+  100 %                100 B / 69 B = 1,449                                    
+228-variational.bkp (287/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+229-helpers.bkp (288/1281)
+  100 %                100 B / 69 B = 1,449                                    
+229-variational.bkp (289/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+22-helpers.bkp (290/1281)
+  100 %                100 B / 69 B = 1,449                                    
+22-variational.bkp (291/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+230-helpers.bkp (292/1281)
+  100 %                100 B / 69 B = 1,449                                    
+230-variational.bkp (293/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+231-helpers.bkp (294/1281)
+  100 %                100 B / 69 B = 1,449                                    
+231-variational.bkp (295/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+232-helpers.bkp (296/1281)
+  100 %                100 B / 69 B = 1,449                                    
+232-variational.bkp (297/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+233-helpers.bkp (298/1281)
+  100 %                100 B / 69 B = 1,449                                    
+233-variational.bkp (299/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+234-helpers.bkp (300/1281)
+  100 %                100 B / 69 B = 1,449                                    
+234-variational.bkp (301/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+235-helpers.bkp (302/1281)
+  100 %                100 B / 69 B = 1,449                                    
+235-variational.bkp (303/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+236-helpers.bkp (304/1281)
+  100 %                100 B / 69 B = 1,449                                    
+236-variational.bkp (305/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+237-helpers.bkp (306/1281)
+  100 %                100 B / 69 B = 1,449                                    
+237-variational.bkp (307/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+238-helpers.bkp (308/1281)
+  100 %                100 B / 69 B = 1,449                                    
+238-variational.bkp (309/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+239-helpers.bkp (310/1281)
+  100 %                100 B / 69 B = 1,449                                    
+239-variational.bkp (311/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+23-helpers.bkp (312/1281)
+  100 %                100 B / 69 B = 1,449                                    
+23-variational.bkp (313/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+240-helpers.bkp (314/1281)
+  100 %                100 B / 69 B = 1,449                                    
+240-variational.bkp (315/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+241-helpers.bkp (316/1281)
+  100 %                100 B / 69 B = 1,449                                    
+241-variational.bkp (317/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+242-helpers.bkp (318/1281)
+  100 %                100 B / 69 B = 1,449                                    
+242-variational.bkp (319/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+243-helpers.bkp (320/1281)
+  100 %                100 B / 69 B = 1,449                                    
+243-variational.bkp (321/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+244-helpers.bkp (322/1281)
+  100 %                100 B / 69 B = 1,449                                    
+244-variational.bkp (323/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+245-helpers.bkp (324/1281)
+  100 %                100 B / 69 B = 1,449                                    
+245-variational.bkp (325/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+246-helpers.bkp (326/1281)
+  100 %                100 B / 69 B = 1,449                                    
+246-variational.bkp (327/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+247-helpers.bkp (328/1281)
+  100 %                100 B / 69 B = 1,449                                    
+247-variational.bkp (329/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+248-helpers.bkp (330/1281)
+  100 %                100 B / 69 B = 1,449                                    
+248-variational.bkp (331/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+249-helpers.bkp (332/1281)
+  100 %                100 B / 69 B = 1,449                                    
+249-variational.bkp (333/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+24-helpers.bkp (334/1281)
+  100 %                100 B / 69 B = 1,449                                    
+24-variational.bkp (335/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+250-helpers.bkp (336/1281)
+  100 %                100 B / 69 B = 1,449                                    
+250-variational.bkp (337/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+251-helpers.bkp (338/1281)
+  100 %                100 B / 69 B = 1,449                                    
+251-variational.bkp (339/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+252-helpers.bkp (340/1281)
+  100 %                100 B / 69 B = 1,449                                    
+252-variational.bkp (341/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+253-helpers.bkp (342/1281)
+  100 %                100 B / 69 B = 1,449                                    
+253-variational.bkp (343/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+254-helpers.bkp (344/1281)
+  100 %                100 B / 69 B = 1,449                                    
+254-variational.bkp (345/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+255-helpers.bkp (346/1281)
+  100 %                100 B / 69 B = 1,449                                    
+255-variational.bkp (347/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+256-helpers.bkp (348/1281)
+  100 %                100 B / 69 B = 1,449                                    
+256-variational.bkp (349/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+257-helpers.bkp (350/1281)
+  100 %                100 B / 69 B = 1,449                                    
+257-variational.bkp (351/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+258-helpers.bkp (352/1281)
+  100 %                100 B / 69 B = 1,449                                    
+258-variational.bkp (353/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+259-helpers.bkp (354/1281)
+  100 %                100 B / 69 B = 1,449                                    
+259-variational.bkp (355/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+25-helpers.bkp (356/1281)
+  100 %                100 B / 69 B = 1,449                                    
+25-variational.bkp (357/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+260-helpers.bkp (358/1281)
+  100 %                100 B / 69 B = 1,449                                    
+260-variational.bkp (359/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+261-helpers.bkp (360/1281)
+  100 %                100 B / 69 B = 1,449                                    
+261-variational.bkp (361/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+262-helpers.bkp (362/1281)
+  100 %                100 B / 69 B = 1,449                                    
+262-variational.bkp (363/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+263-helpers.bkp (364/1281)
+  100 %                100 B / 69 B = 1,449                                    
+263-variational.bkp (365/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+264-helpers.bkp (366/1281)
+  100 %                100 B / 69 B = 1,449                                    
+264-variational.bkp (367/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+265-helpers.bkp (368/1281)
+  100 %                100 B / 69 B = 1,449                                    
+265-variational.bkp (369/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+266-helpers.bkp (370/1281)
+  100 %                100 B / 69 B = 1,449                                    
+266-variational.bkp (371/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+267-helpers.bkp (372/1281)
+  100 %                100 B / 69 B = 1,449                                    
+267-variational.bkp (373/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+268-helpers.bkp (374/1281)
+  100 %                100 B / 69 B = 1,449                                    
+268-variational.bkp (375/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+269-helpers.bkp (376/1281)
+  100 %                100 B / 69 B = 1,449                                    
+269-variational.bkp (377/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+26-helpers.bkp (378/1281)
+  100 %                100 B / 69 B = 1,449                                    
+26-variational.bkp (379/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+270-helpers.bkp (380/1281)
+  100 %                100 B / 69 B = 1,449                                    
+270-variational.bkp (381/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+271-helpers.bkp (382/1281)
+  100 %                100 B / 69 B = 1,449                                    
+271-variational.bkp (383/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+272-helpers.bkp (384/1281)
+  100 %                100 B / 69 B = 1,449                                    
+272-variational.bkp (385/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+273-helpers.bkp (386/1281)
+  100 %                100 B / 69 B = 1,449                                    
+273-variational.bkp (387/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+274-helpers.bkp (388/1281)
+  100 %                100 B / 69 B = 1,449                                    
+274-variational.bkp (389/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+275-helpers.bkp (390/1281)
+  100 %                100 B / 69 B = 1,449                                    
+275-variational.bkp (391/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+276-helpers.bkp (392/1281)
+  100 %                100 B / 69 B = 1,449                                    
+276-variational.bkp (393/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+277-helpers.bkp (394/1281)
+  100 %                100 B / 69 B = 1,449                                    
+277-variational.bkp (395/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+278-helpers.bkp (396/1281)
+  100 %                100 B / 69 B = 1,449                                    
+278-variational.bkp (397/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+279-helpers.bkp (398/1281)
+  100 %                100 B / 69 B = 1,449                                    
+279-variational.bkp (399/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+27-helpers.bkp (400/1281)
+  100 %                100 B / 69 B = 1,449                                    
+27-variational.bkp (401/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+280-helpers.bkp (402/1281)
+  100 %                100 B / 69 B = 1,449                                    
+280-variational.bkp (403/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+281-helpers.bkp (404/1281)
+  100 %                100 B / 69 B = 1,449                                    
+281-variational.bkp (405/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+282-helpers.bkp (406/1281)
+  100 %                100 B / 69 B = 1,449                                    
+282-variational.bkp (407/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+283-helpers.bkp (408/1281)
+  100 %                100 B / 69 B = 1,449                                    
+283-variational.bkp (409/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+284-helpers.bkp (410/1281)
+  100 %                100 B / 69 B = 1,449                                    
+284-variational.bkp (411/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+285-helpers.bkp (412/1281)
+  100 %                100 B / 69 B = 1,449                                    
+285-variational.bkp (413/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+286-helpers.bkp (414/1281)
+  100 %                100 B / 69 B = 1,449                                    
+286-variational.bkp (415/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+287-helpers.bkp (416/1281)
+  100 %                100 B / 69 B = 1,449                                    
+287-variational.bkp (417/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+288-helpers.bkp (418/1281)
+  100 %                100 B / 69 B = 1,449                                    
+288-variational.bkp (419/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+289-helpers.bkp (420/1281)
+  100 %                100 B / 69 B = 1,449                                    
+289-variational.bkp (421/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+28-helpers.bkp (422/1281)
+  100 %                100 B / 69 B = 1,449                                    
+28-variational.bkp (423/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+290-helpers.bkp (424/1281)
+  100 %                100 B / 69 B = 1,449                                    
+290-variational.bkp (425/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+291-helpers.bkp (426/1281)
+  100 %                100 B / 69 B = 1,449                                    
+291-variational.bkp (427/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+292-helpers.bkp (428/1281)
+  100 %                100 B / 69 B = 1,449                                    
+292-variational.bkp (429/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+293-helpers.bkp (430/1281)
+  100 %                100 B / 69 B = 1,449                                    
+293-variational.bkp (431/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+294-helpers.bkp (432/1281)
+  100 %                100 B / 69 B = 1,449                                    
+294-variational.bkp (433/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+295-helpers.bkp (434/1281)
+  100 %                100 B / 69 B = 1,449                                    
+295-variational.bkp (435/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+296-helpers.bkp (436/1281)
+  100 %                100 B / 69 B = 1,449                                    
+296-variational.bkp (437/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+297-helpers.bkp (438/1281)
+  100 %                100 B / 69 B = 1,449                                    
+297-variational.bkp (439/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+298-helpers.bkp (440/1281)
+  100 %                100 B / 69 B = 1,449                                    
+298-variational.bkp (441/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+299-helpers.bkp (442/1281)
+  100 %                100 B / 69 B = 1,449                                    
+299-variational.bkp (443/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+29-helpers.bkp (444/1281)
+  100 %                100 B / 69 B = 1,449                                    
+29-variational.bkp (445/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+2-helpers.bkp (446/1281)
+  100 %                100 B / 69 B = 1,449                                    
+2-variational.bkp (447/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+300-helpers.bkp (448/1281)
+  100 %                100 B / 69 B = 1,449                                    
+300-variational.bkp (449/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+301-helpers.bkp (450/1281)
+  100 %                100 B / 69 B = 1,449                                    
+301-variational.bkp (451/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+302-helpers.bkp (452/1281)
+  100 %                100 B / 69 B = 1,449                                    
+302-variational.bkp (453/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+303-helpers.bkp (454/1281)
+  100 %                100 B / 69 B = 1,449                                    
+303-variational.bkp (455/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+304-helpers.bkp (456/1281)
+  100 %                100 B / 69 B = 1,449                                    
+304-variational.bkp (457/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+305-helpers.bkp (458/1281)
+  100 %                100 B / 69 B = 1,449                                    
+305-variational.bkp (459/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+306-helpers.bkp (460/1281)
+  100 %                100 B / 69 B = 1,449                                    
+306-variational.bkp (461/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+307-helpers.bkp (462/1281)
+  100 %                100 B / 69 B = 1,449                                    
+307-variational.bkp (463/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+308-helpers.bkp (464/1281)
+  100 %                100 B / 69 B = 1,449                                    
+308-variational.bkp (465/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+309-helpers.bkp (466/1281)
+  100 %                100 B / 69 B = 1,449                                    
+309-variational.bkp (467/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+30-helpers.bkp (468/1281)
+  100 %                100 B / 69 B = 1,449                                    
+30-variational.bkp (469/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+310-helpers.bkp (470/1281)
+  100 %                100 B / 69 B = 1,449                                    
+310-variational.bkp (471/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+311-helpers.bkp (472/1281)
+  100 %                100 B / 69 B = 1,449                                    
+311-variational.bkp (473/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+312-helpers.bkp (474/1281)
+  100 %                100 B / 69 B = 1,449                                    
+312-variational.bkp (475/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+313-helpers.bkp (476/1281)
+  100 %                100 B / 69 B = 1,449                                    
+313-variational.bkp (477/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+314-helpers.bkp (478/1281)
+  100 %                100 B / 69 B = 1,449                                    
+314-variational.bkp (479/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+315-helpers.bkp (480/1281)
+  100 %                100 B / 69 B = 1,449                                    
+315-variational.bkp (481/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+316-helpers.bkp (482/1281)
+  100 %                100 B / 69 B = 1,449                                    
+316-variational.bkp (483/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+317-helpers.bkp (484/1281)
+  100 %                100 B / 69 B = 1,449                                    
+317-variational.bkp (485/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+318-helpers.bkp (486/1281)
+  100 %                100 B / 69 B = 1,449                                    
+318-variational.bkp (487/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+319-helpers.bkp (488/1281)
+  100 %                100 B / 69 B = 1,449                                    
+319-variational.bkp (489/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+31-helpers.bkp (490/1281)
+  100 %                100 B / 69 B = 1,449                                    
+31-variational.bkp (491/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+320-helpers.bkp (492/1281)
+  100 %                100 B / 69 B = 1,449                                    
+320-variational.bkp (493/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+321-helpers.bkp (494/1281)
+  100 %                100 B / 69 B = 1,449                                    
+321-variational.bkp (495/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+322-helpers.bkp (496/1281)
+  100 %                100 B / 69 B = 1,449                                    
+322-variational.bkp (497/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+323-helpers.bkp (498/1281)
+  100 %                100 B / 69 B = 1,449                                    
+323-variational.bkp (499/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+324-helpers.bkp (500/1281)
+  100 %                100 B / 69 B = 1,449                                    
+324-variational.bkp (501/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+325-helpers.bkp (502/1281)
+  100 %                100 B / 69 B = 1,449                                    
+325-variational.bkp (503/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+326-helpers.bkp (504/1281)
+  100 %                100 B / 69 B = 1,449                                    
+326-variational.bkp (505/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+327-helpers.bkp (506/1281)
+  100 %                100 B / 69 B = 1,449                                    
+327-variational.bkp (507/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+328-helpers.bkp (508/1281)
+  100 %                100 B / 69 B = 1,449                                    
+328-variational.bkp (509/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+329-helpers.bkp (510/1281)
+  100 %                100 B / 69 B = 1,449                                    
+329-variational.bkp (511/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+32-helpers.bkp (512/1281)
+  100 %                100 B / 69 B = 1,449                                    
+32-variational.bkp (513/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+330-helpers.bkp (514/1281)
+  100 %                100 B / 69 B = 1,449                                    
+330-variational.bkp (515/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+331-helpers.bkp (516/1281)
+  100 %                100 B / 69 B = 1,449                                    
+331-variational.bkp (517/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+332-helpers.bkp (518/1281)
+  100 %                100 B / 69 B = 1,449                                    
+332-variational.bkp (519/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+333-helpers.bkp (520/1281)
+  100 %                100 B / 69 B = 1,449                                    
+333-variational.bkp (521/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+334-helpers.bkp (522/1281)
+  100 %                100 B / 69 B = 1,449                                    
+334-variational.bkp (523/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+335-helpers.bkp (524/1281)
+  100 %                100 B / 69 B = 1,449                                    
+335-variational.bkp (525/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+336-helpers.bkp (526/1281)
+  100 %                100 B / 69 B = 1,449                                    
+336-variational.bkp (527/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+337-helpers.bkp (528/1281)
+  100 %                100 B / 69 B = 1,449                                    
+337-variational.bkp (529/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+338-helpers.bkp (530/1281)
+  100 %                100 B / 69 B = 1,449                                    
+338-variational.bkp (531/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+339-helpers.bkp (532/1281)
+  100 %                100 B / 69 B = 1,449                                    
+339-variational.bkp (533/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+33-helpers.bkp (534/1281)
+  100 %                100 B / 69 B = 1,449                                    
+33-variational.bkp (535/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+340-helpers.bkp (536/1281)
+  100 %                100 B / 69 B = 1,449                                    
+340-variational.bkp (537/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+341-helpers.bkp (538/1281)
+  100 %                100 B / 69 B = 1,449                                    
+341-variational.bkp (539/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+342-helpers.bkp (540/1281)
+  100 %                100 B / 69 B = 1,449                                    
+342-variational.bkp (541/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:54             
+343-helpers.bkp (542/1281)
+  100 %                100 B / 69 B = 1,449                                    
+343-variational.bkp (543/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+344-helpers.bkp (544/1281)
+  100 %                100 B / 69 B = 1,449                                    
+344-variational.bkp (545/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+345-helpers.bkp (546/1281)
+  100 %                100 B / 69 B = 1,449                                    
+345-variational.bkp (547/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+346-helpers.bkp (548/1281)
+  100 %                100 B / 69 B = 1,449                                    
+346-variational.bkp (549/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+347-helpers.bkp (550/1281)
+  100 %                100 B / 69 B = 1,449                                    
+347-variational.bkp (551/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+348-helpers.bkp (552/1281)
+  100 %                100 B / 69 B = 1,449                                    
+348-variational.bkp (553/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+349-helpers.bkp (554/1281)
+  100 %                100 B / 69 B = 1,449                                    
+349-variational.bkp (555/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+34-helpers.bkp (556/1281)
+  100 %                100 B / 69 B = 1,449                                    
+34-variational.bkp (557/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+350-helpers.bkp (558/1281)
+  100 %                100 B / 69 B = 1,449                                    
+350-variational.bkp (559/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:54             
+351-helpers.bkp (560/1281)
+  100 %                100 B / 69 B = 1,449                                    
+351-variational.bkp (561/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+352-helpers.bkp (562/1281)
+  100 %                100 B / 69 B = 1,449                                    
+352-variational.bkp (563/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+353-helpers.bkp (564/1281)
+  100 %                100 B / 69 B = 1,449                                    
+353-variational.bkp (565/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+354-helpers.bkp (566/1281)
+  100 %                100 B / 69 B = 1,449                                    
+354-variational.bkp (567/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+355-helpers.bkp (568/1281)
+  100 %                100 B / 69 B = 1,449                                    
+355-variational.bkp (569/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+356-helpers.bkp (570/1281)
+  100 %                100 B / 69 B = 1,449                                    
+356-variational.bkp (571/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+357-helpers.bkp (572/1281)
+  100 %                100 B / 69 B = 1,449                                    
+357-variational.bkp (573/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+358-helpers.bkp (574/1281)
+  100 %                100 B / 69 B = 1,449                                    
+358-variational.bkp (575/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+359-helpers.bkp (576/1281)
+  100 %                100 B / 69 B = 1,449                                    
+359-variational.bkp (577/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+35-helpers.bkp (578/1281)
+  100 %                100 B / 69 B = 1,449                                    
+35-variational.bkp (579/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+360-helpers.bkp (580/1281)
+  100 %                100 B / 69 B = 1,449                                    
+360-variational.bkp (581/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+361-helpers.bkp (582/1281)
+  100 %                100 B / 69 B = 1,449                                    
+361-variational.bkp (583/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+362-helpers.bkp (584/1281)
+  100 %                100 B / 69 B = 1,449                                    
+362-variational.bkp (585/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+363-helpers.bkp (586/1281)
+  100 %                100 B / 69 B = 1,449                                    
+363-variational.bkp (587/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+364-helpers.bkp (588/1281)
+  100 %                100 B / 69 B = 1,449                                    
+364-variational.bkp (589/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+365-helpers.bkp (590/1281)
+  100 %                100 B / 69 B = 1,449                                    
+365-variational.bkp (591/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+366-helpers.bkp (592/1281)
+  100 %                100 B / 69 B = 1,449                                    
+366-variational.bkp (593/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+367-helpers.bkp (594/1281)
+  100 %                100 B / 69 B = 1,449                                    
+367-variational.bkp (595/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+368-helpers.bkp (596/1281)
+  100 %                100 B / 69 B = 1,449                                    
+368-variational.bkp (597/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+369-helpers.bkp (598/1281)
+  100 %                100 B / 69 B = 1,449                                    
+369-variational.bkp (599/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+36-helpers.bkp (600/1281)
+  100 %                100 B / 69 B = 1,449                                    
+36-variational.bkp (601/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+370-helpers.bkp (602/1281)
+  100 %                100 B / 69 B = 1,449                                    
+370-variational.bkp (603/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+371-helpers.bkp (604/1281)
+  100 %                100 B / 69 B = 1,449                                    
+371-variational.bkp (605/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+372-helpers.bkp (606/1281)
+  100 %                100 B / 69 B = 1,449                                    
+372-variational.bkp (607/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+373-helpers.bkp (608/1281)
+  100 %                100 B / 69 B = 1,449                                    
+373-variational.bkp (609/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+374-helpers.bkp (610/1281)
+  100 %                100 B / 69 B = 1,449                                    
+374-variational.bkp (611/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+375-helpers.bkp (612/1281)
+  100 %                100 B / 69 B = 1,449                                    
+375-variational.bkp (613/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+376-helpers.bkp (614/1281)
+  100 %                100 B / 69 B = 1,449                                    
+376-variational.bkp (615/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+377-helpers.bkp (616/1281)
+  100 %                100 B / 69 B = 1,449                                    
+377-variational.bkp (617/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+378-helpers.bkp (618/1281)
+  100 %                100 B / 69 B = 1,449                                    
+378-variational.bkp (619/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+379-helpers.bkp (620/1281)
+  100 %                100 B / 69 B = 1,449                                    
+379-variational.bkp (621/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+37-helpers.bkp (622/1281)
+  100 %                100 B / 69 B = 1,449                                    
+37-variational.bkp (623/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+380-helpers.bkp (624/1281)
+  100 %                100 B / 69 B = 1,449                                    
+380-variational.bkp (625/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+381-helpers.bkp (626/1281)
+  100 %                100 B / 69 B = 1,449                                    
+381-variational.bkp (627/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+382-helpers.bkp (628/1281)
+  100 %                100 B / 69 B = 1,449                                    
+382-variational.bkp (629/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+383-helpers.bkp (630/1281)
+  100 %                100 B / 69 B = 1,449                                    
+383-variational.bkp (631/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+384-helpers.bkp (632/1281)
+  100 %                100 B / 69 B = 1,449                                    
+384-variational.bkp (633/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+385-helpers.bkp (634/1281)
+  100 %                100 B / 69 B = 1,449                                    
+385-variational.bkp (635/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+386-helpers.bkp (636/1281)
+  100 %                100 B / 69 B = 1,449                                    
+386-variational.bkp (637/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+387-helpers.bkp (638/1281)
+  100 %                100 B / 69 B = 1,449                                    
+387-variational.bkp (639/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+388-helpers.bkp (640/1281)
+  100 %                100 B / 69 B = 1,449                                    
+388-variational.bkp (641/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+389-helpers.bkp (642/1281)
+  100 %                100 B / 69 B = 1,449                                    
+389-variational.bkp (643/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+38-helpers.bkp (644/1281)
+  100 %                100 B / 69 B = 1,449                                    
+38-variational.bkp (645/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+390-helpers.bkp (646/1281)
+  100 %                100 B / 69 B = 1,449                                    
+390-variational.bkp (647/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+391-helpers.bkp (648/1281)
+  100 %                100 B / 69 B = 1,449                                    
+391-variational.bkp (649/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+392-helpers.bkp (650/1281)
+  100 %                100 B / 69 B = 1,449                                    
+392-variational.bkp (651/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+393-helpers.bkp (652/1281)
+  100 %                100 B / 69 B = 1,449                                    
+393-variational.bkp (653/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+394-helpers.bkp (654/1281)
+  100 %                100 B / 69 B = 1,449                                    
+394-variational.bkp (655/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+395-helpers.bkp (656/1281)
+  100 %                100 B / 69 B = 1,449                                    
+395-variational.bkp (657/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+396-helpers.bkp (658/1281)
+  100 %                100 B / 69 B = 1,449                                    
+396-variational.bkp (659/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+397-helpers.bkp (660/1281)
+  100 %                100 B / 69 B = 1,449                                    
+397-variational.bkp (661/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+398-helpers.bkp (662/1281)
+  100 %                100 B / 69 B = 1,449                                    
+398-variational.bkp (663/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+399-helpers.bkp (664/1281)
+  100 %                100 B / 69 B = 1,449                                    
+399-variational.bkp (665/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+39-helpers.bkp (666/1281)
+  100 %                100 B / 69 B = 1,449                                    
+39-variational.bkp (667/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+3-helpers.bkp (668/1281)
+  100 %                100 B / 69 B = 1,449                                    
+3-variational.bkp (669/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+400-helpers.bkp (670/1281)
+  100 %                100 B / 69 B = 1,449                                    
+400-variational.bkp (671/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+401-helpers.bkp (672/1281)
+  100 %                100 B / 69 B = 1,449                                    
+401-variational.bkp (673/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+402-helpers.bkp (674/1281)
+  100 %                100 B / 69 B = 1,449                                    
+402-variational.bkp (675/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+403-helpers.bkp (676/1281)
+  100 %                100 B / 69 B = 1,449                                    
+403-variational.bkp (677/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+404-helpers.bkp (678/1281)
+  100 %                100 B / 69 B = 1,449                                    
+404-variational.bkp (679/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+405-helpers.bkp (680/1281)
+  100 %                100 B / 69 B = 1,449                                    
+405-variational.bkp (681/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+406-helpers.bkp (682/1281)
+  100 %                100 B / 69 B = 1,449                                    
+406-variational.bkp (683/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+407-helpers.bkp (684/1281)
+  100 %                100 B / 69 B = 1,449                                    
+407-variational.bkp (685/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+408-helpers.bkp (686/1281)
+  100 %                100 B / 69 B = 1,449                                    
+408-variational.bkp (687/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+409-helpers.bkp (688/1281)
+  100 %                100 B / 69 B = 1,449                                    
+409-variational.bkp (689/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+40-helpers.bkp (690/1281)
+  100 %                100 B / 69 B = 1,449                                    
+40-variational.bkp (691/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+410-helpers.bkp (692/1281)
+  100 %                100 B / 69 B = 1,449                                    
+410-variational.bkp (693/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+411-helpers.bkp (694/1281)
+  100 %                100 B / 69 B = 1,449                                    
+411-variational.bkp (695/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+412-helpers.bkp (696/1281)
+  100 %                100 B / 69 B = 1,449                                    
+412-variational.bkp (697/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+413-helpers.bkp (698/1281)
+  100 %                100 B / 69 B = 1,449                                    
+413-variational.bkp (699/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+414-helpers.bkp (700/1281)
+  100 %                100 B / 69 B = 1,449                                    
+414-variational.bkp (701/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+415-helpers.bkp (702/1281)
+  100 %                100 B / 69 B = 1,449                                    
+415-variational.bkp (703/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+416-helpers.bkp (704/1281)
+  100 %                100 B / 69 B = 1,449                                    
+416-variational.bkp (705/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+417-helpers.bkp (706/1281)
+  100 %                100 B / 69 B = 1,449                                    
+417-variational.bkp (707/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+418-helpers.bkp (708/1281)
+  100 %                100 B / 69 B = 1,449                                    
+418-variational.bkp (709/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+419-helpers.bkp (710/1281)
+  100 %                100 B / 69 B = 1,449                                    
+419-variational.bkp (711/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+41-helpers.bkp (712/1281)
+  100 %                100 B / 69 B = 1,449                                    
+41-variational.bkp (713/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+420-helpers.bkp (714/1281)
+  100 %                100 B / 69 B = 1,449                                    
+420-variational.bkp (715/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+421-helpers.bkp (716/1281)
+  100 %                100 B / 69 B = 1,449                                    
+421-variational.bkp (717/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+422-helpers.bkp (718/1281)
+  100 %                100 B / 69 B = 1,449                                    
+422-variational.bkp (719/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+423-helpers.bkp (720/1281)
+  100 %                100 B / 69 B = 1,449                                    
+423-variational.bkp (721/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+424-helpers.bkp (722/1281)
+  100 %                100 B / 69 B = 1,449                                    
+424-variational.bkp (723/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+425-helpers.bkp (724/1281)
+  100 %                100 B / 69 B = 1,449                                    
+425-variational.bkp (725/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       2:00             
+426-helpers.bkp (726/1281)
+  100 %                100 B / 69 B = 1,449                                    
+426-variational.bkp (727/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+427-helpers.bkp (728/1281)
+  100 %                100 B / 69 B = 1,449                                    
+427-variational.bkp (729/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+428-helpers.bkp (730/1281)
+  100 %                100 B / 69 B = 1,449                                    
+428-variational.bkp (731/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+429-helpers.bkp (732/1281)
+  100 %                100 B / 69 B = 1,449                                    
+429-variational.bkp (733/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+42-helpers.bkp (734/1281)
+  100 %                100 B / 69 B = 1,449                                    
+42-variational.bkp (735/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+430-helpers.bkp (736/1281)
+  100 %                100 B / 69 B = 1,449                                    
+430-variational.bkp (737/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+431-helpers.bkp (738/1281)
+  100 %                100 B / 69 B = 1,449                                    
+431-variational.bkp (739/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+432-helpers.bkp (740/1281)
+  100 %                100 B / 69 B = 1,449                                    
+432-variational.bkp (741/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+433-helpers.bkp (742/1281)
+  100 %                100 B / 69 B = 1,449                                    
+433-variational.bkp (743/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+434-helpers.bkp (744/1281)
+  100 %                100 B / 69 B = 1,449                                    
+434-variational.bkp (745/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+435-helpers.bkp (746/1281)
+  100 %                100 B / 69 B = 1,449                                    
+435-variational.bkp (747/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+436-helpers.bkp (748/1281)
+  100 %                100 B / 69 B = 1,449                                    
+436-variational.bkp (749/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+437-helpers.bkp (750/1281)
+  100 %                100 B / 69 B = 1,449                                    
+437-variational.bkp (751/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+438-helpers.bkp (752/1281)
+  100 %                100 B / 69 B = 1,449                                    
+438-variational.bkp (753/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+439-helpers.bkp (754/1281)
+  100 %                100 B / 69 B = 1,449                                    
+439-variational.bkp (755/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+43-helpers.bkp (756/1281)
+  100 %                100 B / 69 B = 1,449                                    
+43-variational.bkp (757/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+440-helpers.bkp (758/1281)
+  100 %                100 B / 69 B = 1,449                                    
+440-variational.bkp (759/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+441-helpers.bkp (760/1281)
+  100 %                100 B / 69 B = 1,449                                    
+441-variational.bkp (761/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+442-helpers.bkp (762/1281)
+  100 %                100 B / 69 B = 1,449                                    
+442-variational.bkp (763/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+443-helpers.bkp (764/1281)
+  100 %                100 B / 69 B = 1,449                                    
+443-variational.bkp (765/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+444-helpers.bkp (766/1281)
+  100 %                100 B / 69 B = 1,449                                    
+444-variational.bkp (767/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+445-helpers.bkp (768/1281)
+  100 %                100 B / 69 B = 1,449                                    
+445-variational.bkp (769/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+446-helpers.bkp (770/1281)
+  100 %                100 B / 69 B = 1,449                                    
+446-variational.bkp (771/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+447-helpers.bkp (772/1281)
+  100 %                100 B / 69 B = 1,449                                    
+447-variational.bkp (773/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+448-helpers.bkp (774/1281)
+  100 %                100 B / 69 B = 1,449                                    
+448-variational.bkp (775/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+449-helpers.bkp (776/1281)
+  100 %                100 B / 69 B = 1,449                                    
+449-variational.bkp (777/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+44-helpers.bkp (778/1281)
+  100 %                100 B / 69 B = 1,449                                    
+44-variational.bkp (779/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+450-helpers.bkp (780/1281)
+  100 %                100 B / 69 B = 1,449                                    
+450-variational.bkp (781/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+451-helpers.bkp (782/1281)
+  100 %                100 B / 69 B = 1,449                                    
+451-variational.bkp (783/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+452-helpers.bkp (784/1281)
+  100 %                100 B / 69 B = 1,449                                    
+452-variational.bkp (785/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+453-helpers.bkp (786/1281)
+  100 %                100 B / 69 B = 1,449                                    
+453-variational.bkp (787/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+454-helpers.bkp (788/1281)
+  100 %                100 B / 69 B = 1,449                                    
+454-variational.bkp (789/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+455-helpers.bkp (790/1281)
+  100 %                100 B / 69 B = 1,449                                    
+455-variational.bkp (791/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+456-helpers.bkp (792/1281)
+  100 %                100 B / 69 B = 1,449                                    
+456-variational.bkp (793/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+457-helpers.bkp (794/1281)
+  100 %                100 B / 69 B = 1,449                                    
+457-variational.bkp (795/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+458-helpers.bkp (796/1281)
+  100 %                100 B / 69 B = 1,449                                    
+458-variational.bkp (797/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+459-helpers.bkp (798/1281)
+  100 %                100 B / 69 B = 1,449                                    
+459-variational.bkp (799/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+45-helpers.bkp (800/1281)
+  100 %                100 B / 69 B = 1,449                                    
+45-variational.bkp (801/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+460-helpers.bkp (802/1281)
+  100 %                100 B / 69 B = 1,449                                    
+460-variational.bkp (803/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+461-helpers.bkp (804/1281)
+  100 %                100 B / 69 B = 1,449                                    
+461-variational.bkp (805/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+462-helpers.bkp (806/1281)
+  100 %                100 B / 69 B = 1,449                                    
+462-variational.bkp (807/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+463-helpers.bkp (808/1281)
+  100 %                100 B / 69 B = 1,449                                    
+463-variational.bkp (809/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+464-helpers.bkp (810/1281)
+  100 %                100 B / 69 B = 1,449                                    
+464-variational.bkp (811/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+465-helpers.bkp (812/1281)
+  100 %                100 B / 69 B = 1,449                                    
+465-variational.bkp (813/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+466-helpers.bkp (814/1281)
+  100 %                100 B / 69 B = 1,449                                    
+466-variational.bkp (815/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+467-helpers.bkp (816/1281)
+  100 %                100 B / 69 B = 1,449                                    
+467-variational.bkp (817/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+468-helpers.bkp (818/1281)
+  100 %                100 B / 69 B = 1,449                                    
+468-variational.bkp (819/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+469-helpers.bkp (820/1281)
+  100 %                100 B / 69 B = 1,449                                    
+469-variational.bkp (821/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+46-helpers.bkp (822/1281)
+  100 %                100 B / 69 B = 1,449                                    
+46-variational.bkp (823/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+470-helpers.bkp (824/1281)
+  100 %                100 B / 69 B = 1,449                                    
+470-variational.bkp (825/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+471-helpers.bkp (826/1281)
+  100 %                100 B / 69 B = 1,449                                    
+471-variational.bkp (827/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+472-helpers.bkp (828/1281)
+  100 %                100 B / 69 B = 1,449                                    
+472-variational.bkp (829/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+473-helpers.bkp (830/1281)
+  100 %                100 B / 69 B = 1,449                                    
+473-variational.bkp (831/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       2:00             
+474-helpers.bkp (832/1281)
+  100 %                100 B / 69 B = 1,449                                    
+474-variational.bkp (833/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+475-helpers.bkp (834/1281)
+  100 %                100 B / 69 B = 1,449                                    
+475-variational.bkp (835/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+476-helpers.bkp (836/1281)
+  100 %                100 B / 69 B = 1,449                                    
+476-variational.bkp (837/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+477-helpers.bkp (838/1281)
+  100 %                100 B / 69 B = 1,449                                    
+477-variational.bkp (839/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+478-helpers.bkp (840/1281)
+  100 %                100 B / 69 B = 1,449                                    
+478-variational.bkp (841/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+479-helpers.bkp (842/1281)
+  100 %                100 B / 69 B = 1,449                                    
+479-variational.bkp (843/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+47-helpers.bkp (844/1281)
+  100 %                100 B / 69 B = 1,449                                    
+47-variational.bkp (845/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+480-helpers.bkp (846/1281)
+  100 %                100 B / 69 B = 1,449                                    
+480-variational.bkp (847/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+481-helpers.bkp (848/1281)
+  100 %                100 B / 69 B = 1,449                                    
+481-variational.bkp (849/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+482-helpers.bkp (850/1281)
+  100 %                100 B / 69 B = 1,449                                    
+482-variational.bkp (851/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+483-helpers.bkp (852/1281)
+  100 %                100 B / 69 B = 1,449                                    
+483-variational.bkp (853/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+484-helpers.bkp (854/1281)
+  100 %                100 B / 69 B = 1,449                                    
+484-variational.bkp (855/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+485-helpers.bkp (856/1281)
+  100 %                100 B / 69 B = 1,449                                    
+485-variational.bkp (857/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+486-helpers.bkp (858/1281)
+  100 %                100 B / 69 B = 1,449                                    
+486-variational.bkp (859/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+487-helpers.bkp (860/1281)
+  100 %                100 B / 69 B = 1,449                                    
+487-variational.bkp (861/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+488-helpers.bkp (862/1281)
+  100 %                100 B / 69 B = 1,449                                    
+488-variational.bkp (863/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+489-helpers.bkp (864/1281)
+  100 %                100 B / 69 B = 1,449                                    
+489-variational.bkp (865/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+48-helpers.bkp (866/1281)
+  100 %                100 B / 69 B = 1,449                                    
+48-variational.bkp (867/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+490-helpers.bkp (868/1281)
+  100 %                100 B / 69 B = 1,449                                    
+490-variational.bkp (869/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+491-helpers.bkp (870/1281)
+  100 %                100 B / 69 B = 1,449                                    
+491-variational.bkp (871/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+492-helpers.bkp (872/1281)
+  100 %                100 B / 69 B = 1,449                                    
+492-variational.bkp (873/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+493-helpers.bkp (874/1281)
+  100 %                100 B / 69 B = 1,449                                    
+493-variational.bkp (875/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+494-helpers.bkp (876/1281)
+  100 %                100 B / 69 B = 1,449                                    
+494-variational.bkp (877/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+495-helpers.bkp (878/1281)
+  100 %                100 B / 69 B = 1,449                                    
+495-variational.bkp (879/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+496-helpers.bkp (880/1281)
+  100 %                100 B / 69 B = 1,449                                    
+496-variational.bkp (881/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+497-helpers.bkp (882/1281)
+  100 %                100 B / 69 B = 1,449                                    
+497-variational.bkp (883/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+498-helpers.bkp (884/1281)
+  100 %                100 B / 69 B = 1,449                                    
+498-variational.bkp (885/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+499-helpers.bkp (886/1281)
+  100 %                100 B / 69 B = 1,449                                    
+499-variational.bkp (887/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+49-helpers.bkp (888/1281)
+  100 %                100 B / 69 B = 1,449                                    
+49-variational.bkp (889/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+4-helpers.bkp (890/1281)
+  100 %                100 B / 69 B = 1,449                                    
+4-variational.bkp (891/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+500-helpers.bkp (892/1281)
+  100 %                100 B / 69 B = 1,449                                    
+500-variational.bkp (893/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+501-helpers.bkp (894/1281)
+  100 %                100 B / 69 B = 1,449                                    
+501-variational.bkp (895/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+502-helpers.bkp (896/1281)
+  100 %                100 B / 69 B = 1,449                                    
+502-variational.bkp (897/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+503-helpers.bkp (898/1281)
+  100 %                100 B / 69 B = 1,449                                    
+503-variational.bkp (899/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+504-helpers.bkp (900/1281)
+  100 %                100 B / 69 B = 1,449                                    
+504-variational.bkp (901/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+505-helpers.bkp (902/1281)
+  100 %                100 B / 69 B = 1,449                                    
+505-variational.bkp (903/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+506-helpers.bkp (904/1281)
+  100 %                100 B / 69 B = 1,449                                    
+506-variational.bkp (905/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+507-helpers.bkp (906/1281)
+  100 %                100 B / 69 B = 1,449                                    
+507-variational.bkp (907/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+508-helpers.bkp (908/1281)
+  100 %                100 B / 69 B = 1,449                                    
+508-variational.bkp (909/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+509-helpers.bkp (910/1281)
+  100 %                100 B / 69 B = 1,449                                    
+509-variational.bkp (911/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+50-helpers.bkp (912/1281)
+  100 %                100 B / 69 B = 1,449                                    
+50-variational.bkp (913/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+510-helpers.bkp (914/1281)
+  100 %                100 B / 69 B = 1,449                                    
+510-variational.bkp (915/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+511-helpers.bkp (916/1281)
+  100 %                100 B / 69 B = 1,449                                    
+511-variational.bkp (917/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+512-helpers.bkp (918/1281)
+  100 %                100 B / 69 B = 1,449                                    
+512-variational.bkp (919/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+513-helpers.bkp (920/1281)
+  100 %                100 B / 69 B = 1,449                                    
+513-variational.bkp (921/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+514-helpers.bkp (922/1281)
+  100 %                100 B / 69 B = 1,449                                    
+514-variational.bkp (923/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+515-helpers.bkp (924/1281)
+  100 %                100 B / 69 B = 1,449                                    
+515-variational.bkp (925/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+516-helpers.bkp (926/1281)
+  100 %                100 B / 69 B = 1,449                                    
+516-variational.bkp (927/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+517-helpers.bkp (928/1281)
+  100 %                100 B / 69 B = 1,449                                    
+517-variational.bkp (929/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+518-helpers.bkp (930/1281)
+  100 %                100 B / 69 B = 1,449                                    
+518-variational.bkp (931/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+519-helpers.bkp (932/1281)
+  100 %                100 B / 69 B = 1,449                                    
+519-variational.bkp (933/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+51-helpers.bkp (934/1281)
+  100 %                100 B / 69 B = 1,449                                    
+51-variational.bkp (935/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+520-helpers.bkp (936/1281)
+  100 %                100 B / 69 B = 1,449                                    
+520-variational.bkp (937/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+521-helpers.bkp (938/1281)
+  100 %                100 B / 69 B = 1,449                                    
+521-variational.bkp (939/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+522-helpers.bkp (940/1281)
+  100 %                100 B / 69 B = 1,449                                    
+522-variational.bkp (941/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+523-helpers.bkp (942/1281)
+  100 %                100 B / 69 B = 1,449                                    
+523-variational.bkp (943/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+524-helpers.bkp (944/1281)
+  100 %                100 B / 69 B = 1,449                                    
+524-variational.bkp (945/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+525-helpers.bkp (946/1281)
+  100 %                100 B / 69 B = 1,449                                    
+525-variational.bkp (947/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+526-helpers.bkp (948/1281)
+  100 %                100 B / 69 B = 1,449                                    
+526-variational.bkp (949/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+527-helpers.bkp (950/1281)
+  100 %                100 B / 69 B = 1,449                                    
+527-variational.bkp (951/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+528-helpers.bkp (952/1281)
+  100 %                100 B / 69 B = 1,449                                    
+528-variational.bkp (953/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+529-helpers.bkp (954/1281)
+  100 %                100 B / 69 B = 1,449                                    
+529-variational.bkp (955/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+52-helpers.bkp (956/1281)
+  100 %                100 B / 69 B = 1,449                                    
+52-variational.bkp (957/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+530-helpers.bkp (958/1281)
+  100 %                100 B / 69 B = 1,449                                    
+530-variational.bkp (959/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+531-helpers.bkp (960/1281)
+  100 %                100 B / 69 B = 1,449                                    
+531-variational.bkp (961/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+532-helpers.bkp (962/1281)
+  100 %                100 B / 69 B = 1,449                                    
+532-variational.bkp (963/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+533-helpers.bkp (964/1281)
+  100 %                100 B / 69 B = 1,449                                    
+533-variational.bkp (965/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+534-helpers.bkp (966/1281)
+  100 %                100 B / 69 B = 1,449                                    
+534-variational.bkp (967/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+535-helpers.bkp (968/1281)
+  100 %                100 B / 69 B = 1,449                                    
+535-variational.bkp (969/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+536-helpers.bkp (970/1281)
+  100 %                100 B / 69 B = 1,449                                    
+536-variational.bkp (971/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+537-helpers.bkp (972/1281)
+  100 %                100 B / 69 B = 1,449                                    
+537-variational.bkp (973/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:59             
+538-helpers.bkp (974/1281)
+  100 %                100 B / 69 B = 1,449                                    
+538-variational.bkp (975/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+539-helpers.bkp (976/1281)
+  100 %                100 B / 69 B = 1,449                                    
+539-variational.bkp (977/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+53-helpers.bkp (978/1281)
+  100 %                100 B / 69 B = 1,449                                    
+53-variational.bkp (979/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+540-helpers.bkp (980/1281)
+  100 %                100 B / 69 B = 1,449                                    
+540-variational.bkp (981/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+541-helpers.bkp (982/1281)
+  100 %                100 B / 69 B = 1,449                                    
+541-variational.bkp (983/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+542-helpers.bkp (984/1281)
+  100 %                100 B / 69 B = 1,449                                    
+542-variational.bkp (985/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+543-helpers.bkp (986/1281)
+  100 %                100 B / 69 B = 1,449                                    
+543-variational.bkp (987/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+544-helpers.bkp (988/1281)
+  100 %                100 B / 69 B = 1,449                                    
+544-variational.bkp (989/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+545-helpers.bkp (990/1281)
+  100 %                100 B / 69 B = 1,449                                    
+545-variational.bkp (991/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+546-helpers.bkp (992/1281)
+  100 %                100 B / 69 B = 1,449                                    
+546-variational.bkp (993/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+547-helpers.bkp (994/1281)
+  100 %                100 B / 69 B = 1,449                                    
+547-variational.bkp (995/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+548-helpers.bkp (996/1281)
+  100 %                100 B / 69 B = 1,449                                    
+548-variational.bkp (997/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+549-helpers.bkp (998/1281)
+  100 %                100 B / 69 B = 1,449                                    
+549-variational.bkp (999/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+54-helpers.bkp (1000/1281)
+  100 %                100 B / 69 B = 1,449                                    
+54-variational.bkp (1001/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+550-helpers.bkp (1002/1281)
+  100 %                100 B / 69 B = 1,449                                    
+550-variational.bkp (1003/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+551-helpers.bkp (1004/1281)
+  100 %                100 B / 69 B = 1,449                                    
+551-variational.bkp (1005/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+552-helpers.bkp (1006/1281)
+  100 %                100 B / 69 B = 1,449                                    
+552-variational.bkp (1007/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+553-helpers.bkp (1008/1281)
+  100 %                100 B / 69 B = 1,449                                    
+553-variational.bkp (1009/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+554-helpers.bkp (1010/1281)
+  100 %                100 B / 69 B = 1,449                                    
+554-variational.bkp (1011/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+555-helpers.bkp (1012/1281)
+  100 %                100 B / 69 B = 1,449                                    
+555-variational.bkp (1013/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+556-helpers.bkp (1014/1281)
+  100 %                100 B / 69 B = 1,449                                    
+556-variational.bkp (1015/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+557-helpers.bkp (1016/1281)
+  100 %                100 B / 69 B = 1,449                                    
+557-variational.bkp (1017/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+558-helpers.bkp (1018/1281)
+  100 %                100 B / 69 B = 1,449                                    
+558-variational.bkp (1019/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+559-helpers.bkp (1020/1281)
+  100 %                100 B / 69 B = 1,449                                    
+559-variational.bkp (1021/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+55-helpers.bkp (1022/1281)
+  100 %                100 B / 69 B = 1,449                                    
+55-variational.bkp (1023/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+560-helpers.bkp (1024/1281)
+  100 %                100 B / 69 B = 1,449                                    
+560-variational.bkp (1025/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+561-helpers.bkp (1026/1281)
+  100 %                100 B / 69 B = 1,449                                    
+561-variational.bkp (1027/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+562-helpers.bkp (1028/1281)
+  100 %                100 B / 69 B = 1,449                                    
+562-variational.bkp (1029/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+563-helpers.bkp (1030/1281)
+  100 %                100 B / 69 B = 1,449                                    
+563-variational.bkp (1031/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+564-helpers.bkp (1032/1281)
+  100 %                100 B / 69 B = 1,449                                    
+564-variational.bkp (1033/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+565-helpers.bkp (1034/1281)
+  100 %                100 B / 69 B = 1,449                                    
+565-variational.bkp (1035/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+566-helpers.bkp (1036/1281)
+  100 %                100 B / 69 B = 1,449                                    
+566-variational.bkp (1037/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+567-helpers.bkp (1038/1281)
+  100 %                100 B / 69 B = 1,449                                    
+567-variational.bkp (1039/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+568-helpers.bkp (1040/1281)
+  100 %                100 B / 69 B = 1,449                                    
+568-variational.bkp (1041/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+569-helpers.bkp (1042/1281)
+  100 %                100 B / 69 B = 1,449                                    
+569-variational.bkp (1043/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+56-helpers.bkp (1044/1281)
+  100 %                100 B / 69 B = 1,449                                    
+56-variational.bkp (1045/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+570-helpers.bkp (1046/1281)
+  100 %                100 B / 69 B = 1,449                                    
+570-variational.bkp (1047/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+571-helpers.bkp (1048/1281)
+  100 %                100 B / 69 B = 1,449                                    
+571-variational.bkp (1049/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+572-helpers.bkp (1050/1281)
+  100 %                100 B / 69 B = 1,449                                    
+572-variational.bkp (1051/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+573-helpers.bkp (1052/1281)
+  100 %                100 B / 69 B = 1,449                                    
+573-variational.bkp (1053/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+574-helpers.bkp (1054/1281)
+  100 %                100 B / 69 B = 1,449                                    
+574-variational.bkp (1055/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+575-helpers.bkp (1056/1281)
+  100 %                100 B / 69 B = 1,449                                    
+575-variational.bkp (1057/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+576-helpers.bkp (1058/1281)
+  100 %                100 B / 69 B = 1,449                                    
+576-variational.bkp (1059/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+577-helpers.bkp (1060/1281)
+  100 %                100 B / 69 B = 1,449                                    
+577-variational.bkp (1061/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+578-helpers.bkp (1062/1281)
+  100 %                100 B / 69 B = 1,449                                    
+578-variational.bkp (1063/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+579-helpers.bkp (1064/1281)
+  100 %                100 B / 69 B = 1,449                                    
+579-variational.bkp (1065/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+57-helpers.bkp (1066/1281)
+  100 %                100 B / 69 B = 1,449                                    
+57-variational.bkp (1067/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+580-helpers.bkp (1068/1281)
+  100 %                100 B / 69 B = 1,449                                    
+580-variational.bkp (1069/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+581-helpers.bkp (1070/1281)
+  100 %                100 B / 69 B = 1,449                                    
+581-variational.bkp (1071/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+582-helpers.bkp (1072/1281)
+  100 %                100 B / 69 B = 1,449                                    
+582-variational.bkp (1073/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+583-helpers.bkp (1074/1281)
+  100 %                100 B / 69 B = 1,449                                    
+583-variational.bkp (1075/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+584-helpers.bkp (1076/1281)
+  100 %                100 B / 69 B = 1,449                                    
+584-variational.bkp (1077/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+585-helpers.bkp (1078/1281)
+  100 %                100 B / 69 B = 1,449                                    
+585-variational.bkp (1079/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+586-helpers.bkp (1080/1281)
+  100 %                100 B / 69 B = 1,449                                    
+586-variational.bkp (1081/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+587-helpers.bkp (1082/1281)
+  100 %                100 B / 69 B = 1,449                                    
+587-variational.bkp (1083/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+588-helpers.bkp (1084/1281)
+  100 %                100 B / 69 B = 1,449                                    
+588-variational.bkp (1085/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+589-helpers.bkp (1086/1281)
+  100 %                100 B / 69 B = 1,449                                    
+589-variational.bkp (1087/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+58-helpers.bkp (1088/1281)
+  100 %                100 B / 69 B = 1,449                                    
+58-variational.bkp (1089/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+590-helpers.bkp (1090/1281)
+  100 %                100 B / 69 B = 1,449                                    
+590-variational.bkp (1091/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+591-helpers.bkp (1092/1281)
+  100 %                100 B / 69 B = 1,449                                    
+591-variational.bkp (1093/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+592-helpers.bkp (1094/1281)
+  100 %                100 B / 69 B = 1,449                                    
+592-variational.bkp (1095/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+593-helpers.bkp (1096/1281)
+  100 %                100 B / 69 B = 1,449                                    
+593-variational.bkp (1097/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+594-helpers.bkp (1098/1281)
+  100 %                100 B / 69 B = 1,449                                    
+594-variational.bkp (1099/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+595-helpers.bkp (1100/1281)
+  100 %                100 B / 69 B = 1,449                                    
+595-variational.bkp (1101/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+596-helpers.bkp (1102/1281)
+  100 %                100 B / 69 B = 1,449                                    
+596-variational.bkp (1103/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+597-helpers.bkp (1104/1281)
+  100 %                100 B / 69 B = 1,449                                    
+597-variational.bkp (1105/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+598-helpers.bkp (1106/1281)
+  100 %                100 B / 69 B = 1,449                                    
+598-variational.bkp (1107/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+599-helpers.bkp (1108/1281)
+  100 %                100 B / 69 B = 1,449                                    
+599-variational.bkp (1109/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+59-helpers.bkp (1110/1281)
+  100 %                100 B / 69 B = 1,449                                    
+59-variational.bkp (1111/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+5-helpers.bkp (1112/1281)
+  100 %                100 B / 69 B = 1,449                                    
+5-variational.bkp (1113/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+600-helpers.bkp (1114/1281)
+  100 %                100 B / 69 B = 1,449                                    
+600-variational.bkp (1115/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+601-helpers.bkp (1116/1281)
+  100 %                100 B / 69 B = 1,449                                    
+601-variational.bkp (1117/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+602-helpers.bkp (1118/1281)
+  100 %                100 B / 69 B = 1,449                                    
+602-variational.bkp (1119/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+603-helpers.bkp (1120/1281)
+  100 %                100 B / 69 B = 1,449                                    
+603-variational.bkp (1121/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+604-helpers.bkp (1122/1281)
+  100 %                100 B / 69 B = 1,449                                    
+604-variational.bkp (1123/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+605-helpers.bkp (1124/1281)
+  100 %                100 B / 69 B = 1,449                                    
+605-variational.bkp (1125/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+606-helpers.bkp (1126/1281)
+  100 %                100 B / 69 B = 1,449                                    
+606-variational.bkp (1127/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+607-helpers.bkp (1128/1281)
+  100 %                100 B / 69 B = 1,449                                    
+607-variational.bkp (1129/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+608-helpers.bkp (1130/1281)
+  100 %                100 B / 69 B = 1,449                                    
+608-variational.bkp (1131/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+609-helpers.bkp (1132/1281)
+  100 %                100 B / 69 B = 1,449                                    
+609-variational.bkp (1133/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+60-helpers.bkp (1134/1281)
+  100 %                100 B / 69 B = 1,449                                    
+60-variational.bkp (1135/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+610-helpers.bkp (1136/1281)
+  100 %                100 B / 69 B = 1,449                                    
+610-variational.bkp (1137/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+611-helpers.bkp (1138/1281)
+  100 %                100 B / 69 B = 1,449                                    
+611-variational.bkp (1139/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+612-helpers.bkp (1140/1281)
+  100 %                100 B / 69 B = 1,449                                    
+612-variational.bkp (1141/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+613-helpers.bkp (1142/1281)
+  100 %                100 B / 69 B = 1,449                                    
+613-variational.bkp (1143/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+614-helpers.bkp (1144/1281)
+  100 %                100 B / 69 B = 1,449                                    
+614-variational.bkp (1145/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+615-helpers.bkp (1146/1281)
+  100 %                100 B / 69 B = 1,449                                    
+615-variational.bkp (1147/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+616-helpers.bkp (1148/1281)
+  100 %                100 B / 69 B = 1,449                                    
+616-variational.bkp (1149/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+617-helpers.bkp (1150/1281)
+  100 %                100 B / 69 B = 1,449                                    
+617-variational.bkp (1151/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+618-helpers.bkp (1152/1281)
+  100 %                100 B / 69 B = 1,449                                    
+618-variational.bkp (1153/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+619-helpers.bkp (1154/1281)
+  100 %                100 B / 69 B = 1,449                                    
+619-variational.bkp (1155/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+61-helpers.bkp (1156/1281)
+  100 %                100 B / 69 B = 1,449                                    
+61-variational.bkp (1157/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+620-helpers.bkp (1158/1281)
+  100 %                100 B / 69 B = 1,449                                    
+620-variational.bkp (1159/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+621-helpers.bkp (1160/1281)
+  100 %                100 B / 69 B = 1,449                                    
+621-variational.bkp (1161/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+622-helpers.bkp (1162/1281)
+  100 %                100 B / 69 B = 1,449                                    
+622-variational.bkp (1163/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+623-helpers.bkp (1164/1281)
+  100 %                100 B / 69 B = 1,449                                    
+623-variational.bkp (1165/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+624-helpers.bkp (1166/1281)
+  100 %                100 B / 69 B = 1,449                                    
+624-variational.bkp (1167/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:58             
+625-helpers.bkp (1168/1281)
+  100 %                100 B / 69 B = 1,449                                    
+625-variational.bkp (1169/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+626-helpers.bkp (1170/1281)
+  100 %                100 B / 69 B = 1,449                                    
+626-variational.bkp (1171/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+627-helpers.bkp (1172/1281)
+  100 %                100 B / 69 B = 1,449                                    
+627-variational.bkp (1173/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+628-helpers.bkp (1174/1281)
+  100 %                100 B / 69 B = 1,449                                    
+628-variational.bkp (1175/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+629-helpers.bkp (1176/1281)
+  100 %                100 B / 69 B = 1,449                                    
+629-variational.bkp (1177/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+62-helpers.bkp (1178/1281)
+  100 %                100 B / 69 B = 1,449                                    
+62-variational.bkp (1179/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+630-helpers.bkp (1180/1281)
+  100 %                100 B / 69 B = 1,449                                    
+630-variational.bkp (1181/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+631-helpers.bkp (1182/1281)
+  100 %                100 B / 69 B = 1,449                                    
+631-variational.bkp (1183/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+632-helpers.bkp (1184/1281)
+  100 %                100 B / 69 B = 1,449                                    
+632-variational.bkp (1185/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+633-helpers.bkp (1186/1281)
+  100 %                100 B / 69 B = 1,449                                    
+633-variational.bkp (1187/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+634-helpers.bkp (1188/1281)
+  100 %                100 B / 69 B = 1,449                                    
+634-variational.bkp (1189/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+635-helpers.bkp (1190/1281)
+  100 %                100 B / 69 B = 1,449                                    
+635-variational.bkp (1191/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+636-helpers.bkp (1192/1281)
+  100 %                100 B / 69 B = 1,449                                    
+636-variational.bkp (1193/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+637-helpers.bkp (1194/1281)
+  100 %                100 B / 69 B = 1,449                                    
+637-variational.bkp (1195/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+638-helpers.bkp (1196/1281)
+  100 %                100 B / 69 B = 1,449                                    
+638-variational.bkp (1197/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+639-helpers.bkp (1198/1281)
+  100 %                100 B / 69 B = 1,449                                    
+639-variational.bkp (1199/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+63-helpers.bkp (1200/1281)
+  100 %                100 B / 69 B = 1,449                                    
+63-variational.bkp (1201/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+64-helpers.bkp (1202/1281)
+  100 %                100 B / 69 B = 1,449                                    
+64-variational.bkp (1203/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+65-helpers.bkp (1204/1281)
+  100 %                100 B / 69 B = 1,449                                    
+65-variational.bkp (1205/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+66-helpers.bkp (1206/1281)
+  100 %                100 B / 69 B = 1,449                                    
+66-variational.bkp (1207/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+67-helpers.bkp (1208/1281)
+  100 %                100 B / 69 B = 1,449                                    
+67-variational.bkp (1209/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+68-helpers.bkp (1210/1281)
+  100 %                100 B / 69 B = 1,449                                    
+68-variational.bkp (1211/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+69-helpers.bkp (1212/1281)
+  100 %                100 B / 69 B = 1,449                                    
+69-variational.bkp (1213/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+6-helpers.bkp (1214/1281)
+  100 %                100 B / 69 B = 1,449                                    
+6-variational.bkp (1215/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+70-helpers.bkp (1216/1281)
+  100 %                100 B / 69 B = 1,449                                    
+70-variational.bkp (1217/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+71-helpers.bkp (1218/1281)
+  100 %                100 B / 69 B = 1,449                                    
+71-variational.bkp (1219/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+72-helpers.bkp (1220/1281)
+  100 %                100 B / 69 B = 1,449                                    
+72-variational.bkp (1221/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+73-helpers.bkp (1222/1281)
+  100 %                100 B / 69 B = 1,449                                    
+73-variational.bkp (1223/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+74-helpers.bkp (1224/1281)
+  100 %                100 B / 69 B = 1,449                                    
+74-variational.bkp (1225/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+75-helpers.bkp (1226/1281)
+  100 %                100 B / 69 B = 1,449                                    
+75-variational.bkp (1227/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+76-helpers.bkp (1228/1281)
+  100 %                100 B / 69 B = 1,449                                    
+76-variational.bkp (1229/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+77-helpers.bkp (1230/1281)
+  100 %                100 B / 69 B = 1,449                                    
+77-variational.bkp (1231/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+78-helpers.bkp (1232/1281)
+  100 %                100 B / 69 B = 1,449                                    
+78-variational.bkp (1233/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+79-helpers.bkp (1234/1281)
+  100 %                100 B / 69 B = 1,449                                    
+79-variational.bkp (1235/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+7-helpers.bkp (1236/1281)
+  100 %                100 B / 69 B = 1,449                                    
+7-variational.bkp (1237/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+80-helpers.bkp (1238/1281)
+  100 %                100 B / 69 B = 1,449                                    
+80-variational.bkp (1239/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+81-helpers.bkp (1240/1281)
+  100 %                100 B / 69 B = 1,449                                    
+81-variational.bkp (1241/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+82-helpers.bkp (1242/1281)
+  100 %                100 B / 69 B = 1,449                                    
+82-variational.bkp (1243/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+83-helpers.bkp (1244/1281)
+  100 %                100 B / 69 B = 1,449                                    
+83-variational.bkp (1245/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+84-helpers.bkp (1246/1281)
+  100 %                100 B / 69 B = 1,449                                    
+84-variational.bkp (1247/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+85-helpers.bkp (1248/1281)
+  100 %                100 B / 69 B = 1,449                                    
+85-variational.bkp (1249/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+86-helpers.bkp (1250/1281)
+  100 %                100 B / 69 B = 1,449                                    
+86-variational.bkp (1251/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+87-helpers.bkp (1252/1281)
+  100 %                100 B / 69 B = 1,449                                    
+87-variational.bkp (1253/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+88-helpers.bkp (1254/1281)
+  100 %                100 B / 69 B = 1,449                                    
+88-variational.bkp (1255/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+89-helpers.bkp (1256/1281)
+  100 %                100 B / 69 B = 1,449                                    
+89-variational.bkp (1257/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+8-helpers.bkp (1258/1281)
+  100 %                100 B / 69 B = 1,449                                    
+8-variational.bkp (1259/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+90-helpers.bkp (1260/1281)
+  100 %                100 B / 69 B = 1,449                                    
+90-variational.bkp (1261/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+91-helpers.bkp (1262/1281)
+  100 %                100 B / 69 B = 1,449                                    
+91-variational.bkp (1263/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:57             
+92-helpers.bkp (1264/1281)
+  100 %                100 B / 69 B = 1,449                                    
+92-variational.bkp (1265/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+93-helpers.bkp (1266/1281)
+  100 %                100 B / 69 B = 1,449                                    
+93-variational.bkp (1267/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:54             
+94-helpers.bkp (1268/1281)
+  100 %                100 B / 69 B = 1,449                                    
+94-variational.bkp (1269/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+95-helpers.bkp (1270/1281)
+  100 %                100 B / 69 B = 1,449                                    
+95-variational.bkp (1271/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+96-helpers.bkp (1272/1281)
+  100 %                100 B / 69 B = 1,449                                    
+96-variational.bkp (1273/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+97-helpers.bkp (1274/1281)
+  100 %                100 B / 69 B = 1,449                                    
+97-variational.bkp (1275/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+98-helpers.bkp (1276/1281)
+  100 %                100 B / 69 B = 1,449                                    
+98-variational.bkp (1277/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56             
+99-helpers.bkp (1278/1281)
+  100 %                100 B / 69 B = 1,449                                    
+99-variational.bkp (1279/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:55             
+9-helpers.bkp (1280/1281)
+  100 %                100 B / 69 B = 1,449                                    
+9-variational.bkp (1281/1281)
+  100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56 
+
 dattani@allogin1:/algpfs/dattani/Li2/54/pt2/409.6c> xz -v -1 POPSFILEBIN c/POPSFILEBIN c/c/POPSFILEBIN c/c/c/POPSFILEBIN c/c/c/c/POPSFILEBIN c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 
 
