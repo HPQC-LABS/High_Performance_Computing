@@ -7584,5 +7584,16 @@ dattani@allogin1:/algpfs/dattani/Li2/54/dice/eps1=1e-4> xz -v -1 *.bkp
 9-variational.bkp (1281/1281)
   100 %     247,6 MiB / 1.281,4 MiB = 0,193    11 MiB/s       1:56 
 
+dattani@allogin1:/algpfs/dattani/Li2/54> du -hsx * | sort -rh | head -10
+9,1T	pt2
+2,1T	3
+357G	4
+352G	dice
+236G	Ar+
+64G	Ar
+4,1G	prept2
+676M	sqmc
+53M	FCIDUMP
+
 dattani@allogin1:/algpfs/dattani/Li2/54/pt2/409.6c> xz -v -1 POPSFILEBIN c/POPSFILEBIN c/c/POPSFILEBIN c/c/c/POPSFILEBIN c/c/c/c/POPSFILEBIN c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 
 
