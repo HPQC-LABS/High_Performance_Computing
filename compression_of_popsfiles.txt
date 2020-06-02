@@ -7595,5 +7595,105 @@ dattani@allogin1:/algpfs/dattani/Li2/54> du -hsx * | sort -rh | head -10
 676M	sqmc
 53M	FCIDUMP
 
-dattani@allogin1:/algpfs/dattani/Li2/54/pt2/409.6c> xz -v -1 POPSFILEBIN c/POPSFILEBIN c/c/POPSFILEBIN c/c/c/POPSFILEBIN c/c/c/c/POPSFILEBIN c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 
+dattani@allogin1:/algpfs/dattani/Li2> du -hsx * | sort -rh | head -10
+13T	54
+2,6T	Li2
 
+dattani@allogin1:/algpfs/dattani/Li2/54/pt2/409.6c> xz -v -1 POPSFILEBIN c/POPSFILEBIN c/c/POPSFILEBIN c/c/c/POPSFILEBIN c/c/c/c/POPSFILEBIN c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5* c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 
+POPSFILEBIN (1/41)
+  100 %      7.207,9 MiB / 33,3 GiB = 0,211    11 MiB/s      49:51             
+c/POPSFILEBIN (2/41)
+  100 %      7.207,5 MiB / 33,3 GiB = 0,211    11 MiB/s      50:43             
+c/c/POPSFILEBIN (3/41)
+  100 %      7.207,7 MiB / 33,3 GiB = 0,211    11 MiB/s      52:21             
+c/c/c/POPSFILEBIN (4/41)
+  100 %      7.207,3 MiB / 33,3 GiB = 0,211    11 MiB/s      52:22             
+c/c/c/c/POPSFILEBIN (5/41)
+  100 %      7.207,8 MiB / 33,3 GiB = 0,211    11 MiB/s      52:22             
+c/c/c/c/c/POPSFILEBIN (6/41)
+  100 %      7.207,8 MiB / 33,3 GiB = 0,211    11 MiB/s      49:34             
+c/c/c/c/c/c/POPSFILEBIN (7/41)
+  100 %      7.207,5 MiB / 33,3 GiB = 0,211    12 MiB/s      49:21             
+c/c/c/c/c/c/c/POPSFILEBIN (8/41)
+  100 %      7.207,4 MiB / 33,3 GiB = 0,211    12 MiB/s      49:28             
+c/c/c/c/c/c/c/c/POPSFILEBIN (9/41)
+  100 %      7.207,7 MiB / 33,3 GiB = 0,211    11 MiB/s      49:41             
+c/c/c/c/c/c/c/c/c/POPSFILEBIN (10/41)
+  100 %      7.207,5 MiB / 33,3 GiB = 0,211    12 MiB/s      49:27             
+c/c/c/c/c/c/c/c/c/c/POPSFILEBIN (11/41)
+  100 %      7.207,3 MiB / 33,3 GiB = 0,211    12 MiB/s      49:26             
+c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN (12/41)
+  100 %      7.207,3 MiB / 33,3 GiB = 0,211    12 MiB/s      49:26             
+c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN (13/41)
+  100 %      7.207,0 MiB / 33,3 GiB = 0,211    12 MiB/s      49:12             
+c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN (14/41)
+  100 %      7.207,1 MiB / 33,3 GiB = 0,211    11 MiB/s      49:35             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN (15/41)
+  100 %      7.207,0 MiB / 33,3 GiB = 0,211    11 MiB/s      49:39             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN (16/41)
+  100 %      7.207,3 MiB / 33,3 GiB = 0,211    11 MiB/s      49:35             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN (17/41)
+  100 %      7.207,1 MiB / 33,3 GiB = 0,211    12 MiB/s      49:25             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN (18/41)
+  100 %      7.206,9 MiB / 33,3 GiB = 0,211    12 MiB/s      49:22             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN (19/41)
+  100 %      7.207,1 MiB / 33,3 GiB = 0,211    12 MiB/s      49:26             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN (20/41)
+xz: c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/POPSFILEBIN: No such file or directory
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (21/41)
+  100 %      6.216,5 MiB / 22,2 GiB = 0,273   9,0 MiB/s      42:22             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (22/41)
+  100 %      6.173,0 MiB / 22,3 GiB = 0,271   9,0 MiB/s      42:25             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (23/41)
+  100 %      6.178,7 MiB / 22,3 GiB = 0,271   9,0 MiB/s      42:24             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (24/41)
+  100 %      6.183,8 MiB / 22,3 GiB = 0,271   9,0 MiB/s      42:20             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (25/41)
+  100 %      6.128,7 MiB / 22,3 GiB = 0,269   9,0 MiB/s      42:07             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (26/41)
+  100 %      6.129,9 MiB / 22,3 GiB = 0,269   9,0 MiB/s      42:13             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (27/41)
+  100 %      6.228,4 MiB / 22,3 GiB = 0,273   8,9 MiB/s      42:38             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (28/41)
+  100 %      6.236,3 MiB / 22,3 GiB = 0,274   9,0 MiB/s      42:21             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (29/41)
+  100 %      6.177,6 MiB / 22,3 GiB = 0,271   9,1 MiB/s      41:39             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (30/41)
+  100 %      6.182,8 MiB / 22,3 GiB = 0,271   9,2 MiB/s      41:21             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (31/41)
+  100 %      6.109,2 MiB / 22,3 GiB = 0,268   9,2 MiB/s      41:10             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (32/41)
+  100 %      6.110,3 MiB / 22,3 GiB = 0,268   9,2 MiB/s      41:04             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (33/41)
+  100 %      6.099,2 MiB / 22,2 GiB = 0,268   9,2 MiB/s      41:04             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (34/41)
+  100 %      6.099,5 MiB / 22,2 GiB = 0,268   9,2 MiB/s      41:17             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (35/41)
+  100 %      6.093,0 MiB / 22,3 GiB = 0,267   9,2 MiB/s      41:04             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (36/41)
+  100 %      6.093,1 MiB / 22,3 GiB = 0,267   9,3 MiB/s      41:00             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (37/41)
+  100 %      6.093,0 MiB / 22,3 GiB = 0,267   9,1 MiB/s      41:34             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (38/41)
+  100 %      6.091,6 MiB / 22,2 GiB = 0,267   9,2 MiB/s      41:28             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (39/41)
+  100 %      6.091,3 MiB / 22,2 GiB = 0,267   9,2 MiB/s      41:14             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5.bk (40/41)
+  100 %      6.091,0 MiB / 22,2 GiB = 0,267   9,2 MiB/s      41:13             
+c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/c/popsfile.h5 (41/41)
+  100 %      6.091,0 MiB / 22,2 GiB = 0,267   9,3 MiB/s      40:43  
+
+
+dattani@allogin1:/algpfs/dattani/Li2/54/pt2/as/rdm_nadd20bloom10_pchb/c/c/c/c/50m/c/100/c/200/c/400/c/400/c/c/c/c/1b/c/c/c/c/c/c/c/c/c/c/c/2/c/c/c/c/c> xz -v -1 popsfile.h5.bk c/popsfile.h5* c/c/popsfile.h5* c/c/c/popsfile.h5
+popsfile.h5.bk (1/6)
+  100 %        46,3 GiB / 119,9 GiB = 0,386   7,0 MiB/s    4:51:01             
+c/popsfile.h5 (2/6)
+  100 %        46,2 GiB / 119,9 GiB = 0,386   7,1 MiB/s    4:50:09             
+c/popsfile.h5.bk (3/6)
+  100 %        46,2 GiB / 119,9 GiB = 0,386   7,0 MiB/s    4:50:25             
+c/c/popsfile.h5 (4/6)
+  100 %        46,2 GiB / 119,9 GiB = 0,385   7,1 MiB/s    4:49:47             
+c/c/popsfile.h5.bk (5/6)
+  100 %        46,2 GiB / 119,9 GiB = 0,385   7,7 MiB/s    4:27:05             
+c/c/c/popsfile.h5 (6/6)
+  100 %        46,2 GiB / 119,9 GiB = 0,385   7,9 MiB/s    4:17:41  
