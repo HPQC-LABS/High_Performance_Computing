@@ -7697,3 +7697,757 @@ c/c/popsfile.h5.bk (5/6)
   100 %        46,2 GiB / 119,9 GiB = 0,385   7,7 MiB/s    4:27:05             
 c/c/c/popsfile.h5 (6/6)
   100 %        46,2 GiB / 119,9 GiB = 0,385   7,9 MiB/s    4:17:41  
+
+dattani@allogin1:/algpfs/dattani/femoco/DLA76/bad_fcidump_of_giovanni/mneci/HCIcore> xz -v -1 * noDefineDet/* noDefineDet/coreFrom6MayEmail/* noDefineDet/coreFrom6MayEmail/51.2m/* noDefineDet/coreFrom6MayEmail/51.2m/c/* noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/* noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/* noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/* noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/* noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/* noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/* 
+0awk (1/376)
+  100 %               184 B / 170 B = 1,082                                    
+0bwk (2/376)
+  100 %               152 B / 120 B = 1,267                                    
+0copy (3/376)
+  100 %               216 B / 282 B = 0,766                                    
+0exit (4/376)
+  100 %                 84 B / 28 B = 3,000                                    
+0git (5/376)
+  100 %             352 B / 1.003 B = 0,351                                    
+0readme (6/376)
+  100 %             768 B / 2.516 B = 0,305                                    
+0submit (7/376)
+  100 %             772 B / 2.864 B = 0,270                                    
+0writepopsfile (8/376)
+  100 %                 92 B / 33 B = 2,788                                    
+CORESPACE (9/376)
+  100 %   1.051,8 KiB / 8.819,9 KiB = 0,119                                    
+FCIDUMP (10/376)
+xz: FCIDUMP: Is a symbolic link, skipping
+fciqmc_stats (11/376)
+  100 %        83,0 KiB / 445,7 KiB = 0,186                                    
+fort.7 (12/376)
+  100 %                  60 B / 1 B > 9,999                                    
+initiator_stats (13/376)
+  100 %        74,2 KiB / 273,4 KiB = 0,271                                    
+input.Spawn (14/376)
+  100 %           1.020 B / 1.938 B = 0,526                                    
+job.err.88476 (15/376)
+  100 %               232 B / 179 B = 1,296                                    
+job.err.88477 (16/376)
+  100 %               188 B / 688 B = 0,273                                    
+job.out.88476 (17/376)
+  100 %                  32 B / 0 B > 9,999                                    
+job.out.88477 (18/376)
+  100 %                  32 B / 0 B > 9,999                                    
+noDefineDet (19/376)
+xz: noDefineDet: Is a directory, skipping
+ORBOCCUPATIONS (20/376)
+  100 %           1.156 B / 7.038 B = 0,164                                    
+output.Spawn (21/376)
+  100 %        24,7 KiB / 173,1 KiB = 0,143                                    
+popsfile.h5 (22/376)
+  100 %   2.836,6 KiB / 7.257,2 KiB = 0,391                                    
+RDMEstimates (23/376)
+  100 %               140 B / 260 B = 0,538                                    
+spawns_tofrom_excit (24/376)
+  100 %       173,7 KiB / 112,4 MiB = 0,002                   0:01             
+TRIALSPACE (25/376)
+  100 %             468 B / 2.190 B = 0,214                                    
+noDefineDet/0awk (26/376)
+  100 %               184 B / 170 B = 1,082                                    
+noDefineDet/0bwk (27/376)
+  100 %               152 B / 120 B = 1,267                                    
+noDefineDet/0copy (28/376)
+  100 %               216 B / 282 B = 0,766                                    
+noDefineDet/0exit (29/376)
+  100 %                 84 B / 28 B = 3,000                                    
+noDefineDet/0git (30/376)
+  100 %               272 B / 540 B = 0,504                                    
+noDefineDet/0readme (31/376)
+  100 %             768 B / 2.516 B = 0,305                                    
+noDefineDet/0submit (32/376)
+  100 %             772 B / 2.864 B = 0,270                                    
+noDefineDet/0writepopsfile (33/376)
+  100 %                 92 B / 33 B = 2,788                                    
+noDefineDet/coreFrom6MayEmail (34/376)
+xz: noDefineDet/coreFrom6MayEmail: Is a directory, skipping
+noDefineDet/CORESPACE (35/376)
+  100 %   1.051,8 KiB / 8.819,9 KiB = 0,119                                    
+noDefineDet/FCIDUMP (36/376)
+xz: noDefineDet/FCIDUMP: Is a symbolic link, skipping
+noDefineDet/fciqmc_stats (37/376)
+  100 %        86,1 KiB / 415,9 KiB = 0,207                                    
+noDefineDet/initiator_stats (38/376)
+  100 %        72,6 KiB / 255,2 KiB = 0,285                                   
+noDefineDet/input.Spawn (39/376)
+  100 %             896 B / 1.476 B = 0,607                                    
+noDefineDet/job.err.88469 (40/376)
+  100 %               188 B / 650 B = 0,289                                    
+noDefineDet/job.out.88469 (41/376)
+  100 %                  32 B / 0 B > 9,999                                    
+noDefineDet/ORBOCCUPATIONS (42/376)
+  100 %           1.184 B / 7.038 B = 0,168                                    
+noDefineDet/output.Spawn (43/376)
+  100 %        27,8 KiB / 168,2 KiB = 0,165                                    
+noDefineDet/popsfile.h5 (44/376)
+  100 %         23,5 MiB / 88,3 MiB = 0,266   8,6 MiB/s       0:10             
+noDefineDet/RDMEstimates (45/376)
+  100 %               136 B / 130 B = 1,046                                    
+noDefineDet/spawns_tofrom_excit (46/376)
+  100 %       262,0 KiB / 104,9 MiB = 0,002                   0:01             
+noDefineDet/TRIALSPACE (47/376)
+  100 %             468 B / 2.190 B = 0,214                                    
+noDefineDet/coreFrom6MayEmail/0awk (48/376)
+  100 %               184 B / 171 B = 1,076                                    
+noDefineDet/coreFrom6MayEmail/0bwk (49/376)
+  100 %               152 B / 120 B = 1,267                                    
+noDefineDet/coreFrom6MayEmail/0copy (50/376)
+  100 %               216 B / 283 B = 0,763                                    
+noDefineDet/coreFrom6MayEmail/0exit (51/376)
+  100 %                 84 B / 28 B = 3,000                                    
+noDefineDet/coreFrom6MayEmail/0git (52/376)
+  100 %             464 B / 1.252 B = 0,371                                    
+noDefineDet/coreFrom6MayEmail/0readme (53/376)
+  100 %             768 B / 2.516 B = 0,305                                    
+noDefineDet/coreFrom6MayEmail/0submit (54/376)
+  100 %             772 B / 2.864 B = 0,270                                    
+noDefineDet/coreFrom6MayEmail/0writepopsfile (55/376)
+  100 %                 92 B / 33 B = 2,788                                    
+noDefineDet/coreFrom6MayEmail/51.2m (56/376)
+xz: noDefineDet/coreFrom6MayEmail/51.2m: Is a directory, skipping
+noDefineDet/coreFrom6MayEmail/CORESPACE (57/376)
+  100 %   1.137,3 KiB / 8.819,9 KiB = 0,129                                    
+noDefineDet/coreFrom6MayEmail/double_occupancy_stats (58/376)
+  100 %     389,6 KiB / 1.600,6 KiB = 0,243                                    
+noDefineDet/coreFrom6MayEmail/double_occupancy_stats.1 (59/376)
+  100 %               120 B / 125 B = 0,960                                    
+noDefineDet/coreFrom6MayEmail/FCIDUMP (60/376)
+xz: noDefineDet/coreFrom6MayEmail/FCIDUMP: Is a symbolic link, skipping
+noDefineDet/coreFrom6MayEmail/fciqmc_stats (61/376)
+  100 %      6.671,2 KiB / 20,9 MiB = 0,312                   0:02             
+noDefineDet/coreFrom6MayEmail/fciqmc_stats.1 (62/376)
+  100 %             424 B / 1.623 B = 0,261                                    
+noDefineDet/coreFrom6MayEmail/fort.7 (63/376)
+  100 %                  60 B / 1 B > 9,999                                    
+noDefineDet/coreFrom6MayEmail/initiator_stats (64/376)
+  100 %      3.407,4 KiB / 12,8 MiB = 0,260                   0:01             
+noDefineDet/coreFrom6MayEmail/initiator_stats.1 (65/376)
+  100 %             300 B / 1.019 B = 0,294                                    
+noDefineDet/coreFrom6MayEmail/input.Spawn (66/376)
+  100 %           1.052 B / 2.171 B = 0,485                                    
+noDefineDet/coreFrom6MayEmail/job.err.95523 (67/376)
+  100 %               240 B / 302 B = 0,795                                    
+noDefineDet/coreFrom6MayEmail/job.err.95524 (68/376)
+  100 %          1.196 B / 55,9 KiB = 0,021                                    
+noDefineDet/coreFrom6MayEmail/job.err.95525 (69/376)
+  100 %               260 B / 606 B = 0,429                                    
+noDefineDet/coreFrom6MayEmail/job.err.95526 (70/376)
+  100 %            244 B / 26,8 KiB = 0,009                                    
+noDefineDet/coreFrom6MayEmail/job.out.95523 (71/376)
+  100 %                  32 B / 0 B > 9,999                                    
+noDefineDet/coreFrom6MayEmail/job.out.95524 (72/376)
+  100 %                  32 B / 0 B > 9,999                                    
+noDefineDet/coreFrom6MayEmail/job.out.95525 (73/376)
+  100 %                  32 B / 0 B > 9,999                                    
+noDefineDet/coreFrom6MayEmail/job.out.95526 (74/376)
+  100 %                  32 B / 0 B > 9,999                                    
+noDefineDet/coreFrom6MayEmail/nickParams (75/376)
+xz: noDefineDet/coreFrom6MayEmail/nickParams: Is a directory, skipping
+noDefineDet/coreFrom6MayEmail/NO_OCC_NUMEBRS.1 (76/376)
+  100 %          2.684 B / 13,8 KiB = 0,190                                    
+noDefineDet/coreFrom6MayEmail/NO_TRANSFORM.1 (77/376)
+  100 %        88,7 KiB / 546,8 KiB = 0,162                                    
+noDefineDet/coreFrom6MayEmail/OneRDM.1 (78/376)
+  100 %        43,2 KiB / 217,2 KiB = 0,199                                    
+noDefineDet/coreFrom6MayEmail/ORBOCCUPATIONS (79/376)
+  100 %           1.176 B / 7.038 B = 0,167                                    
+noDefineDet/coreFrom6MayEmail/output.Spawn (80/376)
+  100 %   1.287,9 KiB / 6.812,6 KiB = 0,189                                    
+noDefineDet/coreFrom6MayEmail/popsfile.h5 (81/376)
+  100 %       117,8 MiB / 505,6 MiB = 0,233   9,5 MiB/s       0:53             
+noDefineDet/coreFrom6MayEmail/popsfile.h5.bk (82/376)
+  100 %       117,8 MiB / 505,6 MiB = 0,233   9,4 MiB/s       0:53             
+noDefineDet/coreFrom6MayEmail/RDMEstimates (83/376)
+  100 %     761,7 KiB / 2.198,4 KiB = 0,346                                    
+noDefineDet/coreFrom6MayEmail/RDM_POPSFILE (84/376)
+  100 %     272,4 MiB / 1.130,8 MiB = 0,241   9,8 MiB/s       1:55             
+noDefineDet/coreFrom6MayEmail/ROFCIDUMP (85/376)
+  100 %        67,4 MiB / 343,2 MiB = 0,196    11 MiB/s       0:32             
+noDefineDet/coreFrom6MayEmail/spawns_tofrom_excit (86/376)
+  100 %      17,3 MiB / 5.416,8 MiB = 0,003    60 MiB/s       1:30             
+noDefineDet/coreFrom6MayEmail/spinfree_TwoRDM.1 (87/376)
+  100 %     258,9 MiB / 1.713,3 MiB = 0,151    14 MiB/s       2:01             
+noDefineDet/coreFrom6MayEmail/TRIALSPACE (88/376)
+  100 %             456 B / 2.190 B = 0,208                                    
+noDefineDet/coreFrom6MayEmail/TwoRDM_aaaa.1 (89/376)
+  100 %        26,9 MiB / 102,3 MiB = 0,263   8,9 MiB/s       0:11             
+noDefineDet/coreFrom6MayEmail/TwoRDM_abab.1 (90/376)
+  100 %         21,1 MiB / 79,6 MiB = 0,264   9,0 MiB/s       0:08             
+noDefineDet/coreFrom6MayEmail/TwoRDM_abba.1 (91/376)
+  100 %         19,7 MiB / 74,1 MiB = 0,265   8,9 MiB/s       0:08             
+noDefineDet/coreFrom6MayEmail/51.2m/0awk (92/376)
+  100 %               208 B / 436 B = 0,477                                    
+noDefineDet/coreFrom6MayEmail/51.2m/0bwk (93/376)
+  100 %               152 B / 120 B = 1,267                                    
+noDefineDet/coreFrom6MayEmail/51.2m/0copy (94/376)
+  100 %               216 B / 282 B = 0,766                                    
+noDefineDet/coreFrom6MayEmail/51.2m/0exit (95/376)
+  100 %                 84 B / 28 B = 3,000                                    
+noDefineDet/coreFrom6MayEmail/51.2m/0git (96/376)
+  100 %             476 B / 1.490 B = 0,319                                    
+noDefineDet/coreFrom6MayEmail/51.2m/0readme (97/376)
+  100 %             768 B / 2.516 B = 0,305                                    
+noDefineDet/coreFrom6MayEmail/51.2m/0submit (98/376)
+  100 %             772 B / 2.864 B = 0,270                                    
+noDefineDet/coreFrom6MayEmail/51.2m/0writepopsfile (99/376)
+  100 %                 92 B / 33 B = 2,788                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c (100/376)
+xz: noDefineDet/coreFrom6MayEmail/51.2m/c: Is a directory, skipping
+noDefineDet/coreFrom6MayEmail/51.2m/CORESPACE (101/376)
+  100 %   1.164,9 KiB / 8.819,9 KiB = 0,132                                    
+noDefineDet/coreFrom6MayEmail/51.2m/double_occupancy_stats (102/376)
+  100 %        67,0 KiB / 279,7 KiB = 0,239                                    
+noDefineDet/coreFrom6MayEmail/51.2m/FCIDUMP (103/376)
+xz: noDefineDet/coreFrom6MayEmail/51.2m/FCIDUMP: Is a symbolic link, skipping
+noDefineDet/coreFrom6MayEmail/51.2m/fciqmc_stats (104/376)
+  100 %      7.692,8 KiB / 24,5 MiB = 0,306   8,0 MiB/s       0:03             
+noDefineDet/coreFrom6MayEmail/51.2m/initiator_stats (105/376)
+  100 %      4.058,4 KiB / 15,1 MiB = 0,263                   0:01             
+noDefineDet/coreFrom6MayEmail/51.2m/input.Spawn (106/376)
+  100 %           1.056 B / 2.177 B = 0,485                                    
+noDefineDet/coreFrom6MayEmail/51.2m/job.err.95759 (107/376)
+  100 %         2.508 B / 122,4 KiB = 0,020                                    
+noDefineDet/coreFrom6MayEmail/51.2m/job.err.95760 (108/376)
+  100 %             208 B / 4.881 B = 0,043                                    
+noDefineDet/coreFrom6MayEmail/51.2m/job.out.95759 (109/376)
+  100 %                  32 B / 0 B > 9,999                                    
+noDefineDet/coreFrom6MayEmail/51.2m/job.out.95760 (110/376)
+  100 %                  32 B / 0 B > 9,999                                    
+noDefineDet/coreFrom6MayEmail/51.2m/NO_OCC_NUMEBRS.1 (111/376)
+  100 %          2.684 B / 13,8 KiB = 0,190                                    
+noDefineDet/coreFrom6MayEmail/51.2m/NO_TRANSFORM.1 (112/376)
+  100 %        88,6 KiB / 546,8 KiB = 0,162                                   
+noDefineDet/coreFrom6MayEmail/51.2m/OneRDM.1 (113/376)
+  100 %        43,5 KiB / 217,2 KiB = 0,200                                    
+noDefineDet/coreFrom6MayEmail/51.2m/ORBOCCUPATIONS (114/376)
+  100 %           1.168 B / 7.038 B = 0,166                                    
+noDefineDet/coreFrom6MayEmail/51.2m/output.Spawn (115/376)
+  100 %     226,8 KiB / 1.281,7 KiB = 0,177                                    
+noDefineDet/coreFrom6MayEmail/51.2m/popsfile.h5 (116/376)
+  100 %     823,8 MiB / 3.776,5 MiB = 0,218   9,7 MiB/s       6:31             
+noDefineDet/coreFrom6MayEmail/51.2m/popsfile.h5.bk (117/376)
+  100 %     823,8 MiB / 3.776,4 MiB = 0,218   9,8 MiB/s       6:23             
+noDefineDet/coreFrom6MayEmail/51.2m/RDMEstimates (118/376)
+  100 %     874,4 KiB / 2.550,6 KiB = 0,343                                    
+noDefineDet/coreFrom6MayEmail/51.2m/RDM_POPSFILE (119/376)
+  100 %     432,1 MiB / 1.134,0 MiB = 0,381   7,3 MiB/s       2:35             
+noDefineDet/coreFrom6MayEmail/51.2m/ROFCIDUMP (120/376)
+  100 %        66,6 MiB / 343,2 MiB = 0,194    11 MiB/s       0:30             
+noDefineDet/coreFrom6MayEmail/51.2m/spawns_tofrom_excit (121/376)
+  100 %     3.403,2 KiB / 944,0 MiB = 0,004    60 MiB/s       0:15             
+noDefineDet/coreFrom6MayEmail/51.2m/spinfree_TwoRDM.1 (122/376)
+  100 %     403,9 MiB / 2.786,5 MiB = 0,145    15 MiB/s       3:09             
+noDefineDet/coreFrom6MayEmail/51.2m/TRIALSPACE (123/376)
+  100 %          2.988 B / 21,4 KiB = 0,136                                    
+noDefineDet/coreFrom6MayEmail/51.2m/TwoRDM_aaaa.1 (124/376)
+  100 %        45,4 MiB / 176,9 MiB = 0,257   9,2 MiB/s       0:19             
+noDefineDet/coreFrom6MayEmail/51.2m/TwoRDM_abab.1 (125/376)
+  100 %        45,9 MiB / 178,5 MiB = 0,257   9,2 MiB/s       0:19             
+noDefineDet/coreFrom6MayEmail/51.2m/TwoRDM_abba.1 (126/376)
+  100 %        42,3 MiB / 164,4 MiB = 0,257   9,1 MiB/s       0:18             
+noDefineDet/coreFrom6MayEmail/51.2m/c/0awk (127/376)
+  100 %               208 B / 436 B = 0,477                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/0bwk (128/376)
+  100 %               152 B / 120 B = 1,267                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/0copy (129/376)
+  100 %               216 B / 282 B = 0,766                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/0exit (130/376)
+  100 %                 84 B / 28 B = 3,000                                   
+noDefineDet/coreFrom6MayEmail/51.2m/c/0git (131/376)
+  100 %               272 B / 540 B = 0,504                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/0readme (132/376)
+  100 %             768 B / 2.516 B = 0,305                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/0submit (133/376)
+  100 %             772 B / 2.854 B = 0,270                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/0writepopsfile (134/376)
+  100 %                 92 B / 33 B = 2,788                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/CORESPACE (135/376)
+  100 %   1.164,9 KiB / 8.819,9 KiB = 0,132                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/double_occupancy_stats (136/376)
+  100 %        44,3 KiB / 208,0 KiB = 0,213                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/FCIDUMP (137/376)
+xz: noDefineDet/coreFrom6MayEmail/51.2m/c/FCIDUMP: Is a symbolic link, skipping
+noDefineDet/coreFrom6MayEmail/51.2m/c/fciqmc_stats (138/376)
+  100 %      8.531,7 KiB / 27,3 MiB = 0,306   8,0 MiB/s       0:03             
+noDefineDet/coreFrom6MayEmail/51.2m/c/fort.7 (139/376)
+  100 %                  60 B / 1 B > 9,999                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/initiator_stats (140/376)
+  100 %      4.519,5 KiB / 16,7 MiB = 0,264                   0:01             
+noDefineDet/coreFrom6MayEmail/51.2m/c/input.Spawn (141/376)
+  100 %           1.056 B / 2.171 B = 0,486                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/job.err.35974 (142/376)
+  100 %             268 B / 3.790 B = 0,071                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/job.err.95956 (143/376)
+  100 %         4.512 B / 707,0 KiB = 0,006                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/job.out.35974 (144/376)
+  100 %                  32 B / 0 B > 9,999                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/job.out.95956 (145/376)
+  100 %                  32 B / 0 B > 9,999                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/NO_OCC_NUMEBRS.1 (146/376)
+  100 %          2.676 B / 13,8 KiB = 0,189                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/NO_TRANSFORM.1 (147/376)
+  100 %        88,7 KiB / 546,8 KiB = 0,162                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/OneRDM.1 (148/376)
+  100 %        43,3 KiB / 217,2 KiB = 0,199                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/ORBOCCUPATIONS (149/376)
+  100 %           1.176 B / 7.038 B = 0,167                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/output.Spawn (150/376)
+  100 %     189,8 KiB / 1.068,8 KiB = 0,178                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/popsfile.h5 (151/376)
+  100 %     822,7 MiB / 3.780,5 MiB = 0,218    11 MiB/s       5:54             
+noDefineDet/coreFrom6MayEmail/51.2m/c/popsfile.h5.bk (152/376)
+  100 %     822,7 MiB / 3.780,4 MiB = 0,218    11 MiB/s       5:55             
+noDefineDet/coreFrom6MayEmail/51.2m/c/RDMEstimates (153/376)
+  100 %     996,1 KiB / 2.937,7 KiB = 0,339                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/RDM_POPSFILE (154/376)
+  100 %     441,5 MiB / 1.134,1 MiB = 0,389   8,1 MiB/s       2:19             
+noDefineDet/coreFrom6MayEmail/51.2m/c/ROFCIDUMP (155/376)
+  100 %        66,6 MiB / 343,2 MiB = 0,194    12 MiB/s       0:29             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spawns_tofrom_excit (156/376)
+  100 %     2.395,7 KiB / 703,4 MiB = 0,003    62 MiB/s       0:11             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinfree_TwoRDM.1 (157/376)
+  100 %     405,7 MiB / 2.809,5 MiB = 0,144    15 MiB/s       3:05            
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM (158/376)
+xz: noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM: Is a directory, skipping
+noDefineDet/coreFrom6MayEmail/51.2m/c/TRIALSPACE (159/376)
+  100 %          2.864 B / 21,4 KiB = 0,131                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/TwoRDM_aaaa.1 (160/376)
+  100 %        46,0 MiB / 179,3 MiB = 0,257   9,4 MiB/s       0:19             
+noDefineDet/coreFrom6MayEmail/51.2m/c/TwoRDM_abab.1 (161/376)
+  100 %        46,8 MiB / 182,0 MiB = 0,257   9,4 MiB/s       0:19             
+noDefineDet/coreFrom6MayEmail/51.2m/c/TwoRDM_abba.1 (162/376)
+  100 %        43,2 MiB / 168,0 MiB = 0,257   9,4 MiB/s       0:17             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/0awk (163/376)
+  100 %               208 B / 436 B = 0,477                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/0bwk (164/376)
+  100 %               152 B / 120 B = 1,267                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/0copy (165/376)
+  100 %               216 B / 283 B = 0,763                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/0exit (166/376)
+  100 %                 84 B / 28 B = 3,000                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/0git (167/376)
+  100 %               272 B / 540 B = 0,504                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/0readme (168/376)
+  100 %             768 B / 2.516 B = 0,305                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/0submit (169/376)
+  100 %             776 B / 2.852 B = 0,272                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/0writepopsfile (170/376)
+  100 %                 92 B / 33 B = 2,788                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c (171/376)
+xz: noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c: Is a directory, skipping
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/CORESPACE (172/376)
+  100 %   1.185,5 KiB / 8.819,9 KiB = 0,134                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/double_occupancy_stats (173/376)
+  100 %          3.512 B / 14,8 KiB = 0,231                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/FCIDUMP (174/376)
+xz: noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/FCIDUMP: Is a symbolic link, skipping
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/fciqmc_stats (175/376)
+  100 %      8.592,5 KiB / 27,5 MiB = 0,306   8,4 MiB/s       0:03             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/fort.7 (176/376)
+  100 %                  60 B / 1 B > 9,999                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/initiator_stats (177/376)
+  100 %      4.552,5 KiB / 16,8 MiB = 0,264                   0:01             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/input.Spawn (178/376)
+  100 %           1.072 B / 2.196 B = 0,488                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/job.err.98850 (179/376)
+  100 %         6.032 B / 989,9 KiB = 0,006                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/job.err.98854 (180/376)
+  100 %          3.996 B / 45,7 KiB = 0,085                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/job.out.98850 (181/376)
+  100 %                  32 B / 0 B > 9,999                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/job.out.98854 (182/376)
+  100 %                  32 B / 0 B > 9,999                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/NO_OCC_NUMEBRS.1 (183/376)
+  100 %          4.108 B / 13,8 KiB = 0,290                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/NO_TRANSFORM.1 (184/376)
+  100 %       148,6 KiB / 546,8 KiB = 0,272                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/OneRDM.1 (185/376)
+  100 %        72,2 KiB / 217,2 KiB = 0,333                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/ORBOCCUPATIONS (186/376)
+  100 %           1.188 B / 7.038 B = 0,169                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/output.Spawn (187/376)
+  100 %        23,3 KiB / 139,1 KiB = 0,167                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/popsfile.h5 (188/376)
+  100 %     840,8 MiB / 3.774,3 MiB = 0,223    10 MiB/s       6:03             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/popsfile.h5.bk (189/376)
+  100 %     841,3 MiB / 3.773,6 MiB = 0,223    10 MiB/s       6:01             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/RDMEstimates (190/376)
+  100 %   1.006,2 KiB / 2.969,7 KiB = 0,339                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/RDM_POPSFILE (191/376)
+  100 %     316,1 MiB / 1.119,4 MiB = 0,282    10 MiB/s       1:47             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/spawns_tofrom_excit (192/376)
+  100 %        165,0 KiB / 49,8 MiB = 0,003                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/spinfree_TwoRDM.1 (193/376)
+  100 %     316,7 MiB / 2.181,1 MiB = 0,145    15 MiB/s       2:21             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/TRIALSPACE (194/376)
+  100 %          2.924 B / 21,4 KiB = 0,134                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/TwoRDM_aaaa.1 (195/376)
+  100 %        27,2 MiB / 103,7 MiB = 0,262   9,4 MiB/s       0:11             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/TwoRDM_abab.1 (196/376)
+  100 %         25,2 MiB / 96,3 MiB = 0,262   9,3 MiB/s       0:10             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/TwoRDM_abba.1 (197/376)
+  100 %         21,1 MiB / 80,3 MiB = 0,263   9,3 MiB/s       0:08             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/TwoRDM_baab.1 (198/376)
+  100 %         20,0 MiB / 76,3 MiB = 0,262   9,4 MiB/s       0:08             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/TwoRDM_baba.1 (199/376)
+  100 %         21,7 MiB / 82,8 MiB = 0,262   9,4 MiB/s       0:08             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/TwoRDM_bbbb.1 (200/376)
+  100 %        27,6 MiB / 105,9 MiB = 0,261   9,4 MiB/s       0:11             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/0awk (201/376)
+  100 %               208 B / 436 B = 0,477                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/0bwk (202/376)
+  100 %               152 B / 120 B = 1,267                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/0copy (203/376)
+  100 %               216 B / 283 B = 0,763                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/0exit (204/376)
+  100 %                 84 B / 28 B = 3,000                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/0git (205/376)
+  100 %               272 B / 540 B = 0,504                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/0readme (206/376)
+  100 %             768 B / 2.516 B = 0,305                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/0submit (207/376)
+  100 %             776 B / 2.852 B = 0,272                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/0writepopsfile (208/376)
+  100 %                 92 B / 33 B = 2,788                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c (209/376)
+xz: noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c: Is a directory, skipping
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/CORESPACE (210/376)
+  100 %   1.185,5 KiB / 8.819,9 KiB = 0,134                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/double_occupancy_stats (211/376)
+  100 %        35,0 KiB / 168,8 KiB = 0,207                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/FCIDUMP (212/376)
+xz: noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/FCIDUMP: Is a symbolic link, skipping
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/fciqmc_stats (213/376)
+  100 %      9.278,9 KiB / 29,7 MiB = 0,306   8,4 MiB/s       0:03             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/initiator_stats (214/376)
+  100 %      4.924,8 KiB / 18,2 MiB = 0,264                   0:01             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/input.Spawn (215/376)
+  100 %           1.072 B / 2.196 B = 0,488                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/job.err.99266 (216/376)
+  100 %             484 B / 1.832 B = 0,264                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/job.out.99266 (217/376)
+  100 %                  32 B / 0 B > 9,999                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/output.Spawn (218/376)
+  100 %       155,4 KiB / 855,0 KiB = 0,182                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/popsfile.h5 (219/376)
+  100 %     827,6 MiB / 3.781,9 MiB = 0,219    11 MiB/s       5:55             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/popsfile.h5.bk (220/376)
+  100 %     827,6 MiB / 3.781,8 MiB = 0,219    11 MiB/s       5:56             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/RDMEstimates (221/376)
+  100 %   1.121,1 KiB / 3.335,3 KiB = 0,336                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/spawns_tofrom_excit (222/376)
+  100 %     1.908,6 KiB / 571,0 MiB = 0,003    63 MiB/s       0:09             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/TRIALSPACE (223/376)
+  100 %          2.924 B / 21,4 KiB = 0,134                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/0awk (224/376)
+  100 %               208 B / 436 B = 0,477                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/0bwk (225/376)
+  100 %               152 B / 120 B = 1,267                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/0copy (226/376)
+  100 %               216 B / 283 B = 0,763                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/0exit (227/376)
+  100 %                 84 B / 28 B = 3,000                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/0git (228/376)
+  100 %               272 B / 540 B = 0,504                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/0readme (229/376)
+  100 %             768 B / 2.516 B = 0,305                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/0submit (230/376)
+  100 %             776 B / 2.852 B = 0,272                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/0writepopsfile (231/376)
+  100 %                 92 B / 33 B = 2,788                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/CORESPACE (232/376)
+  100 %   1.164,9 KiB / 8.819,9 KiB = 0,132                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci (233/376)
+xz: noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci: Is a directory, skipping
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/double_occupancy_stats (234/376)
+  100 %          4.536 B / 19,6 KiB = 0,226                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/FCIDUMP (235/376)
+xz: noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/FCIDUMP: Is a symbolic link, skipping
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/fciqmc_stats (236/376)
+  100 %      9.358,9 KiB / 29,9 MiB = 0,306   8,3 MiB/s       0:03             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/initiator_stats (237/376)
+  100 %      4.968,0 KiB / 18,3 MiB = 0,264                   0:01             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/input.Spawn (238/376)
+  100 %           1.072 B / 2.196 B = 0,488                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/job.err.100502 (239/376)
+  100 %          3.780 B / 38,2 KiB = 0,097                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/job.out.100502 (240/376)
+  100 %                  32 B / 0 B > 9,999                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/NO_OCC_NUMEBRS.1 (241/376)
+  100 %          4.112 B / 13,8 KiB = 0,290                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/NO_TRANSFORM.1 (242/376)
+  100 %       148,6 KiB / 546,8 KiB = 0,272                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/OneRDM.1 (243/376)
+  100 %        72,3 KiB / 217,2 KiB = 0,333                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/ORBOCCUPATIONS (244/376)
+  100 %           1.172 B / 7.038 B = 0,167                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/output.Spawn (245/376)
+  100 %        27,5 KiB / 155,9 KiB = 0,176                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/popsfile.h5 (246/376)
+  100 %     837,5 MiB / 3.774,3 MiB = 0,222    10 MiB/s       6:00             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/popsfile.h5.bk (247/376)
+  100 %     838,6 MiB / 3.774,0 MiB = 0,222    10 MiB/s       6:03             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/RDMEstimates (248/376)
+  100 %   1.134,5 KiB / 3.377,6 KiB = 0,336                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/RDM_POPSFILE (249/376)
+  100 %     330,6 MiB / 1.123,2 MiB = 0,294   9,9 MiB/s       1:53             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/spawns_tofrom_excit (250/376)
+  100 %        217,3 KiB / 65,8 MiB = 0,003                   0:01             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/spinfree_TwoRDM.1 (251/376)
+  100 %     331,4 MiB / 2.282,6 MiB = 0,145    15 MiB/s       2:29             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/TRIALSPACE (252/376)
+  100 %          2.864 B / 21,4 KiB = 0,131                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/TwoRDM_aaaa.1 (253/376)
+  100 %        28,7 MiB / 110,1 MiB = 0,261   9,4 MiB/s       0:11             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/TwoRDM_abab.1 (254/376)
+  100 %        27,3 MiB / 104,7 MiB = 0,261   9,4 MiB/s       0:11             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/TwoRDM_abba.1 (255/376)
+  100 %         23,0 MiB / 87,6 MiB = 0,262   9,4 MiB/s       0:09             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/TwoRDM_baab.1 (256/376)
+  100 %         21,9 MiB / 83,8 MiB = 0,262   9,4 MiB/s       0:08             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/TwoRDM_baba.1 (257/376)
+  100 %         23,9 MiB / 91,4 MiB = 0,262   9,4 MiB/s       0:09             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/TwoRDM_bbbb.1 (258/376)
+  100 %        29,6 MiB / 113,9 MiB = 0,260   9,5 MiB/s       0:12             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/0awk (259/376)
+  100 %               208 B / 436 B = 0,477                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/0bwk (260/376)
+  100 %               152 B / 120 B = 1,267                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/0copy (261/376)
+  100 %               216 B / 283 B = 0,763                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/0exit (262/376)
+  100 %                 84 B / 28 B = 3,000                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/0git (263/376)
+  100 %               272 B / 540 B = 0,504                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/0readme (264/376)
+  100 %             768 B / 2.516 B = 0,305                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/0submit (265/376)
+  100 %             776 B / 2.852 B = 0,272                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/0writepopsfile (266/376)
+  100 %                 92 B / 33 B = 2,788                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/CORESPACE (267/376)
+  100 %   1.164,9 KiB / 8.819,9 KiB = 0,132                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/double_occupancy_stats (268/376)
+  100 %        27,2 KiB / 128,3 KiB = 0,212                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/FCIDUMP (269/376)
+xz: noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/FCIDUMP: Is a symbolic link, skipping
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/FCIMCStats (270/376)
+  100 %     302,4 KiB / 1.281,1 KiB = 0,236                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/FCIMCStats2 (271/376)
+  100 %     294,4 KiB / 1.274,6 KiB = 0,231                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/fciqmc_stats (272/376)
+  100 %      9.358,9 KiB / 29,9 MiB = 0,306   8,3 MiB/s       0:03             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/initiator_stats (273/376)
+  100 %      4.968,0 KiB / 18,3 MiB = 0,264                   0:01             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/INITIATORStats (274/376)
+  100 %        91,5 KiB / 652,3 KiB = 0,140                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/input.Spawn (275/376)
+  100 %           1.072 B / 2.196 B = 0,488                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/job.err.100715 (276/376)
+  100 %          3.744 B / 38,1 KiB = 0,096                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/job.out.100715 (277/376)
+  100 %                  32 B / 0 B > 9,999                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging (278/376)
+xz: noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging: Is a directory, skipping
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/NO_OCC_NUMEBRS.1 (279/376)
+  100 %          4.096 B / 13,8 KiB = 0,289                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/NO_TRANSFORM.1 (280/376)
+  100 %       148,7 KiB / 546,8 KiB = 0,272                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/OneRDM.1 (281/376)
+  100 %        72,3 KiB / 217,2 KiB = 0,333                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/ORBOCCUPATIONS (282/376)
+  100 %           1.176 B / 7.038 B = 0,167                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/output.Spawn (283/376)
+  100 %       157,3 KiB / 862,3 KiB = 0,182                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/popsfile.h5 (284/376)
+  100 %     822,6 MiB / 3.779,2 MiB = 0,218    11 MiB/s       5:55             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/popsfile.h5.bk (285/376)
+  100 %     822,6 MiB / 3.779,1 MiB = 0,218    11 MiB/s       5:55             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/RDMEstimates (286/376)
+  100 %   1.222,2 KiB / 3.655,5 KiB = 0,334                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/RDM_POPSFILE (287/376)
+  100 %     425,2 MiB / 1.133,5 MiB = 0,375   8,5 MiB/s       2:13             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/spawns_tofrom_excit (288/376)
+  100 %     1.424,8 KiB / 433,9 MiB = 0,003    63 MiB/s       0:06             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/spinfree_TwoRDM.1 (289/376)
+  100 %     400,2 MiB / 2.768,8 MiB = 0,145    15 MiB/s       3:00             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/TRIALSPACE (290/376)
+  100 %          2.864 B / 21,4 KiB = 0,131                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/TwoRDM_aaaa.1 (291/376)
+  100 %        40,5 MiB / 156,8 MiB = 0,258   9,5 MiB/s       0:16             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/TwoRDM_abab.1 (292/376)
+  100 %        41,5 MiB / 160,9 MiB = 0,258   9,5 MiB/s       0:17             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/TwoRDM_abba.1 (293/376)
+  100 %        36,7 MiB / 142,2 MiB = 0,258   9,4 MiB/s       0:15             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/TwoRDM_baab.1 (294/376)
+  100 %        36,1 MiB / 139,6 MiB = 0,258   9,5 MiB/s       0:14             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/TwoRDM_baba.1 (295/376)
+  100 %        39,3 MiB / 152,2 MiB = 0,258   9,4 MiB/s       0:16             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/TwoRDM_bbbb.1 (296/376)
+  100 %        41,8 MiB / 162,3 MiB = 0,257   9,5 MiB/s       0:17             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/0awk (297/376)
+  100 %               208 B / 436 B = 0,477                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/0bwk (298/376)
+  100 %               152 B / 120 B = 1,267                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/0copy (299/376)
+  100 %               216 B / 283 B = 0,763                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/0exit (300/376)
+  100 %                 84 B / 28 B = 3,000                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/0git (301/376)
+  100 %               272 B / 540 B = 0,504                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/0readme (302/376)
+  100 %             768 B / 2.516 B = 0,305                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/0submit (303/376)
+  100 %             776 B / 2.852 B = 0,272                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/0writepopsfile (304/376)
+  100 %                 92 B / 33 B = 2,788                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/Blocks_denom (305/376)
+  100 %               152 B / 142 B = 1,070                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/Blocks_imnum (306/376)
+  100 %               164 B / 142 B = 1,155                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/Blocks_num (307/376)
+  100 %               164 B / 142 B = 1,155                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/Blocks_proje_im (308/376)
+  100 %               168 B / 142 B = 1,183                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/Blocks_proje_re (309/376)
+  100 %               172 B / 142 B = 1,211                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/Blocks_shift (310/376)
+  100 %               212 B / 228 B = 0,930                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c (311/376)
+xz: noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c: Is a directory, skipping
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/CORESPACE (312/376)
+  100 %   1.164,9 KiB / 8.819,9 KiB = 0,132                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/FCIDUMP (313/376)
+xz: noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/FCIDUMP: Is a symbolic link, skipping
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/FCIMCStats (314/376)
+  100 %     303,9 KiB / 1.286,4 KiB = 0,236                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/FCIMCStats2 (315/376)
+  100 %           1.636 B / 5.365 B = 0,305                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/fciqmc_stats (316/376)
+  100 %      9.358,9 KiB / 29,9 MiB = 0,306   8,3 MiB/s       0:03             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/initiator_stats (317/376)
+  100 %      4.968,0 KiB / 18,3 MiB = 0,264                   0:01             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/INITIATORStats (318/376)
+  100 %        91,8 KiB / 655,0 KiB = 0,140                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/input.Spawn (319/376)
+  100 %           1.112 B / 2.336 B = 0,476                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/job.err.101513 (320/376)
+  100 %               184 B / 120 B = 1,533                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/job.out.101513 (321/376)
+  100 %                  32 B / 0 B > 9,999                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/NO_OCC_NUMEBRS.1 (322/376)
+  100 %          4.176 B / 13,8 KiB = 0,295                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/NO_TRANSFORM.1 (323/376)
+  100 %       148,6 KiB / 546,8 KiB = 0,272                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/OneRDM.1 (324/376)
+  100 %        72,0 KiB / 216,6 KiB = 0,332                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/output.Spawn (325/376)
+  100 %         12,0 KiB / 57,1 KiB = 0,211                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/popsfile.h5 (326/376)
+  100 %     820,6 MiB / 3.769,1 MiB = 0,218    11 MiB/s       5:53             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/popsfile.h5.bk (327/376)
+  100 %     822,6 MiB / 3.779,1 MiB = 0,218    11 MiB/s       5:54             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/RDMEstimates (328/376)
+  100 %   1.222,5 KiB / 3.656,6 KiB = 0,334                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/RDM_POPSFILE (329/376)
+  100 %       221,8 MiB / 900,8 MiB = 0,246    11 MiB/s       1:20             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/TRIALSPACE (330/376)
+  100 %          2.864 B / 21,4 KiB = 0,131                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/TwoRDM_aaaa.1 (331/376)
+  100 %         14,9 MiB / 57,3 MiB = 0,259   9,5 MiB/s       0:06             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/TwoRDM_abab.1 (332/376)
+  100 %      9.790,0 KiB / 36,5 MiB = 0,262   9,5 MiB/s       0:03             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/TwoRDM_abba.1 (333/376)
+  100 %      9.374,6 KiB / 35,1 MiB = 0,261   9,4 MiB/s       0:03             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/TwoRDM_baab.1 (334/376)
+  100 %      7.987,2 KiB / 30,2 MiB = 0,258   9,5 MiB/s       0:03             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/TwoRDM_baba.1 (335/376)
+  100 %      7.418,7 KiB / 28,0 MiB = 0,259                   0:02             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/TwoRDM_bbbb.1 (336/376)
+  100 %         12,4 MiB / 48,1 MiB = 0,258   9,5 MiB/s       0:05             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/0awk (337/376)
+  100 %               208 B / 436 B = 0,477                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/0bwk (338/376)
+  100 %               152 B / 120 B = 1,267                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/0copy (339/376)
+  100 %               216 B / 283 B = 0,763                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/0exit (340/376)
+  100 %                 84 B / 28 B = 3,000                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/0git (341/376)
+  100 %               272 B / 540 B = 0,504                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/0readme (342/376)
+  100 %             768 B / 2.516 B = 0,305                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/0submit (343/376)
+  100 %             776 B / 2.852 B = 0,272                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/0writepopsfile (344/376)
+  100 %                 92 B / 33 B = 2,788                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/blocking.py (345/376)
+  100 %          5.144 B / 16,1 KiB = 0,311                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/Blocks_denom (346/376)
+  100 %               476 B / 916 B = 0,520                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/Blocks_imnum (347/376)
+  100 %               492 B / 916 B = 0,537                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/Blocks_num (348/376)
+  100 %               488 B / 916 B = 0,533                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/Blocks_proje_im (349/376)
+  100 %               512 B / 916 B = 0,559                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/Blocks_proje_re (350/376)
+  100 %               500 B / 916 B = 0,546                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/Blocks_shift (351/376)
+  100 %               488 B / 916 B = 0,533                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/CORESPACE (352/376)
+  100 %   1.164,9 KiB / 8.819,9 KiB = 0,132                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/FCIDUMP (353/376)
+xz: noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/FCIDUMP: Is a symbolic link, skipping
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/FCIMCStats (354/376)
+  100 %     584,4 KiB / 2.473,8 KiB = 0,236                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/FCIMCStats2 (355/376)
+  100 %     272,3 KiB / 1.181,5 KiB = 0,230                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/fciqmc_stats (356/376)
+  100 %      9.358,9 KiB / 29,9 MiB = 0,306   8,4 MiB/s       0:03             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/initiator_stats (357/376)
+  100 %      4.968,0 KiB / 18,3 MiB = 0,264                   0:01             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/INITIATORStats (358/376)
+  100 %     176,2 KiB / 1.259,7 KiB = 0,140                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/input.Spawn (359/376)
+  100 %           1.112 B / 2.336 B = 0,476                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/job.err.101514 (360/376)
+  100 %               184 B / 120 B = 1,533                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/job.out.101514 (361/376)
+  100 %                  32 B / 0 B > 9,999                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/NO_OCC_NUMEBRS.1 (362/376)
+  100 %          4.136 B / 13,8 KiB = 0,292                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/NO_TRANSFORM.1 (363/376)
+  100 %       148,8 KiB / 546,8 KiB = 0,272                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/OneRDM.1 (364/376)
+  100 %        72,4 KiB / 217,2 KiB = 0,333                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/output.Spawn (365/376)
+  100 %       145,0 KiB / 784,0 KiB = 0,185                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/popsfile.h5 (366/376)
+  100 %     822,3 MiB / 3.779,0 MiB = 0,218    11 MiB/s       5:56             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/popsfile.h5.bk (367/376)
+  100 %     822,6 MiB / 3.779,1 MiB = 0,218    11 MiB/s       5:54             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/RDMEstimates (368/376)
+  100 %   1.303,7 KiB / 3.914,3 KiB = 0,333                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/RDM_POPSFILE (369/376)
+  100 %     421,1 MiB / 1.133,4 MiB = 0,372   8,6 MiB/s       2:11             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/TRIALSPACE (370/376)
+  100 %          2.864 B / 21,4 KiB = 0,131                                    
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/TwoRDM_aaaa.1 (371/376)
+  100 %        40,0 MiB / 155,0 MiB = 0,258   9,5 MiB/s       0:16             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/TwoRDM_abab.1 (372/376)
+  100 %        41,0 MiB / 158,8 MiB = 0,258   9,5 MiB/s       0:16             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/TwoRDM_abba.1 (373/376)
+  100 %        36,2 MiB / 140,0 MiB = 0,259   9,5 MiB/s       0:14             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/TwoRDM_baab.1 (374/376)
+  100 %        35,5 MiB / 137,3 MiB = 0,259   9,4 MiB/s       0:14             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/TwoRDM_baba.1 (375/376)
+  100 %        38,7 MiB / 149,8 MiB = 0,259   9,4 MiB/s       0:15             
+noDefineDet/coreFrom6MayEmail/51.2m/c/spinResolvedRDM/c/c/dneci/lessLogging/c/TwoRDM_bbbb.1 (376/376)
+  100 %        41,4 MiB / 160,7 MiB = 0,257   9,5 MiB/s       0:16  
