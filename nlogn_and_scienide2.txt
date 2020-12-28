@@ -32,7 +32,8 @@ sys     4m1.789s
                 /project (group def-qdg)            12k/1000G               4/500k
 [nike@gra-login1 def-nike-ab]$
 
-Number of files is what was exceeded, not disk space!
+
+!!! Number of files is what was exceeded, not disk space!
 
 
 [nike@gra-login3 nike-nlogn]$ scp -r Backup_Scienide2_2017_06_05.tar dattani@mz4.fkf.mpg.de:
