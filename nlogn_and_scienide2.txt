@@ -1,0 +1,35 @@
+[nike@gra-login3 nike-nlogn]$ ls -l -t -h
+total 13G
+-rw-r-----  1 nike def-nike-ab  44G Dec 28 01:42 Backup_Scienide2_2017_06_05.tar
+-rw-r-----  1 nike def-nike-ab 2.6G Dec 28 01:00 ndattani_nlogn_minus_scienide2backup.tar.gz
+drwxr-s--- 37 nike def-nike-ab 4.0K Aug  8  2019 ndattani_nlogn_minus_scienide2backup
+
+
+[nike@gra-login1 nike-nlogn]$ time tar -xvf Backup_Scienide2_2017_06_05.tar
+Bakcup_Scienide2_2017_06_05/yes
+tar: Bakcup_Scienide2_2017_06_05/yes: Cannot open: Disk quota exceeded
+tar: Exiting with failure status due to previous errors
+
+real    8m43.915s
+user    0m5.995s
+sys     4m1.789s
+=============================
+
+[nike@gra-login1 nike]$ du -hsx * | sort -rh | head -100
+41T     nike-globalwork
+6.8T    nike-mcrowley-graham
+403G    pool2gra
+20G     nike-nlogn
+[nike@gra-login1 nike]$
+
+[nike@gra-login1 def-nike-ab]$ quota
+                             Description                Space           # of files
+                       /home (user nike)              40G/53G            243k/500k
+                    /scratch (user nike)             11M/100T             2637/10M
+                   /project (group nike)          7914k/2048k               9/500k
+           /project (group def-tzeng-ab)            36G/1000G             42k/505k
+            /project (group def-nike-ab)             51T/100T            505k/505k
+                /project (group def-qdg)            12k/1000G               4/500k
+[nike@gra-login1 def-nike-ab]$
+
+Number of files is what was exceeded, not disk space!
