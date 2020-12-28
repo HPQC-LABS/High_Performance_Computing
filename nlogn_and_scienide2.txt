@@ -6,6 +6,9 @@ drwxr-s--- 37 nike def-nike-ab 4.0K Aug  8  2019 ndattani_nlogn_minus_scienide2b
 
 
 [nike@gra-login1 nike-nlogn]$ time tar -xvf Backup_Scienide2_2017_06_05.tar
+
+[gave many lines] then:
+
 Bakcup_Scienide2_2017_06_05/yes
 tar: Bakcup_Scienide2_2017_06_05/yes: Cannot open: Disk quota exceeded
 tar: Exiting with failure status due to previous errors
