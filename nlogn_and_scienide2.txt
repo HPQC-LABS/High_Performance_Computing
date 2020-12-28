@@ -33,3 +33,46 @@ sys     4m1.789s
 [nike@gra-login1 def-nike-ab]$
 
 Number of files is what was exceeded, not disk space!
+
+
+[nike@gra-login3 nike-nlogn]$ scp -r Backup_Scienide2_2017_06_05.tar dattani@mz4.fkf.mpg.de:
+Password:
+Backup_Scienide2_2017_06_05.tar    0%  338MB  12.3MB/s   59:28 ETA^
+Backup_Scienide2_2017_06_05.tar    4% 2196MB  12.4MB/s   56:10 ETA^
+Backup_Scienide2_2017_06_05.tar    9% 4090MB  12.9MB/s   51:53 ETA^
+Backup_Scienide2_2017_06_05.tar    9% 4138MB  10.6MB/s 1:02:34 ETA^
+Backup_Scienide2_2017_06_05.tar    9% 4150MB  10.8MB/s 1:01:56 ETA
+Backup_Scienide2_2017_06_05.tar   10% 4665MB  10.1MB/s 1:05:03 ETA^
+Backup_Scienide2_2017_06_05.tar   10% 4671MB   9.7MB/s 1:08:02 ETA^
+Backup_Scienide2_2017_06_05.tar   10% 4680MB   9.6MB/s 1:08:13 ETA^
+Backup_Scienide2_2017_06_05.tar   12% 5362MB  12.0MB/s   53:52 ETA^
+Backup_Scienide2_2017_06_05.tar   30%   13GB  10.2MB/s   50:14 ETA^
+Backup_Scienide2_2017_06_05.tar   30%   13GB   9.9MB/s   51:55 ETA^
+Backup_Scienide2_2017_06_05.tar   30%   13GB   9.7MB/s   52:53 ETA^
+Backup_Scienide2_2017_06_05.tar   30%   13GB   9.6MB/s   53:05 ETA^
+Backup_Scienide2_2017_06_05.tar   30%   13GB   9.6MB/s   53:34 ETA^
+Backup_Scienide2_2017_06_05.tar   30%   13GB   9.3MB/s   54:29 ETA^
+Backup_Scienide2_2017_06_05.tar   31%   14GB  14.7MB/s   34:04 ETA^
+Backup_Scienide2_2017_06_05.tar   31%   14GB  15.0MB/s   33:29 ETA^
+Backup_Scienide2_2017_06_05.tar    1%   14GB  15.4MB/s   32:39 ETA^
+Backup_Scienide2_2017_06_05.tar   31%   14GB  15.7MB/s   31:54 ETA^
+Backup_Scienide2_2017_06_05.tar   31%   14GB  15.9MB/s   31:28 ETA^
+Backup_Scienide2_2017_06_05.tar    1%   14GB  16.2MB/s   30:54 ETA^
+Backup_Scienide2_2017_06_05.tar   31%   14GB  16.2MB/s   30:47 ETA^
+Backup_Scienide2_2017_06_05.tar   31%   14GB  14.6MB/s   34:12 ETA^
+Backup_Scienide2_2017_06_05.tar   40%   18GB  15.9MB/s   27:28 ETA^
+Backup_Scienide2_2017_06_05.tar   40%   18GB  14.7MB/s   29:34 ETA^
+Backup_Scienide2_2017_06_05.tar   41%   18GB   8.0MB/s   53:48 ETA^
+Backup_Scienide2_2017_06_05.tar   41%   18GB   7.7MB/s   55:21 ETA^
+Backup_Scienide2_2017_06_05.tar   41%   18GB   7.5MB/s   57:21 ETA^
+Backup_Scienide2_2017_06_05.tar   41%   18GB   7.3MB/s   58:43 ETA^
+Backup_Scienide2_2017_06_05.tar   41%   18GB   7.1MB/s   59:56 ETA^
+Backup_Scienide2_2017_06_05.tar   41%   18GB   7.0MB/s 1:01:09 ETA^
+Backup_Scienide2_2017_06_05.tar   41%   18GB   6.8MB/s 1:02:36 ETA^
+Backup_Scienide2_2017_06_05.tar   41%   18GB   6.7MB/s 1:03:23 ETA^
+Backup_Scienide2_2017_06_05.tar   41%   18GB   6.8MB/s 1:02:39 ETA^
+Backup_Scienide2_2017_06_05.tar   42%   18GB  13.1MB/s   32:17 ETA^
+Backup_Scienide2_2017_06_05.tar   63%   27GB  10.8MB/s   25:04 ETA^
+Backup_Scienide2_2017_06_05.tar   76%   33GB  12.0MB/s   14:35 ETA^
+Backup_Scienide2_2017_06_05.tar  100%   43GB  11.9MB/s 1:01:37
+
