@@ -76,3 +76,6 @@ Backup_Scienide2_2017_06_05.tar   63%   27GB  10.8MB/s   25:04 ETA^
 Backup_Scienide2_2017_06_05.tar   76%   33GB  12.0MB/s   14:35 ETA^
 Backup_Scienide2_2017_06_05.tar  100%   43GB  11.9MB/s 1:01:37
 
+dattani@mz4:~> ls -l -t -h Backup_Scienide2_2017_06_05.tar ndattani_nlogn_minus_scienide2backup.tar.gz
+-rw-r----- 1 dattani al  44G Dec 28 08:50 Backup_Scienide2_2017_06_05.tar
+-rw-r----- 1 dattani al 2.6G Dec 28 07:40 ndattani_nlogn_minus_scienide2backup.tar.gz
