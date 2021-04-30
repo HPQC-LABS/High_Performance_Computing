@@ -1,0 +1,84 @@
+========================================================================================
+Moving things from def-nike-ab to rrg-tzeng (took ~1 hour to chgrp a 51G fodler):
+========================================================================================
+
+[nike@gra-login3 def-nike-ab]$ quota
+                             Description                Space           # of files
+                       /home (user nike)              41G/53G            249k/500k
+                    /scratch (user nike)             33k/100T                1/10M
+                   /project (group nike)          7914k/2048k               9/500k
+           /project (group def-tzeng-ab)            36G/1000G             42k/500k
+            /project (group def-nike-ab)             51T/100T             868k/10M
+                /project (group def-qdg)            12k/1000G               4/500k
+              /project (group rrg-tzeng)             38T/200T             36k/500k
+--
+On some clusters, a break down per user may be available by adding the option '--per_user'.
+[nike@gra-login3 def-nike-ab]$ cd ..
+[nike@gra-login3 projects]$ mv def-nike-ab/nike/ rrg-tzeng/nike/ &
+[1]+  Done                    mv def-nike-ab/nike/ rrg-tzeng/nike/
+
+[nike@gra-login3 projects]$ quota
+                             Description                Space           # of files
+                       /home (user nike)              41G/53G            249k/500k
+                    /scratch (user nike)             33k/100T                1/10M
+                   /project (group nike)          7914k/2048k               9/500k
+           /project (group def-tzeng-ab)            36G/1000G             42k/500k
+            /project (group def-nike-ab)             51T/100T             868k/10M
+                /project (group def-qdg)            12k/1000G               4/500k
+              /project (group rrg-tzeng)             38T/200T             36k/500k
+
+Fri Apr 30 13:39:07 EDT 2021
+
+[nike@gra-login3 nike]$ pwd
+/project/rrg-tzeng/nike/nike
+[nike@gra-login3 nike]$ ls -l -t
+total 8
+drwxr-s--- 2 nike def-nike-ab 4096 Mar 29 19:30 minorminer
+drwxr-s--- 6 nike def-nike-ab 4096 Mar 21 18:51 before_March_2021
+
+[nike@gra-login3 nike]$ mv * ../
+[nike@gra-login3 nike]$ rm -r nike
+
+[nike@gra-login3 nike]$ pwd
+/project/rrg-tzeng/nike
+[nike@gra-login3 nike]$ chmod g+s  minorminer
+[nike@gra-login3 nike]$ ls -l -t
+total 8
+drwxr-s--- 2 nike def-nike-ab 4096 Mar 29 19:30 minorminer
+drwxr-s--- 6 nike def-nike-ab 4096 Mar 21 18:51 before_March_2021
+
+[nike@gra-login3 nike]$ chmod -R g-w,o-rx minorminer/
+[nike@gra-login3 nike]$ ls -l -t
+total 8
+drwxr-s--- 2 nike def-nike-ab 4096 Mar 29 19:30 minorminer
+drwxr-s--- 6 nike def-nike-ab 4096 Mar 21 18:51 before_March_2021
+
+[nike@gra-login3 nike]$ chgrp -R minorminer/ rrg-tzeng
+chgrp: invalid group: 'minorminer/'
+[nike@gra-login3 nike]$ chgrp -R  rrg-tzeng minorminer/
+[nike@gra-login3 nike]$ ls -l -t
+total 8
+drwxr-s--- 2 nike rrg-tzeng   4096 Mar 29 19:30 minorminer
+drwxr-s--- 6 nike def-nike-ab 4096 Mar 21 18:51 before_March_2021
+[nike@gra-login3 nike]$ chgrp -R  rrg-tzeng before_March_2021/
+
+[nike@gra-login3 nike]$ ls -l -t
+total 8
+drwxr-s--- 2 nike rrg-tzeng 4096 Mar 29 19:30 minorminer
+drwxr-s--- 6 nike rrg-tzeng 4096 Mar 21 18:51 before_March_2021
+
+[nike@gra-login3 nike]$ quota
+                             Description                Space           # of files
+                       /home (user nike)              41G/53G            249k/500k
+                    /scratch (user nike)             33k/100T                1/10M
+                   /project (group nike)          7914k/2048k               9/500k
+           /project (group def-tzeng-ab)            36G/1000G             42k/500k
+            /project (group def-nike-ab)             33G/100T             4512/10M
+                /project (group def-qdg)            12k/1000G               4/500k
+              /project (group rrg-tzeng)             89T/200T            900k/500k
+========================================================================================
+- Appears to have finally been successful after trying a few things
+- The chmod -R g-w,o-rx , and chmod g+s command were suggested on the CC wiki:
+  https://docs.computecanada.ca/wiki/Sharing_data, but weren't helpful here
+- chgrp -R  rrg-tzeng before_March_2021/ took about an hour (for a 51G folder)
+========================================================================================
