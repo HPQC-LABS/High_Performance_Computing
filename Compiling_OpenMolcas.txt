@@ -1,2 +1,1 @@
-On Cedar, 2022 November 23 version of HPQC/Add_Basis_Sets.
-make -j6 started at 6:17am
+On Cedar, 2022 November 23 version of HPQC/Add_Basis_Sets: make -j6 started at 6:17am finished at 6:29am
