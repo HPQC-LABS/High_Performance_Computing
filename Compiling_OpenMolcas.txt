@@ -1,3 +1,3 @@
 On Cedar, 2022 November 23 version of HPQC/Add_Basis_Sets: make -j6 started at 6:17am finished at 6:29am
-On Cedar, 2022 November 23 version of HPQC/Add_Basis_Sets: cmake from a folder where O'Molcas was already built, started at 6:34am finished at 6:37.
-On Cedar, 2022 November 23 version of HPQC/Add_Basis_Sets: make -j6 from a folder where O'Molcas was already built, started at 6:37 finished at 6:39
+On Cedar, 2022 November 23 version of HPQC/Add_Basis_Sets: cmake from a folder where O'Molcas was already built, started at 6:34am finished at 6:37 (just chnaged the names of two basis_library files)
+On Cedar, 2022 November 23 version of HPQC/Add_Basis_Sets: make -j6 from a folder where O'Molcas was already built, started at 6:37 finished at 6:39 (just chnaged the names of two basis_library files)
