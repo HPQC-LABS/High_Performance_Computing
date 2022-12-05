@@ -6,6 +6,7 @@ On Cedar, 2022 December 5 version of HPQC/master: cmake -j ../OpenMolcas_HPQC to
 On Cedar, 2022 December 5 version of HPQC/master: cmake -j ../OpenMolcas_HPQC after loading HDF5: real	1m29.423s, user	0m5.035s, sys	0m7.625s
 On Cedar, 2022 December 5 version of HPQC/master: cmake ../OpenMolcas_HPQC after loading HDF5: real	1m3.883s, user	0m4.754s, sys	0m8.022s
 On Cedar, 2022 December 5 version of HPQC/master: cmake ../OpenMolcas_HPQC after loading HDF5: real	1m0.627s, user	0m4.774s, sys	0m9.020s
+On Cedar, 2022 December 5 version of HPQC/master: make -j6 from scratch and after loading HDF5 (make -j crashes): real	9m44.577s, user	15m15.985s, sys	12m20.209s
 ------------------------------------------------------------------
 CONCLUSION: "cmake -j" is not noticably better than "cmake".
 
