@@ -1,0 +1,9 @@
+LINUX:
+du -hsx * | sort -rh | head -10
+
+SLURM:
+squeue -u nike -o "%.10i %.10j %.24P %.4a %.6C %.6D %.8m %.V %.S %.9Q"
+salloc --mem=20G --time=1:0:0 --ntasks=1 --account=def-nike-ab
+
+Compute Canada:
+/opt/software/sbin/partition-stats
