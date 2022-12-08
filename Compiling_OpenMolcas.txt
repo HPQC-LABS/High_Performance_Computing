@@ -10,3 +10,4 @@ On Cedar, 2022 December 5 version of HPQC/master: make -j6 from scratch and afte
 ------------------------------------------------------------------
 CONCLUSION: "cmake -j" is not noticably better than "cmake".
 
+On Cedar1, 2022 December 8 Version of HPQC/LEVEL: make -j8 from scratch after loading HDF5: real	12m22.927s, user	15m11.978s, sys	15m4.729s
