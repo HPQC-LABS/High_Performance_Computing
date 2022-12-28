@@ -16,3 +16,12 @@ On Cedar1, 2022 December 28 Version of HPQC: make -j12 in already compiled folde
 
 On Graham1, 2022 December 28 Version of HPQC: make -j12 from scratch wtih hdf5 and python loaded, and using GCC instead of Intel: took only about 4 minutes !!! (don't know exact amount because it ended with an error at real 3m46.388s, user	9m21.013s, sys	7m29.270s, then I restarted it, but the restart didn't take long at all)
 
+On Alavi, 2022 December 28 Version of HPQC: make -j2 from scratch without hdf5 or python loaded (since it's a laptop without lmod) and using GCC (GNU 5.4.0) took this long: real	19m50.350s, user	11m6.961s, sys	1m24.856s but took FOREVER just before the HEAD command here: 
+============
+[  3%] Building Fortran object unit_tests/linalg_mod/bin/CMakeFiles/fruit_molcas.dir/fruit.f90.o
+[  3%] Linking Fortran static library ../../../lib/libfruit_molcas.a
+[  3%] Built target fruit_molcas
+HEAD is now at 9bf3b64... Remaple hyb_gga_x_cam_s12
+[  3%] Performing update step for 'Libxc'
+============
+and during that time "top" suggested that nothing was compiling, so it was very furstrating but fortunately I waited it out and didn't terminate the compilation with CTRL+C.  
