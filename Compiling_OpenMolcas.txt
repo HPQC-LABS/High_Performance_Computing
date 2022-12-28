@@ -13,3 +13,6 @@ CONCLUSION: "cmake -j" is not noticably better than "cmake".
 On Cedar1, 2022 December 8 Version of HPQC/LEVEL: make -j8 from scratch after loading HDF5: real	12m22.927s, user	15m11.978s, sys	15m4.729s
 On Cedar1, 2022 December 22 Version of HPQC/LEVEL: make -j in already compiled folder after loading HDF5 and python, but after signing back in after a power shut-down: real 4m2.268s user 0m58.857s sys 0m50.165s 
 On Cedar1, 2022 December 28 Version of HPQC: make -j12 in already compiled folder but after a lot of changes were made (HPQC/LEVEL branch was merged into HPQC fork), after loading HDF5 and python: real	2m41.049s, user	0m56.186s, sys	0m43.772s
+
+On Graham1, 2022 December 28 Version of HPQC: make -j12 from scratch wtih hdf5 and python loaded, and using GCC instead of Intel: took only about 4 minutes !!! (don't know exact amount because it ended with an error at real 3m46.388s, user	9m21.013s, sys	7m29.270s, then I restarted it, but the restart didn't take long at all)
+
