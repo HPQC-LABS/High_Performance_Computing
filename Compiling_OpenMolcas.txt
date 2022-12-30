@@ -1,6 +1,6 @@
 On Cedar, 2022 November 23 version of HPQC/Add_Basis_Sets: make -j6 started at 6:17am finished at 6:29am
-On Cedar, 2022 November 23 version of HPQC/Add_Basis_Sets: cmake from a folder where O'Molcas was already built, started at 6:34am finished at 6:37 (just chnaged the names of two basis_library files)
-On Cedar, 2022 November 23 version of HPQC/Add_Basis_Sets: make -j6 from a folder where O'Molcas was already built, started at 6:37 finished at 6:39 (just chnaged the names of two basis_library files)
+On Cedar, 2022 November 23 version of HPQC/Add_Basis_Sets: cmake from a folder where O'Molcas was already built, started at 6:34am finished at 6:37am (just chnaged the names of two basis_library files)
+On Cedar, 2022 November 23 version of HPQC/Add_Basis_Sets: make -j6 from a folder where O'Molcas was already built, started at 6:37 finished at 6:39am (just chnaged the names of two basis_library files)
 
 On Cedar, 2022 December 5 version of HPQC/master: cmake -j ../OpenMolcas_HPQC took only from 12:11-12:13pm, when running cmake for the *first* time (which I'd think would be slower than when I ran it on 23 November). I had forgotten to load HDF5 though. 
 On Cedar, 2022 December 5 version of HPQC/master: cmake -j ../OpenMolcas_HPQC after loading HDF5: real	1m29.423s, user	0m5.035s, sys	0m7.625s
@@ -15,6 +15,8 @@ On Cedar1, 2022 December 22 Version of HPQC/LEVEL: make -j in already compiled f
 On Cedar1, 2022 December 28 Version of HPQC: make -j12 in already compiled folder but after a lot of changes were made (HPQC/LEVEL branch was merged into HPQC fork), after loading HDF5 and python: real	2m41.049s, user	0m56.186s, sys	0m43.772s
 
 On Graham1, 2022 December 28 Version of HPQC: make -j12 from scratch wtih hdf5 and python loaded, and using GCC instead of Intel: took only about 4 minutes !!! (don't know exact amount because it ended with an error at real 3m46.388s, user	9m21.013s, sys	7m29.270s, then I restarted it, but the restart didn't take long at all)
+On Graham2, 2022 December 30 Version of HPQC: cmake from scratch with python and hdf5 laoded: real	3m15.161s, user	0m3.118s, sys	0m5.017s
+On Graham2, 2022 December 30 Version of HPQC: make -j16 from scratch with python and hdf5 laoded: (many errors!) real	6m9.004s, user	13m37.276s, sys	10m14.497s
 
 On Alavi, 2022 December 28 Version of HPQC: make -j2 from scratch without hdf5 or python loaded (since it's a laptop without lmod) and using GCC (GNU 5.4.0) took this long: real	19m50.350s, user	11m6.961s, sys	1m24.856s but took FOREVER just before the HEAD command here: 
 ============
