@@ -16,7 +16,11 @@ On Cedar1, 2022 December 28 Version of HPQC: make -j12 in already compiled folde
 
 On Graham1, 2022 December 28 Version of HPQC: make -j12 from scratch wtih hdf5 and python loaded, and using GCC instead of Intel: took only about 4 minutes !!! (don't know exact amount because it ended with an error at real 3m46.388s, user	9m21.013s, sys	7m29.270s, then I restarted it, but the restart didn't take long at all)
 On Graham2, 2022 December 30 Version of HPQC: cmake from scratch with python and hdf5 laoded: real	3m15.161s, user	0m3.118s, sys	0m5.017s
-On Graham2, 2022 December 30 Version of HPQC: make -j16 from scratch with python and hdf5 laoded: (many errors!) real	6m9.004s, user	13m37.276s, sys	10m14.497s
+On Graham2, 2022 December 30 Version of HPQC: make -j16 from scratch with python and hdf5 laoded: (errors came at the very end due to running out of disk space in /home directory which only had 53G available, but we'd already finished 4 lines starting with [100%].. not much more time is required after that) real	6m9.004s, user	13m37.276s, sys	10m14.497s
+
+On Cedar1 2022 December 30 Version of HPQC: cmake from scratch with python and hdf5 loaded: real	0m28.378s, user	0m5.178s, sys	0m8.920s
+On Cedar1 2022 December 30 Version of HPQC: make -j12 from scratch with python and hdf5 loaded: forgot to time it but it was FAST and successful!
+
 
 On Alavi, 2022 December 28 Version of HPQC: make -j2 from scratch without hdf5 or python loaded (since it's a laptop without lmod) and using GCC (GNU 5.4.0) took this long: real	19m50.350s, user	11m6.961s, sys	1m24.856s but took FOREVER just before the HEAD command here: 
 ============
