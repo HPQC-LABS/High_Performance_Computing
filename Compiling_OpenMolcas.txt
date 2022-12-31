@@ -31,3 +31,7 @@ HEAD is now at 9bf3b64... Remaple hyb_gga_x_cam_s12
 [  3%] Performing update step for 'Libxc'
 ============
 and during that time "top" suggested that nothing was compiling, so it was very furstrating but fortunately I waited it out and didn't terminate the compilation with CTRL+C.  
+
+On Alavi, 2022 December 31 Version of Deyan: time cmake  ../OpenMolcas_Deyan -D BIGOT=ON (from scratch, no HDF5): real	0m9.270s, user	0m3.623s, sys	0m0.819s
+On Alavi, 2022 December 31 Version of Deyan: time make -j (from scratch, no hdf5): 
+
