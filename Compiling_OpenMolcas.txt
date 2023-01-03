@@ -20,7 +20,9 @@ On Graham2, 2022 December 30 Version of HPQC: make -j16 from scratch with python
 
 On Cedar1 2022 December 30 Version of HPQC: cmake from scratch with python and hdf5 loaded: real	0m28.378s, user	0m5.178s, sys	0m8.920s
 On Cedar1 2022 December 30 Version of HPQC: make -j12 from scratch with python and hdf5 loaded: forgot to time it but it was FAST and successful!
-
+On Cedar1 0f529f99 of HPQC (but done on 2/1/23): cmake from scratch with python loaded but hdf5 UNLOADED: real	0m21.768s, user	0m4.894s, sys	0m7.792s
+On Cedar1 0f529f99 of HPQC (but done on 2/1/23): make -j16 from scratch with python loaded but hdf5 UNLOADED: real	2m11.886s, user	14m9.632s, sys	3m43.564s (WOW THAT WAS FAST! THANKS TO NO HDF5!)
+ 
 
 On Alavi, 2022 December 28 Version of HPQC: make -j2 from scratch without hdf5 or python loaded (since it's a laptop without lmod) and using GCC (GNU 5.4.0) took this long: real	19m50.350s, user	11m6.961s, sys	1m24.856s but took FOREVER just before the HEAD command here: 
 ============
