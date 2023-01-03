@@ -38,3 +38,7 @@ On Alavi, 2022 December 31 Version of Deyan: time cmake  ../OpenMolcas_Deyan -D 
 !WARNING! On Alavi, 2022 December 31 Version of Deyan: time make -j (from scratch, no hdf5): [ 64%] Built target fmm_util_obj Makefile:145: recipe for target 'all' failed make: *** [all] Error 2 real	119m37.677s, user	9m24.948s, sys	319m1.586s. [computer froze fan went loud (luckily only for a few minutes), and lots of data from RAM went to disk.. took about 2 hours for the computer to become usable again]
 
 
+GitLab runners:
+============
+build:garble: ~20 minutes https://gitlab.com/hpqc-labs/OpenMolcas/-/jobs/3549215083
+build:linalg: ~19 minutes https://gitlab.com/hpqc-labs/OpenMolcas/-/jobs/3549215078
