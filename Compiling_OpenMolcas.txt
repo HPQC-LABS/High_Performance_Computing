@@ -42,3 +42,4 @@ GitLab runners:
 ============
 build:garble: ~20 minutes https://gitlab.com/hpqc-labs/OpenMolcas/-/jobs/3549215083
 build:linalg: ~19 minutes https://gitlab.com/hpqc-labs/OpenMolcas/-/jobs/3549215078
+build:bound:  ~82 minutes https://gitlab.com/hpqc-labs/OpenMolcas/-/jobs/3550933293
