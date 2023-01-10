@@ -37,6 +37,8 @@ and during that time "top" suggested that nothing was compiling, so it was very 
 On Alavi, 2022 December 31 Version of Deyan: time cmake  ../OpenMolcas_Deyan -D BIGOT=ON (from scratch, no HDF5): real	0m9.270s, user	0m3.623s, sys	0m0.819s
 !WARNING! On Alavi, 2022 December 31 Version of Deyan: time make -j (from scratch, no hdf5): [ 64%] Built target fmm_util_obj Makefile:145: recipe for target 'all' failed make: *** [all] Error 2 real	119m37.677s, user	9m24.948s, sys	319m1.586s. [computer froze fan went loud (luckily only for a few minutes), and lots of data from RAM went to disk.. took about 2 hours for the computer to become usable again]
 
+On Alavi (NAG image: registry.gitlab.com/molcas/dockerfiles/nag), 2023 January 10 Version of HPQC: make -j2 from scratch wtihout hdf5 or python laoded: real	19m25.374s, user	15m52.934s, sys	1m51.996s
+
 
 GitLab runners:
 ============
