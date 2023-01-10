@@ -39,6 +39,7 @@ On Alavi, 2022 December 31 Version of Deyan: time cmake  ../OpenMolcas_Deyan -D 
 
 On Alavi (NAG image: registry.gitlab.com/molcas/dockerfiles/nag, however by default it still used GCC), 2023 January 10 Version of HPQC: make -j2 from scratch wtihout hdf5 or python laoded: real	19m25.374s, user	15m52.934s, sys	1m51.996s
 
+On Cedar1 2023 January 10 Version of HPQC: after using cmake ../OpenMolcas_HPQC_2022_12_30 -D CMAKE_Fortran_COMPILER=/cvmfs/restricted.computecanada.ca/easybuild/software/2020/Core/intel/2020.1.217/compilers_and_libraries_2020.1.217/linux/bin/intel64/ifort without HDF5 and with python, from scratch: make -j18 took real	11m12.933s, user	27m45.794s, sys	7m11.806s
 
 GitLab runners:
 ============
