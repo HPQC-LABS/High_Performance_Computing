@@ -45,6 +45,8 @@ On lamodel.unifal-mg.edu.br/orange i7-4770 CPU @ 3.40GHz (Haswell 2013), 2023 Ja
 
 On Alavi (Intel-phusion image: registry.gitlab.com/molcas/dockerfiles/intel-phusion, using /opt/intel/oneapi/compiler/2021.4.0/linux/bin/intel64/ifort), 2023 January 11 Version of HPQC: make -j2 from scratch without hdf5 or python loaded: real	26m58.355s, user	26m4.155s, sys	3m7.291s)
 
+On Alavi (Intel-phusion image: registry.gitlab.com/molcas/dockerfiles/intel-phusion, using /opt/intel/oneapi/compiler/2021.4.0/linux/bin/intel64/ifort), 2023 January 13 Version of HPQC: make -j from scratch without hdf5 or python loaded: real	49m0.798s user	23m55.496s sys	3m1.829s
+
 GitLab runners:
 ============
 build:garble: ~20 minutes https://gitlab.com/hpqc-labs/OpenMolcas/-/jobs/3549215083
