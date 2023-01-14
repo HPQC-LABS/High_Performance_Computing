@@ -47,6 +47,9 @@ On Alavi (Intel-phusion image: registry.gitlab.com/molcas/dockerfiles/intel-phus
 
 On Alavi (Intel-phusion image: registry.gitlab.com/molcas/dockerfiles/intel-phusion, using /opt/intel/oneapi/compiler/2021.4.0/linux/bin/intel64/ifort), 2023 January 13 Version of HPQC: make -j from scratch without hdf5 or python loaded: real	49m0.798s user	23m55.496s sys	3m1.829s
 
+On Alavi, 2022 January 14 version of HPQC: Ran "make -j2" after minor change, and it was fast. Ran "cmake" with BIGOT=ON and "make -j2" was slower, but seemed like it would take as long as what the next compilation took (see later in this line), but it failed due to the rdvec problem that's unrelated to LEVEL, so I re-ran "cmake" with BIGOT=OFF then "make -j2" took: real	4m19.909s, user	7m36.317s, sys	0m54.000s
+
+
 GitLab runners:
 ============
 build:garble: ~20 minutes https://gitlab.com/hpqc-labs/OpenMolcas/-/jobs/3549215083
