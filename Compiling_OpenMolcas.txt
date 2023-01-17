@@ -49,14 +49,16 @@ On Alavi (Intel-phusion image: registry.gitlab.com/molcas/dockerfiles/intel-phus
 
 On Alavi, 2022 January 14 version of HPQC: Ran "make -j2" after minor change, and it was fast. Ran "cmake" with BIGOT=ON and "make -j2" was slower, but seemed like it would take as long as what the next compilation took (see later in this line), but it failed due to the rdvec problem that's unrelated to LEVEL, so I re-ran "cmake" with BIGOT=OFF then "make -j2" took: real	4m19.909s, user	7m36.317s, sys	0m54.000s
 
-On Cedar1, 2022 January 14 version of HPQC: time pymolcas verify. real	679m3.057s, user	357m46.428s, sys	94m1.227s, additional:896 Failed! (rasscf), grayzone:832 Failed! (scf), grayzone:834 Skipped!, grayzone:898 Failed! (caspt2). compiled with: cmake -D BIGOT=ON ../OpenMolcas_HPQC_2022_12_30 -D  MAKE_BUILD_TYPE=DEBUG .... ooohh maybe that's why it was so slow !!!
 
 GitLab runners:
 ============
 build:bound:  ~82 minutes https://gitlab.com/hpqc-labs/OpenMolcas/-/jobs/3550933293
 build:qcmaquis: ~42 minutes https://gitlab.com/hpqc-labs/OpenMolcas/-/jobs/3604051174
+build: nag: ~28 minutes https://gitlab.com/Molcas/OpenMolcas/-/jobs/3612638759
 build:garble: ~21 minutes https://gitlab.com/hpqc-labs/OpenMolcas/-/jobs/3604051171
 build:linalg: ~20 minutes https://gitlab.com/hpqc-labs/OpenMolcas/-/jobs/3604051166
 build:mpi: ~18 minutes https://gitlab.com/hpqc-labs/OpenMolcas/-/jobs/3604051175
 build:plain: ~14 minutes https://gitlab.com/hpqc-labs/OpenMolcas/-/jobs/3604051164
 doc: ~11 minutes https://gitlab.com/hpqc-labs/OpenMolcas/-/jobs/3604051161
+
+On Cedar1, 2022 January 14 version of HPQC: time pymolcas verify. real	679m3.057s, user	357m46.428s, sys	94m1.227s, additional:896 Failed! (rasscf), grayzone:832 Failed! (scf), grayzone:834 Skipped!, grayzone:898 Failed! (caspt2). compiled with: cmake -D BIGOT=ON ../OpenMolcas_HPQC_2022_12_30 -D  MAKE_BUILD_TYPE=DEBUG .... ooohh maybe that's why it was so slow !!!
