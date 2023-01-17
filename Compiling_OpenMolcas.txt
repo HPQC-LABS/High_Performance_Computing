@@ -52,6 +52,7 @@ On Alavi, 2022 January 14 version of HPQC: Ran "make -j2" after minor change, an
 
 GitLab runners:
 ============
+test:garble: ~103 minutes https://gitlab.com/Molcas/OpenMolcas/-/jobs/3605102717
 build:bound:  ~82 minutes https://gitlab.com/hpqc-labs/OpenMolcas/-/jobs/3550933293
 build:qcmaquis: ~42 minutes https://gitlab.com/hpqc-labs/OpenMolcas/-/jobs/3604051174
 buid:intel: ~31 minutes https://gitlab.com/Molcas/OpenMolcas/-/jobs/3612638757
