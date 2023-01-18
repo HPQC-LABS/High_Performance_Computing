@@ -49,7 +49,8 @@ On Alavi (Intel-phusion image: registry.gitlab.com/molcas/dockerfiles/intel-phus
 
 On Alavi, 2022 January 14 version of HPQC: Ran "make -j2" after minor change, and it was fast. Ran "cmake" with BIGOT=ON and "make -j2" was slower, but seemed like it would take as long as what the next compilation took (see later in this line), but it failed due to the rdvec problem that's unrelated to LEVEL, so I re-ran "cmake" with BIGOT=OFF then "make -j2" took: real	4m19.909s, user	7m36.317s, sys	0m54.000s
 
-On Alavi, 2022 January 17 version of HPQC (Nagfor, garble, bigot=on, but with: set (FFLAGS_NAG_GARBLE "-O0 -g -gline -nan") instead of -O0: cmake ../OpenMolcas -D CMAKE_Fortran_COMPILER=/usr/local/bin/nagfor -D CMAKE_BUILD_TYPE=Garble -D BIGOT=ON, followed by real	17m5.837s, user	8m38.185s, sys	1m58.930s. With -02 we get: real	21m31.907s, user	16m52.390s, sys	2m5.420s
+On Alavi, 2022 January 17 version of HPQC (Nagfor, garble, bigot=on, but with: set (FFLAGS_NAG_GARBLE "-O0 -g -gline -nan") instead of -O0: cmake ../OpenMolcas -D CMAKE_Fortran_COMPILER=/usr/local/bin/nagfor -D CMAKE_BUILD_TYPE=Garble -D BIGOT=ON, followed by real	17m5.837s, user	8m38.185s, sys	1m58.930s. With -02 we get (when building from scratch): real	21m31.907s, user	16m52.390s, sys	2m5.420s, then switch to "Release" and build not from scratch: real	7m41.194s, user	13m13.827s, sys	1m55.055s
+
 
 GitLab runners:
 ============
