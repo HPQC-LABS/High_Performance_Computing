@@ -1,15 +1,21 @@
 LINUX:
+===========================================
 du -hsx * | sort -rh | head -10
 
 SLURM:
+===========================================
 squeue -u nike -o "%.10i %.10j %.24P %.4a %.6C %.6D %.8m %.V %.S %.9Q"
 salloc --mem=20G --time=1:0:0 --ntasks=1 --account=def-nike-ab
 
 Compute Canada:
+===========================================
 /opt/software/sbin/partition-stats
 
 GIT:
+===========================================
 git remote add upstream https://github.com/tripleee/sloshy.git # Make tripleee's version of sloshy the upstream branch
 git remote -v # See remote branches (upstream and origin)
 git fetch --all 
 git merge upstream/master # Doing this after "git fetch --all" should get the upstream/master changes merged into origin/master or whatever branch we're on).
+
+git reset --hard 0d1d7fc32 # Go to that commit
