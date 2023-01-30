@@ -1,0 +1,5 @@
+GitHub runners:
+================
+linux-build (ubuntu-20.04, 3.6): succeeded Jan 30, 2023 in 56m 37s https://github.com/pyscf/pyscf/actions/runs/4039458674/jobs/6964319234
+macos-build (3.7): succeeded Jan 30, 2023 in 1h 9m 50s https://github.com/pyscf/pyscf/actions/runs/4039458674/jobs/6964318681
+linux-build-aarch64 (ubuntu-20.04, cp37-cp37m) succeeded Jan 30, 2023 in 8m 36s https://github.com/pyscf/pyscf/actions/runs/4039458674/jobs/6964318828 (doesn't have tests it seems)
