@@ -66,3 +66,12 @@ build:plain: ~14 minutes https://gitlab.com/hpqc-labs/OpenMolcas/-/jobs/36040511
 doc: ~11 minutes https://gitlab.com/hpqc-labs/OpenMolcas/-/jobs/3604051161
 
 On Cedar1, 2022 January 14 version of HPQC: time pymolcas verify. real	679m3.057s, user	357m46.428s, sys	94m1.227s, additional:896 Failed! (rasscf), grayzone:832 Failed! (scf), grayzone:834 Skipped!, grayzone:898 Failed! (caspt2). compiled with: cmake -D BIGOT=ON ../OpenMolcas_HPQC_2022_12_30 -D  MAKE_BUILD_TYPE=DEBUG .... ooohh maybe that's why it was so slow !!!
+
+Size:
+============
+[nike@cedar5 ~]$ time XZ_OPT=-5 tar cJf build_OpenMolcas_Add_Basis_Sets_2022_11_23.tar.xz build_OpenMolcas_Add_Basis_Sets_2022_11_23 real	15m51.207s, user	9m43.889s, sys	0m34.246s
+-rw-r-----  1 nike nike 752M Jan 26 16:13 build_OpenMolcas_Add_Basis_Sets_2022_11_23.tar.xz
+
+[nike@cedar1 ~]$ XZ_OPT=-e9 tar cJf build_OpenMolcas_Add_Basis_Sets_2022_11_21.tar.xz build_OpenMolcas_Add_Basis_Sets_2022_11_21
+[nike@cedar1 ~]$ timed out waiting for input: auto-logout
+-rw-r-----  1 nike nike 753810876 Jan 26 16:09 build_OpenMolcas_Add_Basis_Sets_2022_11_21.tar.xz
