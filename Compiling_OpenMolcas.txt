@@ -69,9 +69,30 @@ On Cedar1, 2022 January 14 version of HPQC: time pymolcas verify. real	679m3.057
 
 Size:
 ============
-[nike@cedar5 ~]$ time XZ_OPT=-5 tar cJf build_OpenMolcas_Add_Basis_Sets_2022_11_23.tar.xz build_OpenMolcas_Add_Basis_Sets_2022_11_23 real	15m51.207s, user	9m43.889s, sys	0m34.246s
+[nike@cedar5 ~]$ time XZ_OPT=-5 tar cJf build_OpenMolcas_Add_Basis_Sets_2022_11_23.tar.xz build_OpenMolcas_Add_Basis_Sets_2022_11_23 
+real	15m51.207s, user	9m43.889s, sys	0m34.246s
 -rw-r-----  1 nike nike 752M Jan 26 16:13 build_OpenMolcas_Add_Basis_Sets_2022_11_23.tar.xz
 
 [nike@cedar1 ~]$ XZ_OPT=-e9 tar cJf build_OpenMolcas_Add_Basis_Sets_2022_11_21.tar.xz build_OpenMolcas_Add_Basis_Sets_2022_11_21
 [nike@cedar1 ~]$ timed out waiting for input: auto-logout
 -rw-r-----  1 nike nike 753810876 Jan 26 16:09 build_OpenMolcas_Add_Basis_Sets_2022_11_21.tar.xz
+
+On Graham:
+
+2.1G	build_OpenMolcas_HPQC_2022_12_28_gfortran_garble
+1.4G	build_OpenMolcas_HPQC_Add_Basis_Sets
+1.4G	build_OpenMolcas_HPQC_2022_12_30
+1.4G	build_OpenMolcas_HPQC_2022_12_28_gfortran
+1.4G	build_OpenMolcas_HPQC_2022_11_02
+1.4G	build_OpenMolcas_HPQC_2022_10_31
+1.4G	build_OpenMolcas_2022_10_29
+
+
+[nike@gra-login3 ~]$ time XZ_OPT=-3 tar cJf build_OpenMolcas_HPQC_2022_12_28_gfortran_garble.tar.xz build_OpenMolcas_HPQC_2022_12_28_gfortran_garble 
+real	6m12.603s, user	6m1.463s, sys	0m5.121s
+-rw-r----- 1 nike nike 775M Feb  3 00:20 build_OpenMolcas_HPQC_2022_10_31.tar.xz
+-rw-r----- 1 nike nike 774M Feb  3 00:20 build_OpenMolcas_HPQC_2022_11_02.tar.xz
+-rw-r----- 1 nike nike 774M Feb  3 00:20 build_OpenMolcas_HPQC_2022_12_28_gfortran.tar.xz
+-rw-r----- 1 nike nike 774M Feb  3 00:20 build_OpenMolcas_HPQC_2022_12_30.tar.xz
+-rw-r----- 1 nike nike 774M Feb  2 23:50 build_OpenMolcas_HPQC_Add_Basis_Sets.tar.xz
+-rw-r----- 1 nike nike 910M Feb  2 23:47 build_OpenMolcas_HPQC_2022_12_28_gfortran_garble.tar.xz
