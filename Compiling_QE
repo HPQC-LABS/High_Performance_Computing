@@ -1,1 +1,1 @@
-On graham-login2 (2023 02 03 version of the code): time make -j18, real	3m27.696s, user	16m55.819s, sys	9m36.616s
+On graham-login2 (2023 02 03 version of the code): time make -j18, real	3m27.696s, user	16m55.819s, sys	9m36.616s, 0/236 tests passed: time make run-tests lead to: real	2m46.353s, user	0m15.116s, sys	2m14.935s
