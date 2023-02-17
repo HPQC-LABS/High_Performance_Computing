@@ -5,3 +5,4 @@ Docker and Singularity and Podman
 Buildah (https://github.com/containers/buildah, came up when searching an error I got in Podman, but didn't use it)
 ack (didn't work though)
 ninja
+Crontab (Narval's site-specific policies say that Crontab is not offered on Narval)
