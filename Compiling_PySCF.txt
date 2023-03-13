@@ -7,3 +7,7 @@ linux-build-aarch64 (ubuntu-20.04, cp37-cp37m) succeeded Jan 30, 2023 in 8m 36s 
 Alavi:
 ================
 time make -j2, real	21m31.046s, user	38m57.783s, sys	0m41.006s
+
+Graham:
+================
+time pip install --no-index 'pyscf @ git+https://github.com/fishjojo/pyscf.git@ad#egg=pyscf',  real	43m5.281s, user	77m9.574s, sys	3m48.479s
