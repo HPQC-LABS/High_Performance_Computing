@@ -1,0 +1,209 @@
+Conclusions: 
+1) -e -1 is the best for size (272 MiB to 12.5 MiB) compared to -9 (to 12.8 MiB but takes longer!) and compared to -e -0 (to 17.5 MiB)
+2) -1 is basically the fastest (6.6s for 272 MiB to 17.0 MiB vs 6.2s with -0 to 23.9 MiB, or 10.7s with -2 to 17.0 MiB, or 56s with -e -1 to 12.5 MiB)
+3) -e -1 compressess the most and is about 10x slower than fastest, but saves us about 5 MiB out of 270 MiB compared to the fastest, but still only takes 1 minute
+4) For spped, always us "-1", for size always use "-e -1".
+
+Questions: 
+1) Why are "-3" and "-e -3" worse than "-1" or "-2" and "-e -1" and "-e -2" repsectively.
+2) When using -e, why is it that the first half of the compression (the first 136 MiB out of 272 MiB) giving a 2 MiB file, but the second half adds 10 more MiB to it (for a total of about 12 MiB)?
+
+Comments:
+1) It seems about 99% of the CPU of 1 core was used for these compressions
+
+[nike@beluga1 018_Ar]$ pwd
+/home/nike/basis-set-optimization/018_Ar
+
+[nike@beluga1 018_Ar]$ cp out_NM_20s2p.job35635496.txt out_NM_20s2p.job35635496.txt_xz0
+[nike@beluga1 018_Ar]$ cp out_NM_20s2p.job35635496.txt out_NM_20s2p.job35635496.txt_xz1
+[nike@beluga1 018_Ar]$ cp out_NM_20s2p.job35635496.txt out_NM_20s2p.job35635496.txt_xz2
+[nike@beluga1 018_Ar]$ cp out_NM_20s2p.job35635496.txt out_NM_20s2p.job35635496.txt_xz3
+[nike@beluga1 018_Ar]$ cp out_NM_20s2p.job35635496.txt out_NM_20s2p.job35635496.txt_xz4
+[nike@beluga1 018_Ar]$ cp out_NM_20s2p.job35635496.txt out_NM_20s2p.job35635496.txt_xz5
+[nike@beluga1 018_Ar]$ cp out_NM_20s2p.job35635496.txt out_NM_20s2p.job35635496.txt_xz6
+[nike@beluga1 018_Ar]$ cp out_NM_20s2p.job35635496.txt out_NM_20s2p.job35635496.txt_xz7
+[nike@beluga1 018_Ar]$ cp out_NM_20s2p.job35635496.txt out_NM_20s2p.job35635496.txt_xz8
+[nike@beluga1 018_Ar]$ cp out_NM_20s2p.job35635496.txt out_NM_20s2p.job35635496.txt_xz9
+[nike@beluga1 018_Ar]$ cp out_NM_20s2p.job35635496.txt out_NM_20s2p.job35635496.txt_xz_e0
+[nike@beluga1 018_Ar]$ cp out_NM_20s2p.job35635496.txt out_NM_20s2p.job35635496.txt_xz_e1
+[nike@beluga1 018_Ar]$ cp out_NM_20s2p.job35635496.txt out_NM_20s2p.job35635496.txt_xz_e2
+[nike@beluga1 018_Ar]$ cp out_NM_20s2p.job35635496.txt out_NM_20s2p.job35635496.txt_xz_e3
+[nike@beluga1 018_Ar]$ cp out_NM_20s2p.job35635496.txt out_NM_20s2p.job35635496.txt_xz_e4
+[nike@beluga1 018_Ar]$ cp out_NM_20s2p.job35635496.txt out_NM_20s2p.job35635496.txt_xz_e5
+[nike@beluga1 018_Ar]$ cp out_NM_20s2p.job35635496.txt out_NM_20s2p.job35635496.txt_xz_e6
+[nike@beluga1 018_Ar]$ cp out_NM_20s2p.job35635496.txt out_NM_20s2p.job35635496.txt_xz_e7
+[nike@beluga1 018_Ar]$ cp out_NM_20s2p.job35635496.txt out_NM_20s2p.job35635496.txt_xz_e8
+[nike@beluga1 018_Ar]$ cp out_NM_20s2p.job35635496.txt out_NM_20s2p.job35635496.txt_xz_e9
+
+[nike@beluga1 018_Ar]$ time xz -0 -v out_NM_20s2p.job35635496.txt_xz0
+out_NM_20s2p.job35635496.txt_xz0 (1/1)
+  100 %        23.9 MiB / 272.3 MiB = 0.088    45 MiB/s       0:06             
+
+real	0m6.189s
+user	0m5.807s
+sys	0m0.266s
+
+[nike@beluga1 018_Ar]$ time xz -1 -v out_NM_20s2p.job35635496.txt_xz1
+out_NM_20s2p.job35635496.txt_xz1 (1/1)
+  100 %        17.0 MiB / 272.3 MiB = 0.062    41 MiB/s       0:06             
+
+real	0m6.663s
+user	0m6.110s
+sys	0m0.255s
+[nike@beluga1 018_Ar]$ time xz -2 -v out_NM_20s2p.job35635496.txt_xz2
+out_NM_20s2p.job35635496.txt_xz2 (1/1)
+  100 %        17.0 MiB / 272.3 MiB = 0.062    26 MiB/s       0:10             
+
+real	0m10.674s
+user	0m10.297s
+sys	0m0.310s
+[nike@beluga1 018_Ar]$ time xz -3 -v out_NM_20s2p.job35635496.txt_xz3
+out_NM_20s2p.job35635496.txt_xz3 (1/1)
+  100 %        17.1 MiB / 272.3 MiB = 0.063    16 MiB/s       0:16             
+
+real	0m16.721s
+user	0m15.967s
+sys	0m0.284s
+[nike@beluga1 018_Ar]$ time xz -4 -v out_NM_20s2p.job35635496.txt_xz4
+out_NM_20s2p.job35635496.txt_xz4 (1/1)
+  100 %        15.3 MiB / 272.3 MiB = 0.056   8.4 MiB/s       0:32             
+
+real	0m32.599s
+user	0m31.934s
+sys	0m0.362s
+[nike@beluga1 018_Ar]$ time xz -5 -v out_NM_20s2p.job35635496.txt_xz5
+out_NM_20s2p.job35635496.txt_xz5 (1/1)
+  100 %        13.5 MiB / 272.3 MiB = 0.050   6.0 MiB/s       0:45             
+
+real	0m46.504s
+user	0m44.934s
+sys	0m0.475s
+[nike@beluga1 018_Ar]$ time xz -6 -v out_NM_20s2p.job35635496.txt_xz6
+out_NM_20s2p.job35635496.txt_xz6 (1/1)
+  100 %        12.7 MiB / 272.3 MiB = 0.047   5.2 MiB/s       0:52             
+
+real	0m52.265s
+user	0m51.455s
+sys	0m0.386s
+[nike@beluga1 018_Ar]$ time xz -7 -v out_NM_20s2p.job35635496.txt_xz7
+out_NM_20s2p.job35635496.txt_xz7 (1/1)
+  100 %        12.8 MiB / 272.3 MiB = 0.047   4.6 MiB/s       0:58             
+
+real	0m58.896s
+user	0m57.768s
+sys	0m0.551s
+[nike@beluga1 018_Ar]$ time xz -8 -v out_NM_20s2p.job35635496.txt_xz8
+out_NM_20s2p.job35635496.txt_xz8 (1/1)
+  100 %        12.8 MiB / 272.3 MiB = 0.047   4.2 MiB/s       1:04             
+
+real	1m5.044s
+user	1m3.686s
+sys	0m0.729s
+[nike@beluga1 018_Ar]$ time xz -9 -v out_NM_20s2p.job35635496.txt_xz9
+out_NM_20s2p.job35635496.txt_xz9 (1/1)
+  100 %        12.8 MiB / 272.3 MiB = 0.047   3.9 MiB/s       1:09             
+
+real	1m9.527s
+user	1m8.342s
+sys	0m0.963s
+
+[nike@beluga1 018_Ar]$ time xz -e -0 -v out_NM_20s2p.job35635496.txt_xz_e0
+out_NM_20s2p.job35635496.txt_xz_e0 (1/1)
+  100 %        17.5 MiB / 272.3 MiB = 0.064   5.0 MiB/s       0:54             
+
+real	0m54.984s
+user	0m54.482s
+sys	0m0.316s
+
+[nike@beluga1 018_Ar]$ time xz -e -1 -v out_NM_20s2p.job35635496.txt_xz_e1
+out_NM_20s2p.job35635496.txt_xz_e1 (1/1)
+  100 %        12.5 MiB / 272.3 MiB = 0.046   4.8 MiB/s       0:56             
+
+real	0m56.286s
+user	0m55.736s
+sys	0m0.335s
+[nike@beluga1 018_Ar]$ time xz -e -2 -v out_NM_20s2p.job35635496.txt_xz_e2
+out_NM_20s2p.job35635496.txt_xz_e2 (1/1)
+  100 %        12.5 MiB / 272.3 MiB = 0.046   4.7 MiB/s       0:57             
+
+real	0m58.030s
+user	0m57.504s
+sys	0m0.285s
+[nike@beluga1 018_Ar]$ time xz -e -3 -v out_NM_20s2p.job35635496.txt_xz_e3
+out_NM_20s2p.job35635496.txt_xz_e3 (1/1)
+  100 %        12.5 MiB / 272.3 MiB = 0.046   4.6 MiB/s       0:59             
+
+real	0m59.391s
+user	0m58.439s
+sys	0m0.348s
+[nike@beluga1 018_Ar]$ time xz -e -4 -v out_NM_20s2p.job35635496.txt_xz_e4
+out_NM_20s2p.job35635496.txt_xz_e4 (1/1)
+  100 %        12.6 MiB / 272.3 MiB = 0.046   4.0 MiB/s       1:08             
+
+real	1m8.928s
+user	1m7.582s
+sys	0m0.407s
+[nike@beluga1 018_Ar]$ time xz -e -5 -v out_NM_20s2p.job35635496.txt_xz_e5
+out_NM_20s2p.job35635496.txt_xz_e5 (1/1)
+  100 %        12.6 MiB / 272.3 MiB = 0.046   4.2 MiB/s       1:04             
+
+real	1m5.007s
+user	1m3.935s
+sys	0m0.453s
+[nike@beluga1 018_Ar]$ time xz -e -6 -v out_NM_20s2p.job35635496.txt_xz_e6
+out_NM_20s2p.job35635496.txt_xz_e6 (1/1)
+  100 %        12.6 MiB / 272.3 MiB = 0.046   3.8 MiB/s       1:12             
+
+real	1m12.406s
+user	1m11.454s
+sys	0m0.484s
+[nike@beluga1 018_Ar]$ time xz -e -7 -v out_NM_20s2p.job35635496.txt_xz_e7
+out_NM_20s2p.job35635496.txt_xz_e7 (1/1)
+  100 %        12.6 MiB / 272.3 MiB = 0.046   3.5 MiB/s       1:18             
+
+real	1m18.394s
+user	1m16.993s
+sys	0m0.678s
+[nike@beluga1 018_Ar]$ time xz -e -8 -v out_NM_20s2p.job35635496.txt_xz_e8
+out_NM_20s2p.job35635496.txt_xz_e8 (1/1)
+  100 %        12.6 MiB / 272.3 MiB = 0.046   3.1 MiB/s       1:28             
+
+real	1m28.684s
+user	1m26.343s
+sys	0m1.592s
+[nike@beluga1 018_Ar]$ time xz -e -9 -v out_NM_20s2p.job35635496.txt_xz_e9
+out_NM_20s2p.job35635496.txt_xz_e9 (1/1)
+  100 %        12.6 MiB / 272.3 MiB = 0.046   2.9 MiB/s       1:32             
+
+real	1m33.124s
+user	1m30.264s
+sys	0m2.363s
+
+-rw-r-----. 1 nike nike 273M Mar 17 03:42 out_NM_20s2p.job35635496.txt
+-rw-r-----. 1 nike nike  13M Mar 18 13:58 out_NM_20s2p.job35635496.txt_xz_e9.xz
+-rw-r-----. 1 nike nike  13M Mar 18 13:58 out_NM_20s2p.job35635496.txt_xz_e8.xz
+-rw-r-----. 1 nike nike  13M Mar 18 13:58 out_NM_20s2p.job35635496.txt_xz_e7.xz
+-rw-r-----. 1 nike nike  13M Mar 18 13:58 out_NM_20s2p.job35635496.txt_xz_e6.xz
+-rw-r-----. 1 nike nike  13M Mar 18 13:58 out_NM_20s2p.job35635496.txt_xz_e5.xz
+-rw-r-----. 1 nike nike  13M Mar 18 13:58 out_NM_20s2p.job35635496.txt_xz_e4.xz
+-rw-r-----. 1 nike nike  13M Mar 18 13:58 out_NM_20s2p.job35635496.txt_xz_e3.xz
+-rw-r-----. 1 nike nike  13M Mar 18 13:58 out_NM_20s2p.job35635496.txt_xz_e2.xz
+-rw-r-----. 1 nike nike  13M Mar 18 13:58 out_NM_20s2p.job35635496.txt_xz_e1.xz
+-rw-r-----. 1 nike nike  18M Mar 18 14:21 out_NM_20s2p.job35635496.txt_xz_e0.xz
+-rw-r-----. 1 nike nike  13M Mar 18 13:58 out_NM_20s2p.job35635496.txt_xz9.xz
+-rw-r-----. 1 nike nike  13M Mar 18 13:58 out_NM_20s2p.job35635496.txt_xz8.xz
+-rw-r-----. 1 nike nike  13M Mar 18 13:58 out_NM_20s2p.job35635496.txt_xz7.xz
+-rw-r-----. 1 nike nike  13M Mar 18 13:58 out_NM_20s2p.job35635496.txt_xz6.xz
+-rw-r-----. 1 nike nike  14M Mar 18 13:58 out_NM_20s2p.job35635496.txt_xz5.xz
+-rw-r-----. 1 nike nike  16M Mar 18 13:58 out_NM_20s2p.job35635496.txt_xz4.xz
+-rw-r-----. 1 nike nike  18M Mar 18 13:58 out_NM_20s2p.job35635496.txt_xz3.xz
+-rw-r-----. 1 nike nike  17M Mar 18 13:58 out_NM_20s2p.job35635496.txt_xz2.xz
+-rw-r-----. 1 nike nike  17M Mar 18 13:58 out_NM_20s2p.job35635496.txt_xz1.xz
+-rw-r-----. 1 nike nike  24M Mar 18 14:21 out_NM_20s2p.job35635496.txt_xz0.xz
+
+[nike@beluga1 018_Ar]$ time rm out_NM_20s2p.job35635496.txt_xz*
+
+real	0m0.120s
+user	0m0.000s
+sys	0m0.102s
+
