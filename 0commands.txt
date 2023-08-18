@@ -3,7 +3,11 @@ LINUX:
 du -hsx * | sort -rh | head -10
 du -a /dir/ | sort -n -r | head -n 20   # top file from each folder recursively
 du --inodes -S | sort -rh               # folders with most files
-cut -c-23 oldFile > newFile            # Remove columns 24 until the end of the file, and print it to newFile (for some reason it doesn't work if you try to print it to oldFile)
+cut -c-23 oldFile > newFile             # Remove columns 24 until the end of the file, and print it to newFile (for some reason it doesn't work if you try to print it to oldFile)
+
+VIM:
+===========================================
+:exe '%g/25/.,+1d' | exe 'wq'           # Remove lines that contain "25", then execute "wq". Ordinary piping doesn't work in this case for some reason. 
 
 SLURM:
 ===========================================
